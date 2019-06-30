@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Twokinds 2019-06-16 Omnipoll Results</title>
+  <style>
+  body { background: #ffffff; font-family: Helvetica neue, roboto; }
+  h1 { font-size: 1.2em; }
+  p { margin: 5px 0; }
+
+  table { margin: 20px auto; border-collapse: collapse; white-space: nowrap; }
+  th { border-bottom: 2px solid #000000; }
+  th, td { padding: 2px 5px; }
+
+  th::after {
+    display: inline-block;
+    content: "";
+    margin-left: 5px;
+    border: 5px solid transparent;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+  }
+  .asc::after { margin-top: 2px; margin-bottom: 5px; border-top: 0; border-bottom: 8px solid #000000; }
+  .desc::after { margin-top: 4px; margin-bottom: 3px; border-top: 8px solid #000000; border-bottom: 0; }
+  th > input { margin-left: 5px; width: 250px; }
+
+  .my-choice { background-color: #eded91; }
+
+  .suggestion, .position, .index { text-align: right; }
+  .position { width: 20px; }
+  .index { width: 30px; }
+  .votes { text-align: left; }
+
+  .bar {
+    display: inline-block;
+    margin-right: 5px;
+    border-left: 1px solid #000000;
+    height: 2em;
+    max-height: 19px;
+    vertical-align: top;
+  }
+
+  .bar { background-color: #f79646; }
+  .winner .bar { background-color: #1dafe3; }
+  .filter { background-color: yellow; }
+
+  tbody > tr:hover { background-color: #d86316; color: #ffffff; }
+  tbody > tr:hover .bar { background-color: #fbbc79; }
+  tbody > tr:hover .filter { color: #000000; }
+  tbody > tr.winner:hover .bar { background-color: #20c4ff; }
+  </style>
+  <script src="js/d3.4.13.0.min.js"></script>
+</head>
+<body>
+  <select>
+    <option value="2019-06-16">2019-06-16</option>
+    <option value="2019-06-09">2019-06-09</option>
+    <option value="2019-06-02">2019-06-02</option>
+    <option value="2019-05-19">2019-05-19</option>
+  </select>
+  <h1>Twokinds <span class="date">2019-06-16</span> Omnipoll Results</h1>
+  <p>This is omnipoll results for <a id="patreon-link" href="https://www.patreon.com/posts/sunday-sketch-in-27678138">Twokinds Sketch Stream</a> from <span class="date">2019-06-16</span>.
+  (Unofficial) archive record of stream can be viewed on YouTube:
+  <a id="video-link-full" href="https://www.youtube.com/watch?v=d5D83y-JBMI">full-length record of stream (<span id="video-duration-full">6:27:53</span>)</a> or
+  <a id="video-link-short" href="https://www.youtube.com/watch?v=2kSfrnCj8x0">shorter x20 speed up version (<span id="video-duration-short">19:24</span>)</a>.</p>
+  <p>Click on table header to toggle column sort mode (ascending, descending or none).</p>
+  <p>Click on row to toggle <span class="my-choice">highlight</span> you choice.</p>
+  <p>Filter on suggestion text support syntax <a href="https://developer.mozilla.org/docs/Web/JavaScript/Guide/Regular_Expressions">JavaScript Regular Expression</a>.
+  Matched text in suggestion text <span class="filter">highlighted</span>.</p>
+  <p>Filter on votes count may be one number, optionally prefixed with <code>=</code>, <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code> or <code>&gt;=</code>
+  to filter on exact match, less than, less or equal than, greatest than or greatest or equal than respectively; without prefixes used filter on exact match.
+  Also it may consist of two numbers, delimited by minus sign (<code>-</code>), defining a closed (with included borders) range to match.</p>
+  <table></table>
+  <script>
+  // Sorting functions leave undefined values at end
+  function ascending(a, b) {
+    return a === undefined
+      ? b === undefined ?  0 : 1
+      : b === undefined ? -1 : d3.ascending(a, b)
+    ;
+  }
+
+  function descending(a, b) {
+    return a === undefined
+      ? b === undefined ?  0 : 1
+      : b === undefined ? -1 : d3.descending(a, b)
+    ;
+  }
+
+  function formatDuration(str) {
+    function pad(value) {
+      return value < 10 ? '0' + value : '' + value;
+    }
+
+    // Very limited support only time subset of ISO8601
+    return str.replace(/^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/, function(date, hour, minute, second) {
+      hour = +hour || 0;
+      minute = +minute || 0;
+      second = +second || 0;
+
+      var result = [];
+      if (hour > 0) { result.push('' + hour); }
+      if (minute > 0) { result.push(hour > 0 ? pad(minute) : '' + minute); }
+      if (second > 0) { result.push(pad(second)); }
+
+      return result.join(':');
+    });
+  }
+
+  function parseQueryString(query) {
+    var result = {};
+
+    query.replace(/([^?=&]+)(?:=([^&]*))?/g, function(param, key, value) { result[key] = value; });
+
+    return result;
+  }
+
+  function saveState(state) {
+    localStorage.setItem('state', JSON.stringify({
+      date: state.date,
+      selected: state.selected,
+      filters: state.filters,
+      sort: state.sort
+    }));
+  }
+
+  function loadState(defaultState) {
+    var state = JSON.parse(localStorage.getItem('state'));
+
+    return {
+      date: state ? state.date : (defaultState && defaultState.date || null),
+      selected: state ? state.selected : (defaultState && defaultState.selected || {}),
+      filters: state ? state.filters : (defaultState && defaultState.filters || {}),
+      sort: state ? state.sort : (defaultState && defaultState.sort || { field: 'index', mode: null }),
+    };
+  }
+
+  var state;
+  var headers = [
+    { name: 'Suggestion text', code: 'suggestion', filter: { type: 'text', help: 'Case-insensitive JavaScript RegExp syntax' } },
+    { name: '!', title: 'Winner position', code: 'position' },
+    { name: '#', title: 'Position in omnipoll', code: 'index' },
+    { name: 'Votes count', code: 'votes', filter: { type: 'number', help: '(=|>|<|>=|<=)?<num> | <low>-<high>' } }
+  ];
+
+  var sortModes = [null, 'asc', 'desc'];
+  var nextSortModeTable = d3.map();
+  for (var i = 0, l = sortModes.length; i < l; ++i) {
+    nextSortModeTable.set(sortModes[i], sortModes[(i + 1) % l]);
+  }
+  var dispatch = d3.dispatch('init', 'load', 'update', 'render');
+
+  // Init date selector
+  dispatch.on('init.select', function() {
+    // Load settings from past session
+    state = loadState({
+      sort: { field: 'votes', mode: 'desc' }
+    });
+
+    // Init select
+    var select = d3.select('select');
+    select.on('change', function() {
+      var date = this.value;
+      d3.json('data/votes-' + date + '.json', function(error, json) {
+        if (error) { throw error; }
+
+        json.data = json.data.map(function(d, i) {
+          d.index = i + 1;
+          d.my = !!(state.selected[json.date] || {})[d.index];
+          return d;
+        });
+
+        state.date = json.date;
+        state.data = state.data || {};
+        state.data[state.date] = json;
+
+        dispatch.call('load');
+      });
+    });
+
+    // Update select value with ``date`` query param
+    var query = parseQueryString(location.search);
+    if (query.date) {
+      var selectNode = select.node();
+      var validDates = Array.prototype.map.call(selectNode.options, function(d) { return d.value; });
+
+      if (validDates.indexOf(query.date) !== -1) {
+        selectNode.value = query.date;
+      }
+    }
+
+    select.dispatch('change', {});
+  });
+
+  // Init table
+  dispatch.on('init.table', function() {
+    var table = d3.select('body').append('table');
+    var th = table.append('thead').append('tr').selectAll('th').data(headers);
+    th.enter().append('th')
+      .attr('class', function(d) { return d.code; })
+      .attr('title', function(d) { return d.title; })
+      .text(function(d) { return d.name; })
+      .each(function(d) {
+        if (!d.filter) { return; }
+
+        d3.select(this).append('input')
+          .attr('type', 'text')
+          .attr('class', d.filter.type)
+          .attr('placeholder', d.filter.help)
+          .on('keyup', function(d) {
+            if (this.value === '') {
+              delete state.filters[d.code];
+            }
+            else {
+              state.filters[d.code] = { field: d.code, type: d.filter.type, value: this.value };
+            }
+
+            dispatch.call('update');
+          })
+        ;
+      })
+      .on('click', function(d) {
+        if (d3.event.target !== this) { return; }
+
+        var mode = state.sort.field === d.code ? state.sort.mode : null;
+        var nextMode = nextSortModeTable.get(mode);
+        state.sort = { field: nextMode === null ? 'index' : d.code, mode: nextMode }
+
+        dispatch.call('update');
+      })
+    ;
+    th.exit().remove();
+
+    table.append('tbody');
+  });
+
+  // Load data
+  dispatch.on('load.data', function() {
+    var data = state.data[state.date];
+    d3.selectAll('span.date').text(data.date);
+    d3.select('#patreon-link').attr('href', data.patreon_link);
+    d3.select('#video-link-full').attr('href', data.youtube_full_link);
+    d3.select('#video-duration-full').text(formatDuration(data.youtube_full_duration));
+    d3.select('#video-link-short').attr('href', data.youtube_short_link);
+    d3.select('#video-duration-short').text(formatDuration(data.youtube_short_duration));
+
+    dispatch.call('update');
+  });
+
+  // Filter and sort data
+  dispatch.on('update.data', function() {
+    // Filter data
+    var filters = state.filters;
+    var data = state.data[state.date].data.filter(function(d) {
+      var hasFilters = false;
+      for (var field in filters) {
+        if (!filters.hasOwnProperty(field)) { continue; }
+
+        hasFilters = true;
+
+        var result = true;
+        var f = filters[field];
+        var value = d[field];
+        switch (f.type) {
+          case 'text':
+            var re = new RegExp(f.value, 'ig');
+            result = result && re.test(value);
+            break;
+          case 'number':
+            var testValue = f.value.replace(/\s+/g, '');
+            var match = /^(?:(\d+)(?:-(\d+))?|(=|>|<|>=|<=)(\d+))$/i.exec(testValue);
+            if (match === null) { return false; }
+
+            var low = +match[1];
+            var high = +match[2];
+            if (isNaN(low) && isNaN(high)) {
+              switch(match[3]) {
+                case '=':  low = high = +match[4]; break;
+                case '>':  low = +match[4] + 1; high = Infinity; break;
+                case '<':  low = 0; high = +match[4] - 1; break;
+                case '>=': low = +match[4]; high = Infinity; break;
+                case '<=': low = 0; high = +match[4]; break;
+              }
+            }
+            else if (isNaN(high)) {
+              high = low;
+            }
+
+            result = result && value >= low && value <= high;
+            break;
+        }
+
+        if (!result) { return false; }
+      }
+
+      return true;
+    });
+
+    // Sort data
+    var sortFunc = state.sort.mode === 'desc' ? descending : ascending;
+    var field = state.sort.field;
+    data.sort(function(a, b) { return sortFunc(a[field], b[field]); });
+
+    dispatch.call('render', null, data);
+  });
+
+  // Update visual representation of table headers
+  dispatch.on('render.headers', function(data) {
+    // Sort indicator
+    var mode = state.sort && state.sort.mode;
+    var field = state.sort && state.sort.field;
+    d3.selectAll('thead > tr > th').each(function(d) {
+      d3.select(this)
+        .classed('asc', mode === 'asc' && field === d.code)
+        .classed('desc', mode === 'desc' && field === d.code)
+      ;
+    });
+
+    // Filter values
+    d3.selectAll('thead > tr > th > input').attr('value', function(d) {
+      return (state.filters[d.code] || {}).value || '';
+    });
+  });
+
+  // Render table
+  dispatch.on('render.table', function(data) {
+    function selected(d) {
+      return (state.selected[state.date] || {})[d.index];
+    }
+
+    var filter = state.filters.suggestion;
+    var re = filter && filter.value ? new RegExp(filter.value, 'ig') : null;
+
+    function suggestion(d) {
+      return re
+        ? d.suggestion.replace(re, '<span class="filter">$&</span>')
+        : d.suggestion;
+    }
+
+    var table = d3.select('table > tbody').selectAll('tr')
+      .data(data, function(d) { return state.date + '-' + d.index; })
+      .order();
+
+    var tr = table.enter()
+      .append('tr')
+        .classed('my-choice', selected)
+        .classed('winner', function (d) { return !!d.position })
+        .on('click', function(d) {
+          var selected = state.selected = state.selected || {};
+          var selectedDate = selected[state.date] = selected[state.date] || {};
+          selectedDate[d.index] = !selectedDate[d.index];
+
+          dispatch.call('update');
+        });
+
+    tr.append('td').classed('suggestion', true).html(suggestion);
+    tr.append('td').classed('position', true).text(function(d) { return d.position; });
+    tr.append('td').classed('index', true).text(function(d) { return d.index; });
+
+    var result = tr.append('td').classed('votes', true);
+    result.append('div').classed('bar', true).style('width', function(d) { return 5*d.votes + 'px'; });
+    result.append('span').classed('value', true).text(function(d) { return d.votes; });
+
+    table.exit().remove();
+
+    table
+      .classed('my-choice', selected)
+      .classed('winner', function (d) { return !!d.position });
+    table.select('.suggestion').html(suggestion);
+    table.select('.position').text(function(d) { return d.position; });
+    table.select('.index').text(function(d) { return d.index; });
+    table.select('.votes > .bar').style('width', function(d) { return 5*d.votes + 'px'; });
+    table.select('.votes > .value').text(function(d) { return d.votes; });
+  });
+
+  dispatch.call('init');
+
+  window.onbeforeunload = function(e) {
+    saveState(state);
+  };
+  </script>
+</body>
+</html>
