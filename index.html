@@ -7,6 +7,14 @@
   body { background: #ffffff; font-family: Helvetica neue, roboto; }
   h1 { font-size: 1.2em; }
   p { margin: 5px 0; }
+  .legend-mark {
+    display: inline-block;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    vertical-align: bottom;
+  }
 
   table { margin: 20px auto; border-collapse: collapse; white-space: nowrap; }
   th { border-bottom: 2px solid #000000; }
@@ -41,8 +49,8 @@
     vertical-align: top;
   }
 
-  .bar { background-color: #f79646; }
-  .winner .bar { background-color: #1dafe3; }
+  .bar, .legend-mark { background-color: #f79646; }
+  .winner .bar, .legend-mark.winner { background-color: #1dafe3; }
   .filter { background-color: yellow; }
 
   tbody > tr:hover { background-color: #d86316; color: #ffffff; }
@@ -71,6 +79,9 @@
   <p>Filter on votes count may be one number, optionally prefixed with <code>=</code>, <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code> or <code>&gt;=</code>
   to filter on exact match, less than, less or equal than, greatest than or greatest or equal than respectively; without prefixes used filter on exact match.
   Also it may consist of two numbers, delimited by minus sign (<code>-</code>), defining a closed (with included borders) range to match.</p>
+  <p>Bar color legend:
+  <span class="legend-mark"></span> – ordinal suggestions
+  <span class="legend-mark winner"></span> – winner suggestions</p>
   <table></table>
   <script>
   // Sorting functions leave undefined values at end
