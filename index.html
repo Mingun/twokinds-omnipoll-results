@@ -359,7 +359,7 @@
     tr.append('td').classed('index', true).text(function(d) { return d.index; });
 
     var result = tr.append('td').classed('votes', true);
-    result.append('div').classed('bar', true).style('width', function(d) { return 5*d.votes + 'px'; });
+    result.append('div').classed('bar', true).style('width', function(d) { return 5*(d.votes || 0) + 'px'; });
     result.append('span').classed('value', true).text(function(d) { return d.votes; });
 
     table.exit().remove();
