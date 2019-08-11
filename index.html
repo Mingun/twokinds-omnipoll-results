@@ -50,13 +50,15 @@
   }
 
   .bar, .legend-mark { background-color: #f79646; }
-  .winner .bar, .legend-mark.winner { background-color: #1dafe3; }
+  .winner-voters .bar, .legend-mark.winner-voters { background-color: #1dafe3; }
+  .winner-tom .bar, .legend-mark.winner-tom { background-color: #fff545; }
   .filter { background-color: yellow; }
 
   tbody > tr:hover { background-color: #d86316; color: #ffffff; }
   tbody > tr:hover .bar { background-color: #fbbc79; }
   tbody > tr:hover .filter { color: #000000; }
-  tbody > tr.winner:hover .bar { background-color: #20c4ff; }
+  tbody > tr.winner-voters:hover .bar { background-color: #20c4ff; }
+  tbody > tr.winner-tom:hover .bar { background-color: #ffff90; }
   </style>
   <script src="js/d3.4.13.0.min.js"></script>
 </head>
@@ -81,7 +83,8 @@
   Also it may consist of two numbers, delimited by minus sign (<code>-</code>), defining a closed (with included borders) range to match.</p>
   <p>Bar color legend:
   <span class="legend-mark"></span> – ordinal suggestions
-  <span class="legend-mark winner"></span> – winner suggestions</p>
+  <span class="legend-mark winner-voters"></span> – top votes
+  <span class="legend-mark winner-tom"></span> – Tom picks</p>
   <table></table>
   <script>
   // Sorting functions leave undefined values at end
@@ -356,7 +359,8 @@
     var tr = table.enter()
       .append('tr')
         .classed('my-choice', selected)
-        .classed('winner', function (d) { return !!d.position })
+        .classed('winner-voters', function (d) { return d.choice === 'voters'; })
+        .classed('winner-tom', function (d) { return d.choice === 'tom'; })
         .on('click', function(d) {
           var selected = state.selected = state.selected || {};
           var selectedDate = selected[state.date] = selected[state.date] || {};
@@ -377,7 +381,8 @@
 
     table
       .classed('my-choice', selected)
-      .classed('winner', function (d) { return !!d.position });
+      .classed('winner-voters', function (d) { return d.choice === 'voters'; })
+      .classed('winner-tom', function (d) { return d.choice === 'tom'; });
     table.select('.suggestion').html(suggestion);
     table.select('.position').text(function(d) { return d.position; });
     table.select('.index').text(function(d) { return d.index; });
