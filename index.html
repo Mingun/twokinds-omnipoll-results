@@ -117,7 +117,7 @@
 
       var result = [];
       if (hour > 0) { result.push('' + hour); }
-      if (minute > 0) { result.push(hour > 0 ? pad(minute) : '' + minute); }
+      if (hour > 0 || minute > 0) { result.push(hour > 0 ? pad(minute) : '' + minute); }
       if (second > 0) { result.push(pad(second)); }
 
       return result.join(':');
