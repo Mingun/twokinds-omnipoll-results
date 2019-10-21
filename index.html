@@ -63,7 +63,7 @@
   <script src="js/d3.4.13.0.min.js"></script>
 </head>
 <body>
-  <select>
+  <label for="sketch-date">Sketch date:</label> <select id="sketch-date">
     <option value="2019-10-20">2019-10-20</option>
     <option value="2019-09-15">2019-09-15</option>
     <option value="2019-08-25">2019-08-25</option>
@@ -170,14 +170,14 @@
   var dispatch = d3.dispatch('init', 'load', 'update', 'render');
 
   // Init date selector
-  dispatch.on('init.select', function() {
+  dispatch.on('init.sketch-date', function() {
     // Load settings from past session
     state = loadState({
       sort: { field: 'votes', mode: 'desc' }
     });
 
     // Init select
-    var select = d3.select('select');
+    var select = d3.select('#sketch-date');
     select.on('change', function() {
       var date = this.value;
       d3.json('data/votes-' + date + '.json', function(error, json) {
