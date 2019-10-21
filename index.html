@@ -373,7 +373,7 @@
           dispatch.call('update');
         });
 
-    tr.append('td').classed('suggestion', true).html(suggestion);
+    tr.append('td').classed('suggestion', true).html(suggestion).attr('title', function(d) { return d.suggestion; });
     tr.append('td').classed('position', true).text(function(d) { return d.position; });
     tr.append('td').classed('index', true).text(function(d) { return d.index; });
 
