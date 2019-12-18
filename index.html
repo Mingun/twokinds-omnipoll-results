@@ -40,6 +40,11 @@
   .index { width: 30px; }
   .votes { text-align: left; }
 
+  td.suggestion .text { display: block; }
+  .one-line-wide td.suggestion .text { white-space: nowrap; }
+  .one-line-screen td.suggestion .text { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+  .multiline td.suggestion .text { white-space: normal; }
+
   .bar {
     display: inline-block;
     margin-right: 5px;
@@ -75,6 +80,8 @@
     <option value="2019-06-02">2019-06-02</option>
     <option value="2019-05-19">2019-05-19</option>
   </select>
+  <label for="view-mode">View mode:</label>
+  <select id="view-mode"></select>
   <h1>Twokinds <span class="date"></span> Omnipoll Results</h1>
   <p>This is omnipoll results for <a id="patreon-link" href="">Twokinds Sketch Stream</a> from <span class="date"></span>.
   (Unofficial) archive record of stream can be viewed on YouTube:
@@ -138,6 +145,7 @@
   function saveState(state) {
     localStorage.setItem('state', JSON.stringify({
       date: state.date,
+      viewMode: state.viewMode,
       selected: state.selected,
       filters: state.filters,
       sort: state.sort
@@ -149,6 +157,7 @@
 
     return {
       date: state ? state.date : (defaultState && defaultState.date || null),
+      viewMode: state ? state.viewMode : (defaultState && defaultState.viewMode || null),
       selected: state ? state.selected : (defaultState && defaultState.selected || {}),
       filters: state ? state.filters : (defaultState && defaultState.filters || {}),
       sort: state ? state.sort : (defaultState && defaultState.sort || { field: 'index', mode: null }),
@@ -164,6 +173,12 @@
     { name: 'Votes count', code: 'votes', filter: { type: 'number', help: '(=|>|<|>=|<=)?<num> | <low>-<high>' } }
   ];
 
+  var viewModes = [
+    { name: 'By one wide line', code: 'one-line-wide' },
+    { name: 'By one line with ellipsis on overflow', code: 'one-line-screen' },
+    { name: 'With word wrapping', code: 'multiline' }
+  ];
+
   var sortModes = [null, 'asc', 'desc'];
   var nextSortModeTable = d3.map();
   for (var i = 0, l = sortModes.length; i < l; ++i) {
@@ -175,7 +190,8 @@
   dispatch.on('pre-init', function() {
     // Load settings from past session
     state = loadState({
-      sort: { field: 'votes', mode: 'desc' }
+      sort: { field: 'votes', mode: 'desc' },
+      viewMode: 'one-line-wide'
     });
 
     query = parseQueryString(location.search);
@@ -213,6 +229,34 @@
 
       if (validDates.indexOf(query.date) !== -1) {
         selectNode.value = query.date;
+      }
+    }
+
+    select.dispatch('change', {});
+  });
+
+  // Init view mode selector
+  dispatch.on('init.view-mode', function() {
+    var select = d3.select('#view-mode');
+
+    select.selectAll('option').data(viewModes)
+      .enter().append('option')
+        .text(function(d) { return d.name; })
+        .attr('value', function(d) { return d.code; })
+        .property('selected', function(d) { return d.code === state.viewMode; });
+
+    select.on('change', function() {
+      state.viewMode = this.value;
+
+      dispatch.call('update');
+    });
+
+    // Update select value with ``viewMode`` query param
+    if (query.viewMode) {
+      var selectNode = select.node();
+
+      if (viewModes.map(function(d) { return d.code; }).indexOf(query.viewMode) !== -1) {
+        selectNode.value = query.viewMode;
       }
     }
 
@@ -276,6 +320,8 @@
 
   // Filter and sort data
   dispatch.on('update.data', function() {
+    if (!state.data) { return; }
+
     // Filter data
     var filters = state.filters;
     var data = state.data[state.date].data.filter(function(d) {
@@ -359,16 +405,23 @@
     var re = filter && filter.value ? new RegExp(filter.value, 'ig') : null;
 
     function suggestion(d) {
-      return re
-        ? d.suggestion.replace(re, '<span class="filter">$&</span>')
-        : d.suggestion;
+      return '<span class="text">' + (re
+          ? d.suggestion.replace(re, '<span class="filter">$&</span>')
+          : d.suggestion
+        ) + '</span>';
     }
 
-    var table = d3.select('table > tbody').selectAll('tr')
+    var table = d3.select('table').style('table-layout', 'auto');
+
+    for (var i = 0; i < viewModes.length; ++i) {
+      table.classed(viewModes[i].code, viewModes[i].code === state.viewMode);
+    }
+
+    var tbody = table.select('tbody').selectAll('tr')
       .data(data, function(d) { return state.date + '-' + d.index; })
       .order();
 
-    var tr = table.enter()
+    var tr = tbody.enter()
       .append('tr')
         .classed('my-choice', selected)
         .classed('winner-voters', function (d) { return d.choice === 'voters'; })
@@ -389,17 +442,36 @@
     result.append('div').classed('bar', true).style('width', function(d) { return 5*(d.votes || 0) + 'px'; });
     result.append('span').classed('value', true).text(function(d) { return d.votes; });
 
-    table.exit().remove();
+    tbody.exit().remove();
 
-    table
+    tbody
       .classed('my-choice', selected)
       .classed('winner-voters', function (d) { return d.choice === 'voters'; })
       .classed('winner-tom', function (d) { return d.choice === 'tom'; });
-    table.select('.suggestion').html(suggestion);
-    table.select('.position').text(function(d) { return d.position; });
-    table.select('.index').text(function(d) { return d.index; });
-    table.select('.votes > .bar').style('width', function(d) { return 5*d.votes + 'px'; });
-    table.select('.votes > .value').text(function(d) { return d.votes; });
+    tbody.select('.suggestion').html(suggestion);
+    tbody.select('.position').text(function(d) { return d.position; });
+    tbody.select('.index').text(function(d) { return d.index; });
+    tbody.select('.votes > .bar').style('width', function(d) { return 5*d.votes + 'px'; });
+    tbody.select('.votes > .value').text(function(d) { return d.votes; });
+
+    // Special case with ellipsis on overflow: need calculate right columns width
+    if (state.viewMode === 'one-line-screen') {
+      var width = 0;
+      table.selectAll('tr').each(function(d) {
+        var self = d3.select(this);
+        var innerWidth = self.select('.position').property('offsetWidth')
+                       + self.select('.index').property('offsetWidth')
+                       + self.select('.votes').property('offsetWidth');
+        width = Math.max(width, innerWidth);
+      });
+
+      width = d3.select('body').property('offsetWidth') - width - 16;// 16 for body margin
+      table
+        .style('table-layout', 'fixed')
+        .style('width', '100%')
+        .select('th.suggestion')
+          .style('width', width + 'px');
+    }
   });
 
   dispatch.call('pre-init');
