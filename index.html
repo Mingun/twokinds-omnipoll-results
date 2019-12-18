@@ -156,6 +156,7 @@
   }
 
   var state;
+  var query;
   var headers = [
     { name: 'Suggestion text', code: 'suggestion', filter: { type: 'text', help: 'Case-insensitive JavaScript RegExp syntax' } },
     { name: '!', title: 'Winner position', code: 'position' },
@@ -168,15 +169,22 @@
   for (var i = 0, l = sortModes.length; i < l; ++i) {
     nextSortModeTable.set(sortModes[i], sortModes[(i + 1) % l]);
   }
-  var dispatch = d3.dispatch('init', 'load', 'update', 'render');
+  var dispatch = d3.dispatch('pre-init', 'init', 'load', 'update', 'render');
 
-  // Init date selector
-  dispatch.on('init.sketch-date', function() {
+  // Global init: load setting and parse query string
+  dispatch.on('pre-init', function() {
     // Load settings from past session
     state = loadState({
       sort: { field: 'votes', mode: 'desc' }
     });
 
+    query = parseQueryString(location.search);
+
+    dispatch.call('init');
+  });
+
+  // Init date selector
+  dispatch.on('init.sketch-date', function() {
     // Init select
     var select = d3.select('#sketch-date');
     select.on('change', function() {
@@ -199,7 +207,6 @@
     });
 
     // Update select value with ``date`` query param
-    var query = parseQueryString(location.search);
     if (query.date) {
       var selectNode = select.node();
       var validDates = Array.prototype.map.call(selectNode.options, function(d) { return d.value; });
@@ -395,7 +402,7 @@
     table.select('.votes > .value').text(function(d) { return d.votes; });
   });
 
-  dispatch.call('init');
+  dispatch.call('pre-init');
 
   window.onbeforeunload = function(e) {
     saveState(state);
