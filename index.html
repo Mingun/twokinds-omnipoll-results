@@ -184,20 +184,7 @@
   for (var i = 0, l = sortModes.length; i < l; ++i) {
     nextSortModeTable.set(sortModes[i], sortModes[(i + 1) % l]);
   }
-  var dispatch = d3.dispatch('pre-init', 'init', 'load', 'update', 'render');
-
-  // Global init: load setting and parse query string
-  dispatch.on('pre-init', function() {
-    // Load settings from past session
-    state = loadState({
-      sort: { field: 'votes', mode: 'desc' },
-      viewMode: 'one-line-wide'
-    });
-
-    query = parseQueryString(location.search);
-
-    dispatch.call('init');
-  });
+  var dispatch = d3.dispatch('init', 'load', 'update', 'render');
 
   // Init date selector
   dispatch.on('init.sketch-date', function() {
@@ -474,11 +461,20 @@
     }
   });
 
-  dispatch.call('pre-init');
-
   window.onbeforeunload = function(e) {
     saveState(state);
   };
+
+  // Load settings from past session
+  state = loadState({
+    sort: { field: 'votes', mode: 'desc' },
+    viewMode: 'one-line-wide'
+  });
+
+  // Parse query string
+  query = parseQueryString(location.search);
+
+  dispatch.call('init');
   </script>
 </body>
 </html>
