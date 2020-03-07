@@ -89,6 +89,7 @@
   (Unofficial) archive record of stream can be viewed on YouTube:
   <a id="video-link-full" href="">full-length record of stream (<span id="video-duration-full"></span>)</a> or
   <a id="video-link-short" href="">shorter x20 speed up version (<span id="video-duration-short"></span>)</a>.</p>
+  <p id="comment"></p>
   <p>Click on table header to toggle column sort mode (ascending, descending or none).</p>
   <p>Click on row to toggle <span class="my-choice">highlight</span> you choice.</p>
   <p>Filter on suggestion text support syntax <a href="https://developer.mozilla.org/docs/Web/JavaScript/Guide/Regular_Expressions">JavaScript Regular Expression</a>.
@@ -303,6 +304,7 @@
     d3.select('#video-duration-full').text(formatDuration(data.youtube_full_duration));
     d3.select('#video-link-short').attr('href', data.youtube_short_link);
     d3.select('#video-duration-short').text(formatDuration(data.youtube_short_duration));
+    d3.select('#comment').text(data.comment);
 
     dispatch.call('update');
   });
