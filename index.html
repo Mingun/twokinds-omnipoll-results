@@ -440,7 +440,7 @@
     tbody.select('.suggestion').html(suggestion);
     tbody.select('.position').text(function(d) { return d.position; });
     tbody.select('.index').text(function(d) { return d.index; });
-    tbody.select('.votes > .bar').style('width', function(d) { return 5*d.votes + 'px'; });
+    tbody.select('.votes > .bar').style('width', function(d) { return 5*(d.votes || 0) + 'px'; });
     tbody.select('.votes > .value').text(function(d) { return d.votes; });
 
     // Special case with ellipsis on overflow: need calculate right columns width
