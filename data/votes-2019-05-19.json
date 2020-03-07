@@ -6,83 +6,331 @@
   "youtube_short_link": "https://www.youtube.com/watch?v=QfOX9FZuBf0",
   "youtube_short_duration": "PT17M33S",
   "data": [
-    { "votes":  71, "suggestion": "How would the fight between Trace and Mary have gone if she had somehow reflected his spell back at him?" },
-    { "votes": 123, "suggestion": "Birbkinds! What would a bird keidran look like?", "position": 5, "choice": "voters" },
-    { "votes": 126, "suggestion": "Kat uses \"Evil Kat\" to finally experience one of her own massages", "position": 3, "choice": "voters" },
-    { "votes":  87, "suggestion": "While at dinner, Natani tells Raine funny embarrassing stories about Zen, making him visibly flustered and uncomfortable." },
-    { "votes": 118, "suggestion": "Human Nora attempts to seduce Flora to make Trace jealous." },
-    { "votes":  54, "suggestion": "Kat as the cyborg girl from the Cyberpunk 2013 trailer" },
-    { "votes":  44, "suggestion": "A-team vs B-team: Battle of the Bands" },
-    { "votes": 117, "suggestion": "Tom Reference Sheet" },
-    { "votes":  94, "suggestion": "Raine and Red (both in Halfkind forms) share a heartwarming kiss under a waterfall." },
-    { "votes":  75, "suggestion": "Trace overflowing with power from the Infinity Gauntlet but he uses it to make a mountain of meat for Flora" },
-    { "votes":  30, "suggestion": "Indianapolis 500 Kat in a dual seat Indycar riding at full speed." },
-    { "votes":  95, "suggestion": "After dinner in Vixen & Vixen, Maren walks Raine home. Wolf girl still isn't sure if it was a date and if she should give Maren a goodbye kiss or not." },
-    { "votes": 108, "suggestion": "Kathrin puts on a fashion show for more of her outfits, with female Trace, Keith, and/or Mike and Evals as the models." },
-    { "votes":  28, "suggestion": "Chaos has acquired the Wabbajack! Now Mekkan shall know the mask's true power!" },
-    { "votes": 113, "suggestion": "Keidran crossbreed! Tiger/wolf? Snow leopard/fox?" },
-    { "votes": 105, "suggestion": "Natani giving Kat swim lessons in the mansions oasis room." },
-    { "votes":  83, "suggestion": "World War II pin-up Maren as sexy French maquis Resistance freedom fighter" },
-    { "votes":  33, "suggestion": "Deltarune! Maddie as Kris, Karen as Susie and Maeve as Ralsei" },
-    { "votes":  86, "suggestion": "Nora teaching Reni on how to win over a human heart and Red blurts out how Nora never won over Trace, embarrassing Nora." },
-    { "votes":  75, "suggestion": "Keith and Natini wearing Tony Stark and Pepper Pott's armor from Avengers: Endgame" },
-    { "votes":  42, "suggestion": "Trace and Flora riding through the mountains, on a Harley Davidson motorcycle, on a cool summer day." },
-    { "votes": 103, "suggestion": "TwoKinds characters in modern day college." },
-    { "votes":  62, "suggestion": "WWII Pinup series (Beefcake) Hardworking sailors Mike & Evals keep their mighty naval guns ready for any action in the hot, muggy South Seas." },
-    { "votes":  50, "suggestion": "Clovis contemplating some evil plan, with an angel fox on one shoulder and devil wolf on the other telling him what to do" },
-    { "votes":  71, "suggestion": "Twokinds Stargate SG-1 (Trace as O’Neill, Flora as Carter, Keith as Jackson, Natani as Teal’c)" },
-    { "votes":  66, "suggestion": "What if Laura was Grand Templar instead of Trace?" },
-    { "votes":  40, "suggestion": "The Greatest Showman: Never Enough - Clovis Sings" },
-    { "votes":  64, "suggestion": "Zen and Nat as the Elric brothers from Full Metal Alchemist." },
-    { "votes":  99, "suggestion": "The group visit a nude beach (being human now has a problem)" },
-    { "votes":  83, "suggestion": "A Twokinds take on the “distracted boyfriend” meme with Eric, Kat and Iris" },
-    { "votes":  46, "suggestion": "Cathleen tells Cornelius they are having a baby" },
-    { "votes":  40, "suggestion": "Maren as a Sister of battle from Warhammer" },
-    { "votes":  50, "suggestion": "Raine and Zen's snapshot at the top of a rollercoaster. One is freaking out, while the other tries to comfort them." },
-    { "votes":  71, "suggestion": "A shipment of liquor for Adira's bar gets mixed up with a shipment of Sealeen's potions by mistake." },
-    { "votes":  92, "suggestion": "Flora Suggestive Sphinx and Trace Pharaoh" },
-    { "votes":  91, "suggestion": "Tiger Trace and Keith get caught wearing control collars. Flora takes advantage making them her servants, as well as dress in embarrassing costumes." },
-    { "votes":  95, "suggestion": "Flora tries coffee after watching the Detective Pikachu movie and is now super awake." },
-    { "votes": 106, "suggestion": "Clovis has been made a slave and becomes a model for Eric" },
-    { "votes":  59, "suggestion": "Adrakist Nibbly flying around on wings of fire searching for acorns for the winter. Scythe chasing after in fear she'll fall." },
-    { "votes": 106, "suggestion": "Raine with a sword in one hand and a Spell in another in a sexy barbarian outfit (wolf form)" },
-    { "votes":  53, "suggestion": "Natani, Keith, and Laura dressed as Susie, kris, and Ralsei" },
-    { "votes":  72, "suggestion": "Tavern master drink off: Maren v. Adira" },
-    { "votes":  80, "suggestion": "Flora has command of Eric's ship and goes full on pirate queen, giving jargon filled orders to a confused first mate Kat" },
-    { "votes":  49, "suggestion": "Kat as Beatrix LeBeau - slime rancher from the game \"Slime Rancher\", feeding her Tabby Slimes (cat-like slimes)." },
-    { "votes":  69, "suggestion": "An update of the old \"Basitin Ice Cream\" comic" },
-    { "votes": 129, "suggestion": "Flora getting excited about the changes pregnancy is making to her chest. She's not flat anymore! She decides to try and brag it up to Kat.", "position": 1, "choice": "voters" },
-    { "votes":  59, "suggestion": "Amelia Riftwall comes to visit her young niece; Kitten Maeve's cuteness finally makes her smile.", "position": 6, "choice": "tom" },
-    { "votes":  88, "suggestion": "Post pixie pranks: Evals is upset that Kat has reverted to her usual wardrobe while in his body", "position": 4, "choice": "tom" },
-    { "votes":  90, "suggestion": "FemKeith uses her chest bandages to banish Keith to the pocket dimension." },
-    { "votes":  51, "suggestion": "TwoKinds On Ice" },
-    { "votes":  88, "suggestion": "Raine's nightmare: She become a feral keidran." },
-    { "votes":  78, "suggestion": "Natani, Trace, and Kat having the equivalent to a paintball fight, but with magic, and Keith and Flora sitting on the sidelines" },
-    { "votes":  84, "suggestion": "Adelaide demolishing a tower by lifting it" },
-    { "votes":  12, "suggestion": "Eris is just about to creat Frankenstein's monster as evil trace comes over and is stared at by the monster awakened to life" },
-    { "votes":  53, "suggestion": "Farmer Flora - It Ain't Much but it's Honest Work" },
-    { "votes":  77, "suggestion": "Magpie Reference Sheet" },
-    { "votes":  89, "suggestion": "Red grabs Keidran Maren's tail!", "position": 2, "choice": "tom" },
-    { "votes":  68, "suggestion": "Karma finally strikes Nora when a backfired spell sends a random dog's mind into her body and gives it control, making her to act like a dog." },
-    { "votes":  61, "suggestion": "Adelaide in the Highland Games, doing a caber toss." },
-    { "votes": 109, "suggestion": "Keith and Natani share a warm embrace" },
-    { "votes":  94, "suggestion": "Trace Reference Sheet" },
-    { "votes": 105, "suggestion": "The Lioness dancer returns and tries to flirt with Keith. Natani is not happy about this." },
-    { "votes":  59, "suggestion": "Flora finds a harp in the estate but snaps the strings with her claws. An unhappy Roselyn appears." },
-    { "votes":  42, "suggestion": "Tiger Trace and Flora sharing a tender kiss." },
-    { "votes": 109, "suggestion": "Keith and Natani embarrassed by Trace and Flora's overly affectionate behavior during a double date." },
-    { "votes":  99, "suggestion": "Nibbly has secretly been tending to a bouquet of precious baby squirrelies. Sythe finds out." },
-    { "votes":  85, "suggestion": "Sythe Reference Sheet" },
-    { "votes": 125, "suggestion": "Kat pressing her hands and chest up against a window or the viewer's screen", "position": 7, "choice": "voters" },
-    { "votes": 121, "suggestion": "Older Maeve and Maddie share their first kiss. Maddie gets extremely flustered afterwards." },
-    { "votes":  91, "suggestion": "D&D classes Trace-Wizard Keith-Fighter Natani-Rogue Flora-Ranger. Kathrin as the Dungeon Master." },
-    { "votes": 112, "suggestion": "Some basitins find lady Nora asleep in her cave try to wake her, she rolls over snuggling one of the bastins like a trace teddy" },
-    { "votes":  83, "suggestion": "WW2: Tigress Trace in a US Army Air Force dress uniform" },
-    { "votes":  90, "suggestion": "Adira Reference Sheet" },
-    { "votes":  99, "suggestion": "Clovis Reference Sheet" },
-    { "votes":  71, "suggestion": "Fluffkevlar's Female Cosmo takes a interest in Keith, With Nat not letting another wolf steal her mate from her!" },
-    { "votes":  58, "suggestion": "Laura as a ghost (with ghost tail instead of legs) resting with sleeping Keith. She laying next to him as he is hugging her from behind." },
-    { "votes":  25, "suggestion": "Redux: 5 minute Nora sketch" },
-    { "votes":  72, "suggestion": "Kat helps Zen walk again, thanking him for getting her home safe after getting drunk." }
+    {
+      "votes": 71,
+      "suggestion": "How would the fight between Trace and Mary have gone if she had somehow reflected his spell back at him?"
+    },
+    {
+      "votes": 123,
+      "suggestion": "Birbkinds! What would a bird keidran look like?",
+      "position": 5,
+      "choice": "voters"
+    },
+    {
+      "votes": 126,
+      "suggestion": "Kat uses \"Evil Kat\" to finally experience one of her own massages",
+      "position": 3,
+      "choice": "voters"
+    },
+    {
+      "votes": 87,
+      "suggestion": "While at dinner, Natani tells Raine funny embarrassing stories about Zen, making him visibly flustered and uncomfortable."
+    },
+    {
+      "votes": 118,
+      "suggestion": "Human Nora attempts to seduce Flora to make Trace jealous."
+    },
+    {
+      "votes": 54,
+      "suggestion": "Kat as the cyborg girl from the Cyberpunk 2013 trailer"
+    },
+    {
+      "votes": 44,
+      "suggestion": "A-team vs B-team: Battle of the Bands"
+    },
+    {
+      "votes": 117,
+      "suggestion": "Tom Reference Sheet"
+    },
+    {
+      "votes": 94,
+      "suggestion": "Raine and Red (both in Halfkind forms) share a heartwarming kiss under a waterfall."
+    },
+    {
+      "votes": 75,
+      "suggestion": "Trace overflowing with power from the Infinity Gauntlet but he uses it to make a mountain of meat for Flora"
+    },
+    {
+      "votes": 30,
+      "suggestion": "Indianapolis 500 Kat in a dual seat Indycar riding at full speed."
+    },
+    {
+      "votes": 95,
+      "suggestion": "After dinner in Vixen & Vixen, Maren walks Raine home. Wolf girl still isn't sure if it was a date and if she should give Maren a goodbye kiss or not."
+    },
+    {
+      "votes": 108,
+      "suggestion": "Kathrin puts on a fashion show for more of her outfits, with female Trace, Keith, and/or Mike and Evals as the models."
+    },
+    {
+      "votes": 28,
+      "suggestion": "Chaos has acquired the Wabbajack! Now Mekkan shall know the mask's true power!"
+    },
+    {
+      "votes": 113,
+      "suggestion": "Keidran crossbreed! Tiger/wolf? Snow leopard/fox?"
+    },
+    {
+      "votes": 105,
+      "suggestion": "Natani giving Kat swim lessons in the mansions oasis room."
+    },
+    {
+      "votes": 83,
+      "suggestion": "World War II pin-up Maren as sexy French maquis Resistance freedom fighter"
+    },
+    {
+      "votes": 33,
+      "suggestion": "Deltarune! Maddie as Kris, Karen as Susie and Maeve as Ralsei"
+    },
+    {
+      "votes": 86,
+      "suggestion": "Nora teaching Reni on how to win over a human heart and Red blurts out how Nora never won over Trace, embarrassing Nora."
+    },
+    {
+      "votes": 75,
+      "suggestion": "Keith and Natini wearing Tony Stark and Pepper Pott's armor from Avengers: Endgame"
+    },
+    {
+      "votes": 42,
+      "suggestion": "Trace and Flora riding through the mountains, on a Harley Davidson motorcycle, on a cool summer day."
+    },
+    {
+      "votes": 103,
+      "suggestion": "TwoKinds characters in modern day college."
+    },
+    {
+      "votes": 62,
+      "suggestion": "WWII Pinup series (Beefcake) Hardworking sailors Mike & Evals keep their mighty naval guns ready for any action in the hot, muggy South Seas."
+    },
+    {
+      "votes": 50,
+      "suggestion": "Clovis contemplating some evil plan, with an angel fox on one shoulder and devil wolf on the other telling him what to do"
+    },
+    {
+      "votes": 71,
+      "suggestion": "Twokinds Stargate SG-1 (Trace as O’Neill, Flora as Carter, Keith as Jackson, Natani as Teal’c)"
+    },
+    {
+      "votes": 66,
+      "suggestion": "What if Laura was Grand Templar instead of Trace?"
+    },
+    {
+      "votes": 40,
+      "suggestion": "The Greatest Showman: Never Enough - Clovis Sings"
+    },
+    {
+      "votes": 64,
+      "suggestion": "Zen and Nat as the Elric brothers from Full Metal Alchemist."
+    },
+    {
+      "votes": 99,
+      "suggestion": "The group visit a nude beach (being human now has a problem)"
+    },
+    {
+      "votes": 83,
+      "suggestion": "A Twokinds take on the “distracted boyfriend” meme with Eric, Kat and Iris"
+    },
+    {
+      "votes": 46,
+      "suggestion": "Cathleen tells Cornelius they are having a baby"
+    },
+    {
+      "votes": 40,
+      "suggestion": "Maren as a Sister of battle from Warhammer"
+    },
+    {
+      "votes": 50,
+      "suggestion": "Raine and Zen's snapshot at the top of a rollercoaster. One is freaking out, while the other tries to comfort them."
+    },
+    {
+      "votes": 71,
+      "suggestion": "A shipment of liquor for Adira's bar gets mixed up with a shipment of Sealeen's potions by mistake."
+    },
+    {
+      "votes": 92,
+      "suggestion": "Flora Suggestive Sphinx and Trace Pharaoh"
+    },
+    {
+      "votes": 91,
+      "suggestion": "Tiger Trace and Keith get caught wearing control collars. Flora takes advantage making them her servants, as well as dress in embarrassing costumes."
+    },
+    {
+      "votes": 95,
+      "suggestion": "Flora tries coffee after watching the Detective Pikachu movie and is now super awake."
+    },
+    {
+      "votes": 106,
+      "suggestion": "Clovis has been made a slave and becomes a model for Eric"
+    },
+    {
+      "votes": 59,
+      "suggestion": "Adrakist Nibbly flying around on wings of fire searching for acorns for the winter. Scythe chasing after in fear she'll fall."
+    },
+    {
+      "votes": 106,
+      "suggestion": "Raine with a sword in one hand and a Spell in another in a sexy barbarian outfit (wolf form)"
+    },
+    {
+      "votes": 53,
+      "suggestion": "Natani, Keith, and Laura dressed as Susie, kris, and Ralsei"
+    },
+    {
+      "votes": 72,
+      "suggestion": "Tavern master drink off: Maren v. Adira"
+    },
+    {
+      "votes": 80,
+      "suggestion": "Flora has command of Eric's ship and goes full on pirate queen, giving jargon filled orders to a confused first mate Kat"
+    },
+    {
+      "votes": 49,
+      "suggestion": "Kat as Beatrix LeBeau - slime rancher from the game \"Slime Rancher\", feeding her Tabby Slimes (cat-like slimes)."
+    },
+    {
+      "votes": 69,
+      "suggestion": "An update of the old \"Basitin Ice Cream\" comic"
+    },
+    {
+      "votes": 129,
+      "suggestion": "Flora getting excited about the changes pregnancy is making to her chest. She's not flat anymore! She decides to try and brag it up to Kat.",
+      "position": 1,
+      "choice": "voters"
+    },
+    {
+      "votes": 59,
+      "suggestion": "Amelia Riftwall comes to visit her young niece; Kitten Maeve's cuteness finally makes her smile.",
+      "position": 6,
+      "choice": "tom"
+    },
+    {
+      "votes": 88,
+      "suggestion": "Post pixie pranks: Evals is upset that Kat has reverted to her usual wardrobe while in his body",
+      "position": 4,
+      "choice": "tom"
+    },
+    {
+      "votes": 90,
+      "suggestion": "FemKeith uses her chest bandages to banish Keith to the pocket dimension."
+    },
+    {
+      "votes": 51,
+      "suggestion": "TwoKinds On Ice"
+    },
+    {
+      "votes": 88,
+      "suggestion": "Raine's nightmare: She become a feral keidran."
+    },
+    {
+      "votes": 78,
+      "suggestion": "Natani, Trace, and Kat having the equivalent to a paintball fight, but with magic, and Keith and Flora sitting on the sidelines"
+    },
+    {
+      "votes": 84,
+      "suggestion": "Adelaide demolishing a tower by lifting it"
+    },
+    {
+      "votes": 12,
+      "suggestion": "Eris is just about to creat Frankenstein's monster as evil trace comes over and is stared at by the monster awakened to life"
+    },
+    {
+      "votes": 53,
+      "suggestion": "Farmer Flora - It Ain't Much but it's Honest Work"
+    },
+    {
+      "votes": 77,
+      "suggestion": "Magpie Reference Sheet"
+    },
+    {
+      "votes": 89,
+      "suggestion": "Red grabs Keidran Maren's tail!",
+      "position": 2,
+      "choice": "tom"
+    },
+    {
+      "votes": 68,
+      "suggestion": "Karma finally strikes Nora when a backfired spell sends a random dog's mind into her body and gives it control, making her to act like a dog."
+    },
+    {
+      "votes": 61,
+      "suggestion": "Adelaide in the Highland Games, doing a caber toss."
+    },
+    {
+      "votes": 109,
+      "suggestion": "Keith and Natani share a warm embrace"
+    },
+    {
+      "votes": 94,
+      "suggestion": "Trace Reference Sheet"
+    },
+    {
+      "votes": 105,
+      "suggestion": "The Lioness dancer returns and tries to flirt with Keith. Natani is not happy about this."
+    },
+    {
+      "votes": 59,
+      "suggestion": "Flora finds a harp in the estate but snaps the strings with her claws. An unhappy Roselyn appears."
+    },
+    {
+      "votes": 42,
+      "suggestion": "Tiger Trace and Flora sharing a tender kiss."
+    },
+    {
+      "votes": 109,
+      "suggestion": "Keith and Natani embarrassed by Trace and Flora's overly affectionate behavior during a double date."
+    },
+    {
+      "votes": 99,
+      "suggestion": "Nibbly has secretly been tending to a bouquet of precious baby squirrelies. Sythe finds out."
+    },
+    {
+      "votes": 85,
+      "suggestion": "Sythe Reference Sheet"
+    },
+    {
+      "votes": 125,
+      "suggestion": "Kat pressing her hands and chest up against a window or the viewer's screen",
+      "position": 7,
+      "choice": "voters"
+    },
+    {
+      "votes": 121,
+      "suggestion": "Older Maeve and Maddie share their first kiss. Maddie gets extremely flustered afterwards."
+    },
+    {
+      "votes": 91,
+      "suggestion": "D&D classes Trace-Wizard Keith-Fighter Natani-Rogue Flora-Ranger. Kathrin as the Dungeon Master."
+    },
+    {
+      "votes": 112,
+      "suggestion": "Some basitins find lady Nora asleep in her cave try to wake her, she rolls over snuggling one of the bastins like a trace teddy"
+    },
+    {
+      "votes": 83,
+      "suggestion": "WW2: Tigress Trace in a US Army Air Force dress uniform"
+    },
+    {
+      "votes": 90,
+      "suggestion": "Adira Reference Sheet"
+    },
+    {
+      "votes": 99,
+      "suggestion": "Clovis Reference Sheet"
+    },
+    {
+      "votes": 71,
+      "suggestion": "Fluffkevlar's Female Cosmo takes a interest in Keith, With Nat not letting another wolf steal her mate from her!"
+    },
+    {
+      "votes": 58,
+      "suggestion": "Laura as a ghost (with ghost tail instead of legs) resting with sleeping Keith. She laying next to him as he is hugging her from behind."
+    },
+    {
+      "votes": 25,
+      "suggestion": "Redux: 5 minute Nora sketch"
+    },
+    {
+      "votes": 72,
+      "suggestion": "Kat helps Zen walk again, thanking him for getting her home safe after getting drunk."
+    }
   ]
 }
