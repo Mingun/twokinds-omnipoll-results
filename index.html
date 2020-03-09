@@ -57,6 +57,7 @@
   .bar, .legend-mark { background-color: #f79646; }
   .winner-voters .bar, .legend-mark.winner-voters { background-color: #1dafe3; }
   .winner-tom .bar, .legend-mark.winner-tom { background-color: #fff545; }
+  .winner-tkpolls .bar, .legend-mark.winner-tkpolls { background-color: #c6697a; }
   .filter { background-color: yellow; }
 
   tbody > tr:hover { background-color: #d86316; color: #ffffff; }
@@ -64,6 +65,7 @@
   tbody > tr:hover .filter { color: #000000; }
   tbody > tr.winner-voters:hover .bar { background-color: #20c4ff; }
   tbody > tr.winner-tom:hover .bar { background-color: #ffff90; }
+  tbody > tr.winner-tkpolls:hover .bar { background-color: #ff99ab; }
   </style>
   <script src="js/d3.4.13.0.min.js"></script>
 </head>
@@ -101,7 +103,8 @@
   <p>Bar color legend:
   <span class="legend-mark"></span> – ordinal suggestions
   <span class="legend-mark winner-voters"></span> – top votes
-  <span class="legend-mark winner-tom"></span> – Tom picks</p>
+  <span class="legend-mark winner-tom"></span> – Tom picks
+  <span class="legend-mark winner-tkpolls"></span> – votes from <a href="https://tkpolls.com/results">tkpolls.com</a></p>
   <script>
   // Sorting functions leave undefined values at end
   function ascending(a, b) {
@@ -418,6 +421,7 @@
         .classed('my-choice', selected)
         .classed('winner-voters', function (d) { return d.choice === 'voters'; })
         .classed('winner-tom', function (d) { return d.choice === 'tom'; })
+        .classed('winner-tkpolls', function (d) { return d.choice === 'tkpolls'; })
         .on('click', function(d) {
           var selected = state.selected = state.selected || {};
           var selectedDate = selected[state.date] = selected[state.date] || {};
@@ -439,7 +443,8 @@
     tbody
       .classed('my-choice', selected)
       .classed('winner-voters', function (d) { return d.choice === 'voters'; })
-      .classed('winner-tom', function (d) { return d.choice === 'tom'; });
+      .classed('winner-tom', function (d) { return d.choice === 'tom'; })
+      .classed('winner-tkpolls', function (d) { return d.choice === 'tkpolls'; });
     tbody.select('.suggestion').html(suggestion);
     tbody.select('.position').text(function(d) { return d.position; });
     tbody.select('.index').text(function(d) { return d.index; });
