@@ -221,13 +221,243 @@
     };
   }
 
+  function table(headers) {
+    var values = [],
+        selected = {},
+        filters = {},
+        res = {},
+        sortField = null,
+        sortMode = null,
+        sortModes = [null, 'asc', 'desc'],
+        nextSortModeTable = d3.map(),
+        viewMode = 'one-line-wide',
+        cellTypes = {
+          text: function(selection, d) {
+            selection.text(d.value);
+          },
+          html: function(selection, d) {
+            selection.html(
+              '<span class="text">' + (res[d.code]
+                ? d.value.replace(res[d.code], '<span class="filter">$&</span>')
+                : d.value
+              ) + '</span>'
+            );
+          },
+          bar: function(selection, d) {
+            var bar = selection.selectAll('.bar').data([+d.value || 0]),
+                value = selection.selectAll('.value').data([+d.value || 0]);
+
+            bar
+              .merge(bar.enter().append('div').attr('class', 'bar'))
+              .style('width', function(d) { return 5*d + 'px'; });
+
+            value
+              .merge(value.enter().append('span').attr('class', 'value'))
+              .text(function(d) { return d; });
+          }
+        },
+        listeners = d3.dispatch('filter', 'sort', 'select');
+
+    for (var i = 0, l = sortModes.length; i < l; ++i) {
+      nextSortModeTable.set(sortModes[i], sortModes[(i + 1) % l]);
+    }
+
+    function tdData(d) {
+      return headers.map(function(h) {
+        return {
+          code: h.code,
+          type: h.type || 'text',
+          value: d[h.code],
+          filterType: h.filter ? h.filter.type : null
+        };
+      });
+    }
+
+    function table(context) {
+      var selection = context.selection ? context.selection() : context,
+          table = selection.selectAll('.suggestions-table').data([null]),
+          tableEnter = table.enter().append('table'),
+          tableExit = table.exit();
+
+      tableEnter.append('thead').append('tr');
+      tableEnter.append('tbody');
+
+      tableExit.remove();
+
+      table = table.merge(tableEnter)
+        .attr('class', 'suggestions-table ' + viewMode)
+        .style('table-layout', 'auto')
+        .style('width', '');
+
+      table.select('thead > tr').call(tableHeader);
+      table.select('tbody').call(tableRow);
+
+      // Special case with ellipsis on overflow: need calculate right columns width
+      if (viewMode === 'one-line-screen') {
+        var width = 0;
+        table.selectAll('thead > tr').each(function(d) {
+          var self = d3.select(this);
+          var innerWidth = headers
+            .filter(function(h) { return h.size === 'fixed'; })
+            .map(function(h) { return self.selectAll('.' + h.code).property('offsetWidth'); })
+            .reduce(function(accumulator, current) { return accumulator + current; });
+
+          width = Math.max(width, innerWidth);
+        });
+
+        width = selection.property('offsetWidth') - width - 16;// 16 for body margin
+
+        table
+          .style('table-layout', 'fixed')
+          .style('width', '100%');
+
+        var headersWithVariableWidth = headers
+          .filter(function(h) { return h.size !== 'fixed'; })
+          .map(function(h) { return h.code; });
+
+        if (headersWithVariableWidth.length > 0) {
+          width = width / headersWithVariableWidth.length;
+
+          table.selectAll('th').each(function(d) {
+            if (headersWithVariableWidth.indexOf(d.code) === -1) { return; }
+
+            d3.select(this).style('width', width + 'px');
+          });
+        }
+      }
+    }
+
+    function tableHeader(context) {
+      var selection = context.selection ? context.selection() : context,
+          th = selection.selectAll('th').data(headers),
+          thEnter = th.enter().append('th'),
+          thExit = th.exit();
+
+      thEnter
+        .each(function(d) {
+          var self = d3.select(this);
+          self.append('span').attr('class', 'column-name');
+
+          if (!d.filter) { return; }
+
+          self.append('input')
+            .attr('type', 'text')
+            .attr('class', d.filter.type)
+            .attr('placeholder', d.filter.help)
+            .on('keyup.table', function(d) {
+              if (this.value === '') {
+                delete filters[d.code];
+              }
+              else {
+                filters[d.code] = { field: d.code, type: d.filter.type, value: this.value };
+              }
+
+              listeners.call('filter', d, filters);
+            });
+        })
+        .on('click.table', function(d) {
+          if (d3.event.target.tagName === 'INPUT') { return; }
+
+          var sortMode = nextSortModeTable.get(sort.field === d.code ? sort.mode : null);
+          var sortField = sortMode === null ? null : d.code;
+
+          listeners.call('sort', d, sortField, sortMode);
+        });
+
+      thExit.remove();
+
+      th = th.merge(thEnter);
+      th
+        .attr('class', function(d) { return d.code; })
+        .attr('title', function(d) { return d.title; })
+        .classed('asc', function(d) { return sort.mode === 'asc' && sort.field === d.code; })
+        .classed('desc', function(d) { return sort.mode === 'desc' && sort.field === d.code; })
+        .select('.column-name').text(function(d) { return d.name; });
+    }
+
+    function tableRow(context) {
+      var selection = context.selection ? context.selection() : context,
+          tr = selection.selectAll('tr').data(values, function(d) { return d.index; }).order(),
+          trEnter = tr.enter().append('tr'),
+          trExit = tr.exit();
+
+      trEnter.on('click.table', function(d) { listeners.call('select', d); });
+
+      trExit.remove();
+
+      tr = tr.merge(trEnter);
+      tr
+        .classed('selected', function(d) { return selected[d.index]; })
+        .classed('winner-voters', function (d) { return d.choice === 'voters'; })
+        .classed('winner-tom', function (d) { return d.choice === 'tom'; })
+        .classed('winner-tkpolls', function (d) { return d.choice === 'tkpolls'; });
+
+      var td = tr.selectAll('td').data(tdData),
+          tdEnter = td.enter().append('td'),
+          tdExit = td.exit();
+
+      tdExit.remove();
+
+      td = td.merge(tdEnter);
+      td
+        .attr('class', function(d) { return d.code; })
+        .attr('title', function(d) { return d.value; })
+        .each(function(d) {
+          d3.select(this)
+            .call(cellTypes[d.type], d);
+        });
+    }
+
+    table.on = function() {
+      var value = listeners.on.apply(listeners, arguments);
+      return value === listeners ? table : value;
+    };
+
+    table.viewMode = function(_) {
+      return arguments.length ? (viewMode = _, table) : viewMode;
+    };
+
+    table.values = function(_) {
+      return arguments.length ? (values = _, table) : values;
+    };
+
+    table.sort = function(_) {
+      return arguments.length ? (sort = _, table) : sort;
+    };
+
+    table.filters = function(_) {
+      if (arguments.length) {
+        filters = _;
+        res = {};
+        for (var field in filters) {
+          if (!filters.hasOwnProperty(field)) { continue; }
+
+          var f = filters[field];
+          if (f.type === 'text') {
+            res[field] = new RegExp(f.value, 'ig');
+          }
+        }
+
+        return table;
+      }
+
+      return filters;
+    };
+
+    table.selected = function(_) {
+      return arguments.length ? (selected = _ || {}, table) : selected;
+    };
+
+    return table;
+  }
+
   var state;
   var query;
   var headers = [
-    { name: 'Suggestion text', code: 'suggestion', filter: { type: 'text', help: 'Case-insensitive JavaScript RegExp syntax' } },
-    { name: '!', title: 'Winner position', code: 'position' },
-    { name: '#', title: 'Position in omnipoll', code: 'index' },
-    { name: 'Votes count', code: 'votes', filter: { type: 'number', help: '(=|>|<|>=|<=)?<num> | <low>-<high>' } }
+    { name: 'Suggestion text', code: 'suggestion', type: 'html', filter: { type: 'text', help: 'Case-insensitive JavaScript RegExp syntax' } },
+    { name: '!', title: 'Winner position', code: 'position', size: 'fixed' },
+    { name: '#', title: 'Position in omnipoll', code: 'index', size: 'fixed' },
+    { name: 'Votes count', code: 'votes', type: 'bar', size: 'fixed', filter: { type: 'number', help: '(=|>|<|>=|<=)?<num> | <low>-<high>' } }
   ];
 
   var viewModes = [
@@ -236,12 +466,8 @@
     { name: 'With word wrapping', code: 'multiline' }
   ];
 
-  var sortModes = [null, 'asc', 'desc'];
-  var nextSortModeTable = d3.map();
-  for (var i = 0, l = sortModes.length; i < l; ++i) {
-    nextSortModeTable.set(sortModes[i], sortModes[(i + 1) % l]);
-  }
-  var dispatch = d3.dispatch('init', 'load', 'update', 'render');
+  var dataTable;
+  var dispatch = d3.dispatch('init', 'load', 'update');
 
   // Init date selector
   dispatch.on('init.sketch-date', function() {
@@ -309,44 +535,24 @@
 
   // Init table
   dispatch.on('init.table', function() {
-    var table = d3.select('body').append('table');
-    var th = table.append('thead').append('tr').selectAll('th').data(headers);
-    th.enter().append('th')
-      .attr('class', function(d) { return d.code; })
-      .attr('title', function(d) { return d.title; })
-      .text(function(d) { return d.name; })
-      .each(function(d) {
-        if (!d.filter) { return; }
-
-        d3.select(this).append('input')
-          .attr('type', 'text')
-          .attr('class', d.filter.type)
-          .attr('placeholder', d.filter.help)
-          .on('keyup', function(d) {
-            if (this.value === '') {
-              delete state.filters[d.code];
-            }
-            else {
-              state.filters[d.code] = { field: d.code, type: d.filter.type, value: this.value };
-            }
-
-            dispatch.call('update');
-          })
-        ;
-      })
-      .on('click', function(d) {
-        if (d3.event.target !== this) { return; }
-
-        var mode = state.sort.field === d.code ? state.sort.mode : null;
-        var nextMode = nextSortModeTable.get(mode);
-        state.sort = { field: nextMode === null ? 'index' : d.code, mode: nextMode }
+    dataTable = table(headers)
+      .on('filter', function(filters) {
+        state.filters = filters;
 
         dispatch.call('update');
       })
-    ;
-    th.exit().remove();
+      .on('sort', function(field, mode) {
+        state.sort = { field: field === null ? 'index' : field, mode: mode };
 
-    table.append('tbody');
+        dispatch.call('update');
+      })
+      .on('select', function() {
+        var selected = state.selected = state.selected || {};
+        var selectedDate = selected[state.date] = selected[state.date] || {};
+        selectedDate[this.index] = !selectedDate[this.index];
+
+        dispatch.call('update');
+      });
   });
 
   // Load data
@@ -363,7 +569,7 @@
     dispatch.call('update');
   });
 
-  // Filter and sort data
+  // Filter, sort and render table data
   dispatch.on('update.data', function() {
     if (!state.data) { return; }
 
@@ -375,107 +581,21 @@
     // Sort data
     data.sort(sortFunc(state.sort));
 
-    dispatch.call('render', null, data);
+    // Render data
+    dataTable
+      .viewMode(state.viewMode)
+      .values(data)
+      .sort(state.sort)
+      .filters(state.filters)
+      .selected(state.selected[state.date])
+    ;
+
+    d3.select('body').call(dataTable);
   });
 
-  // Update visual representation of table headers
-  dispatch.on('render.headers', function(data) {
-    // Sort indicator
-    var mode = state.sort && state.sort.mode;
-    var field = state.sort && state.sort.field;
-    d3.selectAll('thead > tr > th').each(function(d) {
-      d3.select(this)
-        .classed('asc', mode === 'asc' && field === d.code)
-        .classed('desc', mode === 'desc' && field === d.code)
-      ;
-    });
-
-    // Filter values
-    d3.selectAll('thead > tr > th > input').attr('value', function(d) {
-      return (state.filters[d.code] || {}).value || '';
-    });
-  });
-
-  // Render table
-  dispatch.on('render.table', function(data) {
-    function selected(d) {
-      return (state.selected[state.date] || {})[d.index];
-    }
-
-    var filter = state.filters.suggestion;
-    var re = filter && filter.value ? new RegExp(filter.value, 'ig') : null;
-
-    function suggestion(d) {
-      return '<span class="text">' + (re
-          ? d.suggestion.replace(re, '<span class="filter">$&</span>')
-          : d.suggestion
-        ) + '</span>';
-    }
-
-    var table = d3.select('table').style('table-layout', 'auto').style('width', '');
-
-    for (var i = 0; i < viewModes.length; ++i) {
-      table.classed(viewModes[i].code, viewModes[i].code === state.viewMode);
-    }
-
-    var tbody = table.select('tbody').selectAll('tr')
-      .data(data, function(d) { return state.date + '-' + d.index; })
-      .order();
-
-    var tr = tbody.enter()
-      .append('tr')
-        .classed('selected', selected)
-        .classed('winner-voters', function (d) { return d.choice === 'voters'; })
-        .classed('winner-tom', function (d) { return d.choice === 'tom'; })
-        .classed('winner-tkpolls', function (d) { return d.choice === 'tkpolls'; })
-        .on('click', function(d) {
-          var selected = state.selected = state.selected || {};
-          var selectedDate = selected[state.date] = selected[state.date] || {};
-          selectedDate[d.index] = !selectedDate[d.index];
-
-          dispatch.call('update');
-        });
-
-    tr.append('td').classed('suggestion', true).html(suggestion).attr('title', function(d) { return d.suggestion; });
-    tr.append('td').classed('position', true).text(function(d) { return d.position; });
-    tr.append('td').classed('index', true).text(function(d) { return d.index; });
-
-    var result = tr.append('td').classed('votes', true);
-    result.append('div').classed('bar', true).style('width', function(d) { return 5*(d.votes || 0) + 'px'; });
-    result.append('span').classed('value', true).text(function(d) { return d.votes; });
-
-    tbody.exit().remove();
-
-    tbody
-      .classed('selected', selected)
-      .classed('winner-voters', function (d) { return d.choice === 'voters'; })
-      .classed('winner-tom', function (d) { return d.choice === 'tom'; })
-      .classed('winner-tkpolls', function (d) { return d.choice === 'tkpolls'; });
-    tbody.select('.suggestion').html(suggestion);
-    tbody.select('.position').text(function(d) { return d.position; });
-    tbody.select('.index').text(function(d) { return d.index; });
-    tbody.select('.votes > .bar').style('width', function(d) { return 5*(d.votes || 0) + 'px'; });
-    tbody.select('.votes > .value').text(function(d) { return d.votes; });
-
-    // Special case with ellipsis on overflow: need calculate right columns width
-    if (state.viewMode === 'one-line-screen') {
-      var width = 0;
-      table.selectAll('thead > tr').each(function(d) {
-        var self = d3.select(this);
-        var innerWidth = self.select('.position').property('offsetWidth')
-                       + self.select('.index').property('offsetWidth')
-                       + self.select('.votes').property('offsetWidth');
-        width = Math.max(width, innerWidth);
-      });
-
-      width = d3.select('body').property('offsetWidth') - width - 16;// 16 for body margin
-      table
-        .style('table-layout', 'fixed')
-        .style('width', '100%')
-        .select('th.suggestion')
-          .style('width', width + 'px');
-    }
-  });
+  window.onresize = function() {
+    d3.select('body').call(dataTable);
+  };
 
   window.onbeforeunload = function(e) {
     saveState(state);
