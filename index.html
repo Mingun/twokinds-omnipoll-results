@@ -106,19 +106,69 @@
   <span class="legend-mark winner-tom"></span> – Tom picks
   <span class="legend-mark winner-tkpolls"></span> – votes from <a href="https://tkpolls.com/results">tkpolls.com</a></p>
   <script>
-  // Sorting functions leave undefined values at end
-  function ascending(a, b) {
-    return a === undefined
-      ? b === undefined ?  0 : 1
-      : b === undefined ? -1 : d3.ascending(a, b)
-    ;
+  function filterFunc(filters) {
+    var functions = {
+      text: function(value) {
+        return (new RegExp(this.value, 'ig')).test(value);
+      },
+      number: function(value) {
+        var testValue = this.value.replace(/\s+/g, '');
+        var match = /^(?:(\d+)(?:-(\d+))?|(=|>|<|>=|<=)(\d+))$/i.exec(testValue);
+        if (match === null) { return false; }
+
+        var low = +match[1];
+        var high = +match[2];
+        if (isNaN(low) && isNaN(high)) {
+          switch(match[3]) {
+            case '=':  low = high = +match[4]; break;
+            case '>':  low = +match[4] + 1; high = Infinity; break;
+            case '<':  low = 0; high = +match[4] - 1; break;
+            case '>=': low = +match[4]; high = Infinity; break;
+            case '<=': low = 0; high = +match[4]; break;
+          }
+        }
+        else if (isNaN(high)) {
+          high = low;
+        }
+
+        return value >= low && value <= high;
+      }
+    };
+
+    return function(d) {
+      for (var field in filters) {
+        if (!filters.hasOwnProperty(field)) { continue; }
+
+        var f = filters[field];
+        if (functions.hasOwnProperty(f.type) && !functions[f.type].call(f, d[field])) {
+          return false;
+        }
+      }
+
+      return true;
+    };
   }
 
-  function descending(a, b) {
-    return a === undefined
-      ? b === undefined ?  0 : 1
-      : b === undefined ? -1 : d3.descending(a, b)
-    ;
+  function sortFunc(sort) {
+    // Sorting functions leave undefined values at end
+    var functions = {
+        asc: function(a, b) {
+          return a === undefined
+            ? b === undefined ?  0 : 1
+            : b === undefined ? -1 : d3.ascending(a, b)
+          ;
+        },
+        desc: function(a, b) {
+          return a === undefined
+            ? b === undefined ?  0 : 1
+            : b === undefined ? -1 : d3.descending(a, b)
+          ;
+        }
+      },
+      s = functions[sort.mode || 'asc'],
+      field = sort.field;
+
+    return function(a, b) { return s(a[field], b[field]); };
   }
 
   function formatDuration(str) {
@@ -317,57 +367,13 @@
   dispatch.on('update.data', function() {
     if (!state.data) { return; }
 
+    var data = state.data[state.date].data;
+
     // Filter data
-    var filters = state.filters;
-    var data = state.data[state.date].data.filter(function(d) {
-      var hasFilters = false;
-      for (var field in filters) {
-        if (!filters.hasOwnProperty(field)) { continue; }
-
-        hasFilters = true;
-
-        var result = true;
-        var f = filters[field];
-        var value = d[field];
-        switch (f.type) {
-          case 'text':
-            var re = new RegExp(f.value, 'ig');
-            result = result && re.test(value);
-            break;
-          case 'number':
-            var testValue = f.value.replace(/\s+/g, '');
-            var match = /^(?:(\d+)(?:-(\d+))?|(=|>|<|>=|<=)(\d+))$/i.exec(testValue);
-            if (match === null) { return false; }
-
-            var low = +match[1];
-            var high = +match[2];
-            if (isNaN(low) && isNaN(high)) {
-              switch(match[3]) {
-                case '=':  low = high = +match[4]; break;
-                case '>':  low = +match[4] + 1; high = Infinity; break;
-                case '<':  low = 0; high = +match[4] - 1; break;
-                case '>=': low = +match[4]; high = Infinity; break;
-                case '<=': low = 0; high = +match[4]; break;
-              }
-            }
-            else if (isNaN(high)) {
-              high = low;
-            }
-
-            result = result && value >= low && value <= high;
-            break;
-        }
-
-        if (!result) { return false; }
-      }
-
-      return true;
-    });
+    data = data.filter(filterFunc(state.filters));
 
     // Sort data
-    var sortFunc = state.sort.mode === 'desc' ? descending : ascending;
-    var field = state.sort.field;
-    data.sort(function(a, b) { return sortFunc(a[field], b[field]); });
+    data.sort(sortFunc(state.sort));
 
     dispatch.call('render', null, data);
   });
