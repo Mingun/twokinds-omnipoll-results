@@ -412,7 +412,7 @@
         ) + '</span>';
     }
 
-    var table = d3.select('table').style('table-layout', 'auto');
+    var table = d3.select('table').style('table-layout', 'auto').style('width', '');
 
     for (var i = 0; i < viewModes.length; ++i) {
       table.classed(viewModes[i].code, viewModes[i].code === state.viewMode);
@@ -460,7 +460,7 @@
     // Special case with ellipsis on overflow: need calculate right columns width
     if (state.viewMode === 'one-line-screen') {
       var width = 0;
-      table.selectAll('tr').each(function(d) {
+      table.selectAll('thead > tr').each(function(d) {
         var self = d3.select(this);
         var innerWidth = self.select('.position').property('offsetWidth')
                        + self.select('.index').property('offsetWidth')
