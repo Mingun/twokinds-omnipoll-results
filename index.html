@@ -564,6 +564,7 @@
 
     var data = state.data[state.date];
     d3.selectAll('span.date').text(data.date);
+    d3.select('title').text('Twokinds {date} Omnipoll Results'.replace('{date}', data.date));
     d3.select('#patreon-link').attr('href', data.patreon_link);
     d3.select('#video-link-full').attr('href', data.youtube_full_link);
     d3.select('#video-duration-full').text(formatDuration(data.youtube_full_duration));
