@@ -558,6 +558,8 @@
 
   // Load data
   dispatch.on('load.data', function() {
+    if (!state.data) { return; }
+
     var data = state.data[state.date];
     d3.selectAll('span.date').text(data.date);
     d3.select('#patreon-link').attr('href', data.patreon_link);
