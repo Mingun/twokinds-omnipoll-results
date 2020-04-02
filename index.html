@@ -87,24 +87,26 @@
   </select>
   <label for="view-mode">View mode:</label>
   <select id="view-mode"></select>
-  <h1>Twokinds <span class="date"></span> Omnipoll Results</h1>
-  <p>This is omnipoll results for <a id="patreon-link" href="">Twokinds Sketch Stream</a> from <span class="date"></span>.
-  (Unofficial) archive record of stream can be viewed on YouTube:
-  <a id="video-link-full" href="">full-length record of stream (<span id="video-duration-full"></span>)</a> or
-  <a id="video-link-short" href="">shorter x20 speed up version (<span id="video-duration-short"></span>)</a>.</p>
-  <p id="comment"></p>
-  <p>Click on table header to toggle column sort mode (ascending, descending or none).</p>
-  <p>Click on row to toggle <span class="selected">highlight</span> you choice.</p>
-  <p>Filter on suggestion text support syntax <a href="https://developer.mozilla.org/docs/Web/JavaScript/Guide/Regular_Expressions">JavaScript Regular Expression</a>.
-  Matched text in suggestion text <span class="filter">highlighted</span>.</p>
-  <p>Filter on votes count may be one number, optionally prefixed with <code>=</code>, <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code> or <code>&gt;=</code>
-  to filter on exact match, less than, less or equal than, greatest than or greatest or equal than respectively; without prefixes used filter on exact match.
-  Also it may consist of two numbers, delimited by minus sign (<code>-</code>), defining a closed (with included borders) range to match.</p>
-  <p>Bar color legend:
-  <span class="legend-mark"></span> – ordinal suggestions
-  <span class="legend-mark winner-voters"></span> – top votes
-  <span class="legend-mark winner-tom"></span> – Tom picks
-  <span class="legend-mark winner-tkpolls"></span> – votes from <a href="https://tkpolls.com/results">tkpolls.com</a></p>
+  <header>
+    <h1>Twokinds <span class="date"></span> Omnipoll Results</h1>
+    <p>This is omnipoll results for <a id="patreon-link" href="">Twokinds Sketch Stream</a> from <span class="date"></span>.
+    (Unofficial) archive record of stream can be viewed on YouTube:
+    <a id="video-link-full" href="">full-length record of stream (<span id="video-duration-full"></span>)</a> or
+    <a id="video-link-short" href="">shorter x20 speed up version (<span id="video-duration-short"></span>)</a>.</p>
+    <p id="comment"></p>
+    <p>Click on table header to toggle column sort mode (ascending, descending or none).</p>
+    <p>Click on row to toggle <span class="selected">highlight</span> you choice.</p>
+    <p>Filter on suggestion text support syntax <a href="https://developer.mozilla.org/docs/Web/JavaScript/Guide/Regular_Expressions">JavaScript Regular Expression</a>.
+    Matched text in suggestion text <span class="filter">highlighted</span>.</p>
+    <p>Filter on votes count may be one number, optionally prefixed with <code>=</code>, <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code> or <code>&gt;=</code>
+    to filter on exact match, less than, less or equal than, greatest than or greatest or equal than respectively; without prefixes used filter on exact match.
+    Also it may consist of two numbers, delimited by minus sign (<code>-</code>), defining a closed (with included borders) range to match.</p>
+    <p>Bar color legend:
+    <span class="legend-mark"></span> – ordinal suggestions
+    <span class="legend-mark winner-voters"></span> – top votes
+    <span class="legend-mark winner-tom"></span> – Tom picks
+    <span class="legend-mark winner-tkpolls"></span> – votes from <a href="https://tkpolls.com/results">tkpolls.com</a></p>
+  </header>
   <script>
   function filterFunc(filters) {
     var functions = {
