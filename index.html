@@ -342,6 +342,7 @@
 
           self.append('input')
             .attr('type', 'text')
+            .attr('value', filters[d.code] && filters[d.code].value)
             .attr('class', d.filter.type)
             .attr('placeholder', d.filter.help)
             .on('keyup.table', function(d) {
