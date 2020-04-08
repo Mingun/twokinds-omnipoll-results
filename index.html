@@ -16,6 +16,10 @@
     vertical-align: bottom;
   }
 
+  #controls > div { display: inline-block; margin: 0 4px; }
+  #controls > div:first-child { margin-left: 0; }
+  #controls > div:last-child { margin-right: 0; }
+
   table { margin: 20px auto; border-collapse: collapse; white-space: nowrap; }
   th { border-bottom: 2px solid #000000; }
   th, td { padding: 2px 5px; }
@@ -70,25 +74,7 @@
   <script src="js/d3.4.13.0.min.js"></script>
 </head>
 <body>
-  <div id="controls">
-    <label for="sketch-date">Sketch date:</label>
-    <select id="sketch-date">
-      <option value="2020-03-08">2020-03-08</option>
-      <option value="2020-02-10">2020-02-10</option>
-      <option value="2019-12-22">2019-12-22</option>
-      <option value="2019-10-20">2019-10-20</option>
-      <option value="2019-09-15">2019-09-15</option>
-      <option value="2019-08-25">2019-08-25</option>
-      <option value="2019-08-11">2019-08-11</option>
-      <option value="2019-08-04">2019-08-04</option>
-      <option value="2019-06-16">2019-06-16</option>
-      <option value="2019-06-09">2019-06-09</option>
-      <option value="2019-06-02">2019-06-02</option>
-      <option value="2019-05-19">2019-05-19</option>
-    </select>
-    <label for="view-mode">View mode:</label>
-    <select id="view-mode"></select>
-  </div>
+  <div id="controls"></div>
   <header>
     <h1>Twokinds <span class="date"></span> Omnipoll Results</h1>
     <p>This is omnipoll results for <a id="patreon-link" href="">Twokinds Sketch Stream</a> from <span class="date"></span>.
@@ -242,6 +228,66 @@
 
       dispatch.call('load');
     });
+  }
+
+  function select(id, name, codes, values) {
+    var selected = null,
+        listeners = d3.dispatch('select');
+
+    function select(context) {
+      var selection = context.selection ? context.selection() : context,
+          control = selection.selectAll('.' + id).data([null]),
+          controlEnter = control.enter().append('div').attr('class', id),
+          controlExit = control.exit();
+
+      controlEnter.append('label')
+        .attr('for', id);
+      controlEnter.append('select')
+        .attr('id', id)
+        .on('change', function() {
+          listeners.call('select', {
+            code: this.value,
+            name: values && values[codes.indexOf(this.value)] || this.value
+          });
+        });
+
+      controlExit.remove();
+
+      control = control.merge(controlEnter);
+
+      control.select('label').text(name + ': ');
+
+      var data = codes.map(function(d, i) { return { name: values && values[i] || d, code: d }; }),
+          options = control.select('select').selectAll('option').data(data),
+          optionsEnter = options.enter().append('option'),
+          optionsExit = options.exit();
+
+      optionsExit.remove();
+
+      options = options.merge(optionsEnter)
+        .text(function(d) { return d.name; })
+        .attr('value', function(d) { return d.code; })
+        .property('selected', function(d) { return d.code === selected; });
+    }
+
+    select.on = function() {
+      var value = listeners.on.apply(listeners, arguments);
+      return value === listeners ? select : value;
+    };
+
+    select.codes = function(_) {
+      return arguments.length ? (codes = _, select) : codes;
+    };
+
+    select.values = function(_) {
+      return arguments.length ? (values = _, select) : values;
+    };
+
+    select.selected = function(_) {
+      return arguments.length ? (selected = _, select) : selected;
+    };
+
+    return select;
   }
 
   function table(headers) {
@@ -477,6 +523,19 @@
 
   var state;
   var query;
+  var dates = [
+    '2020-03-08',
+    '2020-02-10',
+    '2019-12-22',
+    '2019-10-20',
+    '2019-09-15',
+    '2019-08-11',
+    '2019-08-04',
+    '2019-06-16',
+    '2019-06-09',
+    '2019-06-02',
+    '2019-05-19'
+  ];
   var headers = [
     { name: 'Suggestion text', code: 'suggestion', type: 'html', filter: { type: 'text', help: 'Case-insensitive JavaScript RegExp syntax' } },
     { name: '!', title: 'Winner position', code: 'position', size: 'fixed' },
@@ -484,62 +543,51 @@
     { name: 'Votes count', code: 'votes', type: 'bar', size: 'fixed', filter: { type: 'number', help: '(=|>|<|>=|<=)?<num> | <low>-<high>' } }
   ];
 
-  var viewModes = [
-    { name: 'By one wide line', code: 'one-line-wide' },
-    { name: 'By one line with ellipsis on overflow', code: 'one-line-screen' },
-    { name: 'With word wrapping', code: 'multiline' }
-  ];
-
   var dataTable;
   var dispatch = d3.dispatch('init', 'load', 'update');
 
   // Init date selector
   dispatch.on('init.sketch-date', function() {
-    // Init select
-    var select = d3.select('#sketch-date');
-    select.on('change', function() {
-      loadData(this.value);
-    });
+    var selector = select('sketch-date', 'Sketch date', dates);
+    selector
+      .selected(state.date)
+      .on('select', function() {
+        loadData(this.code);
+      });
 
     // Update select value with ``date`` query param
     if (query.date) {
-      var selectNode = select.node();
-      var validDates = Array.prototype.map.call(selectNode.options, function(d) { return d.value; });
-
-      if (validDates.indexOf(query.date) !== -1) {
-        selectNode.value = query.date;
+      if (selector.codes().indexOf(query.date) !== -1) {
+        selector.selected(query.date);
       }
     }
 
-    select.dispatch('change', {});
+    d3.select('#controls').call(selector);
+
+    loadData(query.date || state.date || dates[0]);
   });
 
   // Init view mode selector
   dispatch.on('init.view-mode', function() {
-    var select = d3.select('#view-mode');
+    var codes = ['one-line-wide', 'one-line-screen', 'multiline'];
+    var values = ['By one wide line', 'By one line with ellipsis on overflow', 'With word wrapping'];
+    var selector = select('view-mode', 'View mode', codes, values);
+    selector
+      .selected(state.viewMode)
+      .on('select', function() {
+        state.viewMode = this.code;
 
-    select.selectAll('option').data(viewModes)
-      .enter().append('option')
-        .text(function(d) { return d.name; })
-        .attr('value', function(d) { return d.code; })
-        .property('selected', function(d) { return d.code === state.viewMode; });
-
-    select.on('change', function() {
-      state.viewMode = this.value;
-
-      dispatch.call('update');
-    });
+        dispatch.call('update');
+      });
 
     // Update select value with ``viewMode`` query param
     if (query.viewMode) {
-      var selectNode = select.node();
-
-      if (viewModes.map(function(d) { return d.code; }).indexOf(query.viewMode) !== -1) {
-        selectNode.value = query.viewMode;
+      if (selector.codes().indexOf(query.viewMode) !== -1) {
+        selector.selected(query.viewMode);
       }
     }
 
-    select.dispatch('change', {});
+    d3.select('#controls').call(selector);
   });
 
   // Init table
