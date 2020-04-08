@@ -70,23 +70,25 @@
   <script src="js/d3.4.13.0.min.js"></script>
 </head>
 <body>
-  <label for="sketch-date">Sketch date:</label>
-  <select id="sketch-date">
-    <option value="2020-03-08">2020-03-08</option>
-    <option value="2020-02-10">2020-02-10</option>
-    <option value="2019-12-22">2019-12-22</option>
-    <option value="2019-10-20">2019-10-20</option>
-    <option value="2019-09-15">2019-09-15</option>
-    <option value="2019-08-25">2019-08-25</option>
-    <option value="2019-08-11">2019-08-11</option>
-    <option value="2019-08-04">2019-08-04</option>
-    <option value="2019-06-16">2019-06-16</option>
-    <option value="2019-06-09">2019-06-09</option>
-    <option value="2019-06-02">2019-06-02</option>
-    <option value="2019-05-19">2019-05-19</option>
-  </select>
-  <label for="view-mode">View mode:</label>
-  <select id="view-mode"></select>
+  <div id="controls">
+    <label for="sketch-date">Sketch date:</label>
+    <select id="sketch-date">
+      <option value="2020-03-08">2020-03-08</option>
+      <option value="2020-02-10">2020-02-10</option>
+      <option value="2019-12-22">2019-12-22</option>
+      <option value="2019-10-20">2019-10-20</option>
+      <option value="2019-09-15">2019-09-15</option>
+      <option value="2019-08-25">2019-08-25</option>
+      <option value="2019-08-11">2019-08-11</option>
+      <option value="2019-08-04">2019-08-04</option>
+      <option value="2019-06-16">2019-06-16</option>
+      <option value="2019-06-09">2019-06-09</option>
+      <option value="2019-06-02">2019-06-02</option>
+      <option value="2019-05-19">2019-05-19</option>
+    </select>
+    <label for="view-mode">View mode:</label>
+    <select id="view-mode"></select>
+  </div>
   <header>
     <h1>Twokinds <span class="date"></span> Omnipoll Results</h1>
     <p>This is omnipoll results for <a id="patreon-link" href="">Twokinds Sketch Stream</a> from <span class="date"></span>.
@@ -107,6 +109,7 @@
     <span class="legend-mark winner-tom"></span> – Tom picks
     <span class="legend-mark winner-tkpolls"></span> – votes from <a href="https://tkpolls.com/results">tkpolls.com</a></p>
   </header>
+  <div id="table-container"></div>
   <script>
   function filterFunc(filters) {
     var functions = {
@@ -599,11 +602,11 @@
       .selected(state.selected[state.date])
     ;
 
-    d3.select('body').call(dataTable);
+    d3.select('#table-container').call(dataTable);
   });
 
   window.onresize = function() {
-    d3.select('body').call(dataTable);
+    d3.select('#table-container').call(dataTable);
   };
 
   window.onbeforeunload = function() {
