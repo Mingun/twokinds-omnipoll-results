@@ -223,6 +223,24 @@
     };
   }
 
+  function loadData(date) {
+    d3.json('data/votes-' + date + '.json', function(error, json) {
+      if (error) { throw error; }
+
+      json.data = json.data.map(function(d, i) {
+        d.index = i + 1;
+        d.my = !!(state.selected[json.date] || {})[d.index];
+        return d;
+      });
+
+      state.date = json.date;
+      state.data = state.data || {};
+      state.data[state.date] = json;
+
+      dispatch.call('load');
+    });
+  }
+
   function table(headers) {
     var values = [],
         selected = {},
@@ -477,22 +495,7 @@
     // Init select
     var select = d3.select('#sketch-date');
     select.on('change', function() {
-      var date = this.value;
-      d3.json('data/votes-' + date + '.json', function(error, json) {
-        if (error) { throw error; }
-
-        json.data = json.data.map(function(d, i) {
-          d.index = i + 1;
-          d.my = !!(state.selected[json.date] || {})[d.index];
-          return d;
-        });
-
-        state.date = json.date;
-        state.data = state.data || {};
-        state.data[state.date] = json;
-
-        dispatch.call('load');
-      });
+      loadData(this.value);
     });
 
     // Update select value with ``date`` query param
