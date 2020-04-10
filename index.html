@@ -4,9 +4,43 @@
   <meta charset="utf-8">
   <title>Twokinds Omnipoll Results</title>
   <style>
-  body { background: #ffffff; font-family: Helvetica neue, roboto; }
-  h1 { font-size: 1.2em; }
+  @font-face {
+    font-family: 'Fira Sans';
+    src: url('fonts/FiraSans-UltraLight.woff2') format('woff2'),
+         url('fonts/FiraSans-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Fira Sans';
+    src: url('fonts/FiraSans-Regular.woff2') format('woff2'),
+         url('fonts/FiraSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Fira Sans';
+    src: url('fonts/FiraSans-Medium.woff2') format('woff2'),
+         url('fonts/FiraSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Fira Mono';
+    src: url('fonts/FiraMono-Regular.woff2') format('woff2'),
+         url('fonts/FiraMono-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body, input, select, option { font-family: "Fira Sans", sans-serif; }
+  body { background: #ffffff; font-weight: 400; }
+  h1 { font-size: 1.6em; font-weight: 200; }
   p { margin: 5px 0; }
+  code { font-family: "Fira Mono", monospace; }
   .legend-mark {
     display: inline-block;
     margin: 0 5px;
@@ -21,7 +55,7 @@
   #controls > div:last-child { margin-right: 0; }
 
   table { margin: 20px auto; border-collapse: collapse; white-space: nowrap; }
-  th { border-bottom: 2px solid #000000; }
+  th { border-bottom: 2px solid #000000; font-weight: 500; }
   th, td { padding: 2px 5px; }
 
   th::after {
