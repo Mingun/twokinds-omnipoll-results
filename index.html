@@ -238,15 +238,27 @@
     }));
   }
 
-  function loadState(defaultState) {
+  function loadState(before, after) {
     var state = JSON.parse(localStorage.getItem('state'));
+    var states = [before, state, after].filter(function(s) { return !!s; });
+
+    function get(field, defaultValue) {
+      for (var i = 0; i < states.length; ++i) {
+        var value = states[i][field];
+        if (typeof value !== 'undefined') {
+          return value;
+        }
+      }
+
+      return defaultValue;
+    }
 
     return {
-      date: state ? state.date : (defaultState && defaultState.date || null),
-      viewMode: state ? state.viewMode : (defaultState && defaultState.viewMode || null),
-      selected: state ? state.selected : (defaultState && defaultState.selected || {}),
-      filters: state ? state.filters : (defaultState && defaultState.filters || {}),
-      sort: state ? state.sort : (defaultState && defaultState.sort || { field: 'index', mode: null }),
+      date: get('date', null),
+      viewMode: get('viewMode', null),
+      selected: get('selected', {}),
+      filters: get('filters', {}),
+      sort: get('sort', { field: 'index', mode: null })
     };
   }
 
@@ -560,7 +572,6 @@
   }
 
   var state;
-  var query;
   var dates = [
     '2020-03-08',
     '2020-02-10',
@@ -593,16 +604,9 @@
         loadData(this.code);
       });
 
-    // Update select value with ``date`` query param
-    if (query.date) {
-      if (selector.codes().indexOf(query.date) !== -1) {
-        selector.selected(query.date);
-      }
-    }
-
     d3.select('#controls').call(selector);
 
-    loadData(query.date || state.date || dates[0]);
+    loadData(state.date);
   });
 
   // Init view mode selector
@@ -617,13 +621,6 @@
 
         dispatch.call('update');
       });
-
-    // Update select value with ``viewMode`` query param
-    if (query.viewMode) {
-      if (selector.codes().indexOf(query.viewMode) !== -1) {
-        selector.selected(query.viewMode);
-      }
-    }
 
     d3.select('#controls').call(selector);
   });
@@ -699,14 +696,15 @@
     saveState(state);
   };
 
+  // Parse query string
+  var query = parseQueryString(location.search);
+
   // Load settings from past session
-  state = loadState({
+  state = loadState(query, {
+    date: dates[0],
     viewMode: 'one-line-wide',
     sort: { field: 'votes', mode: 'desc' }
   });
-
-  // Parse query string
-  query = parseQueryString(location.search);
 
   dispatch.call('init');
   </script>
