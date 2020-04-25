@@ -110,27 +110,54 @@
 </head>
 <body>
   <div id="controls"></div>
-  <header>
-    <h1>Twokinds <span class="date"></span> Omnipoll Results</h1>
-    <p>This is omnipoll results for <a id="patreon-link" href="">Twokinds Sketch Stream</a> from <span class="date"></span>.
-    (Unofficial) archive record of stream can be viewed on YouTube:
-    <a id="video-link-full" href="">full-length record of stream (<span id="video-duration-full"></span>)</a> or
-    <a id="video-link-short" href="">shorter x20 speed up version (<span id="video-duration-short"></span>)</a>.</p>
-    <p id="comment"></p>
-    <p>Click on table header to toggle column sort mode (ascending, descending or none).</p>
-    <p>Click on row to toggle <span class="selected">highlight</span> you choice.</p>
-    <p>Filter on suggestion text support syntax <a href="https://developer.mozilla.org/docs/Web/JavaScript/Guide/Regular_Expressions">JavaScript Regular Expression</a>.
-    Matched text in suggestion text <span class="filter">highlighted</span>.</p>
-    <p>Filter on votes count may be one number, optionally prefixed with <code>=</code>, <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code> or <code>&gt;=</code>
-    to filter on exact match, less than, less or equal than, greatest than or greatest or equal than respectively; without prefixes used filter on exact match.
-    Also it may consist of two numbers, delimited by minus sign (<code>-</code>), defining a closed (with included borders) range to match.</p>
-    <p>Bar color legend:
-    <span class="legend-mark"></span> – ordinal suggestions
-    <span class="legend-mark winner-voters"></span> – top votes
-    <span class="legend-mark winner-tom"></span> – Tom picks
-    <span class="legend-mark winner-tkpolls"></span> – votes from <a href="https://tkpolls.com/results">tkpolls.com</a></p>
-  </header>
+  <header></header>
   <div id="table-container"></div>
+  <script>
+  var DEFAULT_LANGUAGE = 'en';
+  var languages = {
+    'en': {
+      'en': 'English',
+      'title': 'Twokinds {date} Omnipoll Results',
+      'sketch-date': 'Sketch date',
+      'view-mode': 'View mode',
+      'view-mode-one-line-wide': 'By one wide line',
+      'view-mode-one-line-screen': 'By one line with ellipsis on overflow',
+      'view-mode-multiline': 'With word wrapping',
+      'interface-language': 'Interface language',
+      'data-language': 'Data language',
+      'data-language-mode': 'Data language mode',
+      'data-language-mode-only': 'Only selected',
+      'data-language-mode-primary': 'Selected primary, default secondary',
+      'data-language-mode-secondary': 'Default primary, selected secondary',
+      'header': '<h1>Twokinds {date} Omnipoll Results</h1>'
+              + '<p>This is omnipoll results for <a href="{patreon_link}">Twokinds Sketch Stream</a> from {date}. '
+              + '(Unofficial) archive record of stream can be viewed on YouTube: '
+              + '<a href="{youtube_full_link}">full-length record of stream ({youtube_full_duration})</a> or '
+              + '<a href="{youtube_short_link}">shorter x20 speed up version ({youtube_short_duration})</a>.</p>'
+              + '<p>{comment}</p>'
+              + '<p>Click on table header to toggle column sort mode (ascending, descending or none).</p>'
+              + '<p>Click on row to toggle <span class="selected">highlight</span> you choice.</p>'
+              + '<p>Filter on suggestion text support syntax <a href="https://developer.mozilla.org/docs/Web/JavaScript/Guide/Regular_Expressions">JavaScript Regular Expression</a>. '
+              + 'Matched text in suggestion text <span class="filter">highlighted</span>.</p>'
+              + '<p>Filter on votes count may be one number, optionally prefixed with <code>=</code>, <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code> or <code>&gt;=</code> '
+              + 'to filter on exact match, less than, less or equal than, greatest than or greatest or equal than respectively; without prefixes used filter on exact match. '
+              + 'Also it may consist of two numbers, delimited by minus sign (<code>-</code>), defining a closed (with included borders) range to match.</p>'
+              + '<p>Bar color legend: '
+              + '<span class="legend-mark"></span> – ordinal suggestions '
+              + '<span class="legend-mark winner-voters"></span> – top votes '
+              + '<span class="legend-mark winner-tom"></span> – Tom picks '
+              + '<span class="legend-mark winner-tkpolls"></span> – votes from <a href="https://tkpolls.com/results">tkpolls.com</a></p>',
+      'table-suggestion': 'Suggestion text',
+      'table-suggestion-filter': 'Case-insensitive JavaScript RegExp syntax',
+      'table-position': '!',
+      'table-position-title': 'Winner position',
+      'table-index': '#',
+      'table-index-title': 'Position in omnipoll',
+      'table-votes': 'Votes count',
+      'table-votes-filter': '(=|>|<|>=|<=)?<num> | <low>-<high>'
+    }
+  };
+  </script>
   <script>
   function filterFunc(filters) {
     var functions = {
@@ -197,6 +224,12 @@
     return function(a, b) { return s(a[field], b[field]); };
   }
 
+  function template(template, parameters) {
+    return template.replace(/\{([\w\d-_]+)\}/g, function(match, param) {
+      return parameters[param];
+    });
+  }
+
   function formatDuration(str) {
     function pad(value) {
       return value < 10 ? '0' + value : '' + value;
@@ -232,6 +265,7 @@
     localStorage.setItem('state', JSON.stringify({
       date: state.date,
       viewMode: state.viewMode,
+      interfaceLanguage: state.interfaceLanguage,
       selected: state.selected,
       filters: state.filters,
       sort: state.sort
@@ -256,6 +290,7 @@
     return {
       date: get('date', null),
       viewMode: get('viewMode', null),
+      interfaceLanguage: get('interfaceLanguage', DEFAULT_LANGUAGE),
       selected: get('selected', {}),
       filters: get('filters', {}),
       sort: get('sort', { field: 'index', mode: null })
@@ -463,7 +498,6 @@
             .attr('type', 'text')
             .attr('value', filters[d.code] && filters[d.code].value)
             .attr('class', d.filter.type)
-            .attr('placeholder', d.filter.help)
             .on('keyup.table', function(d) {
               if (this.value === '') {
                 delete filters[d.code];
@@ -491,8 +525,10 @@
         .attr('class', function(d) { return d.code; })
         .attr('title', function(d) { return d.title; })
         .classed('asc', function(d) { return sort.mode === 'asc' && sort.field === d.code; })
-        .classed('desc', function(d) { return sort.mode === 'desc' && sort.field === d.code; })
-        .select('.column-name').text(function(d) { return d.name; });
+        .classed('desc', function(d) { return sort.mode === 'desc' && sort.field === d.code; });
+      th.select('.column-name').text(function(d) { return d.name; });
+      th.select('input').attr('placeholder', function(d) { return d.filter.help; });
+
     }
 
     function tableRow(context) {
@@ -586,10 +622,10 @@
     '2019-05-19'
   ];
   var headers = [
-    { name: 'Suggestion text', code: 'suggestion', type: 'html', filter: { type: 'text', help: 'Case-insensitive JavaScript RegExp syntax' } },
-    { name: '!', title: 'Winner position', code: 'position', size: 'fixed' },
-    { name: '#', title: 'Position in omnipoll', code: 'index', size: 'fixed' },
-    { name: 'Votes count', code: 'votes', type: 'bar', size: 'fixed', filter: { type: 'number', help: '(=|>|<|>=|<=)?<num> | <low>-<high>' } }
+    { code: 'suggestion', type: 'html', filter: { type: 'text' } },
+    { code: 'position', size: 'fixed' },
+    { code: 'index', size: 'fixed' },
+    { code: 'votes', type: 'bar', size: 'fixed', filter: { type: 'number' } }
   ];
 
   var dataTable;
@@ -597,7 +633,7 @@
 
   // Init date selector
   dispatch.on('init.sketch-date', function() {
-    var selector = select('sketch-date', 'Sketch date', dates);
+    var selector = select('sketch-date', languages[state.interfaceLanguage]['sketch-date'], dates);
     selector
       .selected(state.date)
       .on('select', function() {
@@ -611,9 +647,10 @@
 
   // Init view mode selector
   dispatch.on('init.view-mode', function() {
+    var language = languages[state.interfaceLanguage];
     var codes = ['one-line-wide', 'one-line-screen', 'multiline'];
-    var values = ['By one wide line', 'By one line with ellipsis on overflow', 'With word wrapping'];
-    var selector = select('view-mode', 'View mode', codes, values);
+    var values = codes.map(function(d) { return language['view-mode-' + d]; });
+    var selector = select('view-mode', language['view-mode'], codes, values);
     selector
       .selected(state.viewMode)
       .on('select', function() {
@@ -625,9 +662,40 @@
     d3.select('#controls').call(selector);
   });
 
+  // Init interface language selector
+  dispatch.on('init.interface-language', function() {
+    var language = state.interfaceLanguage;
+    var codes = Object.keys(languages);
+    var values = codes.map(function(d) { return languages[language][d] + (language !== d ? ' — ' + languages[d][d] : ''); });
+    var selector = select('interface-language', languages[language]['interface-language'], codes, values);
+    selector
+      .selected(language)
+      .on('select', function() {
+        state.interfaceLanguage = this.code;
+
+        dispatch.call('init');
+      });
+
+    d3.select('#controls').call(selector);
+  });
+
   // Init table
   dispatch.on('init.table', function() {
-    dataTable = table(headers)
+    var language = languages[state.interfaceLanguage];
+    dataTable = table(headers.map(function(d) {
+      var h = { name: language['table-' + d.code], code: d.code, type: d.type || 'text' };
+      if (d.title) {
+        h.title = language['table-' + d.title];
+      }
+      if (d.size) {
+        h.size = d.size;
+      }
+      if (d.filter) {
+        h.filter = { type: d.filter.type, help: language['table-' + d.code + '-filter'] };
+      }
+
+      return h;
+    }))
       .on('filter', function(filters) {
         state.filters = filters;
 
@@ -652,14 +720,17 @@
     if (!state.data) { return; }
 
     var data = state.data[state.date];
-    d3.selectAll('span.date').text(data.date);
-    d3.select('title').text('Twokinds {date} Omnipoll Results'.replace('{date}', data.date));
-    d3.select('#patreon-link').attr('href', data.patreon_link);
-    d3.select('#video-link-full').attr('href', data.youtube_full_link);
-    d3.select('#video-duration-full').text(formatDuration(data.youtube_full_duration));
-    d3.select('#video-link-short').attr('href', data.youtube_short_link);
-    d3.select('#video-duration-short').text(formatDuration(data.youtube_short_duration));
-    d3.select('#comment').text(data.comment);
+    var language = languages[state.interfaceLanguage];
+    d3.select('title').text(template(language.title, { date: data.date }));
+    d3.select('header').html(template(language.header, {
+      date: data.date,
+      patreon_link: data.patreon_link,
+      youtube_full_link: data.youtube_full_link,
+      youtube_full_duration: formatDuration(data.youtube_full_duration),
+      youtube_short_link: data.youtube_short_link,
+      youtube_short_duration: formatDuration(data.youtube_short_duration),
+      comment: data.comment || ''
+    }));
 
     dispatch.call('update');
   });
@@ -703,6 +774,7 @@
   state = loadState(query, {
     date: dates[0],
     viewMode: 'one-line-wide',
+    interfaceLanguage: DEFAULT_LANGUAGE,
     sort: { field: 'votes', mode: 'desc' }
   });
 
