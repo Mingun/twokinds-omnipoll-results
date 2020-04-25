@@ -1,0 +1,3645 @@
+# Translations template for Twokinds Suggestions.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the Twokinds Suggestions project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Twokinds Suggestions 1.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-04-25 13:20+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: data/votes-2020-02-10.json:297
+msgid "\"Dog commands? From Rose? What, like sit?\" Maren asks. To both their surprise, (wolf)Raine immediately sits. The commands still work!"
+msgstr ""
+
+#: data/votes-2020-03-08.json:315
+msgid "\"Dog commands?\" Maren asks. \"From Rose? What, like sit?\" Wolf-form Raine suddenly sits on command with front paws raised like a dog, looking confused."
+msgstr ""
+
+#: data/votes-2020-03-08.json:311
+msgid "\"Fatal Tail-Nom"
+msgstr ""
+
+#: data/votes-2020-03-08.json:78
+msgid "\"Grand Templar Mary Siverlock learns that Eris has broken into a Keidran village where a peace agreement has been made and is not happy about it \""
+msgstr ""
+
+#: data/votes-2019-06-09.json:101
+msgid "\"Human\" Nora attempts to seduce Flora in an attempt to make Trace jealous."
+msgstr ""
+
+#: data/votes-2019-06-02.json:385
+msgid "\"Human\" Nora attempts to seduce Flora to make Trace jealous."
+msgstr ""
+
+#: data/votes-2020-03-08.json:307
+msgid "\"It's, Its a Dinosaur.\" Zen as Dr. Grant, and Raine as Dr. Sattler in a TK version of the welcome to Jurassic Park scene."
+msgstr ""
+
+#: data/votes-2019-06-02.json:133 data/votes-2019-06-09.json:321
+#: data/votes-2019-06-16.json:257
+msgid "\"Keith's Boobhat\" Redux"
+msgstr ""
+
+#: data/votes-2020-03-08.json:12
+msgid "\"Laura's Pet\" Redux but with a lusty fem Keith in Laura's position and male Laura in Keith's position."
+msgstr ""
+
+#: data/votes-2020-03-08.json:265
+msgid "\"Preparing for the Saria and Trace wedding. Saria asks Rose to be her bridesmaid. Rose doubts this is a good idea but Saria convinces her. \""
+msgstr ""
+
+#: data/votes-2019-12-22.json:256
+msgid "\"Tribal Flora\" Redraw."
+msgstr ""
+
+#: data/votes-2019-10-20.json:297
+msgid "( Cat ) Nora trying to seduce Flora to make Trace jealous."
+msgstr ""
+
+#: data/votes-2019-08-04.json:223
+msgid "(birthday aftermath:) Nibbly laying on the cake plate surrounded by crumbs, too full to move - only the candles remain"
+msgstr ""
+
+#: data/votes-2020-02-10.json:15
+msgid "(wolf) Raine goddess of the hunt."
+msgstr ""
+
+#: data/votes-2020-02-10.json:11
+msgid "15 years in the future, an older, grizzled Keith drinks away his sorrows at a tavern/bar crying about how he couldn't save Alaric or Laura and now Natani."
+msgstr ""
+
+#: data/votes-2019-12-22.json:241
+msgid "3rd part of Mistletoe Kathrin. She tries to us it on Eric, only to fail and kisses trace"
+msgstr ""
+
+#: data/votes-2019-12-22.json:259
+msgid "A Battle Royale of female Keidrans, Fighting each other over who will be with Mike. Mike is off to the side tied up with a sign that says, \"To the Winner!\""
+msgstr ""
+
+#: data/votes-2019-10-20.json:147
+msgid "A Evil Kat means it would be better now to amputate Zen's leg ."
+msgstr ""
+
+#: data/votes-2019-09-15.json:286
+msgid "A Guys-To-Girls night with Zen and Sythe, but femZen has already had a few drinks and can't recognize femSythe."
+msgstr ""
+
+#: data/votes-2019-12-22.json:141 data/votes-2020-02-10.json:199
+msgid "A Husky Keidran in a wintry forest."
+msgstr ""
+
+#: data/votes-2019-08-25.json:137
+msgid "A Keidran slave market, Eric's parents are purchasing Evals, but a young Eric wants Mike too."
+msgstr ""
+
+#: data/votes-2019-10-20.json:309
+msgid "A Norwegian Forest Cat keidran, dressed in Viking warrior armor/garb, riding aboard a Viking ship with other fellow Viking cat keidran, all sailing for war."
+msgstr ""
+
+#: data/votes-2020-03-08.json:249
+msgid "A Pinup of Loona in Hell from \"Helluva Boss\""
+msgstr ""
+
+#: data/votes-2020-02-10.json:19
+msgid "A Re-Draw of Keidran Trace- 'Sit': Tigress Trace Edition"
+msgstr ""
+
+#: data/votes-2019-12-22.json:51
+msgid "A Riftwall Christmas: Maeve and her cousins watch hungerly as Adira and Amelia put the finishing touches on the Riftwall family christmas dinner."
+msgstr ""
+
+#: data/votes-2019-08-25.json:117
+msgid "A Snow Leopard Keidran exploring human cities as he studies the humans in their natural habitat."
+msgstr ""
+
+#: data/votes-2019-12-22.json:168
+msgid "A TK version of the National Lampoons Christmas Vacation poster but with Kat and her fur is now poofed out from the shock"
+msgstr ""
+
+#: data/votes-2019-06-09.json:89
+msgid "A Tigress noble joins two male human cartographers map out the Tiger territory, similar to Lewis and Sacajawea"
+msgstr ""
+
+#: data/votes-2019-05-19.json:131
+msgid "A Twokinds take on the “distracted boyfriend” meme with Eric, Kat and Iris"
+msgstr ""
+
+#: data/votes-2020-02-10.json:247
+msgid "A blushing Trace sitting down on a throne, surrounded by Flora, Maren, Karen, Saria, and humanoid Nora looking at him tenderly. (AKA Harem King Trace)"
+msgstr ""
+
+#: data/votes-2019-12-22.json:201
+msgid "A christmas truce just as there was during WW1 in our world."
+msgstr ""
+
+#: data/votes-2019-06-02.json:325
+msgid "A collar transformed miss nibs snuggling a sythe body pillow."
+msgstr ""
+
+#: data/votes-2019-06-09.json:329
+msgid "A confused Colin and Sam find themselves in Halfkinds forms, to Sam's utter delight."
+msgstr ""
+
+#: data/votes-2020-03-08.json:200
+msgid "A cute scene. Brutus give Fem Clovis (sister) a kiss"
+msgstr ""
+
+#: data/votes-2020-02-10.json:173
+msgid "A desparate, coffee deprived Landen brawls with an enthusiastic King Adelaide over who's first in line at the local coffee shop."
+msgstr ""
+
+#: data/votes-2019-12-22.json:147
+msgid "A dog sled, pulled by keidranified Red and Raine as lead dogs, and Sythe and Zen as wheelers, all driven by a manically laughing Maren as musher."
+msgstr ""
+
+#: data/votes-2019-08-11.json:212
+msgid "A happily drunk Natani sticking out the top of a party limo with a bottle of vodka in the Las Vegas night."
+msgstr ""
+
+#: data/votes-2019-08-11.json:116
+msgid "A human cartographer meets the fluffy snow Basitins of Castle Heywood."
+msgstr ""
+
+#: data/votes-2020-03-08.json:289
+msgid "A look into the sexy Keidren all-male bath house."
+msgstr ""
+
+#: data/votes-2019-08-04.json:219
+msgid "A loose and drunk Natani sticking out the top of a party limo with a bottle of vodka in the Las Vegas night."
+msgstr ""
+
+#: data/votes-2019-08-25.json:133
+msgid "A poodle keidran wants to give Natani a haircut"
+msgstr ""
+
+#: data/votes-2019-09-15.json:169
+msgid "A rainforest tiger huntress makes first contact by sneaking into a human tavern in the night. The scared female owner tries repeatedly to whack her with a broom whilst the huntress is trying to calm her down."
+msgstr ""
+
+#: data/votes-2019-08-11.json:134
+msgid "A redraw of Maren and Sythe sharing a pizza after the battle on the page from May 14, 2004"
+msgstr ""
+
+#: data/votes-2019-10-20.json:175
+msgid "A redrawn updated version of the \"Trading Halves\" side comic page from way back"
+msgstr ""
+
+#: data/votes-2019-06-09.json:377
+msgid "A remake of \"Basitin Ice Cream\""
+msgstr ""
+
+#: data/votes-2020-03-08.json:273
+msgid "A remake of \"first hugs\" of Natani and Keith from page 235."
+msgstr ""
+
+#: data/votes-2019-06-02.json:121
+msgid "A remake of the \"Basitin Ice Cream\""
+msgstr ""
+
+#: data/votes-2019-06-16.json:169
+msgid "A remake/update of \"Basitin Ice Cream\""
+msgstr ""
+
+#: data/votes-2019-09-15.json:322
+msgid "A scene where we see Natani through Keith’s eyes. Something like “no matter Natani’s faults, through Keith’s eyes they are perfect”"
+msgstr ""
+
+#: data/votes-2019-12-22.json:120
+msgid "A sequel to Lingerie Proposal"
+msgstr ""
+
+#: data/votes-2019-06-02.json:191
+msgid "A shipment of Sealeen's potions gets mislabeled as a shipment of liquor for Adira's tavern by mistake."
+msgstr ""
+
+#: data/votes-2019-05-19.json:147
+msgid "A shipment of liquor for Adira's bar gets mixed up with a shipment of Sealeen's potions by mistake."
+msgstr ""
+
+#: data/votes-2019-12-22.json:123
+msgid "A studious Red invents a new tail tugging spell. He manages to tug the tails of cat Nora, cat Reni and cat Maren simultaneously."
+msgstr ""
+
+#: data/votes-2019-06-02.json:91 data/votes-2019-06-16.json:165
+msgid "A tigress noble joins two male human cartographers map out the Tiger territory, similar to Lewis and Clark with Sacajawea."
+msgstr ""
+
+#: data/votes-2019-08-04.json:297
+msgid "A very confused and nervous anthro Reni somehow assumes the human throne, becoming \"Queen Reni\""
+msgstr ""
+
+#: data/votes-2019-08-25.json:373
+msgid "A very drunk Natani sticking out the top of a party limo holding a bottle of vodka, in the Las Vegas night."
+msgstr ""
+
+#: data/votes-2020-02-10.json:73
+msgid "A young Keith surprises himself and Alaric by beating him in a sparing match."
+msgstr ""
+
+#: data/votes-2019-12-22.json:192
+msgid "A young Raine receives a little stuffed wolf on Christmas. The tag only reads: From “Father” Christmas."
+msgstr ""
+
+#: data/votes-2019-05-19.json:39
+msgid "A-team vs B-team: Battle of the Bands"
+msgstr ""
+
+#: data/votes-2019-08-25.json:207
+msgid "AU where Natani is a punk rock star with a devil may care attitude, and Kat is a fan asking for autographs."
+msgstr ""
+
+#: data/votes-2019-10-20.json:19
+msgid "AU where Rose is the one who frees Mary and Raine from Trace’s Templars instead of Euchre. Although she makes it clear, it’s more for Raine’s sake than Mary’s."
+msgstr ""
+
+#: data/votes-2020-03-08.json:365
+msgid "AU: Keith And Natani meet as kids. One has a crush on the other!"
+msgstr ""
+
+#: data/votes-2020-03-08.json:361
+msgid "Adelaide and Adira commiserating with each other about the lack of grandchildren to spoil in their future"
+msgstr ""
+
+#: data/votes-2019-08-25.json:165
+msgid "Adelaide and Maddie's Father: Forbidden First Date Edition. Maddie's father sneaks his way into the castle to see Adelaide"
+msgstr ""
+
+#: data/votes-2019-08-11.json:14 data/votes-2019-09-15.json:165
+msgid "Adelaide and Maddie's Father: Forbidden First Date edition. Maddie's father sneaking his way into the castle to see Adelaide"
+msgstr ""
+
+#: data/votes-2019-08-25.json:255
+msgid "Adelaide and Natani joyfully sparring."
+msgstr ""
+
+#: data/votes-2019-05-19.json:229 data/votes-2019-06-02.json:159
+#: data/votes-2019-06-09.json:35 data/votes-2019-06-16.json:227
+#: data/votes-2019-08-04.json:27 data/votes-2019-08-11.json:86
+#: data/votes-2019-08-25.json:321 data/votes-2019-09-15.json:173
+#: data/votes-2019-10-20.json:207
+msgid "Adelaide demolishing a tower by lifting it"
+msgstr ""
+
+#: data/votes-2020-02-10.json:323
+msgid "Adelaide finds a suspiciously iconic, vaguely familiar Norse hammer and decides she likes it enough to bring it home"
+msgstr ""
+
+#: data/votes-2020-02-10.json:263
+msgid "Adelaide in the \"It's like I'm wearing nothing at all\" pose"
+msgstr ""
+
+#: data/votes-2019-05-19.json:255
+msgid "Adelaide in the Highland Games, doing a caber toss."
+msgstr ""
+
+#: data/votes-2019-08-11.json:176
+msgid "Adelaide on a Vista, wearing her king's garb and overlooking the Eastern Basitin Empire."
+msgstr ""
+
+#: data/votes-2019-06-02.json:199
+msgid "Adelaide punches Alabaster for Calling Maddie “a waste”"
+msgstr ""
+
+#: data/votes-2019-10-20.json:211
+msgid "Adelaide's First Date Part 2: Maddie's Father tries to flee the castle the morning after, but Adelaide won't let him go."
+msgstr ""
+
+#: data/votes-2019-06-09.json:219
+msgid "Adira Ref sheet"
+msgstr ""
+
+#: data/votes-2019-05-19.json:313 data/votes-2019-06-02.json:253
+#: data/votes-2019-06-16.json:269
+msgid "Adira Reference Sheet"
+msgstr ""
+
+#: data/votes-2019-09-15.json:33
+msgid "Adira and Adelaide in bikinis at the poolside, enjoying some sunshine while Maddie and Maeve are playing in the pool."
+msgstr ""
+
+#: data/votes-2019-12-22.json:156
+msgid "Adira and Maeve building a messy gingerbread house of the tavern."
+msgstr ""
+
+#: data/votes-2019-12-22.json:60
+msgid "Adira and Maeve opening presents on christmas"
+msgstr ""
+
+#: data/votes-2019-06-09.json:369
+msgid "Adira gets a bit carried away taste testing a new ale for the tavern. Drunk Adira is drunk."
+msgstr ""
+
+#: data/votes-2019-06-09.json:189
+msgid "Adira reference sheet"
+msgstr ""
+
+#: data/votes-2020-02-10.json:67
+msgid "Adira teaching human adventurer how to court male snow leopards."
+msgstr ""
+
+#: data/votes-2019-08-11.json:112
+msgid "Adira vs. Maren in a Tavern Maiden competition. Who is the sexiest tavern maiden? Karen covers Maeve's innocent eyes in the background."
+msgstr ""
+
+#: data/votes-2019-12-22.json:238
+msgid "Adira, Amelia and Maeve host their special holiday party in Riftwall for all their patrons"
+msgstr ""
+
+#: data/votes-2019-05-19.json:167
+msgid "Adrakist Nibbly flying around on wings of fire searching for acorns for the winter. Scythe chasing after in fear she'll fall."
+msgstr ""
+
+#: data/votes-2019-10-20.json:83
+msgid "Adria running the tavern on Halloween dressed as Elvira."
+msgstr ""
+
+#: data/votes-2019-10-20.json:95
+msgid "Adult Karen trying to shop for clothes her increasingly odd mismash of bodyparts"
+msgstr ""
+
+#: data/votes-2019-12-22.json:180
+msgid "Adult Maddie and Maeve in Christmas Outfits."
+msgstr ""
+
+#: data/votes-2019-08-04.json:135
+msgid "Adult Maeve tries to get Adult Maddie to wear a bikini, who freaks out about being in public while wearing so little"
+msgstr ""
+
+#: data/votes-2019-06-09.json:181
+msgid "After Trace wakes from a nightmare about Flora, he holds his sleeping fiancee and unborn child, whispering a promise into her ear: that he'll never let anyone hurt them. Not even himself."
+msgstr ""
+
+#: data/votes-2019-06-16.json:173
+msgid "After Trace wakes from a nightmare about Flora, he holds his sleeping fianceé and unborn child, whispering a promise into her ear: that he'll never let anyone hurt them. Not even himself."
+msgstr ""
+
+#: data/votes-2019-08-25.json:31
+msgid "After a talk about their failures with men, Kat convinces Nora to pretend to be Keith for her in the dreamscape."
+msgstr ""
+
+#: data/votes-2019-05-19.json:59 data/votes-2019-06-02.json:59
+#: data/votes-2019-06-16.json:325
+msgid "After dinner in Vixen & Vixen, Maren walks Raine home. Wolf girl still isn't sure if it was a date and if she should give Maren a goodbye kiss or not."
+msgstr ""
+
+#: data/votes-2019-08-11.json:318
+msgid "After dinner in Vixen & Vixen, Maren walks Raine home. Wolf girl still isn't sure if it was a date and if she should give Maren a goodbye kiss."
+msgstr ""
+
+#: data/votes-2019-08-04.json:231
+msgid "After waking from a nightmare about Flora, Trace holds his fiancée and unborn child, whispering a promise into her ear: that he will never let anyone hurt them. Not even himself."
+msgstr ""
+
+#: data/votes-2019-08-11.json:74
+msgid "After waking from a nightmare about Flora, Trace holds his sleeping fiancée and unborn child, whispering a promise into her ear: that he will never let anyone hurt them. Not even himself."
+msgstr ""
+
+#: data/votes-2019-08-25.json:243
+msgid "After waking from a terrible nightmare, Trace holds his sleeping fiancée in his arms, whispering a promise into her ear: that he'll never let anyone hurt them. Not even himself."
+msgstr ""
+
+#: data/votes-2019-06-02.json:349
+msgid "After winning the NASCAR Cup championship, Zen lifts the championship trophy in the air in celebration of his achievement."
+msgstr ""
+
+#: data/votes-2019-06-16.json:47
+msgid "Alaric and Keith’s nude beach vacation"
+msgstr ""
+
+#: data/votes-2019-10-20.json:305
+msgid "Alaric unveiling King Adelaide's new statue."
+msgstr ""
+
+#: data/votes-2019-06-09.json:173
+msgid "Alternate Universe where Raine lives with Keidran and is mortified when she uncontrollably turns into a human."
+msgstr ""
+
+#: data/votes-2019-06-02.json:309
+msgid "Alternate Universe: Grand Templar Trace leads a grand assault against King Adelaide."
+msgstr ""
+
+#: data/votes-2019-09-15.json:213
+msgid "Alternate Universe: Grand Templar Trace leads a massive assault against King Adelaide, forcing his way to the castle."
+msgstr ""
+
+#: data/votes-2019-05-19.json:201
+msgid "Amelia Riftwall comes to visit her young niece; Kitten Maeve's cuteness finally makes her smile."
+msgstr ""
+
+#: data/votes-2019-08-11.json:232
+msgid "An accidental fusion between Keith and Natani due to careless actions"
+msgstr ""
+
+#: data/votes-2020-03-08.json:257
+msgid "An angry Raine (Halfkind form) shouts at Euchre and Mary for abandoning and neglecting her, respectively, declaring that she's proud of who she is-human, halfkind and keidran."
+msgstr ""
+
+#: data/votes-2020-02-10.json:101
+msgid "An angry Raine (in her halfway form) shouts at Euchre and Mary for abandoning and neglecting her respectively, and declares that she is proud of who she is."
+msgstr ""
+
+#: data/votes-2019-10-20.json:301
+msgid "An older, grizzled Keith drinking away his sorrows at a tavern/bar crying about how he couldn't save Alaric or Laura and now Natani."
+msgstr ""
+
+#: data/votes-2019-12-22.json:213
+msgid "An older, grizzled Keith drinking away his sorrows at a tavern/bar, crying about how he couldn't save Alaric or Laura and now Natani."
+msgstr ""
+
+#: data/votes-2019-06-16.json:275
+msgid "An overeager Reni tries lighting some magical fireworks for the group. Ends up setting off the whole box"
+msgstr ""
+
+#: data/votes-2019-08-04.json:141
+msgid "An overeager Reni tries to light some magical fireworks for the group, accidentally sets off all of them"
+msgstr ""
+
+#: data/votes-2019-05-19.json:191
+msgid "An update of the old \"Basitin Ice Cream\" comic"
+msgstr ""
+
+#: data/votes-2020-03-08.json:116
+msgid "Angel Flora fighting an out of control Demon Tiger Trace to bring him back to his senses"
+msgstr ""
+
+#: data/votes-2019-08-04.json:125
+msgid "As referenced by 1072, Brutus is told by Clovis that he is liked the best while drunk."
+msgstr ""
+
+#: data/votes-2020-03-08.json:204
+msgid "Baby Nibbly"
+msgstr ""
+
+#: data/votes-2019-09-15.json:205
+msgid "Back to School - The TK gang in their back to school clothes, getting ready to get on the bus."
+msgstr ""
+
+#: data/votes-2019-08-11.json:108
+msgid "Barbecue cookout with the gang"
+msgstr ""
+
+#: data/votes-2019-12-22.json:17
+msgid "Bastian Nora"
+msgstr ""
+
+#: data/votes-2020-03-08.json:128
+msgid "Beach party trio redraw"
+msgstr ""
+
+#: data/votes-2020-03-08.json:347
+msgid "Behind the scenes: Maren and Rain talk about getting changed into Keidran while Karen almost passes out in the background from hyperspeed changing her bikini to get the colorchange"
+msgstr ""
+
+#: data/votes-2019-08-11.json:302
+msgid "Bikini Laura and Natani side by side."
+msgstr ""
+
+#: data/votes-2019-08-11.json:22
+msgid "Bikini Madness pt 2 Adult Meave and Maddie both in swimwear."
+msgstr ""
+
+#: data/votes-2019-05-19.json:15
+msgid "Birbkinds! What would a bird keidran look like?"
+msgstr ""
+
+#: data/votes-2019-08-25.json:107
+msgid "Body Swap Shenanigans continued: After swapping bodies with Nibbly, Maren swaps with Scythe, but Nibbly doesn't notice."
+msgstr ""
+
+#: data/votes-2019-08-11.json:102
+msgid "Body swap! Maren is now in Nibbly's body and Nibbly in Maren's. Cue panicked squirrel Maren and Sythe wondering why \"Maren\" is suddenly so affectionate. And so undressed."
+msgstr ""
+
+#: data/votes-2019-06-16.json:329
+msgid "Boys locker room meme: the girls having a normal conversation in their locker room while the boys have the sickest party ever in the boys locker room"
+msgstr ""
+
+#: data/votes-2019-06-02.json:63
+msgid "Boys locker room meme: the girls in their locker room having a normal conversation about feminine stuff while the boyshave the sickest party ever in the boys locker room"
+msgstr ""
+
+#: data/votes-2019-06-09.json:53
+msgid "Boys locker room meme: the girls in their locker room having a normal conversation while the boys have the sickest party ever in the boys locker room"
+msgstr ""
+
+#: data/votes-2020-02-10.json:63
+msgid "Brutus asks Clovis when his wonderful sister will come again. Clovis replies that she will never come again. Brutus is saddened and Clovis add: \"...but I'm not sure\"."
+msgstr ""
+
+#: data/votes-2019-08-25.json:185
+msgid "Brutus gets a full view of Clovis' treacherous tail"
+msgstr ""
+
+#: data/votes-2019-10-20.json:223
+msgid "Brutus offers “services” to Clovis, who’s all “Heck No” but gives in, and then we get to see a Melted Clovis as Brutus turns out to be a good masseuse."
+msgstr ""
+
+#: data/votes-2019-12-22.json:165
+msgid "Candle-lit dinner with Sythe and CatMaren (like scene from “Magical Mishaps” page 15 frame 1)"
+msgstr ""
+
+#: data/votes-2019-08-25.json:305
+msgid "Cat Keidran Maren in an even more provocative maid outfit. Sythe is amused."
+msgstr ""
+
+#: data/votes-2019-06-09.json:277
+msgid "Cat Keidran Nora pushes Trace too far. He finally snaps and chains her up in the dungeon – mission accomplished!"
+msgstr ""
+
+#: data/votes-2019-08-04.json:239
+msgid "Cat Keidran Nora teaching Cat Keidran Reni on how to win over a human heart and Red blurts out how Nora never won over Trace, embarrassing Nora."
+msgstr ""
+
+#: data/votes-2019-08-11.json:236
+msgid "Cat Maid Cat Nora"
+msgstr ""
+
+#: data/votes-2019-08-25.json:291
+msgid "Cat Maren chasing Nibbly in to tree"
+msgstr ""
+
+#: data/votes-2019-06-16.json:155
+msgid "Cat Maren subconsciously headbutting Scythe and going into full denial when told it means she really likes him."
+msgstr ""
+
+#: data/votes-2019-06-02.json:397
+msgid "Cat Maren subconsciously headbutts Scythe (anywhere on his body, could be his head, shoulders, pecks, it don't matter) and then goes into full denial when told that doing do is a form of endearment."
+msgstr ""
+
+#: data/votes-2019-08-04.json:63
+msgid "Cat Nora and Kat bonding over their guy problems."
+msgstr ""
+
+#: data/votes-2019-08-04.json:161 data/votes-2019-08-11.json:284
+msgid "Cathleen teaching young Keith how to fight with a spear"
+msgstr ""
+
+#: data/votes-2019-06-09.json:93 data/votes-2019-06-16.json:111
+msgid "Cathleen teaching young Keith how to fight with a spear Western Basitin style"
+msgstr ""
+
+#: data/votes-2019-08-25.json:55
+msgid "Cathleen telling Cornelius she’s pregnant"
+msgstr ""
+
+#: data/votes-2019-06-02.json:171
+msgid "Cathleen telling Cornelius she’s with child"
+msgstr ""
+
+#: data/votes-2019-05-19.json:135
+msgid "Cathleen tells Cornelius they are having a baby"
+msgstr ""
+
+#: data/votes-2019-10-20.json:241
+msgid "Chalchiuhtlicue (Calamity), from \"No Evil\""
+msgstr ""
+
+#: data/votes-2019-12-22.json:23
+msgid "Chalchiuhtlicue, Calamity from No Evil"
+msgstr ""
+
+#: data/votes-2019-05-19.json:67
+msgid "Chaos has acquired the Wabbajack! Now Mekkan shall know the mask's true power!"
+msgstr ""
+
+#: data/votes-2020-02-10.json:315
+msgid "Chaos summons Florida Man! The balance between order and chaos on Mekkan shifts to become overwhelmingly chaotic."
+msgstr ""
+
+#: data/votes-2019-09-15.json:139
+msgid "Chibi noodle dragon Maddie, quips from Mom and Natani"
+msgstr ""
+
+#: data/votes-2019-06-09.json:313
+msgid "Chimera V. Adelaide: Arm Wrestle For The Crown!"
+msgstr ""
+
+#: data/votes-2019-08-04.json:333
+msgid "Chimera and flora bonding."
+msgstr ""
+
+#: data/votes-2019-12-22.json:198
+msgid "Chimera enjoys her first Christmas."
+msgstr ""
+
+#: data/votes-2019-12-22.json:99
+msgid "Christmas: Maddie and Maeve roll an \"ecstatic\" Keith into a snowman. Natani is amused."
+msgstr ""
+
+#: data/votes-2019-05-19.json:317
+msgid "Clovis Reference Sheet"
+msgstr ""
+
+#: data/votes-2019-12-22.json:96
+msgid "Clovis and Brutus go clothes shopping"
+msgstr ""
+
+#: data/votes-2020-02-10.json:231
+msgid "Clovis and Brutus order pizza at Tom's. When reading the menu Brutus cant make up his mind, and Clovis impatiently make the choice for him."
+msgstr ""
+
+#: data/votes-2019-05-19.json:107
+msgid "Clovis contemplating some evil plan, with an angel fox on one shoulder and devil wolf on the other telling him what to do"
+msgstr ""
+
+#: data/votes-2019-05-19.json:163
+msgid "Clovis has been made a slave and becomes a model for Eric"
+msgstr ""
+
+#: data/votes-2019-06-16.json:71
+msgid "Clovis has been made a slave and becomes a model for Eric - joining up with cat!Nora!"
+msgstr ""
+
+#: data/votes-2019-06-02.json:321 data/votes-2019-06-09.json:215
+msgid "Clovis has been made a slave and ends up as a model for Eric"
+msgstr ""
+
+#: data/votes-2019-10-20.json:233
+msgid "Clovis is brought to Kats Dress shop by Brutus after the bath."
+msgstr ""
+
+#: data/votes-2019-06-02.json:195 data/votes-2019-06-09.json:229
+msgid "Clovis reference sheet"
+msgstr ""
+
+#: data/votes-2019-10-20.json:71
+msgid "Clovis squirming at his desk trying to work, knees together, paws clenched. He hasn't put it together yet, but its his first spring in his new body."
+msgstr ""
+
+#: data/votes-2020-03-08.json:226
+msgid "Clovis, bruts and calver banished in the phantom zone (old school)"
+msgstr ""
+
+#: data/votes-2019-08-04.json:177
+msgid "Colin and Sam Potts find themselves subject to a species swap. Colin gets flustered by the change; Sam reaction... doesn't help."
+msgstr ""
+
+#: data/votes-2019-10-20.json:313
+msgid "Colin and Sam dress up as each other for Halloween. A little seasonal witchy magic gives the costumes more 'authenticity'."
+msgstr ""
+
+#: data/votes-2019-08-11.json:98
+msgid "Colin and Sam find themselves subject to a species swap. Colin gets flustered by the change; Sam reaction... doesn't help."
+msgstr ""
+
+#: data/votes-2019-06-09.json:317
+msgid "Colin trying to be smooth in an attempt to charm the viewer, but fails to think of a decent line"
+msgstr ""
+
+#: data/votes-2020-02-10.json:337
+msgid "Current Maddie is down about not have been able to woo Keith, and so enjoys summoned sweets for v-day with Karen."
+msgstr ""
+
+#: data/votes-2019-12-22.json:253
+msgid "Cute Kat in socks"
+msgstr ""
+
+#: data/votes-2019-05-19.json:301
+msgid "D&D classes Trace-Wizard Keith-Fighter Natani-Rogue Flora-Ranger. Kathrin as the Dungeon Master."
+msgstr ""
+
+#: data/votes-2020-02-10.json:143
+msgid "Dark Trace force to relive the memories of 2012 mistletoe incident"
+msgstr ""
+
+#: data/votes-2019-06-02.json:129
+msgid "Deliveryman Tom Reference Sheet"
+msgstr ""
+
+#: data/votes-2019-05-19.json:83 data/votes-2019-06-02.json:357
+#: data/votes-2019-06-09.json:121 data/votes-2019-06-16.json:309
+msgid "Deltarune! Maddie as Kris, Karen as Susie and Maeve as Ralsei"
+msgstr ""
+
+#: data/votes-2020-02-10.json:271
+msgid "Doggy Dragon. Nora gets a taste of her own medicine when one fateful prank hits a mirror, flinging a dog's mind back into herself. Oops! Suddenly her powerful dragon body obeys the dog, ignores her, and begins acting like a giant silly puppy."
+msgstr ""
+
+#: data/votes-2019-06-16.json:321
+msgid "Dragon Natani + traitorous leg, Keith checks if Natanis leg would kick in her dragon form, Rose is not amused giving them a stern look through a hole in the wall."
+msgstr ""
+
+#: data/votes-2020-03-08.json:178
+msgid "Dragon Nora flying alongside a Lockheed/Martin Sr-71 blackbird"
+msgstr ""
+
+#: data/votes-2019-06-02.json:27
+msgid "Dragon Trace and Flora"
+msgstr ""
+
+#: data/votes-2019-06-02.json:109
+msgid "Dragon gals night out: Nora, Reni and Saraphina (any form: human, dragon, bit of both) relax in an onsen and watch the first snow of winter."
+msgstr ""
+
+#: data/votes-2019-08-04.json:185
+msgid "Draw Maddie in 30 seconds / 3 minutes / 30 minutes."
+msgstr ""
+
+#: data/votes-2019-08-11.json:28
+msgid "Drunk Clovis kisses Brutus, then sobers up and kisses him again"
+msgstr ""
+
+#: data/votes-2020-03-08.json:351
+msgid "Drunk Natani sticking out the top of a limo with a bottle vodka down a neon street."
+msgstr ""
+
+#: data/votes-2019-12-22.json:87
+msgid "During a snowy night time walk about, Zen and Raine stop to take a selfie with a scenic view looking out over a brightly lit city."
+msgstr ""
+
+#: data/votes-2019-10-20.json:293
+msgid "Eric Persuade Rose to be his model"
+msgstr ""
+
+#: data/votes-2019-10-20.json:191
+msgid "Eric and Alaric discuss the finer points of lewd modelling"
+msgstr ""
+
+#: data/votes-2020-02-10.json:319
+msgid "Eric get's feedback on his suggestions from the crew"
+msgstr ""
+
+#: data/votes-2019-06-02.json:215
+msgid "Eric meets Kat’s Evil Twin"
+msgstr ""
+
+#: data/votes-2019-12-22.json:210
+msgid "Eric teaches Kat how to paint (Fem Mike is the one being painted and isn't happy)"
+msgstr ""
+
+#: data/votes-2019-12-22.json:26
+msgid "Eric the new Grand Templar"
+msgstr ""
+
+#: data/votes-2019-12-22.json:183
+msgid "Eric tries out being an art critic, critiquing paintings with many vague, technical terms. Kat is impressed, but nobody else is entirely convinced."
+msgstr ""
+
+#: data/votes-2019-06-09.json:83
+msgid "Eric tries to buy Keidran kitty Nora"
+msgstr ""
+
+#: data/votes-2019-06-09.json:145
+msgid "Eric, fed up that no one has requested a ref sheet of him, decides to draw his own ref sheet."
+msgstr ""
+
+#: data/votes-2019-05-19.json:233
+msgid "Eris is just about to creat Frankenstein's monster as evil trace comes over and is stared at by the monster awakened to life"
+msgstr ""
+
+#: data/votes-2019-06-02.json:103
+msgid "Eris is just about to create Frankenstein's monster as evil Trace comes over and is stared at by the monster awakened to life"
+msgstr ""
+
+#: data/votes-2019-06-16.json:189 data/votes-2019-08-04.json:153
+#: data/votes-2019-10-20.json:67
+msgid "Eris is traveling to catch several critters to fulfill their frankenstein project. But she has to be careful how she was not allowed to get caught by the Templars back then"
+msgstr ""
+
+#: data/votes-2019-08-11.json:200 data/votes-2019-08-25.json:247
+#: data/votes-2019-09-15.json:250
+msgid "Eris is traveling to catch several critters to fulfill their frankenstein project. But she has to be careful how she was not allowed to get caught by the Templars back then (part 1)"
+msgstr ""
+
+#: data/votes-2019-08-25.json:23
+msgid "Evals begs advice from a pleased but exhausted looking Mike as he adds yet another entry into his little black book."
+msgstr ""
+
+#: data/votes-2019-10-20.json:161
+msgid "Evals enlists his drop-dead gorgeous sister to convince Mike to return to dog-keidran lands with them"
+msgstr ""
+
+#: data/votes-2019-12-22.json:75
+msgid "Evals sister Erilas returns for Christmas and wants to sit on Santa Mike's lap and tell him all the naughty stuff she resisted doing that year."
+msgstr ""
+
+#: data/votes-2020-02-10.json:349
+msgid "Evals whereing a dog muzzle at a park near a sign."
+msgstr ""
+
+#: data/votes-2020-03-08.json:36
+msgid "Everyone in the manor (including human Reni) spend a day making arts and crafts in the main hall."
+msgstr ""
+
+#: data/votes-2019-06-09.json:285
+msgid "Evil Kat and Flora tormenting Tiger trace."
+msgstr ""
+
+#: data/votes-2019-08-04.json:113
+msgid "Evil Trace as Anakin vs Keith as Obi-Wan from Star Wars Episode III"
+msgstr ""
+
+#: data/votes-2019-06-16.json:103
+msgid "Exhausted after being freed from slavery Rose falls asleep on Saria’s shoulder."
+msgstr ""
+
+#: data/votes-2019-06-16.json:89
+msgid "Fallen Angel Vixen Keidran"
+msgstr ""
+
+#: data/votes-2019-10-20.json:119
+msgid "Family Halloween fun: Trace paints a jack 'o' lantern on Flora's tummy!"
+msgstr ""
+
+#: data/votes-2020-02-10.json:155
+msgid "Family Valentine: Trace and Flora sharing the love with their unborn child"
+msgstr ""
+
+#: data/votes-2019-05-19.json:237
+msgid "Farmer Flora - It Ain't Much but it's Honest Work"
+msgstr ""
+
+#: data/votes-2019-06-16.json:223
+msgid "Fashion Show 2: The big surprise reveal that Kathrin didn't want Eric spoiling too soon. Showing off the new line of lingerie/knickers."
+msgstr ""
+
+#: data/votes-2020-02-10.json:121
+msgid "Feline Maren Dakimakura"
+msgstr ""
+
+#: data/votes-2019-06-16.json:295
+msgid "Feline for Sale 3: Eric promotes Nora to supervisor. Mike and Evals are uncomfortable with this arrangement."
+msgstr ""
+
+#: data/votes-2019-10-20.json:249
+msgid "Fem Mike trying to figure how to use the bathroom"
+msgstr ""
+
+#: data/votes-2020-02-10.json:105
+msgid "FemKeith and Keith Bathtime."
+msgstr ""
+
+#: data/votes-2019-05-19.json:213 data/votes-2019-06-09.json:39
+#: data/votes-2019-06-16.json:15
+msgid "FemKeith uses her chest bandages to banish Keith to the pocket dimension."
+msgstr ""
+
+#: data/votes-2019-06-16.json:151
+msgid "FemKeith vs Natani Boxing Match."
+msgstr ""
+
+#: data/votes-2019-06-16.json:215 data/votes-2019-08-11.json:46
+#: data/votes-2019-08-25.json:87
+msgid "Female Mike Reference Sheet"
+msgstr ""
+
+#: data/votes-2019-06-02.json:163
+msgid "Female horse Keidran"
+msgstr ""
+
+#: data/votes-2019-12-22.json:159
+msgid "Festive Flora baby bump!"
+msgstr ""
+
+#: data/votes-2019-08-11.json:126
+msgid "First Contact: A curious rainforest tiger huntress sneaks into an inn in a small human village whilst the sun is going down and greets the owners."
+msgstr ""
+
+#: data/votes-2019-08-04.json:121
+msgid "First Contact: Many years ago, a tiger huntress meets a pair of malnourished humans, a brother and sister, who have fled their homes and travelled far into uncharted lands."
+msgstr ""
+
+#: data/votes-2020-03-08.json:285
+msgid "Flora \"Deeper Stretch\" Remake"
+msgstr ""
+
+#: data/votes-2019-12-22.json:81
+msgid "Flora Claus delivering Trace’s present"
+msgstr ""
+
+#: data/votes-2019-05-19.json:151
+msgid "Flora Suggestive Sphinx and Trace Pharaoh"
+msgstr ""
+
+#: data/votes-2019-09-15.json:246
+msgid "Flora accidentally sits on a small canine Keidran."
+msgstr ""
+
+#: data/votes-2019-10-20.json:111
+msgid "Flora against the glass (like Kat against the glass but more stripey)"
+msgstr ""
+
+#: data/votes-2019-10-20.json:187
+msgid "Flora and Kat are suddenly teleported to the future. They're surrounded by modern keidran and are confused by everyone's staring at them in shock for being naked in public."
+msgstr ""
+
+#: data/votes-2019-06-02.json:333
+msgid "Flora and Kat discover a very small mouse Keidran, Kat is nurturing and caring, Flora is hungry"
+msgstr ""
+
+#: data/votes-2019-06-02.json:113 data/votes-2019-06-09.json:357
+#: data/votes-2019-06-16.json:249 data/votes-2019-08-25.json:39
+msgid "Flora and Kat in the “Human Only” bath much to the surprise of ( Human ) Raine and Maren!"
+msgstr ""
+
+#: data/votes-2019-10-20.json:321
+msgid "Flora and Kathrin dress up in expertly tailored Halloween costumes and go on a spooking-spree, scaring Red, Raine and Maren."
+msgstr ""
+
+#: data/votes-2019-09-15.json:83
+msgid "Flora and Tiger trace as demonic version of themselves"
+msgstr ""
+
+#: data/votes-2019-10-20.json:289
+msgid "Flora and Trace dress up for Halloween as Chell and the Weighted Companion Cube from Portal."
+msgstr ""
+
+#: data/votes-2019-08-25.json:195
+msgid "Flora and Trace getting married (Sort of a sequel to the Flora in a wedding dress picture from the art book) or Trace is his groom outfit"
+msgstr ""
+
+#: data/votes-2019-10-20.json:269
+msgid "Flora and Trace on a couch watching a scary movie at night, with Trace freaked out and in Flora's arms."
+msgstr ""
+
+#: data/votes-2019-08-04.json:337
+msgid "Flora as Housecat, that is petted by Trace."
+msgstr ""
+
+#: data/votes-2019-06-16.json:127
+msgid "Flora as a druid in clothes made from leaves and with a retinue of forest animals."
+msgstr ""
+
+#: data/votes-2020-02-10.json:147
+msgid "Flora asks Trace for a hair cut. Trace uses a spell but the spell does not distinguish between hair and fur."
+msgstr ""
+
+#: data/votes-2020-03-08.json:16
+msgid "Flora asks Trace for a hair cut. Trace uses magic but the spell does not distinguish between hair and fur."
+msgstr ""
+
+#: data/votes-2019-09-15.json:12
+msgid "Flora cat kneading"
+msgstr ""
+
+#: data/votes-2019-12-22.json:57
+msgid "Flora costumed as Leeloo from Fifth Element, with Trace as Corbin Dallas."
+msgstr ""
+
+#: data/votes-2019-12-22.json:42
+msgid "Flora eating all of the Christmas treats because of her pregnancy hunger/cravings"
+msgstr ""
+
+#: data/votes-2019-06-16.json:201
+msgid "Flora finds Eric's secret catnip field."
+msgstr ""
+
+#: data/votes-2019-06-02.json:257 data/votes-2019-06-09.json:249
+msgid "Flora finds a harp in the estate and snaps the strings with her claws. An unhappy Roselyn appears."
+msgstr ""
+
+#: data/votes-2019-05-19.json:271
+msgid "Flora finds a harp in the estate but snaps the strings with her claws. An unhappy Roselyn appears."
+msgstr ""
+
+#: data/votes-2019-09-15.json:282
+msgid "Flora gets trapped in a conversation with Trace and Raine who are nerding out about magic."
+msgstr ""
+
+#: data/votes-2019-05-19.json:195
+msgid "Flora getting excited about the changes pregnancy is making to her chest. She's not flat anymore! She decides to try and brag it up to Kat."
+msgstr ""
+
+#: data/votes-2019-05-19.json:183
+msgid "Flora has command of Eric's ship and goes full on pirate queen, giving jargon filled orders to a confused first mate Kat"
+msgstr ""
+
+#: data/votes-2019-12-22.json:225
+msgid "Flora in a bubble bath trying to convince trace to join her"
+msgstr ""
+
+#: data/votes-2019-09-15.json:123
+msgid "Flora in autumn: a portrait of Flora dressed for cool weather among the leaves"
+msgstr ""
+
+#: data/votes-2019-10-20.json:139
+msgid "Flora is a witch! She turned Keith into a newt."
+msgstr ""
+
+#: data/votes-2019-10-20.json:63
+msgid "Flora making a heart with hands"
+msgstr ""
+
+#: data/votes-2019-12-22.json:138
+msgid "Flora receives tons of presents from everyone, but turns out the presents are all items to help with the baby. Flora is not amused by this."
+msgstr ""
+
+#: data/votes-2020-03-08.json:158
+msgid "Flora relaxing in a field"
+msgstr ""
+
+#: data/votes-2019-08-25.json:67
+msgid "Flora running around through town with the TF gun from Addictive Science zapping everyone into half-keidrans and keidrans while laughing maniacally."
+msgstr ""
+
+#: data/votes-2019-06-02.json:211
+msgid "Flora running around zapping people with the TF gun from the Addictive Science web comic behaving very much like Celia."
+msgstr ""
+
+#: data/votes-2019-06-02.json:141
+msgid "Flora see a cardboard box, unfortunately already in use by Kathrin."
+msgstr ""
+
+#: data/votes-2019-08-25.json:309
+msgid "Flora spa time"
+msgstr ""
+
+#: data/votes-2019-12-22.json:195
+msgid "Flora stomps on the Magic Mistletoe for always backfiring. Trace walks in moments later to find an angry Flora with her foot now stuck in her mouth."
+msgstr ""
+
+#: data/votes-2019-10-20.json:151
+msgid "Flora tells a spooky tiger Keidran folk story: the Rakshasa."
+msgstr ""
+
+#: data/votes-2019-05-19.json:159
+msgid "Flora tries coffee after watching the Detective Pikachu movie and is now super awake."
+msgstr ""
+
+#: data/votes-2020-02-10.json:185
+msgid "Flora's magic mishaps half human transformation"
+msgstr ""
+
+#: data/votes-2020-02-10.json:227 data/votes-2020-03-08.json:369
+msgid "Flora(Ori) and the Blind Forest"
+msgstr ""
+
+#: data/votes-2019-10-20.json:45
+msgid "Flora, Kat, Raine, and Natani all shrunk down to Mrs. Nibblys size. Mrs. Nibbly shows them how to travel in their newly acquired size."
+msgstr ""
+
+#: data/votes-2019-08-04.json:41
+msgid "Flora’s bad for day. She just can’t get that mane under control!!!"
+msgstr ""
+
+#: data/votes-2019-08-11.json:138
+msgid "Flora’s bad hair day."
+msgstr ""
+
+#: data/votes-2019-05-19.json:321
+msgid "Fluffkevlar's Female Cosmo takes a interest in Keith, With Nat not letting another wolf steal her mate from her!"
+msgstr ""
+
+#: data/votes-2020-02-10.json:177
+msgid "Fluffy Winter Keith and Fluffy Winter Natani snuggle up and get cozy during a snowstorm"
+msgstr ""
+
+#: data/votes-2019-10-20.json:155
+msgid "For Halloween Flora dresses as herself with a bigger chest."
+msgstr ""
+
+#: data/votes-2019-09-15.json:8
+msgctxt "comment"
+msgid "For some reason, seven suggestions were not included in poll results."
+msgstr ""
+
+#: data/votes-2019-09-15.json:304
+msgid "Fox Trace"
+msgstr ""
+
+#: data/votes-2019-12-22.json:29
+msgid "Frankenstein's monster helps trace and flora with the Christmas decorations"
+msgstr ""
+
+#: data/votes-2019-06-02.json:179
+msgid "Fun fact: snow leopards have large lungs to handle thin mountain air. Madelyn determined to beat Maeve in who can hold their breath longer; Maeve wonders if she should let Madelyn win before she passes out... again"
+msgstr ""
+
+#: data/votes-2019-08-04.json:265
+msgid "Gamer girl Flora"
+msgstr ""
+
+#: data/votes-2019-09-15.json:353
+msgid "Genderswapped Nora and flora fighting over female trace."
+msgstr ""
+
+#: data/votes-2019-12-22.json:219
+msgid "Ghost Laura catches Keith under the enchanted mistletoe leading to ghostly kisses"
+msgstr ""
+
+#: data/votes-2019-12-22.json:117
+msgid "Gingerbread manor! Everyone pitches in to build a gingerbread house that looks like Traces manor. It turns out \"a bit\" bigger than expected"
+msgstr ""
+
+#: data/votes-2020-02-10.json:341
+msgid "Girls Beach Volleyball gets outta control! Trace gets beaned on the sidelines."
+msgstr ""
+
+#: data/votes-2019-08-25.json:251
+msgid "Good Boy Brutus laying under the summer sun. It can be under a tree, or in a field or garden. Something nice."
+msgstr ""
+
+#: data/votes-2019-12-22.json:153 data/votes-2020-02-10.json:129
+msgid "Good Morning Flora, Kat version"
+msgstr ""
+
+#: data/votes-2020-03-08.json:92
+msgid "Good morning Laura"
+msgstr ""
+
+#: data/votes-2019-08-11.json:184
+msgid "Goth Madelyn listening to Linkin Park's Numb"
+msgstr ""
+
+#: data/votes-2020-03-08.json:218
+msgid "Grand Templar Laura and the Slaver Sisters Kathrin and Flora have tea when Laura takes notice of a special Basitin slave boy"
+msgstr ""
+
+#: data/votes-2020-02-10.json:181
+msgid "Grand Templar Mary Siverlock learns that Eris has broken into a Keidran village where a peace agreement has been made and is not happy about it"
+msgstr ""
+
+#: data/votes-2019-06-16.json:197
+msgid "Group B discovers a genie in a box of old trace's stuff and they start arguing on what their wishes should be"
+msgstr ""
+
+#: data/votes-2019-10-20.json:59
+msgid "Guys-to-Girls night with Zen and Sythe, femZen has had too much to drink and starts hitting on femSythe not recognizing him at first."
+msgstr ""
+
+#: data/votes-2019-10-20.json:127
+msgid "Halloween: Zen, all zombie like, tries to teach Raine how to be scary."
+msgstr ""
+
+#: data/votes-2019-12-22.json:90
+msgid "Heart’s Desire: Roselyn After learning of Natani’s Heart’s Desire curse, Roselyn hesitantly asks to receive the curse."
+msgstr ""
+
+#: data/votes-2020-03-08.json:64
+msgid "How Mike got the scar on his face."
+msgstr ""
+
+#: data/votes-2019-05-19.json:11 data/votes-2020-02-10.json:159
+#: data/votes-2020-03-08.json:335
+msgid "How would the fight between Trace and Mary have gone if she had somehow reflected his spell back at him?"
+msgstr ""
+
+#: data/votes-2019-09-15.json:107
+msgid "Human King Adelaide swimsuit pinup"
+msgstr ""
+
+#: data/votes-2019-05-19.json:31
+msgid "Human Nora attempts to seduce Flora to make Trace jealous."
+msgstr ""
+
+#: data/votes-2019-06-02.json:405
+msgid "Human Only Bath 2 Natani ralizes humans can use magic without crystals then leaves and gets depressed"
+msgstr ""
+
+#: data/votes-2019-12-22.json:171
+msgid "Human Reni in a mall, asking Santa for some magical artifacts."
+msgstr ""
+
+#: data/votes-2019-12-22.json:54
+msgid "Human Reni in fur-trimmed winter wear"
+msgstr ""
+
+#: data/votes-2020-03-08.json:277
+msgid "I want Trace and Flora on a motorcycle riding through the mountains in the spring."
+msgstr ""
+
+#: data/votes-2019-08-11.json:188
+msgid "In an alternate version of Magical Mishaps #1's universe, Sythe teaches a nervous keidran Ms. Nibbly to walk on her own."
+msgstr ""
+
+#: data/votes-2020-02-10.json:89
+msgid "In her dreams, Princess Clovis ends up in hell and meets Loona - a hellhound from the \"Helluva Boss\" animation (by Vivienne Medrano)."
+msgstr ""
+
+#: data/votes-2019-08-25.json:103
+msgid "In the AU where Natani and Zen live in the Basitin islands, young Natani and Keith meet for the first time. Keith bashfully offers Natani a flower who bashfully accepts it."
+msgstr ""
+
+#: data/votes-2019-08-04.json:193
+msgid "In the alt universe where Natani and Zen live on the Basitin islands, young Keith and Natani meet for the first time. Keith bashfully offers Natani a flower who bashfully accepts."
+msgstr ""
+
+#: data/votes-2019-06-16.json:35
+msgid "In the alt universe where Zen and Natani live on the Basitin Islands, young Natani and Keith meet for the first time. Keith bashfully offers Natani a flower who bashfully accepts."
+msgstr ""
+
+#: data/votes-2019-06-09.json:265
+msgid "In the alt universe where Zen and Natani live on the Basitin islands, young (kids/early teens) Natani and Keith meet. Keith bashfully gives Natani a flower who bashfully accepts it."
+msgstr ""
+
+#: data/votes-2019-08-11.json:66
+msgid "In the bunny village Mike is bowled over, bunny piled and questioned by a fluffle of curious young bunnies who have realized that this fox with his big fluffy tail is mostly harmless."
+msgstr ""
+
+#: data/votes-2019-09-15.json:103
+msgid "In the bunny village Mike is bowled over, bunny piled and questioned by a small fluffle of curious young bunnies."
+msgstr ""
+
+#: data/votes-2020-03-08.json:182
+msgid "In the rabbit village Mike is bowled over and bunny piled by some curious young rabbits."
+msgstr ""
+
+#: data/votes-2019-10-20.json:325
+msgid "In the rabbit village Mike is bowled over, bunny piled and questioned by a small fluffle of curious young rabbits."
+msgstr ""
+
+#: data/votes-2019-05-19.json:55
+msgid "Indianapolis 500 Kat in a dual seat Indycar riding at full speed."
+msgstr ""
+
+#: data/votes-2019-06-02.json:55
+msgid "Iris, Rose, and Adira model some of Kathrin's clothes"
+msgstr ""
+
+#: data/votes-2019-06-09.json:43
+msgid "It turns out that Nibbly is a secret agent for an organization of squirrels, and she is reporting to her boss who is the King of the Squirrels"
+msgstr ""
+
+#: data/votes-2019-09-15.json:330
+msgid "Karate Kat: All the combat training Natani gave Kat has finally paid off and the two of them spring into picture perfect jumping kicks, worthy of an 80's training montage!"
+msgstr ""
+
+#: data/votes-2019-09-15.json:229
+msgid "Karen meets young Maeve, she shouts \"Look at the cute little kitty! can we keep her?\" While giving her a super tight bear hug. Maren is heard from outside the panel, \"No Karen we cannot keep Maeve.\""
+msgstr ""
+
+#: data/votes-2019-08-25.json:75
+msgid "Karen, ever excited and eager to change herself, meets Nora"
+msgstr ""
+
+#: data/votes-2019-06-16.json:131
+msgid "Karma at last: Nora can't stop her body from behaving like a dog, to her embarrassment, when one of her own pranks backfires."
+msgstr ""
+
+#: data/votes-2019-05-19.json:251
+msgid "Karma finally strikes Nora when a backfired spell sends a random dog's mind into her body and gives it control, making her to act like a dog."
+msgstr ""
+
+#: data/votes-2019-12-22.json:72
+msgid "Kat & Mike's mistletoe kiss fully illustrated. (Mistletoe mistake 2 cont.)"
+msgstr ""
+
+#: data/votes-2020-03-08.json:214
+msgid "Kat against the glass: Flora edition"
+msgstr ""
+
+#: data/votes-2019-08-04.json:57
+msgid "Kat and Adira bathing in a winter hot spring."
+msgstr ""
+
+#: data/votes-2019-08-25.json:279
+msgid "Kat and Eric on date"
+msgstr ""
+
+#: data/votes-2019-06-02.json:43
+msgid "Kat and Evil Kat reenacting the Spider-Man pointing (at Spider-Man) meme"
+msgstr ""
+
+#: data/votes-2019-06-16.json:235
+msgid "Kat and Flora teasing tiger Trace"
+msgstr ""
+
+#: data/votes-2019-09-15.json:242
+msgid "Kat and Zen eat spaghetti, as in the scene from \"Lady and the Tramp\" by Disney."
+msgstr ""
+
+#: data/votes-2019-05-19.json:187
+msgid "Kat as Beatrix LeBeau - slime rancher from the game \"Slime Rancher\", feeding her Tabby Slimes (cat-like slimes)."
+msgstr ""
+
+#: data/votes-2019-06-16.json:265
+msgid "Kat as Black Widow and Eric as Hawkeye"
+msgstr ""
+
+#: data/votes-2019-06-09.json:385
+msgid "Kat as a kitten with her parents"
+msgstr ""
+
+#: data/votes-2019-06-16.json:97
+msgid "Kat as a kitten with her parents playing with a yarn ball"
+msgstr ""
+
+#: data/votes-2019-05-19.json:35
+msgid "Kat as the cyborg girl from the Cyberpunk 2013 trailer"
+msgstr ""
+
+#: data/votes-2019-08-11.json:34
+msgid "Kat complete new clothes for Nora. But Kat wrong with clothes size. Fortunately, the problem is solved much easier when the customer can change own size."
+msgstr ""
+
+#: data/votes-2019-09-15.json:312
+msgid "Kat dancing in the pale moonlight; inksplotch style"
+msgstr ""
+
+#: data/votes-2019-08-25.json:71
+msgid "Kat dancing on some fields on a moonlit night; inksplotch tyle"
+msgstr ""
+
+#: data/votes-2020-03-08.json:355
+msgid "Kat discovers she is able to swap Mikes sex"
+msgstr ""
+
+#: data/votes-2019-10-20.json:273
+msgid "Kat dressed in a witch outfit...but its the bookish kind not the sexy kind"
+msgstr ""
+
+#: data/votes-2019-09-15.json:289
+msgid "Kat gets a sensual 'welcome back' massage from her masseuse mentor that taught her everything she knows"
+msgstr ""
+
+#: data/votes-2020-03-08.json:174
+msgid "Kat gets hit with the heart's desire spell to show a hunkier more forthcoming Eric"
+msgstr ""
+
+#: data/votes-2019-05-19.json:333
+msgid "Kat helps Zen walk again, thanking him for getting her home safe after getting drunk."
+msgstr ""
+
+#: data/votes-2019-08-04.json:181 data/votes-2019-08-11.json:164
+#: data/votes-2019-08-25.json:267 data/votes-2019-09-15.json:53
+#: data/votes-2019-10-20.json:23
+msgid "Kat in a Maid outfit"
+msgstr ""
+
+#: data/votes-2019-10-20.json:337
+msgid "Kat in a cute pose, holding her legs and smiling"
+msgstr ""
+
+#: data/votes-2019-12-22.json:14
+msgid "Kat is stripping clothes from dolls of her friends. Unbeknownst to her, this is compelling her real friends in the Oasis Room to get naked."
+msgstr ""
+
+#: data/votes-2019-06-09.json:349
+msgid "Kat makes Sythe new diplomat clothes. Maren secretly likes the look, but feigns indifference"
+msgstr ""
+
+#: data/votes-2019-06-02.json:329 data/votes-2019-06-16.json:23
+msgid "Kat makes Sythe new diplomat clothes. Maren secretly likes the look, but feigns indifference."
+msgstr ""
+
+#: data/votes-2019-08-04.json:269
+msgid "Kat massages Zen so well his leg recovers"
+msgstr ""
+
+#: data/votes-2020-02-10.json:207
+msgid "Kat meets the triplets from the Dragon Masquerade and they admire each other’s tailoring skills."
+msgstr ""
+
+#: data/votes-2019-08-11.json:78
+msgid "Kat mid-jump into the moonlit pool (upward angle, ink-splotch style)"
+msgstr ""
+
+#: data/votes-2019-05-19.json:291
+msgid "Kat pressing her hands and chest up against a window or the viewer's screen"
+msgstr ""
+
+#: data/votes-2019-10-20.json:131
+msgid "Kat removes clothes from her puppets to make way for new outfits. Meanwhile in the Oasis Room people on the beach are suddenly strangely compelled to get naked."
+msgstr ""
+
+#: data/votes-2019-08-11.json:58 data/votes-2019-08-25.json:145
+#: data/votes-2019-09-15.json:254
+msgid "Kat removes clothes from her puppets to make way for new outfits. Meanwhile in the Oasis Room some people on the beach suddenly feel compelled to get naked."
+msgstr ""
+
+#: data/votes-2019-09-15.json:177
+msgid "Kat sees a dream in which she is pregnant and cries after waking up."
+msgstr ""
+
+#: data/votes-2019-06-09.json:185
+msgid "Kat unleashing the power of ban hammer!"
+msgstr ""
+
+#: data/votes-2019-05-19.json:21
+msgid "Kat uses \"Evil Kat\" to finally experience one of her own massages"
+msgstr ""
+
+#: data/votes-2019-06-16.json:115
+msgid "Kat's Fight Training continuation: Natani actually hits Kathrin."
+msgstr ""
+
+#: data/votes-2020-02-10.json:35
+msgid "Kat's Fight Training sequel: Zen walks in to find Natani unconscious on the floor having been knocked out in one punch by Kathrin."
+msgstr ""
+
+#: data/votes-2020-03-08.json:132
+msgid "Kat, Maren or Natani as Laura Croft, Tomb Raider"
+msgstr ""
+
+#: data/votes-2020-02-10.json:377
+msgid "Kathrin as barman cheering and pouring a drink"
+msgstr ""
+
+#: data/votes-2020-02-10.json:23 data/votes-2020-03-08.json:281
+msgid "Kathrin cheering up Mike after a bad day on Eric's boat."
+msgstr ""
+
+#: data/votes-2019-08-04.json:289
+msgid "Kathrin going for a jog with Mihari."
+msgstr ""
+
+#: data/votes-2019-08-04.json:285 data/votes-2019-08-11.json:336
+msgid "Kathrin in a wedding dress"
+msgstr ""
+
+#: data/votes-2019-08-04.json:201
+msgid "Kathrin on skateboard. cuz why not xD"
+msgstr ""
+
+#: data/votes-2019-05-19.json:63 data/votes-2019-06-02.json:125
+#: data/votes-2019-06-09.json:47
+msgid "Kathrin puts on a fashion show for more of her outfits, with female Trace, Keith, and/or Mike and Evals as the models."
+msgstr ""
+
+#: data/votes-2020-02-10.json:357
+msgid "Kathrin tied to the ground with threads, à la Gulliver's Travels, after Nora makes the puppets of her friends come to life."
+msgstr ""
+
+#: data/votes-2019-08-25.json:169
+msgid "Kathrin wearing a dress, standing in Marilyn Monroe's famous pose from 'The Seven Year Itch'."
+msgstr ""
+
+#: data/votes-2019-06-16.json:211
+msgid "Kathrin's Fast Chicken (KFC) - keidran's fast food. A chicken released on the field and the customer try catch it."
+msgstr ""
+
+#: data/votes-2019-09-15.json:308
+msgid "Kat’s New hand shaken milkshake recipe is a hit with the local guys. Eric dose not understand why."
+msgstr ""
+
+#: data/votes-2019-09-15.json:278
+msgid "Kat’s rollercoaster of emotion as she tries to thread a needle."
+msgstr ""
+
+#: data/votes-2019-12-22.json:132
+msgid "Kei kiss Reni under mistletoe. It's just platonic kiss, but it still making her blush"
+msgstr ""
+
+#: data/votes-2019-06-09.json:11
+msgid "Keidran Maren and Keidran Nibbly cat-fighting for Scythe's attention."
+msgstr ""
+
+#: data/votes-2019-06-16.json:313
+msgid "Keidran Maren and Keidran Nibbly competing for Sythe's attention, who is busy playing with a squeaky duck toy."
+msgstr ""
+
+#: data/votes-2019-06-02.json:229
+msgid "Keidran Maren and Keidran Nibbly fighting for Scythe's affection/attention."
+msgstr ""
+
+#: data/votes-2019-06-09.json:297
+msgid "Keidran Nibbly laying on a bed with her temporary nightwear (like in Magical Mishaps) and in a cute pose."
+msgstr ""
+
+#: data/votes-2019-09-15.json:300
+msgid "Keidran Nibbly nose booping Sythe. By that I mean nose to nose."
+msgstr ""
+
+#: data/votes-2019-06-16.json:85
+msgid "Keidran Raine meets Keidran Maren. This time Maren's the embarrassed one."
+msgstr ""
+
+#: data/votes-2019-06-09.json:193
+msgid "Keidran Raine meets Keidran Maren. This time Maren's the uncomfortable and embarrassed one."
+msgstr ""
+
+#: data/votes-2019-08-04.json:205
+msgid "Keidran Ref sheet: Forest Wolves. Similar to a character ref sheet."
+msgstr ""
+
+#: data/votes-2019-05-19.json:71
+msgid "Keidran crossbreed! Tiger/wolf? Snow leopard/fox?"
+msgstr ""
+
+#: data/votes-2019-08-11.json:204 data/votes-2019-08-25.json:271
+msgid "Keidranized Okami Amaterasu"
+msgstr ""
+
+#: data/votes-2019-10-20.json:245
+msgid "Keith and Alaric are a hot gay couple \"off the set\" of TwoKinds."
+msgstr ""
+
+#: data/votes-2019-06-02.json:365 data/votes-2020-03-08.json:377
+msgid "Keith and Alaric meeting for the first time"
+msgstr ""
+
+#: data/votes-2020-02-10.json:31 data/votes-2020-03-08.json:303
+msgid "Keith and Laura fiery tango dance."
+msgstr ""
+
+#: data/votes-2020-03-08.json:297
+msgid "Keith and Natani are getting very intimate with each other when they are interrupted by Trace walking into the room."
+msgstr ""
+
+#: data/votes-2019-06-09.json:261
+msgid "Keith and Natani at swimming at the beach"
+msgstr ""
+
+#: data/votes-2019-10-20.json:123
+msgid "Keith and Natani carving pumpkins with Natani going on about how great her pumpkins always are and Keith giving her the uh huh, sure they are face"
+msgstr ""
+
+#: data/votes-2019-06-16.json:161
+msgid "Keith and Natani dressed as Razor and T-Bone from Swat Kats"
+msgstr ""
+
+#: data/votes-2019-05-19.json:279 data/votes-2019-06-02.json:23
+#: data/votes-2019-06-09.json:107 data/votes-2019-06-16.json:305
+msgid "Keith and Natani embarrassed by Trace and Flora's overly affectionate behavior during a double date."
+msgstr ""
+
+#: data/votes-2019-12-22.json:177
+msgid "Keith and Natani find a quiet spot during a Christmas party to exchange gifts and kisses"
+msgstr ""
+
+#: data/votes-2019-06-02.json:377
+msgid "Keith and Natani in swimwear at the beach"
+msgstr ""
+
+#: data/votes-2019-10-20.json:31
+msgid "Keith and Natani in the Oasis Room: Natani standing out of the water holding a flustered Keith's swim trunks and telling him if he wants them back he has to come out and get them. Natani's shocked when he does so."
+msgstr ""
+
+#: data/votes-2020-03-08.json:154
+msgid "Keith and Natani making one another flower crowns and basking in a sunspot now that winter's finally over"
+msgstr ""
+
+#: data/votes-2019-10-20.json:167
+msgid "Keith and Natani share a dance and a kiss at a Basitan party, which isn't anywhere near as scandalous as their paws touching"
+msgstr ""
+
+#: data/votes-2019-05-19.json:259
+msgid "Keith and Natani share a warm embrace"
+msgstr ""
+
+#: data/votes-2019-08-11.json:192
+msgid "Keith and Natani show off their dancing skills"
+msgstr ""
+
+#: data/votes-2019-09-15.json:135
+msgid "Keith and Natani, snuggled up together and sipping hot drinks, watching the rain outside"
+msgstr ""
+
+#: data/votes-2019-05-19.json:91
+msgid "Keith and Natini wearing Tony Stark and Pepper Pott's armor from Avengers: Endgame"
+msgstr ""
+
+#: data/votes-2019-06-09.json:19
+msgid "Keith as Marty Mcfly and Trace as Doc Brown from back to the future, standing by the delorean."
+msgstr ""
+
+#: data/votes-2019-08-11.json:298
+msgid "Keith as Snake and Natani as Eva from Metal Gear Solid 3"
+msgstr ""
+
+#: data/votes-2019-06-02.json:393
+msgid "Keith as the Soul Of Cinder from Dark Souls 3."
+msgstr ""
+
+#: data/votes-2019-08-11.json:42
+msgid "Keith gets a turn being the big spoon (or in his case the backpack)"
+msgstr ""
+
+#: data/votes-2019-08-25.json:27
+msgid "Keith on clarinet and Natani on alto sax playing a beautiful duet"
+msgstr ""
+
+#: data/votes-2019-08-11.json:172
+msgid "Keith on the clarinet and Natani on the alto sax for a beautiful duet"
+msgstr ""
+
+#: data/votes-2020-03-08.json:208
+msgid "Keith performs a sexy striptease for Natani."
+msgstr ""
+
+#: data/votes-2020-02-10.json:259
+msgid "Keith proposing to Laura"
+msgstr ""
+
+#: data/votes-2019-08-04.json:301
+msgid "Keith proposing to Natani with young Natani in the background yelling to do it"
+msgstr ""
+
+#: data/votes-2019-06-16.json:185
+msgid "Keith sleeping on the beach, Maddie and Karen play a prank and bury him in sand and sculpt him into a mermaid (with clamshells/starfish on the chest)."
+msgstr ""
+
+#: data/votes-2019-08-04.json:247
+msgid "Keith trying to help Natani home after a long night of drinking and feasting"
+msgstr ""
+
+#: data/votes-2019-06-02.json:245
+msgid "Keith unwrapping birthday present Laura from her potato sack."
+msgstr ""
+
+#: data/votes-2019-08-04.json:235
+msgid "Keith, Natini, Flora, and Trace all star in and try to traverse Magical Wipeout."
+msgstr ""
+
+#: data/votes-2019-10-20.json:329
+msgid "Keith, Natini, Trace, and Flora, wear Enchanted Halloween costumes that turn you into what you’re dressing as"
+msgstr ""
+
+#: data/votes-2019-09-15.json:149
+msgid "King Adelaide's coronation"
+msgstr ""
+
+#: data/votes-2019-06-09.json:201
+msgid "King Crab pinches Flora's bikini bottom!"
+msgstr ""
+
+#: data/votes-2019-06-16.json:193
+msgid "King Krab pinches Flora's Bikini bottom!"
+msgstr ""
+
+#: data/votes-2019-10-20.json:179
+msgid "Kitsune Warrior Raine"
+msgstr ""
+
+#: data/votes-2019-06-16.json:239
+msgid "Kitty Keidran Nora tries to seduce Raine"
+msgstr ""
+
+#: data/votes-2019-06-02.json:261
+msgid "Kitty Maren has a hairball."
+msgstr ""
+
+#: data/votes-2019-06-02.json:353 data/votes-2019-06-09.json:233
+msgid "Lady Nora getting struck by karma and forced to act like a dog, to her embarrassment, when a soulswap spell goes wrong."
+msgstr ""
+
+#: data/votes-2019-08-04.json:281
+msgid "Lady Nora makes a JoJo reference (with the face). Reni has had enough of her shenanigans and is unamused / doesn’t know what’s going on anymore."
+msgstr ""
+
+#: data/votes-2019-06-09.json:149
+msgid "Lady Nora meets Tohru from Miss Kobiyashi's Dragon Maid after Tohru accidently takes a wrong dimensional turn through a rift."
+msgstr ""
+
+#: data/votes-2019-06-02.json:265
+msgid "Lady Nora reads Raine's mind and sees her fanfiction"
+msgstr ""
+
+#: data/votes-2019-06-02.json:19
+msgid "Lady Nora shows Reni how to properly compose herself as a dragon but is flustered & falls over when trace walks by. Reni asks if Nora requires assistance"
+msgstr ""
+
+#: data/votes-2019-06-16.json:333
+msgid "Lady Nora tries to show Reni how to properly compose herself as a dragon but gets flustered and falls over when she see’s trace approaching, Reni asks if Nora requires assistance"
+msgstr ""
+
+#: data/votes-2019-06-09.json:177
+msgid "Lady Nora tries to show Reni how to properly compose herself as a dragon but gets flustered and falls over when she see’s trace, Reni asks if Nora requires assistance"
+msgstr ""
+
+#: data/votes-2019-08-04.json:251
+msgid "Lady Nora's body suddenly stops listening to her and starts acting like a dog (wagging her huge tail, rolling over, playing fetch) after being hit by her own prank spell by accident, in a rare moment of self-inflicted karma."
+msgstr ""
+
+#: data/votes-2019-08-11.json:50
+msgid "Lady Nora, all-powerful dragon, behaving like a enormous playful puppy after a prank backfires, giving a dog control."
+msgstr ""
+
+#: data/votes-2020-03-08.json:108
+msgid "Landen And Madelyn accidentally make a coffee so strong, it turns into a coffee elemental."
+msgstr ""
+
+#: data/votes-2019-06-09.json:15
+msgid "Landen ignores Maeve's longing stare at her cup of joe, but finally caves to cuteness and lets Maeve have her first sip of coffee."
+msgstr ""
+
+#: data/votes-2019-06-02.json:183
+msgid "Landscape sketch of Zen as Wander riding Agro through the Forbidden Lands from Shadow of the Colossus"
+msgstr ""
+
+#: data/votes-2019-12-22.json:63
+msgid "Laura (as the ghost of Christmas Yet to Come), trying to convince Keith (as Scrooge) to change his miserly ways for Christmas-time."
+msgstr ""
+
+#: data/votes-2019-08-04.json:329
+msgid "Laura Daki"
+msgstr ""
+
+#: data/votes-2020-03-08.json:124
+msgid "Laura age chart that includes her elderly form (assuming she never died)."
+msgstr ""
+
+#: data/votes-2019-08-11.json:156
+msgid "Laura alone in outer darkness, lamenting the fact she is forgotten and abandoned."
+msgstr ""
+
+#: data/votes-2019-06-09.json:129
+msgid "Laura as Sci-Fi hologram. Ghost from the Net."
+msgstr ""
+
+#: data/votes-2019-06-02.json:117 data/votes-2019-06-09.json:389
+#: data/votes-2019-06-16.json:93 data/votes-2019-08-04.json:77
+#: data/votes-2019-08-25.json:157 data/votes-2019-09-15.json:197
+#: data/votes-2019-10-20.json:115
+msgid "Laura as Yuna and Lady Nora as Valefor in “I can fly” scene from Final Fantasy X"
+msgstr ""
+
+#: data/votes-2020-03-08.json:222
+msgid "Laura as a breakfast cereal mascot."
+msgstr ""
+
+#: data/votes-2019-05-19.json:325 data/votes-2019-06-02.json:293
+msgid "Laura as a ghost (with ghost tail instead of legs) resting with sleeping Keith. She laying next to him as he is hugging her from behind."
+msgstr ""
+
+#: data/votes-2019-08-25.json:275
+msgid "Laura being cute and snuggling a giant Basitin plushie that in no way looks like Keith."
+msgstr ""
+
+#: data/votes-2019-06-09.json:153
+msgid "Laura daki."
+msgstr ""
+
+#: data/votes-2019-06-09.json:269
+msgid "Laura establishes her king and crowns herself Empress of all things plush and cuddly."
+msgstr ""
+
+#: data/votes-2019-06-16.json:63
+msgid "Laura finding Keith on the beach. But this time Keith washes up on human lands and Laura's a human."
+msgstr ""
+
+#: data/votes-2019-08-25.json:295
+msgid "Laura in the coast guard"
+msgstr ""
+
+#: data/votes-2019-09-15.json:115
+msgid "Laura lighting the lamp of a lighthouse"
+msgstr ""
+
+#: data/votes-2019-08-25.json:191
+msgid "Laura spots a hen house. Her fox instincts kick in."
+msgstr ""
+
+#: data/votes-2019-08-04.json:19
+msgid "Laura spots an undefended hen house. Her fox instincts kick in."
+msgstr ""
+
+#: data/votes-2019-10-20.json:183
+msgid "Laura's third sister."
+msgstr ""
+
+#: data/votes-2019-06-09.json:245
+msgid "Laura’s sister gets her comeuppance"
+msgstr ""
+
+#: data/votes-2020-02-10.json:135
+msgid "Legosi and Haru from “Beastars” slow dancing."
+msgstr ""
+
+#: data/votes-2019-12-22.json:108
+msgid "Legosi and Haru meet Trace and Flora exchanging romance tips"
+msgstr ""
+
+#: data/votes-2020-02-10.json:345
+msgid "Legosi and haru from beastars dancing together"
+msgstr ""
+
+#: data/votes-2020-03-08.json:241
+msgid "Little Kat and Eric playing doctor"
+msgstr ""
+
+#: data/votes-2019-09-15.json:274
+msgid "Look! Ribbons! Only with Cat Nora... and chains. Magical floaty chains."
+msgstr ""
+
+#: data/votes-2019-09-15.json:236
+msgid "Love Talk part 2. Kat asks Nora about her relationship with Trace: \"I heard you tried to seduce him. Are you in love with him?\" And Nora explains how actually she relates to him."
+msgstr ""
+
+#: data/votes-2019-08-25.json:83
+msgid "Love Talk part 2. Kat asks Nora about her relationship with Trace: \"I heard you tried to seduce him. Are you in love with him?\" Nora explains how actually she relates to him."
+msgstr ""
+
+#: data/votes-2019-06-16.json:291
+msgid "Lt. Reed loves her job in the Edinmire guard. Alice wrangling some ne'er-do-well over stealing a sweet roll."
+msgstr ""
+
+#: data/votes-2019-09-15.json:209
+msgid "Lynn and Sealeen finish dinner and have a kiss"
+msgstr ""
+
+#: data/votes-2019-06-02.json:401 data/votes-2019-06-09.json:79
+msgid "Mad scientist Maddie makes the perfect coffee with her loyal assistant Maeve."
+msgstr ""
+
+#: data/votes-2019-06-02.json:39 data/votes-2019-08-04.json:215
+msgid "Maddie Reference Sheet"
+msgstr ""
+
+#: data/votes-2019-06-16.json:205
+msgid "Maddie and Maeve have somehow decided on the \"you stand on my shoulders\"' ploy to sneak into a movie. Person at the counter is not convinced."
+msgstr ""
+
+#: data/votes-2019-06-09.json:333
+msgid "Maddie and Maeve playing with Nora's tail, with Nora's reaction."
+msgstr ""
+
+#: data/votes-2020-02-10.json:309
+msgid "Maddie and older Maeve visiting a spa and looking over the offered services. Maddie becomes scandalized (and curious) at hearing what a pedicure is."
+msgstr ""
+
+#: data/votes-2019-06-02.json:207
+msgid "Maddie dresses as Jotaro with a star platinum mamma looming behind"
+msgstr ""
+
+#: data/votes-2019-08-04.json:49
+msgid "Maddie in Wonderland, perhaps at a tea party"
+msgstr ""
+
+#: data/votes-2020-03-08.json:144
+msgid "Maddie tugs on one of Flora's antenna, causing Flora's tail (and butt) to lift up suddenly. (sequel to Flora's Antenna)"
+msgstr ""
+
+#: data/votes-2019-06-16.json:135
+msgid "Maddie's plot to use a bunch of Sealeen's potions to make everyone else shorter than her doesn't go as planned."
+msgstr ""
+
+#: data/votes-2020-02-10.json:215 data/votes-2020-03-08.json:190
+msgid "Madelyn Reference Sheet"
+msgstr ""
+
+#: data/votes-2019-10-20.json:107
+msgid "Madelyn finds out about snapchat and gets into trouble when she sees stuff shes not supposed to"
+msgstr ""
+
+#: data/votes-2019-09-15.json:337
+msgid "Madelyn going through the full metal jacket basic training"
+msgstr ""
+
+#: data/votes-2020-02-10.json:301
+msgid "Maeve Noms Roan’s Tail, causing him to either have a heart attack because he nearly killed someone so adorable, or throw his fireball vertically, causing it to land on him."
+msgstr ""
+
+#: data/votes-2020-03-08.json:237
+msgid "Maeve Noms Roan’s Tail, causing him to either have a heart attack because he nearly killed someone so adorable, or throw his fireball vertically, causing it to land on him.\""
+msgstr ""
+
+#: data/votes-2019-08-25.json:35
+msgid "Maeve and Maddie swimming in the manor pool, or the beach"
+msgstr ""
+
+#: data/votes-2019-06-16.json:147
+msgid "Maeve and Maddie trying to catch Nora's tail, Nora messing with them."
+msgstr ""
+
+#: data/votes-2019-06-02.json:175
+msgid "Maeve dressed in her school uniform on her last day of school, glaring maniacally at a fire containing all of her school work over the year"
+msgstr ""
+
+#: data/votes-2019-06-02.json:281
+msgid "Maeve pours her first pint of ale, Adira is so proud!"
+msgstr ""
+
+#: data/votes-2019-12-22.json:204
+msgid "Maeve sitting in Adira's lap and they're hugging each other on a couch near an open fire."
+msgstr ""
+
+#: data/votes-2019-09-15.json:217
+msgid "Maeve teaches Kathrin how to properly play with a ball of yarn since she is only half feline. Continuation of “Kitty Kat” sketch."
+msgstr ""
+
+#: data/votes-2019-10-20.json:277
+msgid "Maeve teaches Kathrin how to properly play with a ball of yarn since she is only half feline. Part 2 of \"Kitty Kat\" sketch."
+msgstr ""
+
+#: data/votes-2019-06-09.json:117
+msgid "Maeve walking across the stage at graduation in cap and gown, and her mother bawling her eyes out"
+msgstr ""
+
+#: data/votes-2019-06-09.json:337
+msgid "Maeve, Karen, and Maddie having a sleepover"
+msgstr ""
+
+#: data/votes-2020-02-10.json:59
+msgid "Magic Lesson Mishap! Nora tries to teach a young Reni how to use magic, and Reni accidentally turns a fearsome mystical creature into a certain familiar squirrel"
+msgstr ""
+
+#: data/votes-2020-03-08.json:24
+msgid "Magic gone wrong: Seraphina has become human, and Sealeen and Landen are Adrakists!"
+msgstr ""
+
+#: data/votes-2019-08-04.json:89 data/votes-2019-10-20.json:99
+msgid "Magical Boy Keith"
+msgstr ""
+
+#: data/votes-2019-12-22.json:262
+msgid "Magical Boy Keith spreading xmas cheer to all the good boys and girls"
+msgstr ""
+
+#: data/votes-2020-02-10.json:239
+msgid "Magical Boy Keith turning Natani into the manliest wolf ever"
+msgstr ""
+
+#: data/votes-2019-05-19.json:241 data/votes-2019-06-02.json:87
+#: data/votes-2019-06-09.json:141 data/votes-2019-06-16.json:301
+msgid "Magpie Reference Sheet"
+msgstr ""
+
+#: data/votes-2019-09-15.json:42
+msgid "Magpie meets Nibbly, but Nibbly tries to steal some of her nick-nacks"
+msgstr ""
+
+#: data/votes-2019-08-25.json:349
+msgid "Maid Clovis and cat maid Nora"
+msgstr ""
+
+#: data/votes-2019-06-02.json:151
+msgid "Maren Tail Tug Part 2 (AKA Red gets his face clawed)"
+msgstr ""
+
+#: data/votes-2019-09-15.json:221
+msgid "Maren and Scythe body swap while dancing. Maren finds the fur is really itchy, and Scythe feels naked without fur."
+msgstr ""
+
+#: data/votes-2019-08-11.json:38
+msgid "Maren and Scythe experiencing high sexual tension."
+msgstr ""
+
+#: data/votes-2020-03-08.json:234
+msgid "Maren and Sythe as Belle and the Beast dancing in the ballroom from the film."
+msgstr ""
+
+#: data/votes-2019-06-09.json:133
+msgid "Maren as Carmen Sandiego."
+msgstr ""
+
+#: data/votes-2019-05-19.json:139
+msgid "Maren as a Sister of battle from Warhammer"
+msgstr ""
+
+#: data/votes-2019-12-22.json:150
+msgid "Maren becomes a beauty Youtuber"
+msgstr ""
+
+#: data/votes-2019-08-25.json:91
+msgid "Maren has a dream/nightmare about getting married to Sythe"
+msgstr ""
+
+#: data/votes-2019-09-15.json:296
+msgid "Maren is showing support for Raine by wearing a collar in cat keidran form. Sythe decides to use the opportunity to tease/mess with her."
+msgstr ""
+
+#: data/votes-2019-08-25.json:125
+msgid "Maren looks incredibly disturbed when she finds Nibbly reading a book. The book's title? \"How to Get Away with Murder for Squirrels\""
+msgstr ""
+
+#: data/votes-2020-02-10.json:117
+msgid "Maren reference sheet including a shot of her cat form."
+msgstr ""
+
+#: data/votes-2020-03-08.json:373
+msgid "Maren with an evil face holding a tiny Sythe in her hand. Maybe Mrs. Nibbly next to him for comparison?"
+msgstr ""
+
+#: data/votes-2019-10-20.json:53
+msgid "Maren, Roselyn, and Fem! Eric as the Sanderson sisters from Hocus Pocus."
+msgstr ""
+
+#: data/votes-2019-08-04.json:53
+msgid "Maren, Sythe (and Mrs. Nibbly) check out the Human Only Bath on their way to the beach after having it recommended by Natani & Keith."
+msgstr ""
+
+#: data/votes-2019-06-02.json:241 data/votes-2019-06-09.json:305
+msgid "Maren, Sythe (and Nibs) check out the Human Only Bath on their way to the beach after having it recommended to them by Natani & Keith (who did NOT divulge the features)."
+msgstr ""
+
+#: data/votes-2019-08-25.json:51
+msgid "Maybe a big dance party featuring the main cast?"
+msgstr ""
+
+#: data/votes-2019-09-15.json:19
+msgid "Meave wakes up in place of Niko from oneshot"
+msgstr ""
+
+#: data/votes-2019-06-09.json:205
+msgid "Meet Me In The Sunlight remake"
+msgstr ""
+
+#: data/votes-2020-02-10.json:285 data/votes-2020-03-08.json:104
+msgid "Merveille Million from Solatorobo"
+msgstr ""
+
+#: data/votes-2019-06-02.json:11
+msgid "Messenger Lynn character sheet"
+msgstr ""
+
+#: data/votes-2019-12-22.json:11
+msgid "Mike & Evals, getting some time together on Christmas Eve, just watching the snow fall and exchange presents as lifelong friends."
+msgstr ""
+
+#: data/votes-2019-06-09.json:169
+msgid "Mike (Normal) Reference Sheet"
+msgstr ""
+
+#: data/votes-2019-06-02.json:317
+msgid "Mike (normal) Reference Sheet"
+msgstr ""
+
+#: data/votes-2020-02-10.json:293
+msgid "Mike and Evals having some alone time at the Oasis"
+msgstr ""
+
+#: data/votes-2019-06-09.json:161
+msgid "Mike and evals (still lost in the city from that one piece) get directions from a pretty Irish setter passing by"
+msgstr ""
+
+#: data/votes-2019-08-25.json:149
+msgid "Mike as an old mountain sage giving \"wisdom\" to passing pilgrims."
+msgstr ""
+
+#: data/votes-2019-08-11.json:256
+msgid "Mike as an old mountain sage imparting terrible \"wisdom\" to travailing pilgrims."
+msgstr ""
+
+#: data/votes-2019-10-20.json:353
+msgid "Mike character sheet"
+msgstr ""
+
+#: data/votes-2019-12-22.json:48
+msgid "Mike finds Eric's secret whiskey loaded christmas pudding and falls overboard"
+msgstr ""
+
+#: data/votes-2019-09-15.json:57
+msgid "Mike going out for a picnic with the Wolf and Coyote ladies"
+msgstr ""
+
+#: data/votes-2019-09-15.json:258
+msgid "Mike kisses Evals who is reluctant at first but then gets more into it (both male)"
+msgstr ""
+
+#: data/votes-2020-03-08.json:40
+msgid "Mike meets Carver, and tried to warn him about the gender-swap shenanigans that happen in sketches. Carver is dismissive, so a watching Nora changes Carver."
+msgstr ""
+
+#: data/votes-2020-02-10.json:109
+msgid "Mike meets Carver, and tries to warn him about repeated gender-swaps that happen in the sketch world. Carver is dismissive and disbelieving, so Nora decides to give Carver a demonstration and transforms him."
+msgstr ""
+
+#: data/votes-2020-02-10.json:113
+msgid "Mike puts the finishing touches on his Na’Rella scale model / ship in a bottle. It catches fire as soon as he places it down to inspect his handiwork."
+msgstr ""
+
+#: data/votes-2019-12-22.json:93
+msgid "Mike receives the first gift of his life from Evals (while they were slaves.)"
+msgstr ""
+
+#: data/votes-2020-03-08.json:112
+msgid "Mike's family: where are they now?"
+msgstr ""
+
+#: data/votes-2019-12-22.json:20
+msgid "MistleNO! Nora catches Trace under the mistletoe! Tis the season right?"
+msgstr ""
+
+#: data/votes-2020-02-10.json:275
+msgid "Mrs. Nibbly in her dragon hoard of stolen underwear."
+msgstr ""
+
+#: data/votes-2019-06-16.json:337
+msgid "Nat and Keith meet their counterparts, Fem Keith and Masc Natani"
+msgstr ""
+
+#: data/votes-2019-09-15.json:79
+msgid "Natani also carrying Keith across a river to keep his armor dry, but find the deep end."
+msgstr ""
+
+#: data/votes-2019-09-15.json:193
+msgid "Natani and Keith as Roman Gladiator champions."
+msgstr ""
+
+#: data/votes-2020-03-08.json:327
+msgid "Natani and Keith as the main characters in a film noir detective story. One as the hard-boiled private eye and the other as the ingenue or femme fatale."
+msgstr ""
+
+#: data/votes-2019-06-02.json:83
+msgid "Natani and Keith share a warm embrace"
+msgstr ""
+
+#: data/votes-2020-03-08.json:32
+msgid "Natani and Yena from Join the Pack! making manly poses together"
+msgstr ""
+
+#: data/votes-2019-08-11.json:70
+msgid "Natani and Zen as Sam and Dean Winchester from the Supernatural TV series, respectively. Natani is using Sam’s demon blood abilities, and Zen is holding the Colt"
+msgstr ""
+
+#: data/votes-2019-09-15.json:153
+msgid "Natani and Zen dressed as Sam and Dean respectively from Supernatural with Natani using Sam's demon blood powers and Zen using the Colt pistol."
+msgstr ""
+
+#: data/votes-2019-09-15.json:127
+msgid "Natani as John Wick"
+msgstr ""
+
+#: data/votes-2020-02-10.json:125
+msgid "Natani as a 1950s roller skating car hop waitress."
+msgstr ""
+
+#: data/votes-2019-08-25.json:341
+msgid "Natani comforting Keith after a nightmare"
+msgstr ""
+
+#: data/votes-2019-08-04.json:325
+msgid "Natani comforting Keith after he has a nightmare"
+msgstr ""
+
+#: data/votes-2019-08-25.json:95
+msgid "Natani discovers Zen and Kat napping together and decides to embarrass them both"
+msgstr ""
+
+#: data/votes-2020-03-08.json:48
+msgid "Natani dressed as Red Savarin, and Keith dressed as Elh Melizée from Solatorobo"
+msgstr ""
+
+#: data/votes-2019-08-25.json:203
+msgid "Natani dressed as Shantae and Keith dressed as Bolo"
+msgstr ""
+
+#: data/votes-2019-06-09.json:223
+msgid "Natani frightened by a thunderstorm is comforted by Keith"
+msgstr ""
+
+#: data/votes-2019-05-19.json:75 data/votes-2019-06-02.json:345
+msgid "Natani giving Kat swim lessons in the mansions oasis room."
+msgstr ""
+
+#: data/votes-2019-09-15.json:318
+msgid "Natani in a groom outfit (tuxedo, suit, etc) Carrying his \"bride\" (Keith in a wedding dress) bridal style, having him very embarrassed"
+msgstr ""
+
+#: data/votes-2020-02-10.json:361
+msgid "Natani stumbles upon Zen and Keith having a dance off. Complete with disco attire, and Earth, Wind and Fire."
+msgstr ""
+
+#: data/votes-2019-10-20.json:79
+msgid "Natani takes Flora out drinking for the first time after the baby."
+msgstr ""
+
+#: data/votes-2020-02-10.json:27
+msgid "Natani takes Flora's idea and tries to create a bust chart filled with characters that make her bust look smaller instead of looking bigger."
+msgstr ""
+
+#: data/votes-2019-08-04.json:85
+msgid "Natani takes Keith for a walk on a leash - another lost bet."
+msgstr ""
+
+#: data/votes-2019-10-20.json:49
+msgid "Natani walks Keith out on a leash - another lost bet."
+msgstr ""
+
+#: data/votes-2019-08-25.json:215
+msgid "Natani wearing the Infinity Gauntlet and she's about to snap her fingers."
+msgstr ""
+
+#: data/votes-2019-08-04.json:293 data/votes-2019-08-11.json:94
+#: data/votes-2019-08-25.json:317
+msgid "Natani wears the pants in their relationship by stealing Keith's."
+msgstr ""
+
+#: data/votes-2019-06-16.json:143
+msgid "Natani's Blunt Dating Service 2: Natani tries to match Kat up again and introduces her to Raine (very bluntly)."
+msgstr ""
+
+#: data/votes-2019-06-09.json:237
+msgid "Natani's Blunt Dating Service 2: Now that Team B is at the manor, Natani barges in and presents a slightly embarrassed Kat to Raine."
+msgstr ""
+
+#: data/votes-2019-06-16.json:119
+msgid "Natani, Keith, Kat and Zen play Jumanji!"
+msgstr ""
+
+#: data/votes-2019-05-19.json:175
+msgid "Natani, Keith, and Laura dressed as Susie, kris, and Ralsei"
+msgstr ""
+
+#: data/votes-2019-05-19.json:225
+msgid "Natani, Trace, and Kat having the equivalent to a paintball fight, but with magic, and Keith and Flora sitting on the sidelines"
+msgstr ""
+
+#: data/votes-2020-02-10.json:189
+msgid "Natani, out of character, chest-to-chest up against Kathrin, who is looking flustered and confused. Out of Natani's back is a Valentine arrow."
+msgstr ""
+
+#: data/votes-2019-12-22.json:105
+msgid "Nib Nab 3: Oasis Edition"
+msgstr ""
+
+#: data/votes-2020-02-10.json:167
+msgid "Nib Nab 4: Clovis and Brutus"
+msgstr ""
+
+#: data/votes-2020-02-10.json:267
+msgid "Nib Nab 4: Now Flora and Trace."
+msgstr ""
+
+#: data/votes-2020-03-08.json:186
+msgid "Nib Nab 5: Flora and Trace"
+msgstr ""
+
+#: data/votes-2019-06-02.json:285
+msgid "Nibbly Learns To Dance"
+msgstr ""
+
+#: data/votes-2019-10-20.json:253
+msgid "Nibbly crawls up Zen's pant leg. Cue Zen reacting in panic."
+msgstr ""
+
+#: data/votes-2019-05-19.json:283 data/votes-2019-06-09.json:97
+#: data/votes-2019-08-11.json:260
+msgid "Nibbly has secretly been tending to a bouquet of precious baby squirrelies. Sythe finds out."
+msgstr ""
+
+#: data/votes-2020-02-10.json:139
+msgid "Nibbly on Keith's head tugging at his ears, controlling him Ratatouille-style. Keith is being forced to walk out the door in just a towel, and it's slipping. Natani's too busy laughing to help."
+msgstr ""
+
+#: data/votes-2019-08-11.json:180
+msgid "Nibbly on the cake plate, too full to move surrounded by crumbs and holding up the 32 candles in surrender"
+msgstr ""
+
+#: data/votes-2020-03-08.json:331
+msgid "Nibbly somehow surprises Sythe with a bundle of baby squirrelies. Shock gives way to undenying adoration. Maren resists the sickeningly sweet cuteness."
+msgstr ""
+
+#: data/votes-2019-12-22.json:32
+msgid "Nibbly’s thoughts on sythe and maren"
+msgstr ""
+
+#: data/votes-2019-06-09.json:309
+msgid "Noodle dragon Maddie, with bwom for her actual age, reaction from Natani and Kingly snark."
+msgstr ""
+
+#: data/votes-2019-09-15.json:181
+msgid "Nora The Magnificent, Nora decides to put on a cheesey magic act, rabbits out of hats, card tricks, etc. Everyone is confused why she isn't showing off her actual magic prowess"
+msgstr ""
+
+#: data/votes-2019-10-20.json:103
+msgid "Nora The Magnificent, Nora decides to put on a cheesey magic act. Everyone is confused as to why she isnt showing off her actual magic prowess"
+msgstr ""
+
+#: data/votes-2019-06-09.json:165
+msgid "Nora and Raine collab on FanFiction, only for Kat and maybe Trace to find it."
+msgstr ""
+
+#: data/votes-2020-03-08.json:140
+msgid "Nora checking out Mike’s male and female forms side by side"
+msgstr ""
+
+#: data/votes-2019-09-15.json:161
+msgid "Nora forced to embarrass herself by acting like a dog after a spell backfires. The dog has hijacked the dragon's body and is innocently taking it for a joyride while she's trapped in the passenger seat."
+msgstr ""
+
+#: data/votes-2020-02-10.json:97
+msgid "Nora going around the house, swapping couple's for valentines day!"
+msgstr ""
+
+#: data/votes-2019-12-22.json:231
+msgid "Nora holds the enchanted mistletoe over Kei and human Reni"
+msgstr ""
+
+#: data/votes-2019-09-15.json:225
+msgid "Nora pulls Red and Sythe into Raine's mind, where they are made to act out one of her fanfictions, one that stars only them..."
+msgstr ""
+
+#: data/votes-2019-12-22.json:144
+msgid "Nora shows off her magic mistletoe collection, her favorite being illuminated in a glass case"
+msgstr ""
+
+#: data/votes-2019-06-09.json:397
+msgid "Nora teaching Reni and Kat on how to win a mans heart and Red blurts out how Nora never won over Trace, embarrassing Nora."
+msgstr ""
+
+#: data/votes-2019-08-25.json:111
+msgid "Nora teaching Reni and Kat on how to win over a human heart and Red blurts out how Nora never won over Trace, embarrassing Nora."
+msgstr ""
+
+#: data/votes-2019-06-16.json:19
+msgid "Nora teaching Reni and Kat on how to win over a man and Red blurts out how Nora never won over Trace, embarrassing Nora."
+msgstr ""
+
+#: data/votes-2019-05-19.json:87 data/votes-2019-06-02.json:233
+#: data/votes-2019-08-11.json:152
+msgid "Nora teaching Reni on how to win over a human heart and Red blurts out how Nora never won over Trace, embarrassing Nora."
+msgstr ""
+
+#: data/votes-2019-08-04.json:165
+msgid "Nora teasing tiger Trace and Flora"
+msgstr ""
+
+#: data/votes-2019-08-25.json:11
+msgid "Nora tries out a vixen shape. She is bending over, tail high up and looking back at Trace asking \"Does this tail makes my butt look big?\". Trace is not impressed."
+msgstr ""
+
+#: data/votes-2020-03-08.json:339
+msgid "Noras reaction to missing her chance with trace (again)"
+msgstr ""
+
+#: data/votes-2019-08-25.json:333
+msgid "Oblivious Overwatch: Keith and Natani are on a mission and need covering fire, but the weapon is too big for sniper Madelyn and spotter Maeve is distracted by a butterfly"
+msgstr ""
+
+#: data/votes-2019-08-04.json:105
+msgid "Oblivious Overwatch: Team A needs covering fire, but the weapon (crossbow, rifle, catapult?) is too big and unwieldy for sniper Maddie, and spotter Maeve is distracted by a butterfly."
+msgstr ""
+
+#: data/votes-2019-06-16.json:279
+msgid "Older Frisk and Asriel (from Undertale) with Asriel suddenly turned into a lady and Frisk getting all *Flirty"
+msgstr ""
+
+#: data/votes-2019-08-11.json:220
+msgid "Older Maddie and Maeve share their first kiss. Maddie gets extremely flustered afterwards"
+msgstr ""
+
+#: data/votes-2019-09-15.json:27
+msgid "Older Maddie and Maeve sharing their first kiss together, with Maddie getting flustered afterwards."
+msgstr ""
+
+#: data/votes-2019-10-20.json:11
+msgid "Older Maddie checking out a manga store when she embarrassingly runs into Maeve in the adult section."
+msgstr ""
+
+#: data/votes-2019-05-19.json:297 data/votes-2019-06-02.json:15
+#: data/votes-2019-06-09.json:345 data/votes-2019-06-16.json:139
+#: data/votes-2019-08-04.json:149 data/votes-2019-08-25.json:239
+msgid "Older Maeve and Maddie share their first kiss. Maddie gets extremely flustered afterwards."
+msgstr ""
+
+#: data/votes-2019-12-22.json:8
+msgctxt "comment"
+msgid "Omnipoll voting results have not been published and only two suggestions were sketched."
+msgstr ""
+
+#: data/votes-2020-02-10.json:163
+msgid "On Valentine's day, Keith and Natani take a romantic boat ride. However, Natani does not quite understand how it works, so instead she tries to overtake other boats with couples and be the first at finish line."
+msgstr ""
+
+#: data/votes-2020-02-10.json:235
+msgid "One of Reni's previous failed attempts at making a human form, with Nora providing critique"
+msgstr ""
+
+#: data/votes-2019-10-20.json:357
+msgid "Original, plain gray-white cat version of Flora."
+msgstr ""
+
+#: data/votes-2019-12-22.json:111
+msgid "Our (realtively) intrepid explorers find themselves in a savanna surrounded by a tribe of cheetah keidran armed with pointy spears!"
+msgstr ""
+
+#: data/votes-2019-10-20.json:15
+msgid "Our (relatively) intrepid explorers find themselves in a savanna surrounded by a tribe of cheetah keidran armed with pointy spears!"
+msgstr ""
+
+#: data/votes-2019-08-25.json:129
+msgid "Our explorer cosplaying as Hange Zöe from Attack on Titan (last sketch in artic they look like them)"
+msgstr ""
+
+#: data/votes-2019-08-11.json:248
+msgid "Our main cast have somehow wound up on the sands of Elsweyr during their travels, and make first contact with the native Khajiit"
+msgstr ""
+
+#: data/votes-2020-02-10.json:327
+msgid "Our northern explorer sinks chest deep in snow. The snow leopards have a laugh, as their large paws prevent such things"
+msgstr ""
+
+#: data/votes-2019-09-15.json:95
+msgid "Page 1, but with Natani in Trace's position."
+msgstr ""
+
+#: data/votes-2019-08-25.json:219
+msgid "Page 217 Redux"
+msgstr ""
+
+#: data/votes-2020-02-10.json:243
+msgid "Pin Up: A Victorian Basitin lady raises her skirts just enough to show of her ankles."
+msgstr ""
+
+#: data/votes-2019-09-15.json:119
+msgid "Pirate Zen and first mate Kat capture Clovis and Brutus"
+msgstr ""
+
+#: data/votes-2019-09-15.json:357
+msgid "Plain gray-white cat version of Flora (as was originally conceived)"
+msgstr ""
+
+#: data/votes-2019-12-22.json:162
+msgid "Pole Dancing Mike wearing a Santa Hat"
+msgstr ""
+
+#: data/votes-2020-03-08.json:8
+msgctxt "comment"
+msgid "Position [55] missing…"
+msgstr ""
+
+#: data/votes-2019-05-19.json:207
+msgid "Post pixie pranks: Evals is upset that Kat has reverted to her usual wardrobe while in his body"
+msgstr ""
+
+#: data/votes-2019-06-02.json:361
+msgid "Potato sack ref sheet"
+msgstr ""
+
+#: data/votes-2020-02-10.json:43
+msgid "Princess Reni meeting Clovis"
+msgstr ""
+
+#: data/votes-2019-10-20.json:215
+msgid "Pseudo-sequel to Ghostbuster! Natani and Keith busting the ghosts of Alaric and Laura."
+msgstr ""
+
+#: data/votes-2019-08-11.json:264
+msgid "Puppy Evals plays with other puppies in dog clan's village."
+msgstr ""
+
+#: data/votes-2019-08-25.json:227
+msgid "Puppy Evals plays with other puppies in the dog clan's village."
+msgstr ""
+
+#: data/votes-2019-08-04.json:197
+msgid "Raccoon Keidran"
+msgstr ""
+
+#: data/votes-2020-03-08.json:343
+msgid "Raine ( human ) and Maren posing in their swimsuits. As Maren pulls Raine in to get ‘closer’, Maren shows off a seductive smile and Raine with a shy one."
+msgstr ""
+
+#: data/votes-2020-02-10.json:305
+msgid "Raine (human) and Maren both in their swimsuits (as seen in recent chapters), with Maren pulling Raine in closer for a ‘better’ pose."
+msgstr ""
+
+#: data/votes-2019-06-02.json:297
+msgid "Raine WWII Navy Pinup"
+msgstr ""
+
+#: data/votes-2019-08-11.json:196
+msgid "Raine and Kat find the estate’s library. Celebrations are cut short however by Rose shushing them."
+msgstr ""
+
+#: data/votes-2019-06-09.json:253
+msgid "Raine and Maren on a daytrip to the Statue of Liberty."
+msgstr ""
+
+#: data/votes-2019-08-25.json:313
+msgid "Raine and Red (Both Halfkind forms) share a heartwarming kiss beneath a waterfall."
+msgstr ""
+
+#: data/votes-2019-08-11.json:160
+msgid "Raine and Red (Both Halfkind forms) share a heartwarming kiss underneath a waterfall."
+msgstr ""
+
+#: data/votes-2019-06-09.json:365
+msgid "Raine and Red (Both in Halfkind forms) share a heartwarming kiss under a waterfall."
+msgstr ""
+
+#: data/votes-2019-09-15.json:189
+msgid "Raine and Red (both Halfkind forms) share a heartwarming kiss under a waterfall."
+msgstr ""
+
+#: data/votes-2019-06-16.json:231
+msgid "Raine and Red (both halfkind forms) share a heartwarming kiss underneath a waterfall."
+msgstr ""
+
+#: data/votes-2019-05-19.json:47
+msgid "Raine and Red (both in Halfkind forms) share a heartwarming kiss under a waterfall."
+msgstr ""
+
+#: data/votes-2019-08-04.json:277
+msgid "Raine and Red (both in halfkind forms) share a heartwarming kiss underneath a waterfall."
+msgstr ""
+
+#: data/votes-2019-06-02.json:271
+msgid "Raine and Red (halfkind forms) share a heartwarming kiss underneath a waterfall."
+msgstr ""
+
+#: data/votes-2019-06-16.json:317
+msgid "Raine and Red as Dianna (or Kessah) and Adrien from Hunters of Salamanstra."
+msgstr ""
+
+#: data/votes-2019-08-11.json:268
+msgid "Raine and Red out for dinner on a high rise restaurant balcony with a view of the sleepless city."
+msgstr ""
+
+#: data/votes-2019-05-19.json:143 data/votes-2019-06-02.json:95
+#: data/votes-2019-06-09.json:197 data/votes-2019-06-16.json:39
+#: data/votes-2019-08-04.json:31
+msgid "Raine and Zen's snapshot at the top of a rollercoaster. One is freaking out, while the other tries to comfort them."
+msgstr ""
+
+#: data/votes-2019-10-20.json:237
+msgid "Raine dressed as Vampirella for halloween (wolf form)"
+msgstr ""
+
+#: data/votes-2019-08-04.json:313
+msgid "Raine dunk tanks flora at the summer fair."
+msgstr ""
+
+#: data/votes-2020-03-08.json:52
+msgid "Raine in a maid outfit"
+msgstr ""
+
+#: data/votes-2019-12-22.json:39
+msgid "Raine lingerie follow up Raine is in such a hurry back to her room that she runs right into Red around the corner, knocking him over and landing on top of him."
+msgstr ""
+
+#: data/votes-2019-08-04.json:341
+msgid "Raine the wolf queen of Egypt"
+msgstr ""
+
+#: data/votes-2019-08-11.json:146
+msgid "Raine the wolf queen of Egypt enjoying a drink poured by her man servant Red."
+msgstr ""
+
+#: data/votes-2019-05-19.json:171 data/votes-2019-06-02.json:187
+#: data/votes-2019-06-09.json:111
+msgid "Raine with a sword in one hand and a Spell in another in a sexy barbarian outfit (wolf form)"
+msgstr ""
+
+#: data/votes-2019-05-19.json:221 data/votes-2019-08-04.json:15
+#: data/votes-2019-10-20.json:135
+msgid "Raine's nightmare: She become a feral keidran."
+msgstr ""
+
+#: data/votes-2019-06-09.json:27
+msgid "Raine/Rose AU: Cookie bake-off between Raine & Rose vs. Maeve & Adira"
+msgstr ""
+
+#: data/votes-2019-08-04.json:117 data/votes-2019-08-11.json:240
+#: data/votes-2019-08-25.json:329 data/votes-2019-09-15.json:67
+msgid "Raine/Rose AU: Saria and Rose take young Raine to a library for the first time."
+msgstr ""
+
+#: data/votes-2019-08-25.json:199
+msgid "Red and Raine sitting side be side with her leaning into him at the campfire"
+msgstr ""
+
+#: data/votes-2019-10-20.json:341
+msgid "Red as a berserker wielding a berserker's insane rage and a double bladed, 2-handed battleaxe, poised to strike some bandits."
+msgstr ""
+
+#: data/votes-2019-05-19.json:245
+msgid "Red grabs Keidran Maren's tail!"
+msgstr ""
+
+#: data/votes-2019-06-09.json:65
+msgid "Red proposes to Raine with an enchanted ring that matches her transformation to him. If Raine is a wolf so is Red."
+msgstr ""
+
+#: data/votes-2019-08-04.json:255
+msgid "Redone of Keith staring at Natani’s rear from page 352"
+msgstr ""
+
+#: data/votes-2019-08-11.json:130
+msgid "Redone of pg 223 Trace uses black magic and summons a demon"
+msgstr ""
+
+#: data/votes-2019-08-25.json:121
+msgid "Redraw Flora lying sideways in bed looking at the viewer. I think the original was called 'good morning Flora'"
+msgstr ""
+
+#: data/votes-2019-08-11.json:332
+msgid "Redraw of page 217, more badass Keith"
+msgstr ""
+
+#: data/votes-2019-06-16.json:55 data/votes-2019-08-04.json:317
+#: data/votes-2019-08-11.json:122
+msgid "Redux of Natani cosplaying as Renamon (Natanimon!)"
+msgstr ""
+
+#: data/votes-2019-06-09.json:137
+msgid "Redux of Natani cosplaying as Renamon (Natanimon)"
+msgstr ""
+
+#: data/votes-2019-05-19.json:329
+msgid "Redux: 5 minute Nora sketch"
+msgstr ""
+
+#: data/votes-2020-02-10.json:93
+msgid "Reference Sheet Madelyn"
+msgstr ""
+
+#: data/votes-2019-12-22.json:189
+msgid "Remake of \"Flora and Slavegirl bathing\""
+msgstr ""
+
+#: data/votes-2019-08-25.json:99
+msgid "Remake of FemMike showing his heartbutt from page 454"
+msgstr ""
+
+#: data/votes-2019-08-11.json:290 data/votes-2019-12-22.json:36
+msgid "Remake of Kathrin and Flora pressed together"
+msgstr ""
+
+#: data/votes-2019-06-09.json:257
+msgid "Remake of Keidran Trace 'Sit': Tiger Trace plop on the floor by Flora's sit command."
+msgstr ""
+
+#: data/votes-2019-06-02.json:99
+msgid "Remake of Tiger Trace 'Sit'"
+msgstr ""
+
+#: data/votes-2019-08-11.json:322
+msgid "Remake of page 223 of Trace's summoning"
+msgstr ""
+
+#: data/votes-2019-08-04.json:37
+msgid "Remake of page 69."
+msgstr ""
+
+#: data/votes-2019-08-11.json:252
+msgid "Remake/redone of page 69. When Sythe, Red, Maren, Karen, Keith, and pizza guy Tom find Trace on top of a drunk Flora, drunk from keidran milk."
+msgstr ""
+
+#: data/votes-2019-06-09.json:157
+msgid "Reni gets overeager lighting some magical fireworks from her collection for the group, sets off the whole box"
+msgstr ""
+
+#: data/votes-2020-02-10.json:289
+msgid "Reni tests out her magic spells on Evals and Mike and she accidentally turns them to humans."
+msgstr ""
+
+#: data/votes-2019-12-22.json:126
+msgid "Reni's first Christmas. Young Reni and young Trace play together in front of the Christmas tree, as Nora watches over them."
+msgstr ""
+
+#: data/votes-2020-02-10.json:81
+msgid "Reni(human form) Ref Sheet"
+msgstr ""
+
+#: data/votes-2019-08-04.json:97
+msgid "Rose let’s out a deep sigh as she finds the stone guardian stuck at the bottom of the Oasis room’s pool again"
+msgstr ""
+
+#: data/votes-2019-12-22.json:114
+msgid "Rose puts up the Magic Mistletoe trying to get Saria but gets Trace instead."
+msgstr ""
+
+#: data/votes-2019-08-11.json:228
+msgid "Rose relaxing in a bubble bath"
+msgstr ""
+
+#: data/votes-2019-06-02.json:67
+msgid "Rose uses the Templar slave collar to make Raine tell her who she likes"
+msgstr ""
+
+#: data/votes-2019-08-25.json:211
+msgid "Sam and Colin are subjected to a species swap. Colin is understandably flustered, but Sam is enjoying the change."
+msgstr ""
+
+#: data/votes-2019-09-15.json:232
+msgid "Sam and Colin find themselves swapping species. Colin is flustered by the new development while Sam gets into the change."
+msgstr ""
+
+#: data/votes-2020-02-10.json:47
+msgid "Sam asks Colin for help getting a book from a high shelf. Much to her surprise, Colin helps by lifting Sam up instead of getting the book down."
+msgstr ""
+
+#: data/votes-2019-08-25.json:79
+msgid "Saria and Fiona kissing Trace on his cheeks"
+msgstr ""
+
+#: data/votes-2019-08-25.json:353
+msgid "Saria and Trace's child playing with Rose"
+msgstr ""
+
+#: data/votes-2019-12-22.json:102
+msgid "Saria gets a Tiger Trace slave boy for Christmas"
+msgstr ""
+
+#: data/votes-2019-08-04.json:93
+msgid "Saria shaves off Rose's excess fluff and reveals her svelte body."
+msgstr ""
+
+#: data/votes-2019-10-20.json:333
+msgid "Scooby Doo: The gang and Roselyn are walking down a dark hallway, but they're being stalked by a giant ghost ready to scare them."
+msgstr ""
+
+#: data/votes-2019-09-15.json:157
+msgid "Scythe presents a ring box to Maren, unbeknownst to Scythe mrs Nibbly replaced its contents with an acorn."
+msgstr ""
+
+#: data/votes-2019-08-11.json:82
+msgid "Scythe with a Nibbly Daki"
+msgstr ""
+
+#: data/votes-2019-08-25.json:173
+msgid "Sealeen chairing a meeting of the 'Trace fanclub'."
+msgstr ""
+
+#: data/votes-2019-10-20.json:261
+msgid "Sealeen finally falls out of the manor tree! Luckily, she's caught by Lynn."
+msgstr ""
+
+#: data/votes-2019-12-22.json:45
+msgid "Sequel of \"Wedding Nightmares\": Maren sighs in relief \"it was just a dream\" Then she turns her head and sees Sythe. Maren wakes up screaming again."
+msgstr ""
+
+#: data/votes-2019-06-02.json:71
+msgid "Sequel to \"Let Sleeping Dragons Lie\" Trace complains dragons are too heavy and asks Nora not to asleep on him. Nora solves this problem by taking human form."
+msgstr ""
+
+#: data/votes-2019-06-16.json:77
+msgid "Sequel to \"Nora and Flora\" with Nora turning into her Flora disguise from \"Flora, Trust Me\" maybe making a joke about wondering if Flora is feeling narcissistic."
+msgstr ""
+
+#: data/votes-2020-03-08.json:261
+msgid "Sequel to \"long haired Kat\". Kat shows her long hair to her friends and all of them are shocked and surprised about it. And some of them are blushing too."
+msgstr ""
+
+#: data/votes-2020-02-10.json:353
+msgid "Sequel to Defending the Boss. After the healer tells Clovis of a severely injured Brutus' grim prognosis, Clovis issues a chilling ultimatum. \"If he's no longer useful to me, then neither are you.\""
+msgstr ""
+
+#: data/votes-2019-08-11.json:294
+msgid "Sequel to Exploring Tiger Lands: The explorers arrive to a Tiger village and receive a welcome from the locals"
+msgstr ""
+
+#: data/votes-2019-08-25.json:263
+msgid "Sequel to Exploring Tiger Lands: the explorers arrive at a Tiger village and are welcomed by the locals"
+msgstr ""
+
+#: data/votes-2019-08-04.json:321
+msgid "Sequel to Exploring Tiger Lands: the explorers arrive at a Tiger village and receive a welcome from the locals"
+msgstr ""
+
+#: data/votes-2020-02-10.json:211
+msgid "Sequel to Fallout Mekkan sketch in which Flora, Trace, Deathclaw Nora, and Keith explore the Sierra Madre and find Hologram Laura"
+msgstr ""
+
+#: data/votes-2019-06-16.json:341
+msgid "Sequel to Subtleseed: Natani proposing to Keith in turn, in however the basitin way is"
+msgstr ""
+
+#: data/votes-2019-08-11.json:272
+msgid "Sequel to Sythe and Maren dancing. Nora switches Maren and Nibbly’s bodies, much to Sythe’s confusion."
+msgstr ""
+
+#: data/votes-2019-06-02.json:369
+msgid "Sequel to the Keith and Natani subtleseed proposal: the two of them at their wedding"
+msgstr ""
+
+#: data/votes-2019-08-25.json:17
+msgid "Sexy tavern maiden competition: Adira and Maren compete to see who is the better tavern maiden! Karen protects Maeve's innocent eyes."
+msgstr ""
+
+#: data/votes-2019-12-22.json:247
+msgid "Sittin’ Pretty Kathrin Redraw"
+msgstr ""
+
+#: data/votes-2019-08-11.json:208
+msgid "Skater Kat in hoodie"
+msgstr ""
+
+#: data/votes-2020-03-08.json:56
+msgid "Smug Bat Keidran"
+msgstr ""
+
+#: data/votes-2019-12-22.json:129
+msgid "Smug Karen"
+msgstr ""
+
+#: data/votes-2019-06-09.json:73
+msgid "Smug Nibbly Anthro version"
+msgstr ""
+
+#: data/votes-2020-03-08.json:88
+msgid "Snow leopard snowball fight! (Northern explorers get into a snowball fight with the snow leopards!)"
+msgstr ""
+
+#: data/votes-2019-05-19.json:305
+msgid "Some basitins find lady Nora asleep in her cave try to wake her, she rolls over snuggling one of the bastins like a trace teddy"
+msgstr ""
+
+#: data/votes-2020-02-10.json:365
+msgid "Some of the gang looking through sketch suggestions that were never used and talking about the more “interesting” ones that have their own separate pile"
+msgstr ""
+
+#: data/votes-2019-06-16.json:283
+msgid "Spooning Party! Natini and Keith Spoon alongside Trace and Flora"
+msgstr ""
+
+#: data/votes-2020-03-08.json:136
+msgid "Sports car. Sythe as race winner. Nibbly and Maren as race girls"
+msgstr ""
+
+#: data/votes-2020-03-08.json:170
+msgid "Squirrelified Maren Sequel: Maren has the urge to steal everyone's clothing, and starts with Scythe."
+msgstr ""
+
+#: data/votes-2019-08-11.json:90
+msgid "Star Wars-style Twokinds poster with all of the dramatic poses and facial close-ups and whatever"
+msgstr ""
+
+#: data/votes-2019-12-22.json:174
+msgid "Steampunk Nora"
+msgstr ""
+
+#: data/votes-2019-12-22.json:69
+msgid "Step by step transformation lapse of Raine from human to wolf"
+msgstr ""
+
+#: data/votes-2019-06-09.json:381
+msgid "Stone guardian ref sheet"
+msgstr ""
+
+#: data/votes-2019-06-02.json:167
+msgid "Suddenly Dragons! Team B find themselves transformed into baby dragons. Reni ends up babysitting."
+msgstr ""
+
+#: data/votes-2019-06-09.json:209
+msgid "Suddenly Dragons. Team B finds themselves completely transformed into baby dragons. Reni ends up babysitting."
+msgstr ""
+
+#: data/votes-2019-08-04.json:109
+msgid "Super Keidran! Kat dresses up in a very form fitting superhero outfit to fight evil wherever it lurks"
+msgstr ""
+
+#: data/votes-2019-05-19.json:287
+msgid "Sythe Reference Sheet"
+msgstr ""
+
+#: data/votes-2019-08-25.json:283
+msgid "Sythe and Maren share a pizza and reminisce about the first time they met!"
+msgstr ""
+
+#: data/votes-2019-09-15.json:39
+msgid "Sythe dreams of himself as a sultan of a distant land, and keidran Nibbly and Maren are his harem girls. One feeds him grapes while the other dances, both wearing face veils, jewels and their fur."
+msgstr ""
+
+#: data/votes-2019-08-11.json:10
+msgid "Sythe gives out his personal thoughts on Maren"
+msgstr ""
+
+#: data/votes-2019-08-04.json:209
+msgid "Sythe in diplomatic clothes and Maren in sophisticated evening dress dance together. And of course very jealous Nibs on the background."
+msgstr ""
+
+#: data/votes-2019-09-15.json:341 data/votes-2019-12-22.json:135
+#: data/votes-2020-03-08.json:319
+msgid "Sythe in regalia providing diplomatic relations \"advice\" to the Basitin trio. Lynn is studiously taking notes, but the other two are more suspicious."
+msgstr ""
+
+#: data/votes-2019-08-04.json:273
+msgid "Sythe is embarrassed as he is carried out of a burning building by a squirrels-sized Super Nibbly, who is wearing a blue and red suit with an acorn logo on it."
+msgstr ""
+
+#: data/votes-2019-12-22.json:222
+msgid "Sythe kisses Maren under a mistletoe while saying: \"merry christmas, you filthy animal\" referencing himself."
+msgstr ""
+
+#: data/votes-2019-09-15.json:266
+msgid "Sythe make Nibbly a small rickety wooden house"
+msgstr ""
+
+#: data/votes-2019-10-20.json:229
+msgid "Sythe makes Nibbly a small rickety house"
+msgstr ""
+
+#: data/votes-2020-03-08.json:293
+msgid "Sythe meets squirrel maren, he isn’t sure how to feel about the new change, but his tail is wagging for some reason"
+msgstr ""
+
+#: data/votes-2019-06-09.json:31 data/votes-2019-06-16.json:81
+msgid "Sythe roof running (cyber punk themed)"
+msgstr ""
+
+#: data/votes-2019-06-02.json:305
+msgid "Sythe roof running (cyberpunk themed)"
+msgstr ""
+
+#: data/votes-2019-08-25.json:357
+msgid "Sythe teaches a nervous Keidran Ms. Nibbly to walk."
+msgstr ""
+
+#: data/votes-2019-06-16.json:243
+msgid "Sythe wakes up in bed with both Anthro Nibbly and Maren"
+msgstr ""
+
+#: data/votes-2019-08-04.json:69
+msgid "Sythe walks on Cat Maren and Kathrin as they change or bath. Maren is shocked, Sythe is embarrassed and Kathrin doesn't get what their deal is."
+msgstr ""
+
+#: data/votes-2019-09-15.json:270
+msgid "Sythe with a scythe"
+msgstr ""
+
+#: data/votes-2020-02-10.json:51
+msgid "Sythe, Maren, Trace, and Flora swap bodies"
+msgstr ""
+
+#: data/votes-2019-09-15.json:185
+msgid "Sythe’s personal thoughts on maren"
+msgstr ""
+
+#: data/votes-2019-08-04.json:145
+msgid "Sythe’s thoughts on Maren"
+msgstr ""
+
+#: data/votes-2019-08-25.json:141 data/votes-2019-10-20.json:203
+msgid "Sythe’s thoughts on maren"
+msgstr ""
+
+#: data/votes-2019-06-02.json:301
+msgid "THUNDERCATS HO! Refrence with the gang!"
+msgstr ""
+
+#: data/votes-2019-06-02.json:313 data/votes-2019-06-09.json:353
+#: data/votes-2019-08-04.json:243 data/votes-2019-08-11.json:54
+#: data/votes-2019-08-25.json:177 data/votes-2019-09-15.json:326
+#: data/votes-2019-10-20.json:349
+msgid "TK characters as Fellowship of the Ring."
+msgstr ""
+
+#: data/votes-2019-10-20.json:41
+msgid "Tank Captain Flora. Flora as the captain of WW2 German Tiger tank."
+msgstr ""
+
+#: data/votes-2019-05-19.json:179
+msgid "Tavern master drink off: Maren v. Adira"
+msgstr ""
+
+#: data/votes-2019-08-11.json:276
+msgid "Team A find themselves in the world of Minecraft, Trace building, Flora intrigued by the blocky appearance, Keith and Natani fighting creepers and zombies."
+msgstr ""
+
+#: data/votes-2019-08-04.json:131
+msgid "Team B finds themselves in the cave of wonders from Aladdin."
+msgstr ""
+
+#: data/votes-2020-03-08.json:28
+msgid "Templars attack the Tiger village and the explorers must defend their new home - but are they equally committed?"
+msgstr ""
+
+#: data/votes-2019-08-25.json:325
+msgid "The Cartographers and Tigress Noble end up at the Minor Feline territory meeting friendly Feline Keidran. Some are very curious of the Humans"
+msgstr ""
+
+#: data/votes-2019-08-11.json:314
+msgid "The Cartographers were invited by Tiger actors to a play of \"What humans do in their free time.\" With the Tigress Noble embarrassed and Cartographers intrigued by their acting."
+msgstr ""
+
+#: data/votes-2020-02-10.json:195
+msgid "The Explorers enjoy watching the Tiger tribe ceremonial party celebrating the new year. With a Tigress and the Noble Tigress wanting them to dance with them."
+msgstr ""
+
+#: data/votes-2019-09-15.json:49
+msgid "The Explorers invite the fluffy Keidran and Basitin into a human only bath. No more fluff. Explorer sad."
+msgstr ""
+
+#: data/votes-2019-05-19.json:119
+msgid "The Greatest Showman: Never Enough - Clovis Sings"
+msgstr ""
+
+#: data/votes-2019-06-02.json:47
+msgid "The Greatest Showman: Never Enough - Clovis Sings - Clovis discovered that Nora’s curse gave him a beautiful singing voice"
+msgstr ""
+
+#: data/votes-2019-05-19.json:267
+msgid "The Lioness dancer returns and tries to flirt with Keith. Natani is not happy about this."
+msgstr ""
+
+#: data/votes-2019-09-15.json:349
+msgid "The Male Cartographers reached the Minor Feline Territory to finding many other Feline Keidran with some intrigue with them, and some \"vary\" interested in the men with the Tiger noble guarding them."
+msgstr ""
+
+#: data/votes-2019-06-16.json:27
+msgid "The Tom cameos ban together to overthrow the real Tom (they’re tired of being beaten up for laughs)."
+msgstr ""
+
+#: data/votes-2019-08-25.json:337
+msgid "The assassin brothers in Assassin’s Creed style."
+msgstr ""
+
+#: data/votes-2019-08-25.json:299
+msgid "The awkward moment when Kei realizes that the dog he’s been petting is actually Princess Reni, who was too embarrassed/nervous to say anything."
+msgstr ""
+
+#: data/votes-2019-12-22.json:228
+msgid "The cast as the Fellowship of the Ring."
+msgstr ""
+
+#: data/votes-2019-09-15.json:87
+msgid "The cast plays a board game they found in the estate, not realizing it was made by Nora and has more magical effects than Jumanji"
+msgstr ""
+
+#: data/votes-2019-08-11.json:62
+msgid "The cast plays a board game they found in the estate, not realizing it was made by Nora, and has more magical effects than Jumanji"
+msgstr ""
+
+#: data/votes-2019-08-04.json:101
+msgid "The cast plays a board game they found in the estate, not realizing it was made by Nora, and has more magical effects than Jumanji."
+msgstr ""
+
+#: data/votes-2020-03-08.json:166
+msgid "The dress Kat was making for Mike in \"Dress Time\" is finally finished. Only one problem; Mike has already switched back to being male! Though the dress still looks... surprisingly pretty good on him."
+msgstr ""
+
+#: data/votes-2019-05-19.json:127
+msgid "The group visit a nude beach (being human now has a problem)"
+msgstr ""
+
+#: data/votes-2019-06-02.json:147
+msgid "The guardian and older Rose lounging on the beach on their days off"
+msgstr ""
+
+#: data/votes-2019-08-04.json:45
+msgid "The human cartographer meets the fluffy snow Basitins of Castle Heywood."
+msgstr ""
+
+#: data/votes-2019-12-22.json:234
+msgid "The main 4 together enjoying the holidays."
+msgstr ""
+
+#: data/votes-2020-02-10.json:203
+msgid "The main cast dressed as the cast of Bravely Default (Trace=Tiz, Flora=Agnes, Keith=Ringabel, Natani=Edea)"
+msgstr ""
+
+#: data/votes-2020-02-10.json:85
+msgid "The main cast dressed up as Disney Princesses, including from Marvel and Star Wars. All female."
+msgstr ""
+
+#: data/votes-2019-10-20.json:199
+msgid "The main cast in a Halloween picture: Flora as Professor Frankenstein, Trace as Igor, Keith on the table, and Natani in the distance howling as the Werewolf."
+msgstr ""
+
+#: data/votes-2019-06-16.json:287
+msgid "The main four at the convention with you."
+msgstr ""
+
+#: data/votes-2019-06-02.json:51 data/votes-2019-06-09.json:241
+#: data/votes-2019-06-16.json:11
+msgid "The moment after birth of first dragon princess."
+msgstr ""
+
+#: data/votes-2019-08-25.json:365
+msgid "The northern Basitin guard realizes he loves being hugged"
+msgstr ""
+
+#: data/votes-2019-08-04.json:345
+msgid "The process from a kiedran cub on four legs to an adult/teen on two legs (Flora, Sythe, or any of the other keidran cast can be used)"
+msgstr ""
+
+#: data/votes-2019-06-02.json:237
+msgid "The remake of the old picture \"Party Animals\" with Laura, Flora, Keith and Natani in their animal forms. And Trace in his human form."
+msgstr ""
+
+#: data/votes-2019-08-04.json:189 data/votes-2019-08-11.json:306
+msgid "The return of Pet Daughter: Confusion on what to wear on her first date"
+msgstr ""
+
+#: data/votes-2020-02-10.json:251
+msgid "The story of how Mike got his scar. What does Erilas (Evals's sis) think of it?"
+msgstr ""
+
+#: data/votes-2020-03-08.json:162
+msgid "The tiger tribe show the explorers how they celebrate the changing of the season! with some of them wanting them to join in the celebration as well."
+msgstr ""
+
+#: data/votes-2019-06-02.json:373
+msgid "The whole gang dressed like \"The Big Bang\" around the couch."
+msgstr ""
+
+#: data/votes-2020-03-08.json:323
+msgid "The young Rose and Saria sit drunk in the wine cellar and celebrate Rose's birthday."
+msgstr ""
+
+#: data/votes-2019-05-19.json:275
+msgid "Tiger Trace and Flora sharing a tender kiss."
+msgstr ""
+
+#: data/votes-2019-09-15.json:361
+msgid "Tiger Trace and Keith end up wearing control collars. Flora sees this and decides to make them her servants."
+msgstr ""
+
+#: data/votes-2019-05-19.json:155
+msgid "Tiger Trace and Keith get caught wearing control collars. Flora takes advantage making them her servants, as well as dress in embarrassing costumes."
+msgstr ""
+
+#: data/votes-2019-06-09.json:361
+msgid "Tiger Trace and Keith wear the control collars. Flora sees this and makes them her servants."
+msgstr ""
+
+#: data/votes-2019-06-02.json:381
+msgid "Tiger trace and flora sharing a tender kiss"
+msgstr ""
+
+#: data/votes-2019-10-20.json:257
+msgid "Tiger tribes way of celebrating Halloween with the Cartographers watching from the side and the Tigress noble offer one of them to join in the celebration."
+msgstr ""
+
+#: data/votes-2019-08-25.json:231
+msgid "Tigress Trace in a Maid outfit"
+msgstr ""
+
+#: data/votes-2020-03-08.json:120
+msgid "Tigress Trace in her Winter Coating."
+msgstr ""
+
+#: data/votes-2019-06-02.json:77
+msgid "Tired of waiting for Eric to show his affection, Kat decides to use \"Basitin Wooing\" techniques on him (and maybe a Fox collar)."
+msgstr ""
+
+#: data/votes-2019-05-19.json:43
+msgid "Tom Reference Sheet"
+msgstr ""
+
+#: data/votes-2020-03-08.json:82
+msgid "Tom catches Nora trying to edit the comic!"
+msgstr ""
+
+#: data/votes-2020-03-08.json:230
+msgid "Tom’s take on Animal Crossing’s Isabel"
+msgstr ""
+
+#: data/votes-2019-06-02.json:225
+msgid "Toothless with Flora as Astrid and Kat as Hiccup, Kat has made Hiccup's armour/clothes and Astrid's clothes from HTTYD: The Hidden World."
+msgstr ""
+
+#: data/votes-2019-06-09.json:125
+msgid "Total species swap, such as Nora becoming a bird"
+msgstr ""
+
+#: data/votes-2019-06-02.json:31 data/votes-2019-06-09.json:293
+msgid "Trace Ref Sheet"
+msgstr ""
+
+#: data/votes-2019-05-19.json:263 data/votes-2019-06-16.json:51
+msgid "Trace Reference Sheet"
+msgstr ""
+
+#: data/votes-2020-02-10.json:219
+msgid "Trace Scuba diving with shark girls"
+msgstr ""
+
+#: data/votes-2020-03-08.json:44
+msgid "Trace and Flora enact the balcony scene from Romeo and Juliet"
+msgstr ""
+
+#: data/votes-2019-08-25.json:345
+msgid "Trace and Flora getting ready for college in a coed school for humans and keidran"
+msgstr ""
+
+#: data/votes-2019-08-11.json:280
+msgid "Trace and Flora hang-gliding over a forest (Maybe have a campsite visible)"
+msgstr ""
+
+#: data/votes-2019-06-02.json:341
+msgid "Trace and Flora riding through the mountains on a Harley Davidson motorcycle, during the summer"
+msgstr ""
+
+#: data/votes-2019-06-16.json:181
+msgid "Trace and Flora riding through the mountains on a Harley Davidson, on a summer day"
+msgstr ""
+
+#: data/votes-2019-08-04.json:305
+msgid "Trace and Flora riding through the mountains, on a Harley Davidson motorcycle, in the cool autumn fall."
+msgstr ""
+
+#: data/votes-2019-05-19.json:95
+msgid "Trace and Flora riding through the mountains, on a Harley Davidson motorcycle, on a cool summer day."
+msgstr ""
+
+#: data/votes-2019-09-15.json:99
+msgid "Trace and Flora slow dancing in 1930’s style clothes."
+msgstr ""
+
+#: data/votes-2019-10-20.json:143
+msgid "Trace and Flora try out French kissing, and Trace is completely surprised by the scratchiness of the tiger tongue."
+msgstr ""
+
+#: data/votes-2019-09-15.json:333
+msgid "Trace and Saria dancing at a Templar ball"
+msgstr ""
+
+#: data/votes-2019-12-22.json:207
+msgid "Trace and flora on a christmas double date with Nanati and Keith"
+msgstr ""
+
+#: data/votes-2019-08-25.json:287
+msgid "Trace as a snake oil salesman selling transformation potions."
+msgstr ""
+
+#: data/votes-2020-02-10.json:373
+msgid "Trace asks Flora if he's getting fat. Flora responds with teasing that he is and it's all part of her nefarious plan to fatten him up into... the dad bod."
+msgstr ""
+
+#: data/votes-2019-12-22.json:66
+msgid "Trace being sultry for Flora in the bedroom. Open robe, rose, candles, the whole shebang. Flora likes very much!"
+msgstr ""
+
+#: data/votes-2019-09-15.json:111
+msgid "Trace dressed as Tanjiro and Flora dressed Nezuko from the anime demon slayer"
+msgstr ""
+
+#: data/votes-2019-08-04.json:23 data/votes-2019-08-25.json:361
+msgid "Trace dressed as Tanjiro and flora dressed as his sister from the anime demon slayer"
+msgstr ""
+
+#: data/votes-2019-06-16.json:177
+msgid "Trace gets swole and gets overconfident, challenging everyone to a boxing match"
+msgstr ""
+
+#: data/votes-2020-02-10.json:255
+msgid "Trace gives Flora's belly a loving kiss"
+msgstr ""
+
+#: data/votes-2019-06-16.json:107
+msgid "Trace is sitting on a couch and Flora is sleeping on his lap/legs"
+msgstr ""
+
+#: data/votes-2019-05-19.json:51
+msgid "Trace overflowing with power from the Infinity Gauntlet but he uses it to make a mountain of meat for Flora"
+msgstr ""
+
+#: data/votes-2019-12-22.json:186
+msgid "Trace playfully tying a bow around Flora's pregnant belly. “Won't be much longer until our present arrives.”"
+msgstr ""
+
+#: data/votes-2019-10-20.json:37
+msgid "Trace pounces flora back while she isn't expecting"
+msgstr ""
+
+#: data/votes-2019-08-04.json:261
+msgid "Trace teaches Roselyn magic while Saria watches with a smile."
+msgstr ""
+
+#: data/votes-2019-08-11.json:168
+msgid "Trace teaching Roselyn magic while Saria watches with a smile."
+msgstr ""
+
+#: data/votes-2019-06-09.json:301
+msgid "Trace tickles Flora when she’s feeling bad about her ballooning state. For his efforts, he gets an involuntary tiger foot to the gut"
+msgstr ""
+
+#: data/votes-2019-08-25.json:181
+msgid "Trace tiger"
+msgstr ""
+
+#: data/votes-2019-10-20.json:219
+msgid "Trace trying to make pizza for the TK crew (and failing #badAtCooking)"
+msgstr ""
+
+#: data/votes-2020-02-10.json:151
+msgid "Trace trys to fly a kite in the wind, meanwhile Flora and Kathrin are swatting at the tail of the kite trying to pounce on it."
+msgstr ""
+
+#: data/votes-2019-08-25.json:61
+msgid "Trace wades through water carrying Flora to keep her fur dry"
+msgstr ""
+
+#: data/votes-2019-12-22.json:250
+msgid "Trace wearing a Santa hat and Flora playing with the white puff in the end. Swatting it around like a house cat."
+msgstr ""
+
+#: data/votes-2020-03-08.json:20
+msgid "Trace's Promise: After waking from a nightmare about Flora, Trace embraces his sleeping wife and unborn child protectively, whispering into her ear that he will never let anything hurt them. Not even himself."
+msgstr ""
+
+#: data/votes-2019-09-15.json:345
+msgid "Trace's promise: After another nightmare about Flora, he holds his sleeping fiancée and unborn child, whispering into her ear that he'll never let anyone hurt them. Not even himself."
+msgstr ""
+
+#: data/votes-2019-12-22.json:216
+msgid "Trace, Flora, and Kathrin meeting Fluff Kevlar's Ara"
+msgstr ""
+
+#: data/votes-2020-03-08.json:60
+msgid "Traditional snow leopard celebration"
+msgstr ""
+
+#: data/votes-2020-02-10.json:223 data/votes-2020-03-08.json:100
+msgid "Transformation lapse of Raine"
+msgstr ""
+
+#: data/votes-2019-05-19.json:217
+msgid "TwoKinds On Ice"
+msgstr ""
+
+#: data/votes-2019-05-19.json:99
+msgid "TwoKinds characters in modern day college."
+msgstr ""
+
+#: data/votes-2019-06-16.json:123
+msgid "Twokinds Chernobyl. Noticing a power surge, Natani hastily presses the AЗ-5 button. Unfortunately, Laura is still in unit 4's reactor hall at 01:23:45."
+msgstr ""
+
+#: data/votes-2019-05-19.json:111 data/votes-2019-06-02.json:289
+#: data/votes-2019-06-09.json:69 data/votes-2019-06-16.json:43
+#: data/votes-2019-08-04.json:81 data/votes-2019-09-15.json:143
+msgid "Twokinds Stargate SG-1 (Trace as O’Neill, Flora as Carter, Keith as Jackson, Natani as Teal’c)"
+msgstr ""
+
+#: data/votes-2019-06-02.json:35
+msgid "Twokinds characters cosplay Warframe characters (Two Frame / War Kinds.../ Two Warframe kinds?)"
+msgstr ""
+
+#: data/votes-2019-08-04.json:11
+msgid "Twokinds tv show runs out of special effects budget and puts in blatant product placement for the cash"
+msgstr ""
+
+#: data/votes-2019-06-09.json:273
+msgid "Under the table, a tiny dragon Nora is crawling into Trace's pants. Above the table, eating dinner, Trace looks alarmed."
+msgstr ""
+
+#: data/votes-2019-06-09.json:23
+msgid "Vain visions of villainy: a portrait of Prince(ss) Clovis and Seer Brahn"
+msgstr ""
+
+#: data/votes-2020-02-10.json:331
+msgid "Valentine special! Trace and Flora"
+msgstr ""
+
+#: data/votes-2019-08-11.json:216
+msgid "Vixen Eric and Princess Clovis pose together for a picture by Cat Nora"
+msgstr ""
+
+#: data/votes-2019-08-04.json:309
+msgid "Vixen Eric poses together with Princess Clovis for a portrait by Nora"
+msgstr ""
+
+#: data/votes-2019-06-09.json:57
+msgid "WW2 pinup of Raine as a British sniper (wolf-form)."
+msgstr ""
+
+#: data/votes-2019-09-15.json:91
+msgid "WW2: Tigres Trace Wearing a US Army Air Force Dress uniform while sitting on the wings of a P-40"
+msgstr ""
+
+#: data/votes-2019-10-20.json:27
+msgid "WW2: Tigress Trace in a US Army Air Force Dress Uniform."
+msgstr ""
+
+#: data/votes-2019-05-19.json:309
+msgid "WW2: Tigress Trace in a US Army Air Force dress uniform"
+msgstr ""
+
+#: data/votes-2019-05-19.json:103
+msgid "WWII Pinup series (Beefcake) Hardworking sailors Mike & Evals keep their mighty naval guns ready for any action in the hot, muggy South Seas."
+msgstr ""
+
+#: data/votes-2019-08-25.json:259
+msgid "WWII: Tigress Trace in a US Army Air Force Dress Uniform Sitting on the wings of a P-40"
+msgstr ""
+
+#: data/votes-2019-08-11.json:18
+msgid "WWII: Tigress Trace in a US Army Air Force Dress Uniform sitting on the wings of a P-40"
+msgstr ""
+
+#: data/votes-2019-08-04.json:169
+msgid "WWII: Tigress Trace wearing a US Army Air Force Dress Uniform Sitting on the wings of a P-40"
+msgstr ""
+
+#: data/votes-2019-06-16.json:67
+msgid "WWII: Tigress Trace wearing a US Army Air Force Dress Uniform sitting on the wing of a P-40"
+msgstr ""
+
+#: data/votes-2019-09-15.json:73
+msgid "Walking in on Clovis Part 3: Brutus helps Clovis’s “sister” bathe, much to Clovis’s (supposed) discomfort"
+msgstr ""
+
+#: data/votes-2020-03-08.json:68
+msgid "We see what Trace and Flora were really doing in that tent on their first night together... Twister!"
+msgstr ""
+
+#: data/votes-2019-05-19.json:115 data/votes-2019-06-02.json:221
+#: data/votes-2019-06-09.json:281 data/votes-2019-06-16.json:31
+#: data/votes-2019-08-11.json:310 data/votes-2019-08-25.json:47
+#: data/votes-2019-09-15.json:201 data/votes-2019-10-20.json:75
+#: data/votes-2019-12-22.json:84
+msgid "What if Laura was Grand Templar instead of Trace?"
+msgstr ""
+
+#: data/votes-2020-02-10.json:39
+msgid "What if Trace fell in love with Laura instead of Flora?"
+msgstr ""
+
+#: data/votes-2020-03-08.json:196
+msgid "What if Trace ran into Laura after getting his memory wiped, and fell in love with her instead of Flora?"
+msgstr ""
+
+#: data/votes-2019-06-16.json:219 data/votes-2019-10-20.json:265
+msgid "What if: Sealeen & Lynn Family portrait"
+msgstr ""
+
+#: data/votes-2019-06-09.json:393
+msgid "What if: Trace got swole"
+msgstr ""
+
+#: data/votes-2019-06-02.json:155
+msgid "What were Clovis' parents like?"
+msgstr ""
+
+#: data/votes-2019-06-02.json:275
+msgid "When Trace was finding a Keidran to buy, Nora transformed into a very shapely cat Keidran in hopes to be bought."
+msgstr ""
+
+#: data/votes-2019-06-16.json:261
+msgid "While at dinner, Natani tells Raine funny embarrassing stories about Zen, making him visibly flustered and uncomfortable"
+msgstr ""
+
+#: data/votes-2019-05-19.json:27 data/votes-2019-06-02.json:203
+#: data/votes-2019-06-09.json:289 data/votes-2019-08-11.json:244
+msgid "While at dinner, Natani tells Raine funny embarrassing stories about Zen, making him visibly flustered and uncomfortable."
+msgstr ""
+
+#: data/votes-2020-02-10.json:77
+msgid "While practicing shifting between human and wolf, Raine accidentally turns herself into a guy (human or Keidran)"
+msgstr ""
+
+#: data/votes-2020-03-08.json:96
+msgid "While reading one of Eric's books about magic, Kathrin unwittingly revived her dolls of TK cast."
+msgstr ""
+
+#: data/votes-2019-09-15.json:365
+msgid "While shopping at the market a young Rose gets hit on by a handsome male fox and a beautiful female cat keidrian who then begin to fight over her."
+msgstr ""
+
+#: data/votes-2019-08-04.json:73 data/votes-2019-08-11.json:326
+msgid "Wolf Raine and Cat Maren at a con wondering what a \"fursuit\" is."
+msgstr ""
+
+#: data/votes-2019-12-22.json:265
+msgid "Wolf Raine as the \"Grey Ghost\" Enterprise from Game/Anime \"Azure Lane\""
+msgstr ""
+
+#: data/votes-2019-09-15.json:63
+msgid "Wolf Raine on all fours with her tail wagging in the air, waiting for Red to throw a stick so she can fetch it."
+msgstr ""
+
+#: data/votes-2019-09-15.json:46
+msgid "Wolf Raine opens up a magic book only to find a comic book inside. The comic itself is horrible and she drops it while running away screaming"
+msgstr ""
+
+#: data/votes-2019-08-25.json:223
+msgid "Wolfernatural: Natani and Zen as Sam and Dean Winchester from the Supernatural TV series respectively."
+msgstr ""
+
+#: data/votes-2019-09-15.json:15
+msgid "World War II Pinup: Clovis dressed as German chancellor."
+msgstr ""
+
+#: data/votes-2019-06-09.json:341
+msgid "World War II pin-up Alaric as Colonel Von Strassenburg the hero of operation Valkyrie"
+msgstr ""
+
+#: data/votes-2019-05-19.json:79 data/votes-2019-06-02.json:389
+#: data/votes-2019-06-16.json:253 data/votes-2019-08-11.json:224
+msgid "World War II pin-up Maren as sexy French maquis Resistance freedom fighter"
+msgstr ""
+
+#: data/votes-2019-10-20.json:171
+msgid "World War II pinup Flora as a sexy sailor on the deck of a battleship"
+msgstr ""
+
+#: data/votes-2019-08-25.json:235
+msgid "Wrip and Vinkle from Betsy Lee’s No Evil, meeting Keith and Natani"
+msgstr ""
+
+#: data/votes-2019-08-04.json:227 data/votes-2019-08-11.json:142
+msgid "Young Adelaide gets ready for her first date with Maddie’s father"
+msgstr ""
+
+#: data/votes-2019-12-22.json:244
+msgid "Young Adira and Amelia hold hands as they step through the rift wall for the first time."
+msgstr ""
+
+#: data/votes-2019-06-02.json:337
+msgid "Young Jade Adelaide roughhousing male Basitins with her impressive strength out in the fields."
+msgstr ""
+
+#: data/votes-2019-06-09.json:61
+msgid "Young Laura playing on the beach"
+msgstr ""
+
+#: data/votes-2019-06-09.json:325
+msgid "Young Male!Clovis gets angry when hes mistaken for a wolf girl due to his fox half."
+msgstr ""
+
+#: data/votes-2019-10-20.json:89
+msgid "Young Natani holding up lingerie trying to convince Natani to be sexy for Keith"
+msgstr ""
+
+#: data/votes-2019-10-20.json:281
+msgid "Young Rose demonstrates to Saria her secret ability to take a human form."
+msgstr ""
+
+#: data/votes-2019-10-20.json:345
+msgid "Young Trace and Red prank the old Grand Templar on Mischief Night"
+msgstr ""
+
+#: data/votes-2019-10-20.json:195
+msgid "Young Trace attempts to open the portal to another world, but as the portal opens he realizes he read from a cookbook instead of a spellbook. He summoned a dinner."
+msgstr ""
+
+#: data/votes-2020-03-08.json:72
+msgid "YoungNat takes control and teases Keith from the shower"
+msgstr ""
+
+#: data/votes-2020-03-08.json:245
+msgid "Youngtani in Clovis's body runs into Brutus, and tries to embarrass Clovis more by acting and talking flirty. The real Clovis fights to get some words in, giving Brutus some slightly mixed signals."
+msgstr ""
+
+#: data/votes-2020-03-08.json:148
+msgid "Zen and Kat on a dinner date run into Brutus and Clovis's \"sister\""
+msgstr ""
+
+#: data/votes-2019-06-02.json:249
+msgid "Zen and Kat ride Nora together, Nora’s apology to Zen for making him a mask."
+msgstr ""
+
+#: data/votes-2019-05-19.json:123
+msgid "Zen and Nat as the Elric brothers from Full Metal Alchemist."
+msgstr ""
+
+#: data/votes-2019-09-15.json:23
+msgid "Zen and Nat as the Elrich brothers"
+msgstr ""
+
+#: data/votes-2019-08-25.json:369
+msgid "Zen and Nat as the Elrich brothers from full metal alchemist"
+msgstr ""
+
+#: data/votes-2020-02-10.json:281
+msgid "Zen and Natani as Mandalorians"
+msgstr ""
+
+#: data/votes-2019-10-20.json:285
+msgid "Zen and Natani assassin training programme - lesson #1, Naruto running."
+msgstr ""
+
+#: data/votes-2019-08-25.json:153
+msgid "Zen and Raine camping on a tropical beach under a star filled night sky."
+msgstr ""
+
+#: data/votes-2020-02-10.json:55
+msgid "Zen and Raine cuddling on a couch under a blanket"
+msgstr ""
+
+#: data/votes-2019-08-04.json:157
+msgid "Zen as Heath Ledger's Joker"
+msgstr ""
+
+#: data/votes-2019-09-15.json:262
+msgid "Zen carrying a sleeping Raine on his back, taking her back home after a fun time at a rock concert."
+msgstr ""
+
+#: data/votes-2019-08-25.json:43
+msgid "Zen in an Indiana Jones outfit that Kat tailored for him"
+msgstr ""
+
+#: data/votes-2020-03-08.json:269
+msgid "Zen in meditation and the side effects of the mind link"
+msgstr ""
+
+#: data/votes-2019-09-15.json:293
+msgid "Zen reference sheet"
+msgstr ""
+
+#: data/votes-2019-06-16.json:59
+msgid "Zen takes Kat on a wolf Keidran hunt, she does better than he ever would have imagined"
+msgstr ""
+
+#: data/votes-2020-03-08.json:253
+msgid "Zen's Reference Sheet"
+msgstr ""
+
+#: data/votes-2019-10-20.json:317
+msgid "Zen, Raine ,Maren and Sythe decorate for their Spooktacular Halloween party in a high-rise apartment."
+msgstr ""
+
+#: data/votes-2020-02-10.json:369
+msgid "[Cosplay] Maren as Carmen Sandiego."
+msgstr ""
+
+#: data/votes-2019-08-25.json:161
+msgid "[Sequel] After dinner in Vixen & Vixen, Maren walks Raine home. Wolf girl still isn't sure if it was a date and if she should give Maren a goodbye kiss."
+msgstr ""
+
+#: data/votes-2019-06-09.json:373
+msgid "a sequel to Subtleseed: Natani proposes to Keith in turn, with a traditional basitin betrothal gift"
+msgstr ""
+
+#: data/votes-2019-12-22.json:78
+msgid "firework show. gunpowder vs mana based fireworks"
+msgstr ""
+
+#: data/votes-2019-06-02.json:137
+msgid "love zap 2 trace has been turned to dust"
+msgstr ""
+
+#: data/votes-2019-08-04.json:173
+msgid "the chimera meets Kathrin. the chimera mistakes Kathrin to be a chimera and think Kathrin is her little sister."
+msgstr ""
+
+#: data/votes-2019-09-15.json:131
+msgid "the main cast dressed as the cast of bravely default. trace=tiz, flora=agnes, keith =ringabel, Natani=Edea"
+msgstr ""
+

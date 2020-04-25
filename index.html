@@ -105,6 +105,7 @@
   tbody > tr.winner-voters:hover .bar { background-color: #20c4ff; }
   tbody > tr.winner-tom:hover .bar { background-color: #ffff90; }
   tbody > tr.winner-tkpolls:hover .bar { background-color: #ff99ab; }
+  .lang-secondary { font-size: 0.9em; font-weight: 300; }
   </style>
   <script src="js/d3.4.13.0.min.js"></script>
 </head>
@@ -205,7 +206,14 @@
   function filterFunc(filters) {
     var functions = {
       text: function(value) {
-        return (new RegExp(this.value, 'ig')).test(value);
+        var regexp = new RegExp(this.value, 'ig');
+        for (var lang in value) {
+          if (value.hasOwnProperty(lang) && regexp.test(value[lang])) {
+            return true;
+          }
+        }
+
+        return false;
       },
       number: function(value) {
         var testValue = this.value.replace(/\s+/g, '');
@@ -309,6 +317,8 @@
       date: state.date,
       viewMode: state.viewMode,
       interfaceLanguage: state.interfaceLanguage,
+      dataLanguage: state.dataLanguage,
+      dataLanguageMode: state.dataLanguageMode,
       selected: state.selected,
       filters: state.filters,
       sort: state.sort
@@ -334,25 +344,66 @@
       date: get('date', null),
       viewMode: get('viewMode', null),
       interfaceLanguage: get('interfaceLanguage', DEFAULT_LANGUAGE),
+      dataLanguage: get('dataLanguage', DEFAULT_LANGUAGE),
+      dataLanguageMode: get('dataLanguageMode', null),
       selected: get('selected', {}),
       filters: get('filters', {}),
       sort: get('sort', { field: 'index', mode: null })
     };
   }
 
-  function loadData(date) {
+  function loadData(date, language) {
     d3.json('data/votes-' + date + '.json', function(error, json) {
       if (error) { throw error; }
 
       json.data = json.data.map(function(d, i) {
         d.index = i + 1;
         d.my = !!(state.selected[json.date] || {})[d.index];
+
+        var suggestion = d.suggestion;
+        d.suggestion = {};
+        d.suggestion[DEFAULT_LANGUAGE] = suggestion;
+
         return d;
       });
+
+      var comment = json.comment;
+      json.comment = {};
+      json.comment[DEFAULT_LANGUAGE] = comment;
 
       state.date = json.date;
       state.data = state.data || {};
       state.data[state.date] = json;
+
+      loadLanguage(state.date, language);
+    });
+  }
+
+  function loadLanguage(date, language) {
+    if (!state.data) { return; }
+
+    if (language === DEFAULT_LANGUAGE) {
+      state.dataLanguage = language;
+
+      dispatch.call('load');
+
+      return;
+    }
+
+    d3.json('data/' + language + '/votes-' + date + '.json', function(error, json) {
+      if (error) { throw error; }
+
+      var data = state.data[state.date].data;
+      for (var i = 0; i < data.length; ++i) {
+        data[i].suggestion[json.language] = json.suggestions[i];
+      }
+
+      var comment = state.data[state.date].comment;
+      if (comment) {
+        comment[json.language] = json.comment;
+      }
+
+      state.dataLanguage = json.language;
 
       dispatch.call('load');
     });
@@ -428,17 +479,29 @@
         sortModes = [null, 'asc', 'desc'],
         nextSortModeTable = d3.map(),
         viewMode = 'one-line-wide',
+        languages = ['en'],
+        languagesData = [{ lang: 'en', type: 'primary' }],
         cellTypes = {
           text: function(selection, d) {
             selection.text(d.value);
           },
           html: function(selection, d) {
-            selection.html(
-              '<span class="text">' + (res[d.code]
-                ? d.value.replace(res[d.code], '<span class="filter">$&</span>')
-                : d.value
-              ) + '</span>'
-            );
+            var lang = selection.selectAll('div').data(languagesData).order(),
+                langEnter = lang.enter().append('div'),
+                langExit = lang.exit();
+
+            lang
+              .merge(langEnter)
+              .attr('class', function(l) { return 'lang-' + l.lang + ' lang-' + l.type; })
+              .attr('title', function(l) { return d.value[l.lang]; })
+              .html(function(l) {
+                return '<span class="text">' + (res[d.code]
+                  ? d.value[l.lang].replace(res[d.code], '<span class="filter">$&</span>')
+                  : d.value[l.lang]
+                ) + '</span>'
+              });
+
+            langExit.remove();
           },
           bar: function(selection, d) {
             var bar = selection.selectAll('.bar').data([+d.value || 0]),
@@ -446,10 +509,12 @@
 
             bar
               .merge(bar.enter().append('div').attr('class', 'bar'))
+              .attr('title', function(d) { return d; })
               .style('width', function(d) { return 5*d + 'px'; });
 
             value
               .merge(value.enter().append('span').attr('class', 'value'))
+              .attr('title', function(d) { return d; })
               .text(function(d) { return d; });
           }
         },
@@ -600,7 +665,6 @@
       td = td.merge(tdEnter);
       td
         .attr('class', function(d) { return d.code; })
-        .attr('title', function(d) { return d.value; })
         .each(function(d) {
           d3.select(this)
             .call(cellTypes[d.type], d);
@@ -618,6 +682,20 @@
 
     table.values = function(_) {
       return arguments.length ? (values = _, table) : values;
+    };
+
+    table.languages = function(_) {
+      if (arguments.length) {
+        languages = _;
+        languagesData = [];
+        for (var i = 0; i < languages.length && i < 2; ++i) {
+          languagesData.push({ lang: languages[i], type: i === 0 ? 'primary' : 'secondary' });
+        }
+
+        return table;
+      }
+
+      return languages;
     };
 
     table.sort = function(_) {
@@ -680,12 +758,15 @@
     selector
       .selected(state.date)
       .on('select', function() {
-        loadData(this.code);
+        state.requestedDate = this.code;
+
+        // Use setTimeout to enforce filling state.requestedDataLanguage
+        setTimeout(function() { loadData(state.requestedDate, state.requestedDataLanguage || state.dataLanguage); }, 0);
       });
 
     d3.select('#controls').call(selector);
 
-    loadData(state.date);
+    loadData(state.date, state.dataLanguage);
   });
 
   // Init view mode selector
@@ -717,6 +798,43 @@
         state.interfaceLanguage = this.code;
 
         dispatch.call('init');
+      });
+
+    d3.select('#controls').call(selector);
+  });
+
+  // Init data language selector
+  dispatch.on('init.data-language', function() {
+    var language = state.interfaceLanguage;
+    var codes = Object.keys(languages);
+    var values = codes.map(function(d) { return languages[language][d] + (language !== d ? ' — ' + languages[d][d] : ''); });
+    var selector = select('data-language', languages[language]['data-language'], codes, values);
+    selector
+      .selected(state.dataLanguage)
+      .on('select', function() {
+        state.requestedDataLanguage = this.code;
+
+        // Use setTimeout to enforce filling state.requestedDate
+        setTimeout(function() { loadLanguage(state.requestedDate || state.date, state.requestedDataLanguage); }, 0);
+      });
+
+    d3.select('#controls').call(selector);
+
+    loadLanguage(state.date, state.dataLanguage);
+  });
+
+  // Init data language mode selector
+  dispatch.on('init.data-language-mode', function() {
+    var language = languages[state.interfaceLanguage];
+    var codes = ['only', 'primary', 'secondary'];
+    var values = codes.map(function(d) { return language['data-language-mode-' + d]; });
+    var selector = select('data-language-mode', language['data-language-mode'], codes, values);
+    selector
+      .selected(state.dataLanguageMode)
+      .on('select', function() {
+        state.dataLanguageMode = this.code;
+
+        dispatch.call('update');
       });
 
     d3.select('#controls').call(selector);
@@ -764,6 +882,9 @@
 
     var data = state.data[state.date];
     var language = languages[state.interfaceLanguage];
+    var comment = state.dataLanguage && state.dataLanguage in data.comment
+      ? data.comment[state.dataLanguage]
+      : data.comment[DEFAULT_LANGUAGE];
     d3.select('title').text(template(language.title, { date: data.date }));
     d3.select('header').html(template(language.header, {
       date: data.date,
@@ -772,7 +893,7 @@
       youtube_full_duration: formatDuration(data.youtube_full_duration),
       youtube_short_link: data.youtube_short_link,
       youtube_short_duration: formatDuration(data.youtube_short_duration),
-      comment: data.comment || ''
+      comment: comment || ''
     }));
 
     dispatch.call('update');
@@ -781,6 +902,23 @@
   // Filter, sort and render table data
   dispatch.on('update.data', function() {
     if (!state.data) { return; }
+
+    // Determinate languages
+    var languages = [];
+    if (state.dataLanguageMode === 'only' || !state.dataLanguage || state.dataLanguage === DEFAULT_LANGUAGE) {
+      languages.push(state.dataLanguage || DEFAULT_LANGUAGE);
+    }
+    else {
+      if (state.dataLanguageMode === 'primary') {
+        languages.push(state.dataLanguage);
+      }
+
+      languages.push(DEFAULT_LANGUAGE);
+
+      if (state.dataLanguageMode === 'secondary') {
+        languages.push(state.dataLanguage);
+      }
+    }
 
     var data = state.data[state.date].data;
 
@@ -793,6 +931,7 @@
     // Render data
     dataTable
       .viewMode(state.viewMode)
+      .languages(languages)
       .values(data)
       .sort(state.sort)
       .filters(state.filters)
@@ -818,6 +957,8 @@
     date: dates[0],
     viewMode: 'one-line-wide',
     interfaceLanguage: DEFAULT_LANGUAGE,
+    dataLanguage: DEFAULT_LANGUAGE,
+    dataLanguageMode: 'primary',
     sort: { field: 'votes', mode: 'desc' }
   });
 
