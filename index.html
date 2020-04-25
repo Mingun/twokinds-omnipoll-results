@@ -117,6 +117,7 @@
   var languages = {
     'en': {
       'en': 'English',
+      'ru': 'Russian',
       'title': 'Twokinds {date} Omnipoll Results',
       'sketch-date': 'Sketch date',
       'view-mode': 'View mode',
@@ -155,6 +156,48 @@
       'table-index-title': 'Position in omnipoll',
       'table-votes': 'Votes count',
       'table-votes-filter': '(=|>|<|>=|<=)?<num> | <low>-<high>'
+    },
+    'ru': {
+      'en': 'Английский',
+      'ru': 'Русский',
+      'title': 'Результаты за {date} всеобщего голосования по Twokinds',
+      'sketch-date': 'Дата наброска',
+      'view-mode': 'Режим просмотра',
+      'view-mode-one-line-wide': 'Одной широкой строкой',
+      'view-mode-one-line-screen': 'Одной строкой с многоточием при переполнении',
+      'view-mode-multiline': 'С переносом по словам',
+      'interface-language': 'Язык интерфейса',
+      'data-language': 'Язык данных',
+      'data-language-mode': 'Режим языка данных',
+      'data-language-mode-only': 'Только выбранный',
+      'data-language-mode-primary': 'Выбранный основной, умолчательный дополнительный',
+      'data-language-mode-secondary': 'Умолчательный основной, выбранный дополнительный',
+      'header': '<h1>Результаты за {date} всеобщего голосования по Twokinds</h1>'
+              + '<p>Это результаты всеобщего голосования для <a href="{patreon_link}">трансляции набросков Twokinds</a> от {date}. '
+              + '(Неофициальную) архивную запись трансляции можно посмотреть на YouTube: '
+              + '<a href="{youtube_full_link}">полноразмерную запись трансляции ({youtube_full_duration})</a> или '
+              + '<a href="{youtube_short_link}">её версию, ускоренную в 20 раз ({youtube_short_duration})</a>.</p>'
+              + '<p>{comment}</p>'
+              + '<p>Нажатие на заголовок таблицы переключает режим сортировки по этой колонке (по возрастанию, по убыванию или никакой).</p>'
+              + '<p>Нажатие на строку переключает <span class="selected">подсветку</span> вашего выбора.</p>'
+              + '<p>В фильтре по тексту предложения поддерживается синтаксис <a href="https://developer.mozilla.org/docs/ru/Web/JavaScript/Guide/Regular_Expressions">регулярных выражений JavaScript</a>. '
+              + 'Найденный текст в тексте предложения <span class="filter">подсвечивается</span>.</p>'
+              + '<p>Фильтр по количеству голосов может быть как одним числом, по желанию предварённым символами <code>=</code>, <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code> или <code>&gt;=</code> '
+              + 'для фильтра по точному совпадению, меньше чем, меньше или равно, больше чем или больше или равно соответственно; если префикс не указан, подразумевается точное совпадение. '
+              + 'Также фильтр может состоять из двух чисел, разделённых знаком минуса (<code>-</code>), в этом случае он определяет закрытый (с включением его границ) диапазон для соответствия.</p>'
+              + '<p>Легенда по цветам гистограммы: '
+              + '<span class="legend-mark"></span> – обычное предложение '
+              + '<span class="legend-mark winner-voters"></span> – выбор большинством голосов '
+              + '<span class="legend-mark winner-tom"></span> – выбор Тома '
+              + '<span class="legend-mark winner-tkpolls"></span> – выбор голосованием на <a href="https://tkpolls.com/results">tkpolls.com</a></p>',
+      'table-suggestion': 'Текст предложения',
+      'table-suggestion-filter': 'Регулярное выражение JavaScript',
+      'table-position': '!',
+      'table-position-title': 'Позиция победителя',
+      'table-index': '#',
+      'table-index-title': 'Позиция в голосовании',
+      'table-votes': 'Количество голосов',
+      'table-votes-filter': '(=|>|<|>=|<=)?<число> | <мин>-<макс>'
     }
   };
   </script>
