@@ -217,10 +217,13 @@
     });
   }
 
-  function parseQueryString(query) {
+  function parseQueryString(queryString) {
     var result = {};
-
-    query.replace(/([^?=&]+)(?:=([^&]*))?/g, function(param, key, value) { result[key] = value; });
+    var re = /([^?=&]+)(?:=([^&]*))?/g;
+    var match;
+    while ((match = re.exec(queryString)) !== null) {
+      result[match[1]] = match[2];
+    }
 
     return result;
   }
