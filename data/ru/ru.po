@@ -2756,7 +2756,7 @@ msgstr "Сеалин в конце-концов сваливается с дер
 
 #: data/votes-2019-12-22.json:45
 msgid "Sequel of \"Wedding Nightmares\": Maren sighs in relief \"it was just a dream\" Then she turns her head and sees Sythe. Maren wakes up screaming again."
-msgstr "Продолжение «Свадебных кошмаров»: Марэн вздохнула с облегчением «это был просто сон» Затем она поворачивает голову и видит Сифа. Марэн снова просыпается с криком."
+msgstr "Продолжение «Кошмаров о замужестве»: Марэн вздохнула с облегчением «это был просто сон» Затем она поворачивает голову и видит Сифа. Марэн снова просыпается с криком."
 
 #: data/votes-2019-06-02.json:71
 msgid "Sequel to \"Let Sleeping Dragons Lie\" Trace complains dragons are too heavy and asks Nora not to asleep on him. Nora solves this problem by taking human form."
