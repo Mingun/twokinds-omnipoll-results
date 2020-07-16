@@ -87,9 +87,7 @@ def add_to_catalog(message, catalog, locations=None, context=None):
     if message not in catalog:
        catalog.add(message, locations=locations, context=context)
     else:
-       s = set(catalog[message].locations)
-       s |= frozenset(locations)
-       catalog[message].locations = list(s)
+       catalog[message].locations = list(set(catalog[message].locations + list(locations)))
 
 def apply(args):
     """Команда применения строк перевода"""
