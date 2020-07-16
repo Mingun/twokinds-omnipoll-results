@@ -34,6 +34,10 @@ def extract(args):
         with open(args.output, 'rb') as f:
             catalog = read_po(f)
 
+            # Очищаем существующие местоположения, поскольку они уже могли устареть
+            for message in catalog:
+                message.locations = []
+
     for f in args.files:
         extract_from_file(catalog, f)
 
