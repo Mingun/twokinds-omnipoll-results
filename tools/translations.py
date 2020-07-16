@@ -84,10 +84,11 @@ def get_locations(key, message, file_name, file_content):
 def add_to_catalog(message, catalog, locations=None, context=None):
     """Добавляет сообщение в каталог"""
 
-    if message not in catalog:
-       catalog.add(message, locations=locations, context=context)
+    m = catalog.get(message, context)
+    if m:
+       m.locations = list(set(m.locations + list(locations)))
     else:
-       catalog[message].locations = list(set(catalog[message].locations + list(locations)))
+       catalog.add(message, locations=locations, context=context)
 
 def apply(args):
     """Команда применения строк перевода"""
