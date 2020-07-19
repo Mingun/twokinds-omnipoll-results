@@ -26,13 +26,52 @@
       "votes": 76,
       "suggestion": "Older Maddie and Maeve sharing their first kiss together, with Maddie getting flustered afterwards.",
       "position": 5,
-      "choice": "tom"
+      "choice": "tom",
+      "color_position": 4,
+      "suggested_by": [
+        "BMRogue"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-22",
+          "name": "Maddie and Maeve - Teasing",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maddie-and-maeve-30148047"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-03",
+          "name": "Maddie and Maeve - Teasing",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maddie-and-maeve-30451007"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-03",
+          "name": "Maddie and Maeve - Teasing",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Maddie-and-Maeve-Teasing-815450685"
+        }
+      ]
     },
     {
       "votes": 91,
       "suggestion": "Adira and Adelaide in bikinis at the poolside, enjoying some sunshine while Maddie and Maeve are playing in the pool.",
       "position": 2,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Anu Sekani"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-18",
+          "name": "Poolside Adelaide & Adira",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/poolside-adira-30062157"
+        }
+      ]
     },
     {
       "votes": 61,
@@ -50,13 +89,60 @@
     },
     {
       "votes": 75,
-      "suggestion": "Kat in a Maid outfit"
+      "suggestion": "Kat in a Maid outfit",
+      "color_position": 4,
+      "color_votes": 53,
+      "suggested_by": [
+        "StarGamer26"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-06-09",
+          "name": "Maid Outfit Kat",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maid-outfit-kat-38031948"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-03",
+          "name": "Maid Outfit Kathrin",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maid-outfit-38898602"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-03",
+          "name": "Maid Outfit Kathrin",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Maid-Outfit-Kathrin-847578632"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-03",
+          "name": "Maid Outfit Kathrin",
+          "site": "twitter",
+          "link": "https://twitter.com/twokinds/status/1279181326462173185"
+        }
+      ]
     },
     {
       "votes": 84,
       "suggestion": "Mike going out for a picnic with the Wolf and Coyote ladies",
       "position": 4,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "JsTheWolf"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-19",
+          "name": "Wolf and Coyote - Picnic",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/wolf-and-coyote-30087765"
+        }
+      ]
     },
     {
       "votes": 84,
@@ -66,13 +152,63 @@
       "votes": 52,
       "suggestion": "Raine/Rose AU: Saria and Rose take young Raine to a library for the first time.",
       "position": 7,
-      "choice": "tom"
+      "choice": "tom",
+      "suggested_by": [
+        "Warhawk"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-22",
+          "name": "The Library",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/library-30147771"
+        }
+      ]
     },
     {
       "votes": 139,
       "suggestion": "Walking in on Clovis Part 3: Brutus helps Clovis’s “sister” bathe, much to Clovis’s (supposed) discomfort",
       "position": 1,
-      "choice": "voters"
+      "choice": "voters",
+      "color_position": 3,
+      "suggested_by": [
+        "Blizzard Snow Mew",
+        "Ruska Zann",
+        "Winged Cat Productions",
+        "DaronFox",
+        "ZizzoGaming!"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-17",
+          "name": "Walking in on Clovis 3",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/walking-in-on-3-30038025"
+        },
+        {
+          "type": "sketch",
+          "date": "2019-09-17",
+          "name": "Walking in on Clovis 3",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Walking-in-on-Clovis-3-813613213"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-02",
+          "name": "Walking in on Clovis 3",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/walking-in-on-3-30439671"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-02",
+          "name": "Walking in on Clovis 3",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Walking-in-on-Clovis3-815329269"
+        }
+      ]
     },
     {
       "votes": 63,
@@ -142,7 +278,19 @@
       "votes": 33,
       "suggestion": "Twokinds Stargate SG-1 (Trace as O’Neill, Flora as Carter, Keith as Jackson, Natani as Teal’c)",
       "position": 8,
-      "choice": "tom"
+      "choice": "tom",
+      "suggested_by": [
+        "Vatruvius"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-26",
+          "name": "Stargate",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/stargate-30265943"
+        }
+      ]
     },
     {
       "votes": 70,
@@ -162,7 +310,19 @@
     },
     {
       "votes": 70,
-      "suggestion": "Adelaide and Maddie's Father: Forbidden First Date edition. Maddie's father sneaking his way into the castle to see Adelaide"
+      "suggestion": "Adelaide and Maddie's Father: Forbidden First Date edition. Maddie's father sneaking his way into the castle to see Adelaide",
+      "suggested_by": [
+        "Kam Schadt"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-10-12",
+          "name": "Adelaide's Improptu First Date",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/adelaides-first-30562182"
+        }
+      ]
     },
     {
       "votes": 79,
@@ -170,7 +330,19 @@
     },
     {
       "votes": 52,
-      "suggestion": "Adelaide demolishing a tower by lifting it"
+      "suggestion": "Adelaide demolishing a tower by lifting it",
+      "suggested_by": [
+        "WereKeidran"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-25",
+          "name": "Towerfall",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/towerfall-31833045"
+        }
+      ]
     },
     {
       "votes": 61,
@@ -182,11 +354,50 @@
     },
     {
       "votes": 70,
-      "suggestion": "Sythe’s personal thoughts on maren"
+      "suggestion": "Sythe’s personal thoughts on maren",
+      "suggested_by": [
+        "Mediawatcher"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-06",
+          "name": "Sythe's Feeling on Maren",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/sythes-feeling-31314166"
+        }
+      ]
     },
     {
       "votes": 51,
-      "suggestion": "Raine and Red (both Halfkind forms) share a heartwarming kiss under a waterfall."
+      "suggestion": "Raine and Red (both Halfkind forms) share a heartwarming kiss under a waterfall.",
+      "color_position": 5,
+      "suggested_by": [
+        "Crimson Quill"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-28",
+          "name": "Halfkind Kiss",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/halfkind-kiss-30299814"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-04",
+          "name": "Halfkind Kiss",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/halfkind-kiss-30486512"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-04",
+          "name": "Halfkind Kiss",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/HalfKind-Kiss-815972493"
+        }
+      ]
     },
     {
       "votes": 47,
@@ -194,11 +405,51 @@
     },
     {
       "votes": 14,
-      "suggestion": "Laura as Yuna and Lady Nora as Valefor in “I can fly” scene from Final Fantasy X"
+      "suggestion": "Laura as Yuna and Lady Nora as Valefor in “I can fly” scene from Final Fantasy X",
+      "suggested_by": [
+        "Mingun"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-21",
+          "name": "Atypical Dragon Ride",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/atypical-dragon-31724210"
+        }
+      ]
     },
     {
       "votes": 36,
-      "suggestion": "What if Laura was Grand Templar instead of Trace?"
+      "suggestion": "What if Laura was Grand Templar instead of Trace?",
+      "color_position": 4,
+      "color_votes": 24,
+      "suggested_by": [
+        "The Royal Black"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-01-14",
+          "name": "Grand Templar Laura",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/grand-templar-33127415"
+        },
+        {
+          "type": "color",
+          "date": "2020-02-07",
+          "name": "Grand Templar Laura",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/grand-templar-33805208"
+        },
+        {
+          "type": "color",
+          "date": "2020-02-07",
+          "name": "Grand Templar Laura",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Grand-Templar-Laura-829533691"
+        }
+      ]
     },
     {
       "votes": 40,
@@ -229,13 +480,37 @@
       "suggestion": "Karen meets young Maeve, she shouts \"Look at the cute little kitty! can we keep her?\" While giving her a super tight bear hug. Maren is heard from outside the panel, \"No Karen we cannot keep Maeve.\""
     },
     {
-      "suggestion": "Sam and Colin find themselves swapping species. Colin is flustered by the new development while Sam gets into the change."
+      "suggestion": "Sam and Colin find themselves swapping species. Colin is flustered by the new development while Sam gets into the change.",
+      "suggested_by": [
+        "DiDiDi-X"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-06-18",
+          "name": "Sam and Colin Swap",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/sam-and-colin-38354440"
+        }
+      ]
     },
     {
       "votes": 85,
       "suggestion": "Love Talk part 2. Kat asks Nora about her relationship with Trace: \"I heard you tried to seduce him. Are you in love with him?\" And Nora explains how actually she relates to him.",
       "position": 3,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "iliar"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-25",
+          "name": "Kat and Nora - Love Talk 2",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/kat-and-nora-2-30236100"
+        }
+      ]
     },
     {
       "votes": 53,
@@ -247,7 +522,19 @@
     },
     {
       "votes": 19,
-      "suggestion": "Eris is traveling to catch several critters to fulfill their frankenstein project. But she has to be careful how she was not allowed to get caught by the Templars back then (part 1)"
+      "suggestion": "Eris is traveling to catch several critters to fulfill their frankenstein project. But she has to be careful how she was not allowed to get caught by the Templars back then (part 1)",
+      "suggested_by": [
+        "Dominik"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-24",
+          "name": "Chimera Prologue",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/chimera-prologue-31800419"
+        }
+      ]
     },
     {
       "votes": 79,
@@ -275,7 +562,19 @@
     },
     {
       "votes": 67,
-      "suggestion": "Kat’s rollercoaster of emotion as she tries to thread a needle."
+      "suggestion": "Kat’s rollercoaster of emotion as she tries to thread a needle.",
+      "suggested_by": [
+        "SomeOtherTom"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-10-15",
+          "name": "Thread the Needle",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/thread-needle-30757389"
+        }
+      ]
     },
     {
       "votes": 73,
@@ -311,7 +610,34 @@
       "votes": 61,
       "suggestion": "Kat dancing in the pale moonlight; inksplotch style",
       "position": 6,
-      "choice": "tom"
+      "choice": "tom",
+      "color_position": 1,
+      "suggested_by": [
+        "unstedyfronix"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-21",
+          "name": "Dancing by Moonlight",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/dancing-by-30126017"
+        },
+        {
+          "type": "color",
+          "date": "2019-09-30",
+          "name": "Dancing by Moonlight",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/dancing-by-30372505"
+        },
+        {
+          "type": "color",
+          "date": "2019-09-30",
+          "name": "Dancing by Moonlight",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Dancing-by-Moonlight-815207813"
+        }
+      ]
     },
     {
       "votes": 56,
@@ -338,15 +664,51 @@
     },
     {
       "votes": 43,
-      "suggestion": "Sythe in regalia providing diplomatic relations \"advice\" to the Basitin trio. Lynn is studiously taking notes, but the other two are more suspicious."
+      "suggestion": "Sythe in regalia providing diplomatic relations \"advice\" to the Basitin trio. Lynn is studiously taking notes, but the other two are more suspicious.",
+      "suggested_by": [
+        "Dadrobit"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-17",
+          "name": "Lectures on Wolf Diplomacy",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/lectures-on-wolf-34945862"
+        }
+      ]
     },
     {
       "votes": 51,
-      "suggestion": "Trace's promise: After another nightmare about Flora, he holds his sleeping fiancée and unborn child, whispering into her ear that he'll never let anyone hurt them. Not even himself."
+      "suggestion": "Trace's promise: After another nightmare about Flora, he holds his sleeping fiancée and unborn child, whispering into her ear that he'll never let anyone hurt them. Not even himself.",
+      "suggested_by": [
+        "CrimsonHelsing"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-23",
+          "name": "Nightmarish Visions",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/nightmarish-35184949"
+        }
+      ]
     },
     {
       "votes": 72,
-      "suggestion": "The Male Cartographers reached the Minor Feline Territory to finding many other Feline Keidran with some intrigue with them, and some \"vary\" interested in the men with the Tiger noble guarding them."
+      "suggestion": "The Male Cartographers reached the Minor Feline Territory to finding many other Feline Keidran with some intrigue with them, and some \"vary\" interested in the men with the Tiger noble guarding them.",
+      "suggested_by": [
+        "Iago24"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-01-08",
+          "name": "Extended Stay",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/extended-stay-32956702"
+        }
+      ]
     },
     {
       "votes": 76,

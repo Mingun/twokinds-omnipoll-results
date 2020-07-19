@@ -22,6 +22,7 @@ Current features:
 - The interface and text of the suggstions are available in English and Russian and can be switched independently of each other.
   In addition, you can simultaneously see the original suggestion and its translation, as well as choose which language will be
   primary and which will be secondary
+- Links to an already sketched and colored suggestions to Patreon, DeviantArt or Twitter
 
 
 .. _russian:
@@ -48,3 +49,4 @@ Current features:
 - Интерфейс и текст предложений доступны на английском и русском языках и могут переключаться независимо друг от друга.
   Кроме того, можно одновременно видеть оригинал предложения и его перевод, а также выбирать, какой язык будет основным,
   а какой — дополнительным
+- Ссылки на уже нарисованные и раскрашенные предложения на Patreon’е, DeviantArt’е или в Твиттере

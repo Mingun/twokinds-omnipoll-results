@@ -80,11 +80,6 @@
   .index { width: 30px; }
   .votes { text-align: left; }
 
-  td.suggestion .text { display: block; }
-  .one-line-wide td.suggestion .text { white-space: nowrap; }
-  .one-line-screen td.suggestion .text { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
-  .multiline td.suggestion .text { white-space: normal; }
-
   .bar {
     display: inline-block;
     margin-right: 5px;
@@ -107,6 +102,31 @@
   tbody > tr.winner-tom:hover .bar { background-color: #ffff90; }
   tbody > tr.winner-tkpolls:hover .bar { background-color: #ff99ab; }
   .lang-secondary { font-size: 0.9em; font-weight: 300; }
+
+  .wrapper { display: flex; align-items: center; }
+  .wrapper-icons { flex: 1 1 auto; }
+  .wrapper-suggestions { flex: 0 1 auto; }
+  .one-line-screen .wrapper-suggestions,
+  .one-line-screen .lang-primary,
+  .one-line-screen .lang-secondary { overflow: hidden; }
+
+  .one-line-wide .lang-primary, .one-line-wide .lang-secondary { white-space: nowrap; }
+  .one-line-screen .lang-primary, .one-line-screen .lang-secondary { white-space: nowrap; text-overflow: ellipsis; }
+  .multiline .lang-primary, .multiline .lang-secondary { white-space: normal; }
+
+  .done-icon { display: inline-block; margin: 3px; width: 30px; height: 30px; background-position: center; background-size: contain; }
+  .done-icon.type-sketch.site-patreon { background-image: url(images/patreon-sketch.svg); }
+  .done-icon.type-sketch.site-deviantart { background-image: url(images/deviantart-sketch.svg); }
+  .done-icon.type-sketch.site-twitter { background-image: url(images/twitter-sketch.svg); }
+  .done-icon.type-color.site-patreon { background-image: url(images/patreon-color.svg); }
+  .done-icon.type-color.site-deviantart { background-image: url(images/deviantart-color.svg); }
+  .done-icon.type-color.site-twitter { background-image: url(images/twitter-color.svg); }
+  tbody > tr:hover .done-icon.type-sketch.site-patreon { background-image: url(images/patreon-sketch-hover.svg); }
+  tbody > tr:hover .done-icon.type-sketch.site-deviantart { background-image: url(images/deviantart-sketch-hover.svg); }
+  tbody > tr:hover .done-icon.type-sketch.site-twitter { background-image: url(images/twitter-sketch-hover.svg); }
+  tbody > tr:hover .done-icon.type-color.site-patreon { background-image: url(images/patreon-color-hover.svg); }
+  tbody > tr:hover .done-icon.type-color.site-deviantart { background-image: url(images/deviantart-color-hover.svg); }
+  tbody > tr:hover .done-icon.type-color.site-twitter { background-image: url(images/twitter-color-hover.svg); }
   </style>
   <script src="js/d3.4.13.0.min.js"></script>
 </head>
@@ -157,7 +177,17 @@
       'table-index': '#',
       'table-index-title': 'Position in omnipoll',
       'table-votes': 'Votes count',
-      'table-votes-filter': '(=|>|<|>=|<=)?<num> | <low>-<high>'
+      'table-votes-filter': '(=|>|<|>=|<=)?<num> | <low>-<high>',
+      'table-icons-sketch': 'Sketch',
+      'table-icons-color': 'Colored version',
+      'table-icons-published-date': 'Published',
+      'table-icons-published-site': 'Site',
+      'table-icons-published-site-patreon': 'Patreon',
+      'table-icons-published-site-deviantart': 'DeviantArt',
+      'table-icons-published-site-twitter': 'Twitter',
+      'table-icons-suggested-by': 'Suggested by',
+      'table-icons-sponsored-by': 'Sponsored by',
+      'table-icons-color-vote-position': 'Position in color vote'
     },
     'ru': {
       'en': 'Английский',
@@ -199,7 +229,17 @@
       'table-index': '#',
       'table-index-title': 'Позиция в голосовании',
       'table-votes': 'Количество голосов',
-      'table-votes-filter': '(=|>|<|>=|<=)?<число> | <мин>-<макс>'
+      'table-votes-filter': '(=|>|<|>=|<=)?<число> | <мин>-<макс>',
+      'table-icons-sketch': 'Набросок',
+      'table-icons-color': 'Цветная версия',
+      'table-icons-published-date': 'Опубликована',
+      'table-icons-published-site': 'Площадка',
+      'table-icons-published-site-patreon': 'Patreon',
+      'table-icons-published-site-deviantart': 'DeviantArt',
+      'table-icons-published-site-twitter': 'Твиттер',
+      'table-icons-suggested-by': 'Предложена',
+      'table-icons-sponsored-by': 'Проспонсирована',
+      'table-icons-color-vote-position': 'Позиция в голосовании на раскраску'
     }
   };
   </script>
@@ -362,8 +402,21 @@
         d.my = !!(state.selected[json.date] || {})[d.index];
 
         var suggestion = d.suggestion;
-        d.suggestion = {};
-        d.suggestion[DEFAULT_LANGUAGE] = suggestion;
+        d.suggestion = {
+          suggesions: {},
+          suggested_by: d.suggested_by || [],
+          sponsored_by: d.suggested_by || [],
+          color_position: d.color_position,
+          links: d.links || []
+        };
+        d.suggestion.suggesions[DEFAULT_LANGUAGE] = suggestion;
+
+        for (var i = 0; i < d.suggestion.links.length; ++i) {
+          var link = d.suggestion.links[i];
+          var name = link.name;
+          link.name = {};
+          link.name[DEFAULT_LANGUAGE] = name;
+        }
 
         return d;
       });
@@ -391,12 +444,21 @@
       return;
     }
 
+    var amount = 2, i = 0;
+    function allLoaded() {
+      ++i;
+      if (amount === i) {
+        i = 0;
+        dispatch.call('load');
+      }
+    }
+
     d3.json('data/' + language + '/votes-' + date + '.json', function(error, json) {
       if (error) { throw error; }
 
       var data = state.data[state.date].data;
       for (var i = 0; i < data.length; ++i) {
-        data[i].suggestion[json.language] = json.suggestions[i];
+        data[i].suggestion.suggesions[json.language] = json.suggestions[i];
       }
 
       var comment = state.data[state.date].comment;
@@ -406,7 +468,21 @@
 
       state.dataLanguage = json.language;
 
-      dispatch.call('load');
+      allLoaded();
+    });
+
+    d3.json('data/' + language + '/additional.json', function(error, json) {
+      if (error) { throw error; }
+
+      var data = state.data[state.date].data;
+      for (var i = 0; i < data.length; ++i) {
+        var links = data[i].suggestion.links;
+        for (var j = 0; j < links.length; ++j) {
+          links[j].name[json.language] = json.publish_name[links[j].name[DEFAULT_LANGUAGE]];
+        }
+      }
+
+      allLoaded();
     });
   }
 
@@ -470,7 +546,7 @@
     return select;
   }
 
-  function table(headers) {
+  function table(headers, interfaceLanguagesData) {
     var values = [],
         selected = {},
         filters = {},
@@ -487,19 +563,59 @@
             selection.text(d.value);
           },
           html: function(selection, d) {
-            var lang = selection.selectAll('div').data(languagesData).order(),
+            var wrapper = selection.selectAll('.wrapper').data([null]),
+                wrapperEnter = wrapper.enter().append('div').attr('class', 'wrapper'),
+                wrapperExit = wrapper.exit().remove();
+
+            wrapper = wrapper.merge(wrapperEnter);
+
+            var links = d.value.links;
+            var wrapperIcons = wrapper.selectAll('.wrapper-icons').data([null]),
+                wrapperIconsEnter = wrapperIcons.enter().append('div').attr('class', 'wrapper-icons'),
+                wrapperIconsExit = wrapperIcons.exit().remove();
+
+            wrapperIcons = wrapperIcons.merge(wrapperIconsEnter);
+
+            var icons = wrapperIcons.selectAll('a').data(links),
+                iconsEnter = icons.enter().append('a'),
+                iconsExit = icons.exit();
+
+            icons
+              .merge(iconsEnter)
+              .attr('href', function(l) { return l.link; })
+              .attr('class', function(l) { return 'done-icon site-' + l.site + ' type-' + l.type; })
+              .attr('title', function(l) {
+                return languagesData.map(function(k) { return l.name[k.lang]; }).filter(function(d) { return d; }).join('\n')
+                     + '\n\n' + interfaceLanguagesData['table-icons-' + l.type]
+                     + '\n\n' + interfaceLanguagesData['table-icons-published-date'] + ': ' + l.date
+                     + '\n' + interfaceLanguagesData['table-icons-published-site'] + ': '
+                     + interfaceLanguagesData['table-icons-published-site-' + l.site]
+                     + '\n' + interfaceLanguagesData['table-icons-suggested-by'] + ': ' + d.value.suggested_by.join(', ')
+                     + (l.sponsored_by ? '\n' + interfaceLanguagesData['table-icons-sponsored-by'] + ': ' + l.sponsored_by.join(', ') : '')
+                     + (d.value.color_posision ? '\n' + interfaceLanguagesData['table-icons-color-vote-position'] + ': ' + d.value.color_posision : '');
+              });
+
+            iconsExit.remove();
+
+            var suggesions = d.value.suggesions;
+            var wrapperSuggesions = wrapper.selectAll('.wrapper-suggestions').data([null]),
+                wrapperSuggesionsEnter = wrapperSuggesions.enter().append('div').attr('class', 'wrapper-suggestions'),
+                wrapperSuggesionsExit = wrapperSuggesions.exit().remove();
+
+            wrapperSuggesions = wrapperSuggesions.merge(wrapperSuggesionsEnter);
+
+            var lang = wrapperSuggesions.selectAll('div').data(languagesData).order(),
                 langEnter = lang.enter().append('div'),
                 langExit = lang.exit();
 
             lang
               .merge(langEnter)
               .attr('class', function(l) { return 'lang-' + l.lang + ' lang-' + l.type; })
-              .attr('title', function(l) { return d.value[l.lang]; })
+              .attr('title', function(l) { return suggesions[l.lang]; })
               .html(function(l) {
-                return '<span class="text">' + (res[d.code]
-                  ? d.value[l.lang].replace(res[d.code], '<span class="filter">$&</span>')
-                  : d.value[l.lang]
-                ) + '</span>'
+                return res[d.code]
+                  ? suggesions[l.lang].replace(res[d.code], '<span class="filter">$&</span>')
+                  : suggesions[l.lang];
               });
 
             langExit.remove();
@@ -858,7 +974,7 @@
       }
 
       return h;
-    }))
+    }), language)
       .on('filter', function(filters) {
         state.filters = filters;
 

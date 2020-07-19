@@ -20,7 +20,42 @@
     },
     {
       "votes": 72,
-      "suggestion": "Kat in a Maid outfit"
+      "suggestion": "Kat in a Maid outfit",
+      "color_position": 4,
+      "color_votes": 53,
+      "suggested_by": [
+        "StarGamer26"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-06-09",
+          "name": "Maid Outfit Kat",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maid-outfit-kat-38031948"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-03",
+          "name": "Maid Outfit Kathrin",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maid-outfit-38898602"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-03",
+          "name": "Maid Outfit Kathrin",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Maid-Outfit-Kathrin-847578632"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-03",
+          "name": "Maid Outfit Kathrin",
+          "site": "twitter",
+          "link": "https://twitter.com/twokinds/status/1279181326462173185"
+        }
+      ]
     },
     {
       "votes": 61,
@@ -30,11 +65,35 @@
       "votes": 102,
       "suggestion": "Keith and Natani in the Oasis Room: Natani standing out of the water holding a flustered Keith's swim trunks and telling him if he wants them back he has to come out and get them. Natani's shocked when he does so.",
       "position": 5,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "StoryMaker2"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-10-25",
+          "name": "Lost Bathing Suit",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/lost-bathing-31027177"
+        }
+      ]
     },
     {
       "votes": 89,
-      "suggestion": "Trace pounces flora back while she isn't expecting"
+      "suggestion": "Trace pounces flora back while she isn't expecting",
+      "suggested_by": [
+        "ChampionofBagels"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-10-13",
+          "name": "Turnabout Tackle",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/turnabout-tackle-31476938"
+        }
+      ]
     },
     {
       "votes": 56,
@@ -52,7 +111,35 @@
       "votes": 38,
       "suggestion": "Maren, Roselyn, and Fem! Eric as the Sanderson sisters from Hocus Pocus.",
       "position": 6,
-      "choice": "tom"
+      "choice": "tom",
+      "color_position": 2,
+      "color_votes": 28,
+      "suggested_by": [
+        "Rimadraws"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-10-26",
+          "name": "Sanderson Sisters",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/sanderson-31027425"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-29",
+          "name": "Sanderson Sisters",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/sanderson-31124842"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-29",
+          "name": "Sanderson Sisters",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Sanderson-Sisters-818517797"
+        }
+      ]
     },
     {
       "votes": 73,
@@ -64,7 +151,19 @@
     },
     {
       "votes": 20,
-      "suggestion": "Eris is traveling to catch several critters to fulfill their frankenstein project. But she has to be careful how she was not allowed to get caught by the Templars back then"
+      "suggestion": "Eris is traveling to catch several critters to fulfill their frankenstein project. But she has to be careful how she was not allowed to get caught by the Templars back then",
+      "suggested_by": [
+        "Dominik"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-24",
+          "name": "Chimera Prologue",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/chimera-prologue-31800419"
+        }
+      ]
     },
     {
       "votes": 96,
@@ -72,7 +171,35 @@
     },
     {
       "votes": 38,
-      "suggestion": "What if Laura was Grand Templar instead of Trace?"
+      "suggestion": "What if Laura was Grand Templar instead of Trace?",
+      "color_position": 4,
+      "color_votes": 24,
+      "suggested_by": [
+        "The Royal Black"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-01-14",
+          "name": "Grand Templar Laura",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/grand-templar-33127415"
+        },
+        {
+          "type": "color",
+          "date": "2020-02-07",
+          "name": "Grand Templar Laura",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/grand-templar-33805208"
+        },
+        {
+          "type": "color",
+          "date": "2020-02-07",
+          "name": "Grand Templar Laura",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Grand-Templar-Laura-829533691"
+        }
+      ]
     },
     {
       "votes": 63,
@@ -82,13 +209,37 @@
       "votes": 54,
       "suggestion": "Adria running the tavern on Halloween dressed as Elvira.",
       "position": 4,
-      "choice": "tom"
+      "choice": "tom",
+      "suggested_by": [
+        "KatFeathers"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-10-24",
+          "name": "Elvira Adira",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/elvira-adira-30989732"
+        }
+      ]
     },
     {
       "votes": 123,
       "suggestion": "Young Natani holding up lingerie trying to convince Natani to be sexy for Keith",
       "position": 1,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "BlazingFoxSpirit"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-10-21",
+          "name": "Lingerie Proposal",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/lingerie-30922388"
+        }
+      ]
     },
     {
       "votes": 75,
@@ -108,11 +259,42 @@
     },
     {
       "votes": 73,
-      "suggestion": "Flora against the glass (like Kat against the glass but more stripey)"
+      "suggestion": "Flora against the glass (like Kat against the glass but more stripey)",
+      "suggested_by": [
+        "Wes (StrayXIII)"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-04-14",
+          "name": "Flora Against the Glass",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/flora-against-35996855"
+        },
+        {
+          "type": "sketch",
+          "date": "2020-04-14",
+          "name": "Flora Against the Glass",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Flora-Against-the-Glass-837857820"
+        }
+      ]
     },
     {
       "votes": 16,
-      "suggestion": "Laura as Yuna and Lady Nora as Valefor in “I can fly” scene from Final Fantasy X"
+      "suggestion": "Laura as Yuna and Lady Nora as Valefor in “I can fly” scene from Final Fantasy X",
+      "suggested_by": [
+        "Mingun"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-21",
+          "name": "Atypical Dragon Ride",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/atypical-dragon-31724210"
+        }
+      ]
     },
     {
       "votes": 52,
@@ -154,7 +336,19 @@
       "votes": 65,
       "suggestion": "For Halloween Flora dresses as herself with a bigger chest.",
       "position": 2,
-      "choice": "tom"
+      "choice": "tom",
+      "suggested_by": [
+        "ShadowedHand"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-10-23",
+          "name": "Busty Costume",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/busty-costume-30965340"
+        }
+      ]
     },
     {
       "votes": 97,
@@ -200,15 +394,51 @@
     },
     {
       "votes": 72,
-      "suggestion": "Sythe’s thoughts on maren"
+      "suggestion": "Sythe’s thoughts on maren",
+      "suggested_by": [
+        "Mediawatcher"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-06",
+          "name": "Sythe's Feeling on Maren",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/sythes-feeling-31314166"
+        }
+      ]
     },
     {
       "votes": 39,
-      "suggestion": "Adelaide demolishing a tower by lifting it"
+      "suggestion": "Adelaide demolishing a tower by lifting it",
+      "suggested_by": [
+        "WereKeidran"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-25",
+          "name": "Towerfall",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/towerfall-31833045"
+        }
+      ]
     },
     {
       "votes": 91,
-      "suggestion": "Adelaide's First Date Part 2: Maddie's Father tries to flee the castle the morning after, but Adelaide won't let him go."
+      "suggestion": "Adelaide's First Date Part 2: Maddie's Father tries to flee the castle the morning after, but Adelaide won't let him go.",
+      "suggested_by": [
+        "Kryp7ic"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-02",
+          "name": "No Escape",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/34340473"
+        }
+      ]
     },
     {
       "votes": 36,
@@ -222,7 +452,42 @@
       "votes": 107,
       "suggestion": "Brutus offers “services” to Clovis, who’s all “Heck No” but gives in, and then we get to see a Melted Clovis as Brutus turns out to be a good masseuse.",
       "position": 3,
-      "choice": "voters"
+      "choice": "voters",
+      "color_position": 5,
+      "color_votes": 24,
+      "suggested_by": [
+        "DarthKeidran"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-10-23",
+          "name": "Serviced by Brutus",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/serviced-by-30978094"
+        },
+        {
+          "type": "sketch",
+          "date": "2019-10-23",
+          "name": "Serviced by Brutus",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Serviced-by-Brutus-817786478"
+        },
+        {
+          "type": "color",
+          "date": "2019-11-01",
+          "name": "Serviced by Brutus",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/serviced-by-31217978"
+        },
+        {
+          "type": "color",
+          "date": "2019-11-01",
+          "name": "Serviced by Brutus",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Serviced-by-Brutus-818844621"
+        }
+      ]
     },
     {
       "votes": 44,
@@ -262,7 +527,19 @@
     },
     {
       "votes": 33,
-      "suggestion": "What if: Sealeen & Lynn Family portrait"
+      "suggestion": "What if: Sealeen & Lynn Family portrait",
+      "suggested_by": [
+        "Warhawk"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-18",
+          "name": "Sealeen and Lynn Family Portait",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/sealeen-and-lynn-31651144"
+        }
+      ]
     },
     {
       "votes": 49,
@@ -294,11 +571,35 @@
     },
     {
       "votes": 88,
-      "suggestion": "( Cat ) Nora trying to seduce Flora to make Trace jealous."
+      "suggestion": "( Cat ) Nora trying to seduce Flora to make Trace jealous.",
+      "suggested_by": [
+        "Daltheer"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-06-12",
+          "name": "Nora and Flora",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/nora-and-flora-27570434"
+        }
+      ]
     },
     {
       "votes": 40,
-      "suggestion": "An older, grizzled Keith drinking away his sorrows at a tavern/bar crying about how he couldn't save Alaric or Laura and now Natani."
+      "suggestion": "An older, grizzled Keith drinking away his sorrows at a tavern/bar crying about how he couldn't save Alaric or Laura and now Natani.",
+      "suggested_by": [
+        "ElvenHunter84"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-05-08",
+          "name": "Familiar Grief",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/familiar-grief-36844402"
+        }
+      ]
     },
     {
       "votes": 62,
@@ -306,7 +607,42 @@
     },
     {
       "votes": 71,
-      "suggestion": "A Norwegian Forest Cat keidran, dressed in Viking warrior armor/garb, riding aboard a Viking ship with other fellow Viking cat keidran, all sailing for war."
+      "suggestion": "A Norwegian Forest Cat keidran, dressed in Viking warrior armor/garb, riding aboard a Viking ship with other fellow Viking cat keidran, all sailing for war.",
+      "color_position": 3,
+      "color_votes": 46,
+      "suggested_by": [
+        "Travis9x"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-17",
+          "name": "Norwegian Forest Cat",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maid-outfit-kat-38031948"
+        },
+        {
+          "type": "color",
+          "date": "2019-12-04",
+          "name": "Norwegian Forest Cat",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/norwegian-forest-32066959"
+        },
+        {
+          "type": "color",
+          "date": "2019-12-04",
+          "name": "Norwegian Forest Cat",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Norwegian-Forest-Cat-822329839"
+        },
+        {
+          "type": "color",
+          "date": "2019-12-04",
+          "name": "Norwegian Forest Cat",
+          "site": "twitter",
+          "link": "https://twitter.com/TwoKinds/status/1202278893874368512"
+        }
+      ]
     },
     {
       "votes": 76,
@@ -350,7 +686,20 @@
     },
     {
       "votes": 71,
-      "suggestion": "Mike character sheet"
+      "suggestion": "Mike character sheet",
+      "suggested_by": [
+        "SCPilot",
+        "Dofrane"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-05-30",
+          "name": "Mike and Evals Ref Sheet",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/mike-and-evals-37671238"
+        }
+      ]
     },
     {
       "votes": 54,

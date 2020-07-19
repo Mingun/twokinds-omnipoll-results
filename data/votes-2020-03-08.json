@@ -17,7 +17,19 @@
     },
     {
       "votes": 62,
-      "suggestion": "Trace's Promise: After waking from a nightmare about Flora, Trace embraces his sleeping wife and unborn child protectively, whispering into her ear that he will never let anything hurt them. Not even himself."
+      "suggestion": "Trace's Promise: After waking from a nightmare about Flora, Trace embraces his sleeping wife and unborn child protectively, whispering into her ear that he will never let anything hurt them. Not even himself.",
+      "suggested_by": [
+        "CrimsonHelsing"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-23",
+          "name": "Nightmarish Visions",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/nightmarish-35184949"
+        }
+      ]
     },
     {
       "votes": 59,
@@ -61,7 +73,19 @@
     },
     {
       "votes": 98,
-      "suggestion": "How Mike got the scar on his face."
+      "suggestion": "How Mike got the scar on his face.",
+      "suggested_by": [
+        "Ordithus"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-25",
+          "name": "Mike's Scar",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/mikes-scar-35261313"
+        }
+      ]
     },
     {
       "votes": 73,
@@ -71,7 +95,19 @@
       "votes": 131,
       "suggestion": "YoungNat takes control and teases Keith from the shower",
       "position": 3,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Kryp7ic"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-12",
+          "name": "Youngtani Leans In",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/youngtani-leans-34800878"
+        }
+      ]
     },
     {
       "votes": 25,
@@ -81,7 +117,19 @@
       "votes": 144,
       "suggestion": "Tom catches Nora trying to edit the comic!",
       "position": 1,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Cassandra"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-09",
+          "name": "Nora Rewrites Twokinds",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/nora-rewrites-34732005"
+        }
+      ]
     },
     {
       "votes": 95,
@@ -89,7 +137,43 @@
     },
     {
       "votes": 71,
-      "suggestion": "Good morning Laura"
+      "suggestion": "Good morning Laura",
+      "color_position": 2,
+      "color_votes": 61,
+      "suggested_by": [
+        "Baconcopter",
+        "LoganJ"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-21",
+          "name": "Good Morning Laura",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/good-morning-35091723"
+        },
+        {
+          "type": "color",
+          "date": "2020-03-31",
+          "name": "Good Morning Laura",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/good-morning-35474956"
+        },
+        {
+          "type": "color",
+          "date": "2020-03-31",
+          "name": "Good Morning Laura",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Good-Morning-Laura-835907879"
+        },
+        {
+          "type": "color",
+          "date": "2020-03-31",
+          "name": "Good Morning Laura",
+          "site": "twitter",
+          "link": "https://twitter.com/twokinds/status/1245032249705345024"
+        }
+      ]
     },
     {
       "votes": 46,
@@ -113,7 +197,19 @@
     },
     {
       "votes": 80,
-      "suggestion": "Angel Flora fighting an out of control Demon Tiger Trace to bring him back to his senses"
+      "suggestion": "Angel Flora fighting an out of control Demon Tiger Trace to bring him back to his senses",
+      "suggested_by": [
+        "TheFriendlyDeathclaw"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-07-19",
+          "name": "Demon Trace vs Angel Flora",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/demon-trace-vs-39476869"
+        }
+      ]
     },
     {
       "votes": 94,
@@ -147,7 +243,19 @@
       "votes": 118,
       "suggestion": "Zen and Kat on a dinner date run into Brutus and Clovis's \"sister\"",
       "position": 5,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Storymaker2"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-14",
+          "name": "Chance Encounter",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/chance-encounter-34857607"
+        }
+      ]
     },
     {
       "votes": 53,
@@ -189,7 +297,19 @@
       "votes": 107,
       "suggestion": "Madelyn Reference Sheet",
       "position": 4,
-      "choice": "tkpolls"
+      "choice": "tkpolls",
+      "suggested_by": [
+        "Xerenowicz"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-13",
+          "name": "Madelyn Ref Sheet",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/madelyn-ref-34828699"
+        }
+      ]
     },
     {
       "votes": 55,
@@ -201,21 +321,76 @@
     },
     {
       "votes": 53,
-      "suggestion": "Baby Nibbly"
+      "suggestion": "Baby Nibbly",
+      "suggested_by": [
+        "SpazztasticKiwi"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-04-10",
+          "name": "Baby Nibbly",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/baby-nibbly-35695442"
+        }
+      ]
     },
     {
       "votes": 116,
       "suggestion": "Keith performs a sexy striptease for Natani.",
       "position": 7,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Elvenhunter84"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-03-16",
+          "name": "Keith Tease",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/keith-tease-34912733"
+        }
+      ]
     },
     {
       "votes": 103,
-      "suggestion": "Kat against the glass: Flora edition"
+      "suggestion": "Kat against the glass: Flora edition",
+      "suggested_by": [
+        "Wes (StrayXIII)"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-04-14",
+          "name": "Flora Against the Glass",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/flora-against-35996855"
+        },
+        {
+          "type": "sketch",
+          "date": "2020-04-14",
+          "name": "Keith Tease",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Flora-Against-the-Glass-837857820"
+        }
+      ]
     },
     {
       "votes": 61,
-      "suggestion": "Grand Templar Laura and the Slaver Sisters Kathrin and Flora have tea when Laura takes notice of a special Basitin slave boy"
+      "suggestion": "Grand Templar Laura and the Slaver Sisters Kathrin and Flora have tea when Laura takes notice of a special Basitin slave boy",
+      "suggested_by": [
+        "ProsePro7"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-06-20",
+          "name": "Grand Templar Laura 2",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/grand-templar-2-38441675"
+        }
+      ]
     },
     {
       "votes": 43,
@@ -231,10 +406,34 @@
     },
     {
       "votes": 54,
-      "suggestion": "Maren and Sythe as Belle and the Beast dancing in the ballroom from the film."
+      "suggestion": "Maren and Sythe as Belle and the Beast dancing in the ballroom from the film.",
+      "suggested_by": [
+        "iliar"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-17",
+          "name": "Sythe and Maren Dance",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/sythe-and-maren-29222754"
+        }
+      ]
     },
     {
-      "suggestion": "Maeve Noms Roan’s Tail, causing him to either have a heart attack because he nearly killed someone so adorable, or throw his fireball vertically, causing it to land on him.\""
+      "suggestion": "Maeve Noms Roan’s Tail, causing him to either have a heart attack because he nearly killed someone so adorable, or throw his fireball vertically, causing it to land on him.\"",
+      "suggested_by": [
+        "DarthKeidran"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-05-05",
+          "name": "Maeve Saves the Day!",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maeve-saves-day-36781907"
+        }
+      ]
     },
     {
       "votes": 91,
@@ -254,7 +453,19 @@
     },
     {
       "votes": 65,
-      "suggestion": "An angry Raine (Halfkind form) shouts at Euchre and Mary for abandoning and neglecting her, respectively, declaring that she's proud of who she is-human, halfkind and keidran."
+      "suggestion": "An angry Raine (Halfkind form) shouts at Euchre and Mary for abandoning and neglecting her, respectively, declaring that she's proud of who she is-human, halfkind and keidran.",
+      "suggested_by": [
+        "CrimsonQuill"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-04-23",
+          "name": "Raine Confronts her Parents",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/raine-confronts-36230135"
+        }
+      ]
     },
     {
       "votes": 88,
@@ -282,7 +493,19 @@
     },
     {
       "votes": 79,
-      "suggestion": "Flora \"Deeper Stretch\" Remake"
+      "suggestion": "Flora \"Deeper Stretch\" Remake",
+      "suggested_by": [
+        "Dustyraincloud"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-26",
+          "name": "Flora's Morning Stretch",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/floras-morning-35272989"
+        }
+      ]
     },
     {
       "votes": 65,
@@ -290,17 +513,76 @@
     },
     {
       "votes": 101,
-      "suggestion": "Sythe meets squirrel maren, he isn’t sure how to feel about the new change, but his tail is wagging for some reason"
+      "suggestion": "Sythe meets squirrel maren, he isn’t sure how to feel about the new change, but his tail is wagging for some reason",
+      "suggested_by": [
+        "Mediawatcher"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-21",
+          "name": "Squirrelified Maren 2",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/squirrelified-2-35092430"
+        }
+      ]
     },
     {
       "votes": 110,
       "suggestion": "Keith and Natani are getting very intimate with each other when they are interrupted by Trace walking into the room.",
       "position": 6,
-      "choice": "tkpolls"
+      "choice": "tkpolls",
+      "suggested_by": [
+        "Delphon"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-14",
+          "name": "Sparring Interruption",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/sparring-34882744"
+        }
+      ]
     },
     {
       "votes": 50,
-      "suggestion": "Keith and Laura fiery tango dance."
+      "suggestion": "Keith and Laura fiery tango dance.",
+      "color_position": 5,
+      "color_votes": 50,
+      "suggested_by": [
+        "Mingun"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-05-20",
+          "name": "Fiery Tango",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/fiery-tango-37337885"
+        },
+        {
+          "type": "color",
+          "date": "2020-06-06",
+          "name": "Fiery Tango",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/firey-tango-37938145"
+        },
+        {
+          "type": "color",
+          "date": "2020-06-06",
+          "name": "Fiery Tango",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Fiery-Tango-844520402"
+        },
+        {
+          "type": "color",
+          "date": "2020-06-06",
+          "name": "Fiery Tango",
+          "site": "twitter",
+          "link": "https://twitter.com/twokinds/status/1269053326227800064"
+        }
+      ]
     },
     {
       "votes": 44,
@@ -308,7 +590,19 @@
     },
     {
       "votes": 70,
-      "suggestion": "\"Fatal Tail-Nom"
+      "suggestion": "\"Fatal Tail-Nom",
+      "suggested_by": [
+        "DarthKeidran"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-05-05",
+          "name": "Maeve Saves the Day!",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maeve-saves-day-36781907"
+        }
+      ]
     },
     {
       "votes": 87,
@@ -316,7 +610,19 @@
     },
     {
       "votes": 58,
-      "suggestion": "Sythe in regalia providing diplomatic relations \"advice\" to the Basitin trio. Lynn is studiously taking notes, but the other two are more suspicious."
+      "suggestion": "Sythe in regalia providing diplomatic relations \"advice\" to the Basitin trio. Lynn is studiously taking notes, but the other two are more suspicious.",
+      "suggested_by": [
+        "Dadrobit"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-17",
+          "name": "Lectures on Wolf Diplomacy",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/lectures-on-wolf-34945862"
+        }
+      ]
     },
     {
       "votes": 79,
@@ -340,7 +646,35 @@
     },
     {
       "votes": 91,
-      "suggestion": "Raine ( human ) and Maren posing in their swimsuits. As Maren pulls Raine in to get ‘closer’, Maren shows off a seductive smile and Raine with a shy one."
+      "suggestion": "Raine ( human ) and Maren posing in their swimsuits. As Maren pulls Raine in to get ‘closer’, Maren shows off a seductive smile and Raine with a shy one.",
+      "color_position": 5,
+      "color_votes": 42,
+      "suggested_by": [
+        "BMRogue"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-20",
+          "name": "Bathing Suit Reveal",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/bathing-suit-35055713"
+        },
+        {
+          "type": "color",
+          "date": "2020-04-03",
+          "name": "Bathing Suit Reveal",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/bathing-suit-35608216"
+        },
+        {
+          "type": "color",
+          "date": "2020-04-03",
+          "name": "Bathing Suit Reveal",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Bathing-Suit-Reveal-836366271"
+        }
+      ]
     },
     {
       "votes": 76,
@@ -354,7 +688,19 @@
       "votes": 109,
       "suggestion": "Kat discovers she is able to swap Mikes sex",
       "position": 2,
-      "choice": "tkpolls"
+      "choice": "tkpolls",
+      "suggested_by": [
+        "Hopefighter"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-11",
+          "name": "Tail Tug Transformation",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/tail-tug-34771567"
+        }
+      ]
     },
     {
       "votes": 79,

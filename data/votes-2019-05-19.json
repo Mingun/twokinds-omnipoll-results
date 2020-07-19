@@ -14,13 +14,60 @@
       "votes": 123,
       "suggestion": "Birbkinds! What would a bird keidran look like?",
       "position": 5,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Kam Schadt"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-05-24",
+          "name": "Avian Archer",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/avian-archer-27006358"
+        }
+      ]
     },
     {
       "votes": 126,
       "suggestion": "Kat uses \"Evil Kat\" to finally experience one of her own massages",
       "position": 3,
-      "choice": "voters"
+      "choice": "voters",
+      "color_position": 3,
+      "color_votes": 32,
+      "suggested_by": [
+        "UnsteddyPhoenix"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-05-22",
+          "name": "Kat's Evil Clone 2",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/kats-evil-clone-27006291"
+        },
+        {
+          "type": "sketch",
+          "date": "2019-05-22",
+          "name": "Kat's Evil Clone 2",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Kat-s-Evil-Clone-2-798633975"
+        },
+        {
+          "type": "color",
+          "date": "2019-05-29",
+          "name": "Kat's Evil Clone 2",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/kats-evil-clone-27156021"
+        },
+        {
+          "type": "color",
+          "date": "2019-05-29",
+          "name": "Kat's Evil Clone 2",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Kat-s-Evil-Clone-2-799317693"
+        }
+      ]
     },
     {
       "votes": 87,
@@ -28,7 +75,19 @@
     },
     {
       "votes": 118,
-      "suggestion": "Human Nora attempts to seduce Flora to make Trace jealous."
+      "suggestion": "Human Nora attempts to seduce Flora to make Trace jealous.",
+      "suggested_by": [
+        "Daltheer"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-06-12",
+          "name": "Nora and Flora",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/nora-and-flora-27570434"
+        }
+      ]
     },
     {
       "votes": 54,
@@ -44,7 +103,34 @@
     },
     {
       "votes": 94,
-      "suggestion": "Raine and Red (both in Halfkind forms) share a heartwarming kiss under a waterfall."
+      "suggestion": "Raine and Red (both in Halfkind forms) share a heartwarming kiss under a waterfall.",
+      "color_position": 5,
+      "suggested_by": [
+        "Crimson Quill"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-28",
+          "name": "Halfkind Kiss",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/halfkind-kiss-30299814"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-04",
+          "name": "Halfkind Kiss",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/halfkind-kiss-30486512"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-04",
+          "name": "Halfkind Kiss",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/HalfKind-Kiss-815972493"
+        }
+      ]
     },
     {
       "votes": 75,
@@ -56,11 +142,35 @@
     },
     {
       "votes": 95,
-      "suggestion": "After dinner in Vixen & Vixen, Maren walks Raine home. Wolf girl still isn't sure if it was a date and if she should give Maren a goodbye kiss or not."
+      "suggestion": "After dinner in Vixen & Vixen, Maren walks Raine home. Wolf girl still isn't sure if it was a date and if she should give Maren a goodbye kiss or not.",
+      "suggested_by": [
+        "ThingsAreOverThinking"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-13",
+          "name": "Maren and Raine's Night Out 2",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maren-and-raines-29939263"
+        }
+      ]
     },
     {
       "votes": 108,
-      "suggestion": "Kathrin puts on a fashion show for more of her outfits, with female Trace, Keith, and/or Mike and Evals as the models."
+      "suggestion": "Kathrin puts on a fashion show for more of her outfits, with female Trace, Keith, and/or Mike and Evals as the models.",
+      "suggested_by": [
+        "Runescail"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-06-13",
+          "name": "Fashion Show",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/fashion-show-27591156"
+        }
+      ]
     },
     {
       "votes": 28,
@@ -76,7 +186,19 @@
     },
     {
       "votes": 83,
-      "suggestion": "World War II pin-up Maren as sexy French maquis Resistance freedom fighter"
+      "suggestion": "World War II pin-up Maren as sexy French maquis Resistance freedom fighter",
+      "suggested_by": [
+        "ProsePro7"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-22",
+          "name": "French Resistance Maren",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/french-maren-29349560"
+        }
+      ]
     },
     {
       "votes": 33,
@@ -84,7 +206,19 @@
     },
     {
       "votes": 86,
-      "suggestion": "Nora teaching Reni on how to win over a human heart and Red blurts out how Nora never won over Trace, embarrassing Nora."
+      "suggestion": "Nora teaching Reni on how to win over a human heart and Red blurts out how Nora never won over Trace, embarrassing Nora.",
+      "suggested_by": [
+        "Fence Equalizer"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-30",
+          "name": "Nora's Advice",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/noras-advice-29498875"
+        }
+      ]
     },
     {
       "votes": 75,
@@ -108,11 +242,51 @@
     },
     {
       "votes": 71,
-      "suggestion": "Twokinds Stargate SG-1 (Trace as O’Neill, Flora as Carter, Keith as Jackson, Natani as Teal’c)"
+      "suggestion": "Twokinds Stargate SG-1 (Trace as O’Neill, Flora as Carter, Keith as Jackson, Natani as Teal’c)",
+      "suggested_by": [
+        "Vatruvius"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-26",
+          "name": "Stargate",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/stargate-30265943"
+        }
+      ]
     },
     {
       "votes": 66,
-      "suggestion": "What if Laura was Grand Templar instead of Trace?"
+      "suggestion": "What if Laura was Grand Templar instead of Trace?",
+      "color_position": 4,
+      "color_votes": 24,
+      "suggested_by": [
+        "The Royal Black"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-01-14",
+          "name": "Grand Templar Laura",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/grand-templar-33127415"
+        },
+        {
+          "type": "color",
+          "date": "2020-02-07",
+          "name": "Grand Templar Laura",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/grand-templar-33805208"
+        },
+        {
+          "type": "color",
+          "date": "2020-02-07",
+          "name": "Grand Templar Laura",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Grand-Templar-Laura-829533691"
+        }
+      ]
     },
     {
       "votes": 40,
@@ -132,7 +306,19 @@
     },
     {
       "votes": 46,
-      "suggestion": "Cathleen tells Cornelius they are having a baby"
+      "suggestion": "Cathleen tells Cornelius they are having a baby",
+      "suggested_by": [
+        "Mippy"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-26",
+          "name": "You're WHAT?!",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/youre-what-29461404"
+        }
+      ]
     },
     {
       "votes": 40,
@@ -140,7 +326,19 @@
     },
     {
       "votes": 50,
-      "suggestion": "Raine and Zen's snapshot at the top of a rollercoaster. One is freaking out, while the other tries to comfort them."
+      "suggestion": "Raine and Zen's snapshot at the top of a rollercoaster. One is freaking out, while the other tries to comfort them.",
+      "suggested_by": [
+        "Dadrobit"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-12",
+          "name": "Coaster",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/coaster-29089409"
+        }
+      ]
     },
     {
       "votes": 71,
@@ -168,7 +366,35 @@
     },
     {
       "votes": 106,
-      "suggestion": "Raine with a sword in one hand and a Spell in another in a sexy barbarian outfit (wolf form)"
+      "suggestion": "Raine with a sword in one hand and a Spell in another in a sexy barbarian outfit (wolf form)",
+      "color_position": 5,
+      "color_votes": 29,
+      "suggested_by": [
+        "Pretorian"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-06-11",
+          "name": "Barbarian Raine",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/barbarian-raine-27547791"
+        },
+        {
+          "type": "color",
+          "date": "2019-06-28",
+          "name": "Barbarian Raine",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/barbarian-raine-27972117"
+        },
+        {
+          "type": "color",
+          "date": "2019-06-28",
+          "name": "Barbarian Raine",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Barbarian-Raine-803565354"
+        }
+      ]
     },
     {
       "votes": 53,
@@ -176,7 +402,19 @@
     },
     {
       "votes": 72,
-      "suggestion": "Tavern master drink off: Maren v. Adira"
+      "suggestion": "Tavern master drink off: Maren v. Adira",
+      "suggested_by": [
+        "Ordithus"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-31",
+          "name": "Battle of the Tavern Owners",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/battle-of-tavern-29498924"
+        }
+      ]
     },
     {
       "votes": 80,
@@ -194,19 +432,55 @@
       "votes": 129,
       "suggestion": "Flora getting excited about the changes pregnancy is making to her chest. She's not flat anymore! She decides to try and brag it up to Kat.",
       "position": 1,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Delphon"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-05-20",
+          "name": "Maternal Development",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maternal-26999545"
+        }
+      ]
     },
     {
       "votes": 59,
       "suggestion": "Amelia Riftwall comes to visit her young niece; Kitten Maeve's cuteness finally makes her smile.",
       "position": 6,
-      "choice": "tom"
+      "choice": "tom",
+      "suggested_by": [
+        "Glassan"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-05-25",
+          "name": "Aunty Amelia",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/aunty-amelia-27006380"
+        }
+      ]
     },
     {
       "votes": 88,
       "suggestion": "Post pixie pranks: Evals is upset that Kat has reverted to her usual wardrobe while in his body",
       "position": 4,
-      "choice": "tom"
+      "choice": "tom",
+      "suggested_by": [
+        "Ordithus"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-05-23",
+          "name": "Pixie Panic Aftermath 2",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/pixie-panic-2-27006316"
+        }
+      ]
     },
     {
       "votes": 90,
@@ -226,11 +500,35 @@
     },
     {
       "votes": 84,
-      "suggestion": "Adelaide demolishing a tower by lifting it"
+      "suggestion": "Adelaide demolishing a tower by lifting it",
+      "suggested_by": [
+        "WereKeidran"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-25",
+          "name": "Towerfall",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/towerfall-31833045"
+        }
+      ]
     },
     {
       "votes": 12,
-      "suggestion": "Eris is just about to creat Frankenstein's monster as evil trace comes over and is stared at by the monster awakened to life"
+      "suggestion": "Eris is just about to creat Frankenstein's monster as evil trace comes over and is stared at by the monster awakened to life",
+      "suggested_by": [
+        "Dominik"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-06-04",
+          "name": "Chimera Origins",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/chimera-origins-27383870"
+        }
+      ]
     },
     {
       "votes": 53,
@@ -244,7 +542,35 @@
       "votes": 89,
       "suggestion": "Red grabs Keidran Maren's tail!",
       "position": 2,
-      "choice": "tom"
+      "choice": "tom",
+      "color_position": 1,
+      "color_votes": 50,
+      "suggested_by": [
+        "Mimeo"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-05-21",
+          "name": "Maren Tail Tug",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maren-tail-tug-27006243"
+        },
+        {
+          "type": "color",
+          "date": "2019-05-27",
+          "name": "Maren Tail Tug",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maren-tail-tug-27155981"
+        },
+        {
+          "type": "color",
+          "date": "2019-05-27",
+          "name": "Maren Tail Tug",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Maren-Tail-Tug-799311066"
+        }
+      ]
     },
     {
       "votes": 68,
@@ -260,7 +586,19 @@
     },
     {
       "votes": 94,
-      "suggestion": "Trace Reference Sheet"
+      "suggestion": "Trace Reference Sheet",
+      "suggested_by": [
+        "Wes(StrayXIII)"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-07-27",
+          "name": "Trace Reference Sheet",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/trace-reference-28691421"
+        }
+      ]
     },
     {
       "votes": 105,
@@ -276,7 +614,19 @@
     },
     {
       "votes": 109,
-      "suggestion": "Keith and Natani embarrassed by Trace and Flora's overly affectionate behavior during a double date."
+      "suggestion": "Keith and Natani embarrassed by Trace and Flora's overly affectionate behavior during a double date.",
+      "suggested_by": [
+        "AndwhatIseeisme"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-07-12",
+          "name": "Public Display of Affection",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/public-display-28314512"
+        }
+      ]
     },
     {
       "votes": 99,
@@ -284,17 +634,91 @@
     },
     {
       "votes": 85,
-      "suggestion": "Sythe Reference Sheet"
+      "suggestion": "Sythe Reference Sheet",
+      "suggested_by": [
+        "SCPilot"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-02-21",
+          "name": "Sythe Reference Sheet",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/sythe-reference-34204330"
+        }
+      ]
     },
     {
       "votes": 125,
       "suggestion": "Kat pressing her hands and chest up against a window or the viewer's screen",
       "position": 7,
-      "choice": "voters"
+      "choice": "voters",
+      "color_position": 2,
+      "color_votes": 45,
+      "suggested_by": [
+        "Samuelleumas"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-05-26",
+          "name": "Kat Against the Glass",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/kat-against-27006400"
+        },
+        {
+          "type": "sketch",
+          "date": "2019-05-26",
+          "name": "Kat Against the Glass",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Kat-Against-the-Glass-798478178"
+        },
+        {
+          "type": "color",
+          "date": "2019-05-28",
+          "name": "Kat Against the Glass",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/kat-against-27156004"
+        },
+        {
+          "type": "color",
+          "date": "2019-05-28",
+          "name": "Kat Against the Glass",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Kat-Against-the-Glass-799317428"
+        }
+      ]
     },
     {
       "votes": 121,
-      "suggestion": "Older Maeve and Maddie share their first kiss. Maddie gets extremely flustered afterwards."
+      "suggestion": "Older Maeve and Maddie share their first kiss. Maddie gets extremely flustered afterwards.",
+      "color_position": 4,
+      "suggested_by": [
+        "BMRogue"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-22",
+          "name": "Maddie and Maeve - Teasing",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maddie-and-maeve-30148047"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-03",
+          "name": "Maddie and Maeve - Teasing",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maddie-and-maeve-30451007"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-03",
+          "name": "Maddie and Maeve - Teasing",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Maddie-and-Maeve-Teasing-815450685"
+        }
+      ]
     },
     {
       "votes": 91,
@@ -310,7 +734,36 @@
     },
     {
       "votes": 90,
-      "suggestion": "Adira Reference Sheet"
+      "suggestion": "Adira Reference Sheet",
+      "color_position": 2,
+      "color_votes": 36,
+      "suggested_by": [
+        "Van Korben",
+        "SCPilot"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-06-21",
+          "name": "Adira Reference Sheet",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/adira-reference-27791528"
+        },
+        {
+          "type": "color",
+          "date": "2019-06-25",
+          "name": "Adira Reference Sheet",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/adira-reference-27882970"
+        },
+        {
+          "type": "color",
+          "date": "2019-06-25",
+          "name": "Adira Reference Sheet",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Adira-Reference-Sheet-803158843"
+        }
+      ]
     },
     {
       "votes": 99,

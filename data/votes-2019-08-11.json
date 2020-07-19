@@ -7,11 +7,35 @@
   "data": [
     {
       "votes": 74,
-      "suggestion": "Sythe gives out his personal thoughts on Maren"
+      "suggestion": "Sythe gives out his personal thoughts on Maren",
+      "suggested_by": [
+        "Mediawatcher"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-06",
+          "name": "Sythe's Feeling on Maren",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/sythes-feeling-31314166"
+        }
+      ]
     },
     {
       "votes": 81,
-      "suggestion": "Adelaide and Maddie's Father: Forbidden First Date edition. Maddie's father sneaking his way into the castle to see Adelaide"
+      "suggestion": "Adelaide and Maddie's Father: Forbidden First Date edition. Maddie's father sneaking his way into the castle to see Adelaide",
+      "suggested_by": [
+        "Kam Schadt"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-10-12",
+          "name": "Adelaide's Improptu First Date",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/adelaides-first-30562182"
+        }
+      ]
     },
     {
       "votes": 79,
@@ -21,13 +45,55 @@
       "votes": 120,
       "suggestion": "Bikini Madness pt 2 Adult Meave and Maddie both in swimwear.",
       "position": 5,
-      "choice": "voters"
+      "choice": "voters",
+      "color_position": 1,
+      "color_votes": 31,
+      "suggested_by": [
+        "Kinipshun",
+        "JsTheWolf",
+        "ChampionofBagels"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-15",
+          "name": "Bikini Madness 2",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/bikini-madness-2-29189693"
+        },
+        {
+          "type": "color",
+          "date": "2019-09-03",
+          "name": "Bikini Madness 2",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/bikini-madness-2-29638460"
+        },
+        {
+          "type": "color",
+          "date": "2019-09-03",
+          "name": "Bikini Madness 2",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Bikini-Madness-2-811846456"
+        }
+      ]
     },
     {
       "votes": 120,
       "suggestion": "Drunk Clovis kisses Brutus, then sobers up and kisses him again",
       "position": 3,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "StoryMaker2"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-26",
+          "name": "Brutus Bonding 2",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/brutus-bonding-2-29438965"
+        }
+      ]
     },
     {
       "votes": 89,
@@ -43,7 +109,20 @@
     },
     {
       "votes": 96,
-      "suggestion": "Female Mike Reference Sheet"
+      "suggestion": "Female Mike Reference Sheet",
+      "suggested_by": [
+        "SCPilot",
+        "Dofrane"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-05-30",
+          "name": "Mike and Evals Ref Sheet",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/mike-and-evals-37671238"
+        }
+      ]
     },
     {
       "votes": 70,
@@ -71,11 +150,57 @@
     },
     {
       "votes": 74,
-      "suggestion": "After waking from a nightmare about Flora, Trace holds his sleeping fiancée and unborn child, whispering a promise into her ear: that he will never let anyone hurt them. Not even himself."
+      "suggestion": "After waking from a nightmare about Flora, Trace holds his sleeping fiancée and unborn child, whispering a promise into her ear: that he will never let anyone hurt them. Not even himself.",
+      "suggested_by": [
+        "CrimsonHelsing"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-23",
+          "name": "Nightmarish Visions",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/nightmarish-35184949"
+        }
+      ]
     },
     {
       "votes": 82,
-      "suggestion": "Kat mid-jump into the moonlit pool (upward angle, ink-splotch style)"
+      "suggestion": "Kat mid-jump into the moonlit pool (upward angle, ink-splotch style)",
+      "color_position": 1,
+      "suggested_by": [
+        "UnsteddyPhoenix"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-21",
+          "name": "Dancing by Moonlight",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/dancing-by-30126017"
+        },
+        {
+          "type": "color",
+          "date": "2019-09-30",
+          "name": "Dancing by Moonlight",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/dancing-by-30372505"
+        },
+        {
+          "type": "color",
+          "date": "2019-09-30",
+          "name": "Dancing by Moonlight",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Dancing-by-Moonlight-815207813"
+        },
+        {
+          "type": "color",
+          "date": "2019-09-30",
+          "name": "Dancing by Moonlight",
+          "site": "twitter",
+          "link": "https://twitter.com/twokinds/status/1179803299895111680"
+        }
+      ]
     },
     {
       "votes": 50,
@@ -83,7 +208,19 @@
     },
     {
       "votes": 60,
-      "suggestion": "Adelaide demolishing a tower by lifting it"
+      "suggestion": "Adelaide demolishing a tower by lifting it",
+      "suggested_by": [
+        "WereKeidran"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-25",
+          "name": "Towerfall",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/towerfall-31833045"
+        }
+      ]
     },
     {
       "votes": 69,
@@ -95,13 +232,37 @@
     },
     {
       "votes": 107,
-      "suggestion": "Colin and Sam find themselves subject to a species swap. Colin gets flustered by the change; Sam reaction... doesn't help."
+      "suggestion": "Colin and Sam find themselves subject to a species swap. Colin gets flustered by the change; Sam reaction... doesn't help.",
+      "suggested_by": [
+        "DiDiDi-X"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-06-18",
+          "name": "Sam and Colin Swap",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/sam-and-colin-38354440"
+        }
+      ]
     },
     {
       "votes": 122,
       "suggestion": "Body swap! Maren is now in Nibbly's body and Nibbly in Maren's. Cue panicked squirrel Maren and Sythe wondering why \"Maren\" is suddenly so affectionate. And so undressed.",
       "position": 1,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "MatyPup"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-13",
+          "name": "Body Swap - Maren & Nibbly",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/body-swap-maren-29115118"
+        }
+      ]
     },
     {
       "votes": 42,
@@ -109,13 +270,37 @@
     },
     {
       "votes": 105,
-      "suggestion": "Adira vs. Maren in a Tavern Maiden competition. Who is the sexiest tavern maiden? Karen covers Maeve's innocent eyes in the background."
+      "suggestion": "Adira vs. Maren in a Tavern Maiden competition. Who is the sexiest tavern maiden? Karen covers Maeve's innocent eyes in the background.",
+      "suggested_by": [
+        "Ordithus"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-31",
+          "name": "Battle of the Tavern Owners",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/battle-of-tavern-29498924"
+        }
+      ]
     },
     {
       "votes": 79,
       "suggestion": "A human cartographer meets the fluffy snow Basitins of Castle Heywood.",
       "position": 6,
-      "choice": "tom"
+      "choice": "tom",
+      "suggested_by": [
+        "Terra The Wizard"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-17",
+          "name": "Fluffy Northern Basitin",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/fluffy-northern-29239061"
+        }
+      ]
     },
     {
       "votes": 75,
@@ -139,17 +324,53 @@
     },
     {
       "votes": 94,
-      "suggestion": "Young Adelaide gets ready for her first date with Maddie’s father"
+      "suggestion": "Young Adelaide gets ready for her first date with Maddie’s father",
+      "suggested_by": [
+        "Kam Schadt"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-10-12",
+          "name": "Adelaide's Improptu First Date",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/adelaides-first-30562182"
+        }
+      ]
     },
     {
       "votes": 79,
       "suggestion": "Raine the wolf queen of Egypt enjoying a drink poured by her man servant Red.",
       "position": 4,
-      "choice": "tom"
+      "choice": "tom",
+      "suggested_by": [
+        "Pretorian"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-15",
+          "name": "Pharaoh Raine",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/pharaoh-raine-29167312"
+        }
+      ]
     },
     {
       "votes": 76,
-      "suggestion": "Nora teaching Reni on how to win over a human heart and Red blurts out how Nora never won over Trace, embarrassing Nora."
+      "suggestion": "Nora teaching Reni on how to win over a human heart and Red blurts out how Nora never won over Trace, embarrassing Nora.",
+      "suggested_by": [
+        "Fence Equalizer"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-30",
+          "name": "Nora's Advice",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/noras-advice-29498875"
+        }
+      ]
     },
     {
       "votes": 34,
@@ -157,15 +378,89 @@
     },
     {
       "votes": 55,
-      "suggestion": "Raine and Red (Both Halfkind forms) share a heartwarming kiss underneath a waterfall."
+      "suggestion": "Raine and Red (Both Halfkind forms) share a heartwarming kiss underneath a waterfall.",
+      "color_position": 5,
+      "suggested_by": [
+        "Crimson Quill"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-28",
+          "name": "Halfkind Kiss",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/halfkind-kiss-30299814"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-04",
+          "name": "Halfkind Kiss",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/halfkind-kiss-30486512"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-04",
+          "name": "Halfkind Kiss",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/HalfKind-Kiss-815972493"
+        }
+      ]
     },
     {
       "votes": 96,
-      "suggestion": "Kat in a Maid outfit"
+      "suggestion": "Kat in a Maid outfit",
+      "color_position": 4,
+      "color_votes": 53,
+      "suggested_by": [
+        "StarGamer26"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-06-09",
+          "name": "Maid Outfit Kat",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maid-outfit-kat-38031948"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-03",
+          "name": "Maid Outfit Kathrin",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maid-outfit-38898602"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-03",
+          "name": "Maid Outfit Kathrin",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Maid-Outfit-Kathrin-847578632"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-03",
+          "name": "Maid Outfit Kathrin",
+          "site": "twitter",
+          "link": "https://twitter.com/twokinds/status/1279181326462173185"
+        }
+      ]
     },
     {
       "votes": 85,
-      "suggestion": "Trace teaching Roselyn magic while Saria watches with a smile."
+      "suggestion": "Trace teaching Roselyn magic while Saria watches with a smile.",
+      "suggested_by": [
+        "Rimadraws"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-23",
+          "name": "Rose Magic Lesson",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/rose-magic-29369428"
+        }
+      ]
     },
     {
       "votes": 49,
@@ -197,7 +492,19 @@
     },
     {
       "votes": 32,
-      "suggestion": "Eris is traveling to catch several critters to fulfill their frankenstein project. But she has to be careful how she was not allowed to get caught by the Templars back then (part 1)"
+      "suggestion": "Eris is traveling to catch several critters to fulfill their frankenstein project. But she has to be careful how she was not allowed to get caught by the Templars back then (part 1)",
+      "suggested_by": [
+        "Dominik"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-11-24",
+          "name": "Chimera Prologue",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/chimera-prologue-31800419"
+        }
+      ]
     },
     {
       "votes": 84,
@@ -217,11 +524,50 @@
     },
     {
       "votes": 94,
-      "suggestion": "Older Maddie and Maeve share their first kiss. Maddie gets extremely flustered afterwards"
+      "suggestion": "Older Maddie and Maeve share their first kiss. Maddie gets extremely flustered afterwards",
+      "color_position": 4,
+      "suggested_by": [
+        "BMRogue"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-22",
+          "name": "Maddie and Maeve - Teasing",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maddie-and-maeve-30148047"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-03",
+          "name": "Maddie and Maeve - Teasing",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maddie-and-maeve-30451007"
+        },
+        {
+          "type": "color",
+          "date": "2019-10-03",
+          "name": "Maddie and Maeve - Teasing",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Maddie-and-Maeve-Teasing-815450685"
+        }
+      ]
     },
     {
       "votes": 61,
-      "suggestion": "World War II pin-up Maren as sexy French maquis Resistance freedom fighter"
+      "suggestion": "World War II pin-up Maren as sexy French maquis Resistance freedom fighter",
+      "suggested_by": [
+        "ProsePro7"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-22",
+          "name": "French Resistance Maren",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/french-maren-29349560"
+        }
+      ]
     },
     {
       "votes": 68,
@@ -233,11 +579,35 @@
     },
     {
       "votes": 111,
-      "suggestion": "Cat Maid Cat Nora"
+      "suggestion": "Cat Maid Cat Nora",
+      "suggested_by": [
+        "Karlsville"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-20",
+          "name": "Cat Maid Nora",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/cat-maid-nora-29288259"
+        }
+      ]
     },
     {
       "votes": 57,
-      "suggestion": "Raine/Rose AU: Saria and Rose take young Raine to a library for the first time."
+      "suggestion": "Raine/Rose AU: Saria and Rose take young Raine to a library for the first time.",
+      "suggested_by": [
+        "Warhawk"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-22",
+          "name": "The Library",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/library-30147771"
+        }
+      ]
     },
     {
       "votes": 72,
@@ -249,7 +619,43 @@
     },
     {
       "votes": 90,
-      "suggestion": "Remake/redone of page 69. When Sythe, Red, Maren, Karen, Keith, and pizza guy Tom find Trace on top of a drunk Flora, drunk from keidran milk."
+      "suggestion": "Remake/redone of page 69. When Sythe, Red, Maren, Karen, Keith, and pizza guy Tom find Trace on top of a drunk Flora, drunk from keidran milk.",
+      "suggested_by": [
+        "Josh Erickson"
+      ],
+      "sponsored_by": [
+        "Azuma"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2010-09-02",
+          "name": "Not What It Looks Like",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/not-what-it-like-29499052"
+        },
+        {
+          "type": "sketch",
+          "date": "2010-09-02",
+          "name": "Not What It Looks Like",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Not-What-It-Looks-Like-811899491"
+        },
+        {
+          "type": "color",
+          "date": "2019-12-08",
+          "name": "Not What It Looks Like",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/not-what-it-like-32175816"
+        },
+        {
+          "type": "color",
+          "date": "2019-12-08",
+          "name": "Not What It Looks Like",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Not-What-It-Looks-Like-822758467"
+        }
+      ]
     },
     {
       "votes": 59,
@@ -283,15 +689,81 @@
       "votes": 60,
       "suggestion": "Cathleen teaching young Keith how to fight with a spear",
       "position": 2,
-      "choice": "tom"
+      "choice": "tom",
+      "suggested_by": [
+        "HoroisaWolf"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-13",
+          "name": "Weapon Training",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/weapon-training-29138853"
+        }
+      ]
     },
     {
       "votes": 93,
-      "suggestion": "Remake of Kathrin and Flora pressed together"
+      "suggestion": "Remake of Kathrin and Flora pressed together",
+      "suggested_by": [
+        "Felixo"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-02-29",
+          "name": "Kat and Flora Chest-to-Chest",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/kat-and-flora-to-34340315"
+        },
+        {
+          "type": "sketch",
+          "date": "2020-02-29",
+          "name": "Kat and Flora Chest-to-Chest",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Kat-and-Flora-Chest-to-Chest-831754113"
+        }
+      ]
     },
     {
       "votes": 96,
-      "suggestion": "Sequel to Exploring Tiger Lands: The explorers arrive to a Tiger village and receive a welcome from the locals"
+      "suggestion": "Sequel to Exploring Tiger Lands: The explorers arrive to a Tiger village and receive a welcome from the locals",
+      "color_position": 1,
+      "color_votes": 53,
+      "suggested_by": [
+        "Iago24"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-12-11",
+          "name": "Communal Tiger Bed",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/communal-tiger-32252900"
+        },
+        {
+          "type": "color",
+          "date": "2019-12-31",
+          "name": "Communal Tiger Bed",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/communal-tiger-32729198"
+        },
+        {
+          "type": "color",
+          "date": "2019-12-31",
+          "name": "Communal Tiger Bed",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Communal-Tiger-Bed-825230331"
+        },
+        {
+          "type": "color",
+          "date": "2019-12-31",
+          "name": "Communal Tiger Bed",
+          "site": "twitter",
+          "link": "https://twitter.com/TwoKinds/status/1211745132657152002"
+        }
+      ]
     },
     {
       "votes": 43,
@@ -307,7 +779,35 @@
     },
     {
       "votes": 63,
-      "suggestion": "What if Laura was Grand Templar instead of Trace?"
+      "suggestion": "What if Laura was Grand Templar instead of Trace?",
+      "color_position": 4,
+      "color_votes": 24,
+      "suggested_by": [
+        "The Royal Black"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-01-14",
+          "name": "Grand Templar Laura",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/grand-templar-33127415"
+        },
+        {
+          "type": "color",
+          "date": "2020-02-07",
+          "name": "Grand Templar Laura",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/grand-templar-33805208"
+        },
+        {
+          "type": "color",
+          "date": "2020-02-07",
+          "name": "Grand Templar Laura",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Grand-Templar-Laura-829533691"
+        }
+      ]
     },
     {
       "votes": 81,
@@ -315,7 +815,19 @@
     },
     {
       "votes": 87,
-      "suggestion": "After dinner in Vixen & Vixen, Maren walks Raine home. Wolf girl still isn't sure if it was a date and if she should give Maren a goodbye kiss."
+      "suggestion": "After dinner in Vixen & Vixen, Maren walks Raine home. Wolf girl still isn't sure if it was a date and if she should give Maren a goodbye kiss.",
+      "suggested_by": [
+        "ThingsAreOverThinking"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-09-13",
+          "name": "Maren and Raine's Night Out 2",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maren-and-raines-29939263"
+        }
+      ]
     },
     {
       "votes": 47,
@@ -325,7 +837,19 @@
       "votes": 113,
       "suggestion": "Wolf Raine and Cat Maren at a con wondering what a \"fursuit\" is.",
       "position": 7,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "SclimShady"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2019-08-18",
+          "name": "Furry Convention",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/furry-convention-29261463"
+        }
+      ]
     },
     {
       "votes": 61,
