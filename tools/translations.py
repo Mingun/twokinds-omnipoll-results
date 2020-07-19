@@ -137,6 +137,16 @@ def get_from_catalog(catalog, id, context=None):
 
     return None
 
+def format_json(args):
+    """Команда форматирования json-файлов"""
+
+    for f in args.files:
+        with f:
+            content = json.load(f)
+
+        with open(f.name, 'w', encoding='utf8') as f:
+            json.dump(content, f, indent=2, ensure_ascii=False)
+
 def get_parser():
     parser = argparse.ArgumentParser(description='Работа с переводами в указанных каталогах.')
     parser.set_defaults(command=lambda *args: parser.print_help())
@@ -176,6 +186,16 @@ def get_parser():
         , nargs='+'
     )
     parser_apply.set_defaults(command=apply)
+
+    # Форматирование json-файлов
+    parser_format = subparsers.add_parser('format', help='Форматирование json-файлов.')
+    parser_format.add_argument('files'
+        , help='файлы, которые нужно отформатировать'
+        , metavar='FILE'
+        , type=argparse.FileType('r', encoding='utf-8')
+        , nargs='+'
+    )
+    parser_format.set_defaults(command=format_json)
 
     return parser
 
