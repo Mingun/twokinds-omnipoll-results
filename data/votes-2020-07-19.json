@@ -153,7 +153,12 @@
     },
     {
       "votes": 65,
-      "suggestion": "Keith and Trace sparring, kind of a bonding moment between the two"
+      "suggestion": "Keith and Trace sparring, kind of a bonding moment between the two",
+      "position": 4,
+      "choice": "tom",
+      "suggested_by": [
+        "Scrubb"
+      ]
     },
     {
       "votes": 93,
@@ -341,7 +346,10 @@
       "votes": 118,
       "suggestion": "Bodyswapped Keith and Natani, bathtime.",
       "position": 1,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Miikka"
+      ]
     },
     {
       "votes": 85,
@@ -355,7 +363,10 @@
       "votes": 99,
       "suggestion": "Trace finds a Flora Doll and lifts its tail, causing the real Flora to suddenly lift her tail, revealing her butt.",
       "position": 6,
-      "choice": "tom"
+      "choice": "tom",
+      "suggested_by": [
+        "Lastotter"
+      ]
     },
     {
       "votes": 55,
@@ -443,13 +454,21 @@
     },
     {
       "votes": 27,
-      "suggestion": "Grand Templar Mary Siverlock learns that Eris has broken into a Keidran village where a peace agreement has been made and is not happy about it"
+      "suggestion": "Grand Templar Mary Siverlock learns that Eris has broken into a Keidran village where a peace agreement has been made and is not happy about it",
+      "position": 2,
+      "choice": "tom",
+      "suggested_by": [
+        "Dominik"
+      ]
     },
     {
       "votes": 116,
       "suggestion": "Undercover Western Maddie has successfully infiltrated the gala! But now that she's in, maintaining her cover proves difficult when everything is so... Scandalous!",
       "position": 3,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Dadrobit"
+      ]
     },
     {
       "votes": 72,
