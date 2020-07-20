@@ -248,8 +248,9 @@
     var functions = {
       text: function(value) {
         var regexp = new RegExp(this.value, 'ig');
-        for (var lang in value) {
-          if (value.hasOwnProperty(lang) && regexp.test(value[lang])) {
+        var values = value.suggestions;
+        for (var lang in values) {
+          if (values.hasOwnProperty(lang) && regexp.test(values[lang])) {
             return true;
           }
         }
