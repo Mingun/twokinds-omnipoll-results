@@ -403,13 +403,13 @@
 
         var suggestion = d.suggestion;
         d.suggestion = {
-          suggesions: {},
+          suggestions: {},
           suggested_by: d.suggested_by || [],
           sponsored_by: d.suggested_by || [],
           color_position: d.color_position,
           links: d.links || []
         };
-        d.suggestion.suggesions[DEFAULT_LANGUAGE] = suggestion;
+        d.suggestion.suggestions[DEFAULT_LANGUAGE] = suggestion;
 
         for (var i = 0; i < d.suggestion.links.length; ++i) {
           var link = d.suggestion.links[i];
@@ -458,7 +458,7 @@
 
       var data = state.data[state.date].data;
       for (var i = 0; i < data.length; ++i) {
-        data[i].suggestion.suggesions[json.language] = json.suggestions[i];
+        data[i].suggestion.suggestions[json.language] = json.suggestions[i];
       }
 
       var comment = state.data[state.date].comment;
@@ -597,25 +597,25 @@
 
             iconsExit.remove();
 
-            var suggesions = d.value.suggesions;
-            var wrapperSuggesions = wrapper.selectAll('.wrapper-suggestions').data([null]),
-                wrapperSuggesionsEnter = wrapperSuggesions.enter().append('div').attr('class', 'wrapper-suggestions'),
-                wrapperSuggesionsExit = wrapperSuggesions.exit().remove();
+            var suggestions = d.value.suggestions;
+            var wrapperSuggestions = wrapper.selectAll('.wrapper-suggestions').data([null]),
+                wrapperSuggestionsEnter = wrapperSuggestions.enter().append('div').attr('class', 'wrapper-suggestions'),
+                wrapperSuggestionsExit = wrapperSuggestions.exit().remove();
 
-            wrapperSuggesions = wrapperSuggesions.merge(wrapperSuggesionsEnter);
+            wrapperSuggestions = wrapperSuggestions.merge(wrapperSuggestionsEnter);
 
-            var lang = wrapperSuggesions.selectAll('div').data(languagesData).order(),
+            var lang = wrapperSuggestions.selectAll('div').data(languagesData).order(),
                 langEnter = lang.enter().append('div'),
                 langExit = lang.exit();
 
             lang
               .merge(langEnter)
               .attr('class', function(l) { return 'lang-' + l.lang + ' lang-' + l.type; })
-              .attr('title', function(l) { return suggesions[l.lang]; })
+              .attr('title', function(l) { return suggestions[l.lang]; })
               .html(function(l) {
                 return res[d.code]
-                  ? suggesions[l.lang].replace(res[d.code], '<span class="filter">$&</span>')
-                  : suggesions[l.lang];
+                  ? suggestions[l.lang].replace(res[d.code], '<span class="filter">$&</span>')
+                  : suggestions[l.lang];
               });
 
             langExit.remove();
