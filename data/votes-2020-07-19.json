@@ -5,7 +5,6 @@
   "youtube_full_duration": "",
   "youtube_short_link": "",
   "youtube_short_duration": "",
-  "comment": "No results were shown on the stream for suggestions 33 and 111.",
   "data": [
     {
       "votes": 59,
@@ -63,7 +62,10 @@
       "votes": 111,
       "suggestion": "Cat Nora Against the Glass",
       "position": 5,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Wes(StrayXIII)"
+      ]
     },
     {
       "votes": 72,
@@ -138,6 +140,7 @@
       "suggestion": "Laura possesses Keith and plays around in his body, making him get flustered."
     },
     {
+      "votes": 84,
       "suggestion": "Brutus happens upon Clovis in the middle of changing and in trying to keep him from leaving accidentally, tugs on his tail...causing a swift change of gender!"
     },
     {
@@ -350,7 +353,9 @@
     },
     {
       "votes": 99,
-      "suggestion": "Trace finds a Flora Doll and lifts its tail, causing the real Flora to suddenly lift her tail, revealing her butt."
+      "suggestion": "Trace finds a Flora Doll and lifts its tail, causing the real Flora to suddenly lift her tail, revealing her butt.",
+      "position": 6,
+      "choice": "tom"
     },
     {
       "votes": 55,
@@ -455,6 +460,7 @@
       "suggestion": "What happens to Zen's Zen garden when Natani invades it by thinking Keith-y thoughts."
     },
     {
+      "votes": 96,
       "suggestion": "Kat is finally convinced Flora is not \"just fat\" as she nears the end of the pregnancy."
     },
     {
