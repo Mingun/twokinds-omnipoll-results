@@ -5650,7 +5650,7 @@ msgstr "Трэйс, одетый, как Тандзиро, и флора, оде
 
 #: data/votes-2020-07-19.json:356
 msgid "Trace finds a Flora Doll and lifts its tail, causing the real Flora to suddenly lift her tail, revealing her butt."
-msgstr "Трэйс находит куклу Флоры и поднимает её хвост, в результате чего у настоящей Флоры внезапно поднимает её хвост, обнажая её попу."
+msgstr "Трэйс находит куклу Флоры и поднимает ей хвост, в результате чего у настоящей Флоры внезапно поднимается её хвост, обнажая её попу."
 
 #: data/votes-2019-06-16.json:415
 msgid "Trace gets swole and gets overconfident, challenging everyone to a boxing match"
