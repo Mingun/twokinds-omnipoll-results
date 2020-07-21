@@ -533,7 +533,7 @@ msgstr "Адира немного увлеклась дегустацией но
 msgid "Adira reference sheet"
 msgstr "Справочный лист Адиры"
 
-#: data/votes-2020-07-19.json:504
+#: data/votes-2020-07-19.json:513
 msgid "Adira takes Maeve on a trip to the snow! They find penguins to play with!"
 msgstr "Адира берёт Мэйв в поездку на снега! Они находят пингвинов, чтобы поиграть с ними!"
 
@@ -1175,6 +1175,11 @@ msgctxt "publish_name"
 msgid "Chimera Prologue"
 msgstr "Пролог химеры"
 
+#: data/votes-2020-07-19.json:476
+msgctxt "publish_name"
+msgid "Chimera Prologue 2"
+msgstr "Пролог химеры 2"
+
 #: data/votes-2019-06-09.json:671
 msgid "Chimera V. Adelaide: Arm Wrestle For The Crown!"
 msgstr "Химера против Аделаиды: армрестлинг за корону!"
@@ -1727,7 +1732,7 @@ msgstr "Флора и Трэйс женятся (типа продолжение
 msgid "Flora and Trace on a couch watching a scary movie at night, with Trace freaked out and in Flora's arms."
 msgstr "Флора и Трэйс сидят на диване и смотрят ночью страшное кино, Трэйс сильно напуган и в руках Флоры."
 
-#: data/votes-2020-07-19.json:500
+#: data/votes-2020-07-19.json:509
 msgid "Flora as Gozer the Gozerian standing before the crystalline temple doors, flanked by her hellhounds Natani and Mike"
 msgstr "Флора в роли Гозера-разрушителя, стоящая перед дверями кристального храма в окружении своих адских гончих Натани и Майка"
 
@@ -1901,7 +1906,7 @@ msgstr "Пушистый северный баситин"
 msgid "Fluffy Winter Keith and Fluffy Winter Natani snuggle up and get cozy during a snowstorm"
 msgstr "Пушистый зимний Кит и пушистая зимняя Натани прижимаются друг к другу и чувствуют себя уютно во время метели"
 
-#: data/votes-2020-07-19.json:484
+#: data/votes-2020-07-19.json:493
 msgid "Follow up to Grand Templar Laura 2. King Madness meets with Grand Templar Laura to negotiate the Keith's return, but Keith seems mysteriously reluctant to leave."
 msgstr "Продолжение Великого тамплиера Лауры 2. Король Безумная встречается с Великим тамплиером Лаурой для переговоров о возвращении Кита, но Кит, похоже, по какой-то причине уходить не хочет."
 
@@ -2079,7 +2084,10 @@ msgstr "Великий тамплиер Лаура 2"
 msgid "Grand Templar Laura and the Slaver Sisters Kathrin and Flora have tea when Laura takes notice of a special Basitin slave boy"
 msgstr "Великая тамплиер Лаура и сёстры работорговки Кэтрин и Флора пьют чай, когда Лаура замечает особого баситинского мальчика-раба"
 
+#. :Дата: 2020-07-21
+#. :Название: Chimera Prologue 2
 #. :Предложил: Dominik
+#. :Ссылка (Patreon): https://www.patreon.com/posts/chimera-prologue-39549992
 #: data/votes-2020-02-10.json:344 data/votes-2020-07-19.json:466
 msgid "Grand Templar Mary Siverlock learns that Eris has broken into a Keidran village where a peace agreement has been made and is not happy about it"
 msgstr "Великий тамплиер Мэри Сиверлок узнаёт, что Эрис ворвалась в кайдрэнскую деревню, с которой заключено мирное соглашение, и ей это не нравится"
@@ -2441,7 +2449,7 @@ msgstr "Кэт в костюме горничной"
 msgid "Kat in a cute pose, holding her legs and smiling"
 msgstr "Кэт в милой позе, держит свои ноги и улыбается"
 
-#: data/votes-2020-07-19.json:492
+#: data/votes-2020-07-19.json:501
 msgid "Kat is finally convinced Flora is not \"just fat\" as she nears the end of the pregnancy."
 msgstr "Кэт наконец-то убедилась, что Флора не «просто толстая», поскольку её беременность подходит к концу."
 
@@ -3147,7 +3155,7 @@ msgstr "Мэдди и взрослая Мэйв посещают спа-сало
 msgid "Maddie dresses as Jotaro with a star platinum mamma looming behind"
 msgstr "Мэдди, одетая как Джотаро, с находящимся позади смутным силуэтом платиновой звезды"
 
-#: data/votes-2020-07-19.json:496
+#: data/votes-2020-07-19.json:505
 msgid "Maddie has dressed up in Keith’s general outfit and is caught pretending to be him."
 msgstr "Мэдди оделась в генеральский наряд Кита и была поймана с поличным, когда притворялась им."
 
@@ -5823,7 +5831,7 @@ msgid "Under the table, a tiny dragon Nora is crawling into Trace's pants. Above
 msgstr "Под столом крошечная драконица Нора заползает в трусы Трейса. Над столом обедающий Трейс выглядит встревоженным."
 
 #. :Предложил: Dadrobit
-#: data/votes-2020-07-19.json:475
+#: data/votes-2020-07-19.json:484
 msgid "Undercover Western Maddie has successfully infiltrated the gala! But now that she's in, maintaining her cover proves difficult when everything is so... Scandalous!"
 msgstr "Западная Мэдди под прикрытием успешно проникла на торжество! Но теперь, когда она внутри, поддержание её прикрытия оказывается затруднительным делом, поскольку всё вокруг так... Скандально!"
 
@@ -5968,7 +5976,7 @@ msgctxt "publish_name"
 msgid "Well-Dressed Wolf"
 msgstr "Хорошо одетый волк"
 
-#: data/votes-2020-07-19.json:488
+#: data/votes-2020-07-19.json:497
 msgid "What happens to Zen's Zen garden when Natani invades it by thinking Keith-y thoughts."
 msgstr "Что произойдёт с зеновым дзеновым садом, когда в него вторгнется Натани с мыслями о Ките?"
 
