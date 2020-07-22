@@ -365,7 +365,12 @@
     },
     {
       "votes": 85,
-      "suggestion": "Natani and keith kissing at the beach while sunset and the sea in the background"
+      "suggestion": "Natani and keith kissing at the beach while sunset and the sea in the background",
+      "position": 9,
+      "choice": "tom",
+      "suggested_by": [
+        "AlphaWolf85"
+      ]
     },
     {
       "votes": 100,
@@ -462,7 +467,12 @@
     },
     {
       "votes": 105,
-      "suggestion": "Kat bathes under a waterfall to beat the summer heat"
+      "suggestion": "Kat bathes under a waterfall to beat the summer heat",
+      "position": 8,
+      "choice": "tom",
+      "suggested_by": [
+        "SomeOtherTom"
+      ]
     },
     {
       "votes": 27,
