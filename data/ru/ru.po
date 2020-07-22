@@ -603,7 +603,7 @@ msgstr "После того, как Трэйс просыпается от ко�
 
 #: data/votes-2020-07-19.json:112
 msgid "After a long day of EVIL and VILLAINY, Clovis relaxes and takes off the socks (the fur pattern)"
-msgstr "После долгого дня ПОРОКОВ и ЗЛОДЕЙСТВ, Кловис расслабляется и снимает носки (с рисунком меха)"
+msgstr "После долгого дня ПАКОСТЕЙ и ЗЛОДЕЙСТВ, Кловис расслабляется и снимает носки (с рисунком меха)"
 
 #: data/votes-2019-08-25.json:62
 msgid "After a talk about their failures with men, Kat convinces Nora to pretend to be Keith for her in the dreamscape."
