@@ -341,7 +341,19 @@
     },
     {
       "votes": 23,
-      "suggestion": "Grand Templar Mary Siverlock learns that Eris has broken into a Keidran village where a peace agreement has been made and is not happy about it"
+      "suggestion": "Grand Templar Mary Siverlock learns that Eris has broken into a Keidran village where a peace agreement has been made and is not happy about it",
+      "suggested_by": [
+        "Dominik"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-07-21",
+          "name": "Chimera Prologue 2",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/chimera-prologue-39549992"
+        }
+      ]
     },
     {
       "votes": 57,
