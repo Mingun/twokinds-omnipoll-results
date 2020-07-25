@@ -401,6 +401,15 @@
       "choice": "tom",
       "suggested_by": [
         "Lastotter"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-07-25",
+          "name": "Voodoo Flora",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/voodoo-flora-39550130"
+        }
       ]
     },
     {
