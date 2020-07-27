@@ -508,6 +508,15 @@
       "choice": "tom",
       "suggested_by": [
         "SomeOtherTom"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-07-27",
+          "name": "Waterfall Kathrin",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/waterfall-39550615"
+        }
       ]
     },
     {
