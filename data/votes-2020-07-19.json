@@ -506,6 +506,8 @@
       "suggestion": "Kat bathes under a waterfall to beat the summer heat",
       "position": 8,
       "choice": "tom",
+      "color_position": 1,
+      "color_votes": 75,
       "suggested_by": [
         "SomeOtherTom"
       ],
@@ -516,6 +518,13 @@
           "name": "Waterfall Kathrin",
           "site": "patreon",
           "link": "https://www.patreon.com/posts/waterfall-39550615"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-28",
+          "name": "Waterfall Kathrin",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/waterfall-39781736"
         }
       ]
     },
