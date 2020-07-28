@@ -395,6 +395,8 @@
       "suggestion": "Natani and keith kissing at the beach while sunset and the sea in the background",
       "position": 9,
       "choice": "tom",
+      "color_position": 2,
+      "color_votes": 59,
       "suggested_by": [
         "AlphaWolf85"
       ],
@@ -405,6 +407,20 @@
           "name": "Sunset Kiss",
           "site": "patreon",
           "link": "https://www.patreon.com/posts/sunset-kiss-39550732"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-29",
+          "name": "Sunset Kiss",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/sunset-kiss-39819547"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-29",
+          "name": "Sunset Kiss",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Sunset-Kiss-850215859"
         }
       ]
     },
