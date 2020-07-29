@@ -210,16 +210,32 @@
     {
       "votes": 80,
       "suggestion": "Angel Flora fighting an out of control Demon Tiger Trace to bring him back to his senses",
+      "color_position": 3,
+      "color_votes": 49,
       "suggested_by": [
         "TheFriendlyDeathclaw"
       ],
       "links": [
         {
           "type": "sketch",
-          "date": "2020-07-19",
+          "date": "2020-07-30",
           "name": "Demon Trace vs Angel Flora",
           "site": "patreon",
           "link": "https://www.patreon.com/posts/demon-trace-vs-39476869"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-30",
+          "name": "Demon Trace vs Angel Flora",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/demon-trace-vs-39854499"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-30",
+          "name": "Demon Trace vs Angel Flora",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Demon-Trace-vs-Angel-Flora-850311081"
         }
       ]
     },
