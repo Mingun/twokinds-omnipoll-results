@@ -63,6 +63,8 @@
       "suggestion": "Cat Nora Against the Glass",
       "position": 5,
       "choice": "voters",
+      "color_position": 4,
+      "color_votes": 48,
       "suggested_by": [
         "Wes(StrayXIII)"
       ],
@@ -73,6 +75,20 @@
           "name": "Nora Against the Glass",
           "site": "patreon",
           "link": "https://www.patreon.com/posts/nora-against-39619104"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-31",
+          "name": "Nora Against the Glass",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/nora-against-39895202"
+        },
+        {
+          "type": "color",
+          "date": "2020-07-31",
+          "name": "Nora Against the Glass",
+          "site": "deviantart",
+          "link": "https://www.deviantart.com/twokinds/art/Nora-Against-the-Glass-850427089"
         }
       ]
     },
