@@ -40,7 +40,19 @@
     },
     {
       "votes": 103,
-      "suggestion": "Karen catches Maren giving Sythe a belly rub"
+      "suggestion": "Karen catches Maren giving Sythe a belly rub",
+      "suggested_by": [
+        "Wes(StrayXIII)"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-08-04",
+          "name": "Sythe Petting",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/sythe-petting-40058963"
+        }
+      ]
     },
     {
       "votes": 80,
@@ -330,7 +342,19 @@
     },
     {
       "votes": 60,
-      "suggestion": "Flora gives in to her unusual cravings and orders magical room service from the summoning table: baby wants chocolate!"
+      "suggestion": "Flora gives in to her unusual cravings and orders magical room service from the summoning table: baby wants chocolate!",
+      "suggested_by": [
+        "CrimsonHelsing"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-08-04",
+          "name": "CHOCOLATE",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/chocolate-40078982"
+        }
+      ]
     },
     {
       "votes": 25,
@@ -634,7 +658,19 @@
     },
     {
       "votes": 58,
-      "suggestion": "Adira takes Maeve on a trip to the snow! They find penguins to play with!"
+      "suggestion": "Adira takes Maeve on a trip to the snow! They find penguins to play with!",
+      "suggested_by": [
+        "DustyRainCloud"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-08-05",
+          "name": "Penguins",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/penguins-40079007"
+        }
+      ]
     }
   ]
 }

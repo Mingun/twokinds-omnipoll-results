@@ -723,7 +723,19 @@
     },
     {
       "votes": 47,
-      "suggestion": "[Cosplay] Maren as Carmen Sandiego."
+      "suggestion": "[Cosplay] Maren as Carmen Sandiego.",
+      "suggested_by": [
+        "ThingsareSearching"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-03-01",
+          "name": "Maren Sandiego",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/maren-sandiego-34340441"
+        }
+      ]
     },
     {
       "votes": 53,
