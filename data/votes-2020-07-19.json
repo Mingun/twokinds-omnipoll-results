@@ -68,7 +68,20 @@
     },
     {
       "votes": 91,
-      "suggestion": "Laura against the glass"
+      "suggestion": "Laura against the glass",
+      "suggested_by": [
+        "Фёдор Ляхов",
+        "loganj"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-08-06",
+          "name": "Laura Against the Glass",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/laura-against-40079031"
+        }
+      ]
     },
     {
       "votes": 111,
