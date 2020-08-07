@@ -303,7 +303,19 @@
     },
     {
       "votes": 74,
-      "suggestion": "Mike running away from the tablet pen screaming to be left alone"
+      "suggestion": "Mike running away from the tablet pen screaming to be left alone",
+      "suggested_by": [
+        "Spazztastickiwi"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-08-07",
+          "name": "Run Mike Run!",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/run-mike-run-40079062"
+        }
+      ]
     },
     {
       "votes": 77,
