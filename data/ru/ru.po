@@ -71,7 +71,7 @@ msgstr "Возвращение «Сисек на голове Кита»"
 msgid "\"Laura's Pet\" Redux but with a lusty fem Keith in Laura's position and male Laura in Keith's position."
 msgstr "Переделка «Питомца Лауры», но с похотливой самкой Китом в положении Лауры и самцом Лаурой в положении Кита."
 
-#: data/votes-2020-07-19.json:608
+#: data/votes-2020-07-19.json:617
 msgid "\"Meet Me in the Sunlight\" Remake"
 msgstr "Перерисовка «Встреть меня в солнечном свете»"
 
@@ -541,7 +541,7 @@ msgstr "Справочный лист Адиры"
 #. :Название: Penguins
 #. :Предложил: DustyRainCloud
 #. :Ссылка (Patreon): https://www.patreon.com/posts/penguins-40079007
-#: data/votes-2020-07-19.json:726
+#: data/votes-2020-07-19.json:735
 msgid "Adira takes Maeve on a trip to the snow! They find penguins to play with!"
 msgstr "Адира берёт Мэйв в поездку на снега! Они находят пингвинов, чтобы поиграть с ними!"
 
@@ -775,7 +775,7 @@ msgstr "День искусств и ремёсел в усадьбе Трэйс
 msgid "As referenced by 1072, Brutus is told by Clovis that he is liked the best while drunk."
 msgstr "Как упоминается в выпуске 1072, Кловис, когда он пьян, говорит Бруту, что тот нравится ему больше всех."
 
-#: data/votes-2020-07-19.json:624
+#: data/votes-2020-07-19.json:633
 msgid "Assassins Anonymous: Natani and Zen attend a support group for hired killers, admitting their inability to actually kill their targets before they die via coincidence."
 msgstr "Анонимные ассасины: Натани и Зен посещают группу поддержки для наёмных убийц, фактически признавая свою неспособность убить свои цели до того, как они погибнут по стечению обстоятельств."
 
@@ -972,7 +972,7 @@ msgctxt "publish_name"
 msgid "Brutus Bonding 2"
 msgstr "Привязаться к Бруту 2"
 
-#: data/votes-2020-07-19.json:596
+#: data/votes-2020-07-19.json:605
 msgid "Brutus Reference Sheet"
 msgstr "Справочный лист Брута"
 
@@ -1214,7 +1214,7 @@ msgid "Chimera Prologue"
 msgstr "Пролог химеры"
 
 #: data/votes-2020-02-10.json:352 data/votes-2020-03-08.json:122
-#: data/votes-2020-07-19.json:680
+#: data/votes-2020-07-19.json:689
 msgctxt "publish_name"
 msgid "Chimera Prologue 2"
 msgstr "Пролог химеры 2"
@@ -1688,6 +1688,11 @@ msgctxt "publish_name"
 msgid "Fiery Tango"
 msgstr "Зажигательное танго"
 
+#: data/votes-2020-07-19.json:573
+msgctxt "publish_name"
+msgid "Final Fantasy 7 Dress Up"
+msgstr "Наряды Final Fantasy 7"
+
 #: data/votes-2019-08-11.json:311
 msgid "First Contact: A curious rainforest tiger huntress sneaks into an inn in a small human village whilst the sun is going down and greets the owners."
 msgstr "Первый контакт: Любопытная охотница из тропических тигров пробирается в гостиницу в маленькой человеческой деревушке, пока солнце ещё садится и приветствует владельцев."
@@ -1782,7 +1787,7 @@ msgstr "Флора и Трэйс женятся (типа продолжение
 msgid "Flora and Trace on a couch watching a scary movie at night, with Trace freaked out and in Flora's arms."
 msgstr "Флора и Трэйс сидят на диване и смотрят ночью страшное кино, Трэйс сильно напуган и в руках Флоры."
 
-#: data/votes-2020-07-19.json:722
+#: data/votes-2020-07-19.json:731
 msgid "Flora as Gozer the Gozerian standing before the crystalline temple doors, flanked by her hellhounds Natani and Mike"
 msgstr "Флора в роли Гозера-разрушителя, стоящая перед дверями кристального храма в окружении своих адских гончих Натани и Майка"
 
@@ -1960,7 +1965,7 @@ msgstr "Пушистый северный баситин"
 msgid "Fluffy Winter Keith and Fluffy Winter Natani snuggle up and get cozy during a snowstorm"
 msgstr "Пушистый зимний Кит и пушистая зимняя Натани прижимаются друг к другу и чувствуют себя уютно во время метели"
 
-#: data/votes-2020-07-19.json:706
+#: data/votes-2020-07-19.json:715
 msgid "Follow up to Grand Templar Laura 2. King Madness meets with Grand Templar Laura to negotiate the Keith's return, but Keith seems mysteriously reluctant to leave."
 msgstr "Продолжение Великого тамплиера Лауры 2. Король Безумная встречается с Великим тамплиером Лаурой для переговоров о возвращении Кита, но Кит, похоже, по какой-то причине уходить не хочет."
 
@@ -2142,7 +2147,7 @@ msgstr "Великая тамплиер Лаура и сёстры работо�
 #. :Название: Chimera Prologue 2
 #. :Предложил: Dominik
 #. :Ссылка (Patreon): https://www.patreon.com/posts/chimera-prologue-39549992
-#: data/votes-2020-02-10.json:344 data/votes-2020-07-19.json:670
+#: data/votes-2020-02-10.json:344 data/votes-2020-07-19.json:679
 msgid "Grand Templar Mary Siverlock learns that Eris has broken into a Keidran village where a peace agreement has been made and is not happy about it"
 msgstr "Великий тамплиер Мэри Сиверлок узнаёт, что Эрис ворвалась в кайдрэнскую деревню, с которой заключено мирное соглашение, и ей это не нравится"
 
@@ -2235,7 +2240,7 @@ msgstr "Человек Рэни в зимней одежде с меховой �
 msgid "I want Trace and Flora on a motorcycle riding through the mountains in the spring."
 msgstr "Я хочу чтобы Трэйс и Флора летним днём ехали через горы на мотоцикле."
 
-#: data/votes-2020-07-19.json:604
+#: data/votes-2020-07-19.json:613
 msgid "In an alternate reality, Grand Templar Trace invades the Basitin isles and fights General Keith on the battlefield."
 msgstr "В альтернативной реальности Великий тамплиер Трэйс вторгается на Баситинские острова и сражается с генералом Китом на поле битвы."
 
@@ -2425,7 +2430,7 @@ msgstr "Кэт в виде девушки-киборга из трейлера C
 #. https://www.patreon.com/posts/waterfall-39781736
 #. :Ссылка на цветную версию (DeviantArt):
 #. https://www.deviantart.com/twokinds/art/Waterfall-Kathrin-850110334
-#: data/votes-2020-07-19.json:636
+#: data/votes-2020-07-19.json:645
 msgid "Kat bathes under a waterfall to beat the summer heat"
 msgstr "Кэт купается под водопадом, чтобы облегчить летнюю жару"
 
@@ -2518,7 +2523,7 @@ msgstr "Кэт в костюме горничной"
 msgid "Kat in a cute pose, holding her legs and smiling"
 msgstr "Кэт в милой позе, держит свои ноги и улыбается"
 
-#: data/votes-2020-07-19.json:714
+#: data/votes-2020-07-19.json:723
 msgid "Kat is finally convinced Flora is not \"just fat\" as she nears the end of the pregnancy."
 msgstr "Кэт наконец-то убедилась, что Флора не «просто толстая», поскольку её беременность подходит к концу."
 
@@ -3242,7 +3247,7 @@ msgstr "Мэдди и взрослая Мэйв посещают спа-сало
 msgid "Maddie dresses as Jotaro with a star platinum mamma looming behind"
 msgstr "Мэдди, одетая как Джотаро, с находящимся позади смутным силуэтом платиновой звезды"
 
-#: data/votes-2020-07-19.json:718
+#: data/votes-2020-07-19.json:727
 msgid "Maddie has dressed up in Keith’s general outfit and is caught pretending to be him."
 msgstr "Мэдди оделась в генеральский наряд Кита и была поймана с поличным, когда притворялась им."
 
@@ -3680,7 +3685,7 @@ msgstr "Современная АВ Кловис и Брут встают в п�
 msgid "Modern AU: Cyberpunk Raine is helping Gaming Nora to find RHGUY69"
 msgstr "Современная АВ: киберпанковая Рэйн помогает геймерше Норе отыскать RHGUY69"
 
-#: data/votes-2020-07-19.json:572
+#: data/votes-2020-07-19.json:581
 msgid "Modern day Adult Maddie and Maeve just lounging around on a hot summer day (in tank tops and shorts) much to Maddie’s embarrassment."
 msgstr "Современные взрослые Мэдди и Мэйв просто бездельничают в жаркий летний день (в майках и шортах), к большому смущению Мэдди."
 
@@ -3700,7 +3705,7 @@ msgstr "Миссис Ниббли встречает Соломинку"
 msgid "Nat and Keith meet their counterparts, Fem Keith and Masc Natani"
 msgstr "Нат и Кит встречают своих противоположностей, самку Кита и самца Натани"
 
-#: data/votes-2020-07-19.json:576
+#: data/votes-2020-07-19.json:585
 msgid "Nat gets hit by a personality switch spell, Now Nat acts like Darkness from Konosuba, which Keith is doing his best to resist \"Darkness Nat\" lewd idea's."
 msgstr "Нат подпадает под заклинание смены личности, Теперь Нат ведёт себя как Даркнесс из Konosuba, и Кит делает всё возможное, чтобы противостоять распутным идеям «Даркнесс Нат»."
 
@@ -3763,6 +3768,9 @@ msgstr "Натани в роли Джона Уика"
 msgid "Natani as Mulan training under Keith as Li Shang, respectively, from the animated Disney's 'Mulan', with Nora in the role of Mushu."
 msgstr "Натани в роли Мулана тренируется под руководством Кита в роли Ли Шанга, соответственно, из диснеевского мультфильма «Мулан» с Норой в роли Мушу."
 
+#. :Дата: 2020-09-20
+#. :Название: Final Fantasy 7 Dress Up
+#. :Ссылка (Patreon): https://www.patreon.com/posts/final-fantasy-7-41803901
 #: data/votes-2020-07-19.json:568
 msgid "Natani as Tifa, Laura as Aerith, and Keith as Cloud in dresses from Don Corneo’s bride scene from Final Fantasy VII Remake."
 msgstr "Натани в роли Тифы, Лаура в роли Айрис и Кит в роли Клауда в платьях из сцены смотрин у Дона Корнео из Final Fantasy VII Remake."
@@ -3892,7 +3900,7 @@ msgstr "Натани, Трэйс и Кэт играют в нечто подоб
 msgid "Natani, out of character, chest-to-chest up against Kathrin, who is looking flustered and confused. Out of Natani's back is a Valentine arrow."
 msgstr "Натани ведёт себя не в своём стиле, прижавшись своей грудью к груди Кэтрин, которая выглядит растерянной и смущённой. Из спины Натани торчит стрела-валентинка."
 
-#: data/votes-2020-07-19.json:632
+#: data/votes-2020-07-19.json:641
 msgid "Necromancess/Deathknight Kat! (Black robes and summoning a small skelton, the usual Necromancer stuff)"
 msgstr "Некромантша/Рыцарь смерти Кэт! (Чёрные одеяния и вызов небольшого скелта, обычные некромантские дела)"
 
@@ -4072,7 +4080,7 @@ msgstr "Нора затягивает Рэда и Сифа в разум Рэй�
 msgid "Nora shows off her magic mistletoe collection, her favorite being illuminated in a glass case"
 msgstr "Нора демонстрирует свою коллекцию волшебных омел, её любимая висит в освещённой стеклянной витрине"
 
-#: data/votes-2020-07-19.json:600
+#: data/votes-2020-07-19.json:609
 msgid "Nora taking a bath in a chocolate fondue fountain. Marshmallows and strawberries on the side."
 msgstr "Нора принимает ванну в фонтане шоколадного фондю. По сторонам зефирки и клубника."
 
@@ -4277,7 +4285,7 @@ msgctxt "publish_name"
 msgid "Page 352 Scene Remake"
 msgstr "Перерисовка сцены со страницы 352"
 
-#: data/votes-2020-07-19.json:580
+#: data/votes-2020-07-19.json:589
 msgid "Page 55 but Modern AU and Non-Rude Radiologist Tom"
 msgstr "Страница 55, но в современной АВ и с вежливым радиологом Томом"
 
@@ -4286,7 +4294,7 @@ msgctxt "publish_name"
 msgid "Pedicure"
 msgstr "Педикюр"
 
-#: data/votes-2020-07-19.json:734
+#: data/votes-2020-07-19.json:743
 msgctxt "publish_name"
 msgid "Penguins"
 msgstr "Пингвины"
@@ -4331,7 +4339,7 @@ msgctxt "publish_name"
 msgid "Poolside Adelaide & Adira"
 msgstr "Аделаида и Адира у бассейна"
 
-#: data/votes-2020-07-19.json:592
+#: data/votes-2020-07-19.json:601
 msgid "Portait of Cat Nora"
 msgstr "Портрет кошки Норы"
 
@@ -4806,7 +4814,7 @@ msgstr "Перерисовка/переделка страницы 69. Когд�
 msgid "Reni gets overeager lighting some magical fireworks from her collection for the group, sets off the whole box"
 msgstr "Рэни слишком перестаралась, зажигая для группы какой-то волшебный фейерверк из своей коллекции, взорвав всю коробку"
 
-#: data/votes-2020-07-19.json:628
+#: data/votes-2020-07-19.json:637
 msgid "Reni getting a magic lesson from Rose - it involves a very familiar collar. Sit, dragon! Roll over!"
 msgstr "Рэни получает урок магии от Роуз — и он включает очень знакомый ошейник. Сидеть, дракон! Перекат!"
 
@@ -4875,7 +4883,7 @@ msgstr "Обмен Сэма и Колина"
 msgid "Sam and Colin are subjected to a species swap. Colin is understandably flustered, but Sam is enjoying the change."
 msgstr "Сэм и Колин подвергаются обмену видами. Колин по понятным причинам взволнован, а Сэм наслаждается изменением."
 
-#: data/votes-2020-07-19.json:588
+#: data/votes-2020-07-19.json:597
 msgid "Sam and Colin as kids playing console co-op."
 msgstr "Сэм и Колин в виде детей, играющих в кооператив на консоли."
 
@@ -5095,7 +5103,7 @@ msgstr "Перерисовка Довольно усевшейся Кэтрин"
 msgid "Skater Kat in hoodie"
 msgstr "Кэт на скейте в толстовке с капюшоном"
 
-#: data/votes-2020-07-19.json:620
+#: data/votes-2020-07-19.json:629
 msgid "Slave Leia Adelaide"
 msgstr "Рабыня Лейя Аделаида"
 
@@ -5664,7 +5672,7 @@ msgstr "Тигрица Трэйс в костюме горничной"
 msgid "Tigress Trace in her Winter Coating."
 msgstr "Тигрица Трэйс в своей зимней шубке."
 
-#: data/votes-2020-07-19.json:616
+#: data/votes-2020-07-19.json:625
 msgid "Tiny Nora curled up under Tom's desk during a sketch stream."
 msgstr "Крошечная Нора свернулась калачиком под столом Тома во время трансляции его набросков."
 
@@ -5747,7 +5755,7 @@ msgstr "Трэйс и Флора готовятся к поступлению в
 msgid "Trace and Flora hang-gliding over a forest (Maybe have a campsite visible)"
 msgstr "Трэйс и Флора летят на дельтаплане над лесом (может быть виден палаточный лагерь)"
 
-#: data/votes-2020-07-19.json:584
+#: data/votes-2020-07-19.json:593
 msgid "Trace and Flora having a Pokémon battle as Trainers"
 msgstr "Трэйс и Флора ведут битву покемонов в качестве их тренеров"
 
@@ -5979,7 +5987,7 @@ msgstr "ТВ шоу Twokinds исчерпывает бюджет спецэфф�
 msgid "Under the table, a tiny dragon Nora is crawling into Trace's pants. Above the table, eating dinner, Trace looks alarmed."
 msgstr "Под столом крошечная драконица Нора заползает в трусы Трейса. Над столом обедающий Трейс выглядит встревоженным."
 
-#: data/votes-2020-07-19.json:698
+#: data/votes-2020-07-19.json:707
 msgctxt "publish_name"
 msgid "Undercover Maddie - In Too Deep!"
 msgstr "Мэдди под прикрытием — слишком глубоким!"
@@ -5988,7 +5996,7 @@ msgstr "Мэдди под прикрытием — слишком глубоки
 #. :Название: Undercover Maddie - In Too Deep!
 #. :Предложил: Dadrobit
 #. :Ссылка (Patreon): https://www.patreon.com/posts/undercover-in-39550038
-#: data/votes-2020-07-19.json:688
+#: data/votes-2020-07-19.json:697
 msgid "Undercover Western Maddie has successfully infiltrated the gala! But now that she's in, maintaining her cover proves difficult when everything is so... Scandalous!"
 msgstr "Западная Мэдди под прикрытием успешно проникла на торжество! Но теперь, когда она внутри, поддержание её прикрытия оказывается затруднительным делом, поскольку всё вокруг так... Скандально!"
 
@@ -6114,8 +6122,8 @@ msgstr "Натолкнуться на Кловиса 3"
 msgid "Walking in on Clovis Part 3: Brutus helps Clovis’s “sister” bathe, much to Clovis’s (supposed) discomfort"
 msgstr "Натолкнуться на Кловиса, часть 3: Брут помогает купаться «сестрёнке» Кловиса, к большому (предполагаемому) дискомфорту Кловиса"
 
-#: data/votes-2020-07-19.json:648 data/votes-2020-07-19.json:655
-#: data/votes-2020-07-19.json:662
+#: data/votes-2020-07-19.json:657 data/votes-2020-07-19.json:664
+#: data/votes-2020-07-19.json:671
 msgctxt "publish_name"
 msgid "Waterfall Kathrin"
 msgstr "Кэтрин под водопадом"
@@ -6144,7 +6152,7 @@ msgctxt "publish_name"
 msgid "Well-Dressed Wolf"
 msgstr "Хорошо одетый волк"
 
-#: data/votes-2020-07-19.json:710
+#: data/votes-2020-07-19.json:719
 msgid "What happens to Zen's Zen garden when Natani invades it by thinking Keith-y thoughts."
 msgstr "Что произойдёт с зеновым дзеновым садом, когда в него вторгнется Натани с мыслями о Ките?"
 
@@ -6349,7 +6357,7 @@ msgstr "Молодые Трэйс и Рэд разыгрывают прежне�
 msgid "Young Trace attempts to open the portal to another world, but as the portal opens he realizes he read from a cookbook instead of a spellbook. He summoned a dinner."
 msgstr "Молодой Трэйс пытается открыть портал в другой мир, но, открыв портал, он понимает, что читал поваренную книгу, а не книгу заклинаний. Он призвал ужин."
 
-#: data/votes-2020-07-19.json:612
+#: data/votes-2020-07-19.json:621
 msgid "Young Zen takes his little sister (Natani cub) for walkies"
 msgstr "Молодой Зен берёт на прогулку свою маленькую сестрёнку (волчонка Натани)"
 
