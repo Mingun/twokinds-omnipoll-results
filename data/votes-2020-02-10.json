@@ -422,7 +422,19 @@
     },
     {
       "votes": 12,
-      "suggestion": "The main cast dressed as the cast of Bravely Default (Trace=Tiz, Flora=Agnes, Keith=Ringabel, Natani=Edea)"
+      "suggestion": "The main cast dressed as the cast of Bravely Default (Trace=Tiz, Flora=Agnes, Keith=Ringabel, Natani=Edea)",
+      "suggested_by": [
+        "BlazingFoxSpirit"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-10-21",
+          "name": "Bravely Default",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/bravely-default-43003331"
+        }
+      ]
     },
     {
       "votes": 68,
