@@ -312,9 +312,10 @@
         }
       },
       s = functions[sort.mode || 'asc'],
-      field = sort.field;
+      field = sort.field,
+      extract = headerTypes[field].extract || function(value) { return value; };
 
-    return function(a, b) { return s(a[field], b[field]); };
+    return function(a, b) { return s(extract(a[field]), extract(b[field])); };
   }
 
   function template(template, parameters) {
@@ -863,7 +864,7 @@
     '2019-05-19'
   ];
   var headers = [
-    { code: 'suggestion', type: 'html', filter: { type: 'text' } },
+    { code: 'suggestion', type: 'html', filter: { type: 'text' }, extract: function(value) { return value.suggestions[state.dataLanguage]; } },
     { code: 'position', size: 'fixed' },
     { code: 'index', size: 'fixed' },
     { code: 'votes', type: 'bar', size: 'fixed', filter: { type: 'number' } }
