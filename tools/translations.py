@@ -17,7 +17,7 @@ def dir_type(string):
     if os.path.isdir(string):
         return string
 
-    raise ArgumentTypeError('путь {0} не является каталогом'.format(string))
+    raise argparse.ArgumentTypeError('путь {0} не является каталогом'.format(string))
 
 def message_key(message):
     """Ключ для сравнения сообщений без учёта регистра"""
