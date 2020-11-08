@@ -135,6 +135,24 @@
   <header></header>
   <div id="table-container"></div>
   <script>
+  var dates = [
+    '2020-07-19',
+    '2020-03-08',
+    '2020-02-10',
+    '2019-12-22',
+    '2019-10-20',
+    '2019-09-15',
+    '2019-08-25',
+    '2019-08-11',
+    '2019-08-04',
+    '2019-06-16',
+    '2019-06-09',
+    '2019-06-02',
+    '2019-05-19'
+  ];
+  var headers = ['suggestion', 'position', 'index', 'votes'];
+  </script>
+  <script>
   var DEFAULT_LANGUAGE = 'en';
   var languages = {
     'en': {
@@ -848,22 +866,6 @@
   }
 
   var state;
-  var dates = [
-    '2020-07-19',
-    '2020-03-08',
-    '2020-02-10',
-    '2019-12-22',
-    '2019-10-20',
-    '2019-09-15',
-    '2019-08-25',
-    '2019-08-11',
-    '2019-08-04',
-    '2019-06-16',
-    '2019-06-09',
-    '2019-06-02',
-    '2019-05-19'
-  ];
-  var headers = ['suggestion', 'position', 'index', 'votes'];
   var headerTypes = {
     suggestion: { type: 'html', filter: { type: 'text' }, extract: function(value) { return value.suggestions[state.dataLanguage]; } },
     position: { size: 'fixed' },
