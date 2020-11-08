@@ -863,12 +863,13 @@
     '2019-06-02',
     '2019-05-19'
   ];
-  var headers = [
-    { code: 'suggestion', type: 'html', filter: { type: 'text' }, extract: function(value) { return value.suggestions[state.dataLanguage]; } },
-    { code: 'position', size: 'fixed' },
-    { code: 'index', size: 'fixed' },
-    { code: 'votes', type: 'bar', size: 'fixed', filter: { type: 'number' } }
-  ];
+  var headers = ['suggestion', 'position', 'index', 'votes'];
+  var headerTypes = {
+    suggestion: { type: 'html', filter: { type: 'text' }, extract: function(value) { return value.suggestions[state.dataLanguage]; } },
+    position: { size: 'fixed' },
+    index: { size: 'fixed' },
+    votes: { type: 'bar', size: 'fixed', filter: { type: 'number' } }
+  };
 
   var dataTable;
   var dispatch = d3.dispatch('init', 'load', 'update');
@@ -965,15 +966,16 @@
   dispatch.on('init.table', function() {
     var language = languages[state.interfaceLanguage];
     dataTable = table(headers.map(function(d) {
-      var h = { name: language['table-' + d.code], code: d.code, type: d.type || 'text' };
-      if (d.title) {
-        h.title = language['table-' + d.title];
+      var t = headerTypes[d];
+      var h = { name: language['table-' + d], code: d, type: t.type || 'text' };
+      if (t.title) {
+        h.title = language['table-' + t.title];
       }
-      if (d.size) {
-        h.size = d.size;
+      if (t.size) {
+        h.size = t.size;
       }
-      if (d.filter) {
-        h.filter = { type: d.filter.type, help: language['table-' + d.code + '-filter'] };
+      if (t.filter) {
+        h.filter = { type: t.filter.type, help: language['table-' + d + '-filter'] };
       }
 
       return h;
