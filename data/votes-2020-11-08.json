@@ -74,6 +74,15 @@
       "choice": "voters",
       "suggested_by": [
         "MarkovPolo"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-11-09",
+          "name": "Kat-o-Vision",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/kat-o-vision-43699640"
+        }
       ]
     },
     {
