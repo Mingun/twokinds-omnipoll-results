@@ -41,6 +41,15 @@
       "choice": "voters",
       "suggested_by": [
         "Popular_Dollars"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-11-11",
+          "name": "Dog Kat - Cat Kat",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/dog-kat-cat-kat-43775583"
+        }
       ]
     },
     {
