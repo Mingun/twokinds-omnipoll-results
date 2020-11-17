@@ -338,7 +338,19 @@
     },
     {
       "votes": 115,
-      "suggestion": "VV Mike and Kat wake up the morning after the Halloween party"
+      "suggestion": "VV Mike and Kat wake up the morning after the Halloween party",
+      "suggested_by": [
+        "Hopefighter"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-11-17",
+          "name": "Halloween Party Aftermath",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/halloween-party-43975993"
+        }
+      ]
     },
     {
       "votes": 77,
