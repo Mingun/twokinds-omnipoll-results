@@ -462,7 +462,19 @@
     },
     {
       "votes": 70,
-      "suggestion": "Heartthrob - Evals pulls Mike out of harm's way and into his chest. Mike gets flustered hearing Evals's heartbeat."
+      "suggestion": "Heartthrob - Evals pulls Mike out of harm's way and into his chest. Mike gets flustered hearing Evals's heartbeat.",
+      "suggested_by": [
+        "Brocade"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2020-11-18",
+          "name": "Evals to the Rescue",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/evals-to-rescue-44036389"
+        }
+      ]
     },
     {
       "votes": 76,

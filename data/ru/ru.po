@@ -1639,6 +1639,11 @@ msgstr "Ивэлс завербовывает свою офигительно к
 msgid "Evals sister Erilas returns for Christmas and wants to sit on Santa Mike's lap and tell him all the naughty stuff she resisted doing that year."
 msgstr "Сестра Ивэлса, Эрилас, возвращается на Рождество и хочет сесть на колени к Санта Майку и рассказать ему про все шалости, которым она сопротивлялась в этом году."
 
+#: data/votes-2020-11-08.json:473
+msgctxt "publish_name"
+msgid "Evals to the Rescue"
+msgstr "Ивэлс спешит на помощь"
+
 #: data/votes-2020-02-10.json:718
 msgid "Evals whereing a dog muzzle at a park near a sign."
 msgstr "Ивэлс в собачьем наморднике в парке возле знака."
@@ -2323,6 +2328,10 @@ msgstr "Последствия вечеринки на Хеллоуин"
 msgid "Halloween: Zen, all zombie like, tries to teach Raine how to be scary."
 msgstr "Хэллоуин: Зен в виде зомби пытается научить Рэйн быть страшной."
 
+#. :Дата: 2020-11-18
+#. :Название: Evals to the Rescue
+#. :Предложил: Brocade
+#. :Ссылка (Patreon): https://www.patreon.com/posts/evals-to-rescue-44036389
 #: data/votes-2020-11-08.json:465
 msgid "Heartthrob - Evals pulls Mike out of harm's way and into his chest. Mike gets flustered hearing Evals's heartbeat."
 msgstr "Сердцеед - Ивэлс утаскивает Майка от греха подальше и зарывается ему в грудь. Майк нервничает, слыша сердцебиение Ивэлса."
@@ -6136,7 +6145,7 @@ msgstr "Трэйс и Флора пробуют французский поце�
 msgid "Trace and Saria dancing at a Templar ball"
 msgstr "Трэйс и Сария танцуют на балу тамплиеров"
 
-#: data/votes-2020-11-08.json:469
+#: data/votes-2020-11-08.json:481
 msgid "Trace and Saria's first date with Nora as a wingman."
 msgstr "Первое свидание Трэйса и Сарии с Норой в качестве сводницы."
 
