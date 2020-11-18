@@ -1637,7 +1637,7 @@ msgstr "Ивэлс завербовывает свою офигительно к
 
 #: data/votes-2019-12-22.json:118
 msgid "Evals sister Erilas returns for Christmas and wants to sit on Santa Mike's lap and tell him all the naughty stuff she resisted doing that year."
-msgstr "Сестра Ивэлся, Эрилас, возвращается на Рождество и хочет сесть на колени к Санта Майку и рассказать ему про все шалости, которым она сопротивлялась в этом году."
+msgstr "Сестра Ивэлса, Эрилас, возвращается на Рождество и хочет сесть на колени к Санта Майку и рассказать ему про все шалости, которым она сопротивлялась в этом году."
 
 #: data/votes-2020-02-10.json:718
 msgid "Evals whereing a dog muzzle at a park near a sign."
