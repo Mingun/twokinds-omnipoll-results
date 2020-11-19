@@ -789,7 +789,7 @@ msgstr "Ангельская Флора борется с неуправляем
 msgid "Anthro Nibbly Butler"
 msgstr "Антропоморфная Ниббли мажордом"
 
-#: data/votes-2020-11-08.json:425
+#: data/votes-2020-11-08.json:437
 msgid "Anthro Reni Daki"
 msgstr "Даки с антропоморфной Рэни"
 
@@ -1433,7 +1433,7 @@ msgctxt "publish_name"
 msgid "Dancing by Moonlight"
 msgstr "Танцы при лунном свете"
 
-#: data/votes-2020-11-08.json:449
+#: data/votes-2020-11-08.json:461
 msgid "Dark AU Emperor Sythe and his High Generals Evals and Mike rally their armies to conquer the world"
 msgstr "Тёмная АВ Император Сиф и его верховные генералы Ивэлс и Майк объединяют свои армии для завоевания мира"
 
@@ -1469,7 +1469,7 @@ msgstr "Собачка-дракон. Нора ощущает вкус своег
 msgid "Double date: Trace and Flora go on a date together, with Sythe and Maren joining them."
 msgstr "Двойное свидание: Трэйс и Флора идут на совместное свидание вместе с присоединившимся к ним Сифом и Марэн."
 
-#: data/votes-2020-11-08.json:375
+#: data/votes-2020-11-08.json:387
 msgctxt "publish_name"
 msgid "Dragon Disrobed"
 msgstr "Раздетый дракон"
@@ -1639,7 +1639,7 @@ msgstr "Ивэлс завербовывает свою офигительно к
 msgid "Evals sister Erilas returns for Christmas and wants to sit on Santa Mike's lap and tell him all the naughty stuff she resisted doing that year."
 msgstr "Сестра Ивэлса, Эрилас, возвращается на Рождество и хочет сесть на колени к Санта Майку и рассказать ему про все шалости, которым она сопротивлялась в этом году."
 
-#: data/votes-2020-11-08.json:473
+#: data/votes-2020-11-08.json:485
 msgctxt "publish_name"
 msgid "Evals to the Rescue"
 msgstr "Ивэлс спешит на помощь"
@@ -1829,7 +1829,7 @@ msgstr "Флора Клаус доставляет Трэйсу подарок"
 msgid "Flora Dakimakura 2020 redraw"
 msgstr "Перерисовка дакимакуры Флоры 2020"
 
-#: data/votes-2020-11-08.json:401
+#: data/votes-2020-11-08.json:413
 msgctxt "publish_name"
 msgid "Flora Gets her Wish"
 msgstr "Флора получает исполнение своего желания"
@@ -1882,7 +1882,7 @@ msgstr "Перерисовка моющихся Флоры и Кэтрин"
 msgid "Flora and Kathrin dress up in expertly tailored Halloween costumes and go on a spooking-spree, scaring Red, Raine and Maren."
 msgstr "Флора и Кэтрин одеваются в добротно сшитые хэллоуинские костюмы и идут веселиться, пугая Рэда, Рэйн и Марэн."
 
-#: data/votes-2020-11-08.json:441
+#: data/votes-2020-11-08.json:453
 msgid "Flora and Natani swap personalities. Flora becomes serious and reserved, wearing the wraps. Natani acts like Flora: cute, carefree and unclothed. Trace and Keith are very confused."
 msgstr "Флора и Натани меняются личностями. Флора становится серьёзной и сдержанной, одевается в повязки. Натани ведёт себя как Флора: мило, беззаботно и без одежды. Трэйс и Кит поставлены в тупик."
 
@@ -2068,7 +2068,7 @@ msgid "Flora, Kat, Raine, and Natani all shrunk down to Mrs. Nibblys size. Mrs. 
 msgstr "Флора, Кэт, Рэйн и Натани все сжались до размера миссис Ниббли. Миссис Ниббли показывает им, как путешествовать с их новым размером."
 
 # Судя по всему это отсылка на симулятор свиданий «Namco High»
-#: data/votes-2020-11-08.json:437
+#: data/votes-2020-11-08.json:449
 msgid "Flora, Kat, and Laura are characters in the \"Twokinds High\" dating sim."
 msgstr "Флора, Кэт и Лаура — персонажи симулятора свиданий «Twokinds High»."
 
@@ -2332,7 +2332,7 @@ msgstr "Хэллоуин: Зен в виде зомби пытается нау�
 #. :Название: Evals to the Rescue
 #. :Предложил: Brocade
 #. :Ссылка (Patreon): https://www.patreon.com/posts/evals-to-rescue-44036389
-#: data/votes-2020-11-08.json:465
+#: data/votes-2020-11-08.json:477
 msgid "Heartthrob - Evals pulls Mike out of harm's way and into his chest. Mike gets flustered hearing Evals's heartbeat."
 msgstr "Сердцеед - Ивэлс утаскивает Майка от греха подальше и зарывается ему в грудь. Майк нервничает, слыша сердцебиение Ивэлса."
 
@@ -2346,7 +2346,7 @@ msgctxt "publish_name"
 msgid "Heavy Dragon"
 msgstr "Тяжёлый дракон"
 
-#: data/votes-2020-11-08.json:445
+#: data/votes-2020-11-08.json:457
 msgid "Hide and seek with Ms. Nibbly! She is hiding somewhere in this picture"
 msgstr "Игра в прятки с мисс Ниббли! Она прячется где-то на этой картинке"
 
@@ -2461,6 +2461,11 @@ msgstr "Оказывается, что Ниббли является секре�
 #: data/votes-2019-09-15.json:668
 msgid "Karate Kat: All the combat training Natani gave Kat has finally paid off and the two of them spring into picture perfect jumping kicks, worthy of an 80's training montage!"
 msgstr "Каратэ Кэт: Все боевые тренировки, которыми Натани донимала Кэт, наконец-то окупились, и они вдвоём воплощают идеальные удары ногами в прыжках, достойные кино 80-х о боевых искусствах!"
+
+#: data/votes-2020-11-08.json:365
+msgctxt "publish_name"
+msgid "Karen Ear-ased"
+msgstr "Невез-уха Карэн"
 
 #. :Дата: 2020-08-04
 #. :Название: Sythe Petting
@@ -2689,7 +2694,7 @@ msgstr "Кэт в костюме горничной"
 msgid "Kat in a cute pose, holding her legs and smiling"
 msgstr "Кэт в милой позе, держит свои ноги и улыбается"
 
-#: data/votes-2020-11-08.json:457
+#: data/votes-2020-11-08.json:469
 msgid "Kat is finally convinced Flora is not \"just fat\" as she nears the end of her pregnancy."
 msgstr "Кэт наконец-то убедилась, что Флора не «просто толстая», поскольку её беременность подходит к концу."
 
@@ -3059,7 +3064,7 @@ msgstr "Кит и Трэйс спаррингуют"
 msgid "Keith and Trace sparring, kind of a bonding moment between the two"
 msgstr "Кит и Трэйс спаррингуют, своего рода разговор по душам между этими двумя"
 
-#: data/votes-2020-11-08.json:361
+#: data/votes-2020-11-08.json:373
 msgid "Keith as John Wick in a frenzy, avenging the killing of his Wolf"
 msgstr "Кит в роли Джона Уика в бешенстве мстит за убийство своей волчицы"
 
@@ -3420,6 +3425,10 @@ msgstr "Безумная учёная Мэдди готовит идеальны
 msgid "Maddie Reference Sheet"
 msgstr "Справочный лист Мэдди"
 
+#. :Дата: 2020-11-20
+#. :Название: Karen Ear-ased
+#. :Предложил: Horoisawolf
+#. :Ссылка (Patreon): https://www.patreon.com/posts/karen-ear-ased-44085731
 #: data/votes-2020-11-08.json:357
 msgid "Maddie accidentally triggers the cure for Karen's cursed ears. Both frantically try to get them back, while Trace is reluctant to apply a curse on Karen again."
 msgstr "Мэдди случайно запускает излечение проклятых ушей Карэн. Обе они отчаянно пытаются их вернуть, но Трэйс не хочет снова накладывать проклятие на Карэн."
@@ -3912,7 +3921,7 @@ msgstr "Современная АВ Кловис и Брут встают в п�
 #. :Название: Willow Clothes Shopping
 #. :Предложил: Scrubb
 #. :Ссылка (Patreon): https://www.patreon.com/posts/willow-clothes-43996775
-#: data/votes-2020-11-08.json:409
+#: data/votes-2020-11-08.json:421
 msgid "Modern AU Laura/Kat clothes shopping with Willow, maybe Nora could try to sneak in more raunchy clothes?"
 msgstr "Современная АВ Лаура/Кэт вместе с Огоньком покупает одежду, может, Нора могла бы попробовать прокрасться в более непристойном наряде?"
 
@@ -4016,7 +4025,7 @@ msgstr "Натани в роли Джона Уика"
 msgid "Natani as Mulan training under Keith as Li Shang, respectively, from the animated Disney's 'Mulan', with Nora in the role of Mushu."
 msgstr "Натани в роли Мулана тренируется под руководством Кита в роли Ли Шанга, соответственно, из диснеевского мультфильма «Мулан» с Норой в роли Мушу."
 
-#: data/votes-2020-11-08.json:383
+#: data/votes-2020-11-08.json:395
 msgid "Natani as Mulan training under Keith as Li Shang, respectively, from the animated Disney's 'Mulan'. Nora as Mushu peaking in the background."
 msgstr "Натани в роли Мулана тренируется под руководством Кита в роли Ли Шанга, соответственно, из диснеевского мультфильма «Мулан». На заднем плане подглядывает Нора в роли Мушу."
 
@@ -4603,7 +4612,7 @@ msgstr "Плакат: Викторианская баситинская леди
 msgid "Pirate Zen and first mate Kat capture Clovis and Brutus"
 msgstr "Пират Зен и первый помощник Кэт захватывают Кловиса и Брута"
 
-#: data/votes-2020-07-19.json:470 data/votes-2020-11-08.json:433
+#: data/votes-2020-07-19.json:470 data/votes-2020-11-08.json:445
 msgid "Pirates of the Caribbean: Captain Flora and her secrets"
 msgstr "Пираты Карибского моря: капитан Флора и её секреты"
 
@@ -5277,7 +5286,7 @@ msgstr "Продолжение «Кошмаров о замужестве»: М�
 #. :Название: Dragon Disrobed
 #. :Предложил: GammaeRadon
 #. :Ссылка (Patreon): https://www.patreon.com/posts/dragon-disrobed-43739419
-#: data/votes-2020-11-08.json:365
+#: data/votes-2020-11-08.json:377
 msgid "Sequel to \"Island Style Reni.\" Reni's clothes have been stolen by Seraphina, who is gushing over them, while a mortified Reni has to deal with being in the nude, bare and blushing."
 msgstr "Продолжение «Островного стиля Рэни». Одежду Рэни украла захлёбывающаяся от восторга Серафина, а униженная Рэни вынуждена остаться обнажённой и краснеющей."
 
@@ -5389,7 +5398,7 @@ msgstr "Продолжение наброска Нежноцвет: очеред
 msgid "Sequel to Sythe and Maren dancing. Nora switches Maren and Nibbly’s bodies, much to Sythe’s confusion."
 msgstr "Продолжение Танца Сифа и Марэн. Нора меняет местами тела Марэн и Ниббли, к большому замешательству Сифа."
 
-#: data/votes-2020-11-08.json:387
+#: data/votes-2020-11-08.json:399
 msgid "Sequel to https://www.patreon.com/posts/doomguy-daisy-20030240 where the Doom Slayer and Daisy are in the Fortress of Doom, with an annoyed Samuel Hayden in the background"
 msgstr "Продолжение https://www.patreon.com/posts/doomguy-daisy-20030240, где Палач Рока и Дейзи находятся в Твердыне Рока на фоне раздражённого Сэмюэля Хайдена"
 
@@ -5722,7 +5731,7 @@ msgstr "Мысли Сифа о марэн"
 msgid "THUNDERCATS HO! Refrence with the gang!"
 msgstr "ГРОМОВЫЕ КОШКИ ХО! Справочный лист с бандой!"
 
-#: data/votes-2020-11-08.json:461
+#: data/votes-2020-11-08.json:473
 msgid "TK History: Young Sythe's first experiences in a Human village."
 msgstr "История TK: первые впечатления молодого Сифа от людской деревни."
 
@@ -6026,7 +6035,7 @@ msgstr "Крошечная Нора свернулась калачиком по
 msgid "Tired of waiting for Eric to show his affection, Kat decides to use \"Basitin Wooing\" techniques on him (and maybe a Fox collar)."
 msgstr "Устав ждать, когда же Эрик проявит своё внимание, Кэт решает применить к нему метод «баситинского ухаживания» (и, возможно, лисий ошейник)."
 
-#: data/votes-2020-11-08.json:453
+#: data/votes-2020-11-08.json:465
 msgid "To continue Maeve's Splinter Cell training, Maddie tries to demonstrate incapacitation techniques on Brutus, but can't make them work her sturdy Keidran victim even as he cheerfully gives her tips."
 msgstr "Чтобы продолжить обучение Мэйв в стиле Splinter Cell, Мэдди пытается продемонстрировать на Бруте методы вывода из строя противника, но не может заставить их сработать на её стойкой жертве, даже когда он подбадривает её и даёт ей советы."
 
@@ -6145,7 +6154,7 @@ msgstr "Трэйс и Флора пробуют французский поце�
 msgid "Trace and Saria dancing at a Templar ball"
 msgstr "Трэйс и Сария танцуют на балу тамплиеров"
 
-#: data/votes-2020-11-08.json:481
+#: data/votes-2020-11-08.json:493
 msgid "Trace and Saria's first date with Nora as a wingman."
 msgstr "Первое свидание Трэйса и Сарии с Норой в качестве сводницы."
 
@@ -6358,7 +6367,7 @@ msgctxt "publish_name"
 msgid "Undercover Maddie - In Too Deep!"
 msgstr "Мэдди под прикрытием — слишком глубоким!"
 
-#: data/votes-2020-11-08.json:429
+#: data/votes-2020-11-08.json:441
 msgid "Undercover Maddie Finale. Maddie has safely made her way back home and is preparing to give a report on what was learned... But... What DID we learn???"
 msgstr "Финал «Мэдди под прикрытием». Мэдди благополучно вернулась домой и готовится написать отчёт о том, что она узнала… Но… ЧТО мы узнали???"
 
@@ -6420,7 +6429,7 @@ msgstr "Вампирица Роуз в костюме рабыни Леи соб
 #. :Название: Flora Gets her Wish
 #. :Предложил: Miikka
 #. :Ссылка (Patreon): https://www.patreon.com/posts/flora-gets-her-43813738
-#: data/votes-2020-11-08.json:391
+#: data/votes-2020-11-08.json:403
 msgid "Very Tigress Flora"
 msgstr "Очень тигрица Флора"
 
@@ -6647,7 +6656,7 @@ msgctxt "publish_name"
 msgid "Willing Prisoner"
 msgstr "Добровольная пленница"
 
-#: data/votes-2020-11-08.json:417
+#: data/votes-2020-11-08.json:429
 msgctxt "publish_name"
 msgid "Willow Clothes Shopping"
 msgstr "Огонёк покупает одежду"
