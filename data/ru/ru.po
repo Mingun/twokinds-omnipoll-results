@@ -414,7 +414,7 @@ msgstr "АВ: Кит и Натани втречаются детьми. Один
 
 # https://doom.fandom.com/wiki/Doom_Slayer
 # https://doom.fandom.com/ru/wiki/Палач_Рока
-#: data/votes-2021-01-17.json:332
+#: data/votes-2021-01-17.json:341
 msgid "Adelaide Doom Slayer"
 msgstr "Аделаида Палач Рока"
 
@@ -607,7 +607,7 @@ msgstr "Адира против Марэн в конкурсе дев тавер
 msgid "Adira, Amelia and Maeve host their special holiday party in Riftwall for all their patrons"
 msgstr "Адира, Амелия и Мэйв устраивают в Рифтволле особую праздничную вечеринку для всех своих покровителей"
 
-#: data/votes-2021-01-17.json:376
+#: data/votes-2021-01-17.json:385
 msgid "Adrakist Flora meets Wrinry the Dragongirl"
 msgstr "Адракист Флора встречает драконодевушку Ринри"
 
@@ -643,7 +643,7 @@ msgstr "Взрослые Мэдди и Мэйв в купальне «тольк
 msgid "Adult Maeve tries to get Adult Maddie to wear a bikini, who freaks out about being in public while wearing so little"
 msgstr "Взрослая Мэйв пытается заставить взрослую Мэдди надеть бикини, которая волнуется от того, что носит на публике так мало одежды"
 
-#: data/votes-2021-01-17.json:428
+#: data/votes-2021-01-17.json:437
 msgid "After Euchre frees Raine and Mary Silverlock from the Templars, the latter two meet the formers cousin: Roselyn (alive and young). She takes them to her family in the Snow Wolf territory, and Raine turns in her Keidran form like her mom to blend in."
 msgstr "После того, как Юкрэ освобождает Рэйн и Мэри Сильверлок от тамплиеров, последние двое встречаются с бывшей кузиной: Розелин (живой и молодой). Она забирает их к своей семье на территорию снежных волков, и Рэйн чтобы не выделяться, превращается в свою кайдрэнскую форму, становясь похожей на свою маму."
 
@@ -740,7 +740,7 @@ msgstr "Альтернативная вселенная: Великий тамп
 msgid "Alternate Universe: Grand Templar Trace leads a massive assault against King Adelaide, forcing his way to the castle."
 msgstr "Альтернативная вселенная: Великий тамплиер Трэйс ведёт массированный штурм владений короля Аделаиды, пробиваясь к её замку."
 
-#: data/votes-2021-01-17.json:368
+#: data/votes-2021-01-17.json:377
 msgid "Alternate Universe: Nibbly the Squirrel-Keidran diplomat and her cute wolf buddy Mr. Sythe"
 msgstr "Альтернативная вселенная: Белка-кайдрэн дипломат Ниббли и её милый волк-приятель мистер Сиф"
 
@@ -990,7 +990,7 @@ msgstr "Безумное бикини 2"
 msgid "Bikini Madness pt 2 Adult Meave and Maddie both in swimwear."
 msgstr "Мэднесс в бикини ч 2 Взрослые Мэйв и Мэдди в купальных костюмах."
 
-#: data/votes-2021-01-17.json:420
+#: data/votes-2021-01-17.json:429
 msgid "Biological differences between Mekkan's main species (and Windstraw's)"
 msgstr "Биологические различия между основными видами Меккана (и Соломинкой)"
 
@@ -1032,11 +1032,11 @@ msgctxt "publish_name"
 msgid "Bodyswap Bath"
 msgstr "Купание с обменом телами"
 
-#: data/votes-2021-01-17.json:485
+#: data/votes-2021-01-17.json:494
 msgid "Bodyswap of Raine and Red. Raine is embarrassed because Red is a bit too curious with the breasts."
 msgstr "Обмен телами Рэйн и Рэда. Рэйн смущена, поскольку Рэд слишком сильно заинтересовался грудями."
 
-#: data/votes-2021-01-17.json:432
+#: data/votes-2021-01-17.json:441
 msgid "Bodyswap: Cat Raine and wolf Maren"
 msgstr "Обмен телами: кошка Рэйн и волчица Марэн"
 
@@ -1157,7 +1157,7 @@ msgstr "ШОКОЛАД"
 msgid "Candle-lit dinner with Sythe and CatMaren (like scene from “Magical Mishaps” page 15 frame 1)"
 msgstr "Ужин при свечах Сифа с КотоМарэн (как в сцене из «Магических казусов» с первого кадра страницы 15)."
 
-#: data/votes-2021-01-17.json:436
+#: data/votes-2021-01-17.json:445
 msgid "Captain Jenny and Brutus raid the Na'Rella and Eric begs them not to take his paintings."
 msgstr "Капитан Дженни и Брут совершают нападение на На’Реллу и Эрик умоляет их не забирать его картины."
 
@@ -1372,7 +1372,7 @@ msgstr "Кловис и Брут заказывают пиццу у Тома. П
 msgid "Clovis as a roman emperor, sitting smug on a throne."
 msgstr "Кловис в образе римского императора, самодовольно восседающий на троне."
 
-#: data/votes-2021-01-17.json:352
+#: data/votes-2021-01-17.json:361
 msgid "Clovis changes every omnipoll entry to be a different Brutus pinup"
 msgstr "Кловис изменил все предложения омниполла на различные плакаты с Брутом"
 
@@ -1403,11 +1403,11 @@ msgid "Clovis has been made a slave and ends up as a model for Eric"
 msgstr "Кловис попал в рабство и стал моделью для Эрика"
 
 # https://hazbinhotel.fandom.com/ru/wiki/Helluva_Boss
-#: data/votes-2021-01-17.json:457
+#: data/votes-2021-01-17.json:466
 msgid "Clovis hires I.M.P. (from Hellova boss) and gets into an argument with Luna about waiting in the lobby. Luna, terrifyingly, tells him to shut the @#$% up!"
 msgstr "Кловис нанимает I.M.P. (из «Адского босса») и вступает в спор с Луной из-за ожидания в вестибюле. Луна угрожающе приказывает ему завалить хл@#$%о!"
 
-#: data/votes-2021-01-17.json:473
+#: data/votes-2021-01-17.json:482
 msgid "Clovis hugging Brutus as a thank you after saving him from the asassins."
 msgstr "Кловис обнимает Брута в знак благодарности после того, как тот спас его от асассинов."
 
@@ -1439,7 +1439,7 @@ msgstr "Переосмысленная казнь Кловисом Роана в
 msgid "Clovis, bruts and calver banished in the phantom zone (old school)"
 msgstr "Кловис, брут и калвер изгнаны в фантомную зону (старую школу)"
 
-#: data/votes-2021-01-17.json:356
+#: data/votes-2021-01-17.json:365
 msgid "Clovis, the Queen of Greed, did not take it at all well when Sunny, the Queen of Pirates, refused her deal where she would give Clovis half her income in return for ‘protection’."
 msgstr "Кловис, Королеве жадности, совершенно не понравилось, когда Санни, Королева пиратов, отказалась от сделки, по которой она отдала бы Кловис половину своего дохода в обмен на «защиту»."
 
@@ -1484,7 +1484,7 @@ msgctxt "publish_name"
 msgid "Communal Tiger Bed"
 msgstr "Общая тигриная кровать"
 
-#: data/votes-2021-01-17.json:348
+#: data/votes-2021-01-17.json:357
 msgid "Couple retreat: Keith and Nat shocked to see King Jade on the island with her new \"boyfriend\" (A Male dragon held against his will by the King)"
 msgstr "Убежище для парочек: Кит и Нат были потрясены, увидев на острове Короля Джейд с её новым «парнем» (драконом-самцом, удерживаемым Королём против его воли)"
 
@@ -1882,7 +1882,7 @@ msgstr "СамкаМайк пытается свести Майка с Самк�
 # https://pokemon.fandom.com/wiki/Luxray
 # https://pokemonov.net/luxray
 # https://modpixelmon.ru/luxray
-#: data/votes-2021-01-17.json:312
+#: data/votes-2021-01-17.json:321
 msgid "Female Luxray Keidran for the 25th Pokemon Anniversary!"
 msgstr "Самка кайдрэн Люксрэй на 25-ю годовщину покемонов!"
 
@@ -2065,7 +2065,7 @@ msgstr "Флора прибегает на звук использования �
 msgid "Flora costumed as Leeloo from Fifth Element, with Trace as Corbin Dallas."
 msgstr "Флора оделась как Лилу из Пятого Элемента, а Трэйс — как Корбин Даллас."
 
-#: data/votes-2021-01-17.json:340
+#: data/votes-2021-01-17.json:349
 msgid "Flora decides to test Stoney to see if he'll be a good companion for her upcoming baby when it's born. She likes him! Good boy!"
 msgstr "Флора решает проверить Каменюшу, чтобы увидеть, будет ли он хорошим компаньоном для её будущего ребёнка, когда тот родится. Он ей понравился! Хороший мальчик!"
 
@@ -2137,7 +2137,7 @@ msgstr "Флора ведьма! Она превратила Кита в три�
 msgid "Flora making a heart with hands"
 msgstr "Флора делает руками сердечко"
 
-#: data/votes-2021-01-17.json:408
+#: data/votes-2021-01-17.json:417
 msgid "Flora massages Zen to help him get healthy!"
 msgstr "Флора делает массаж Зену, чтобы тот поскорее поправился!"
 
@@ -2149,7 +2149,7 @@ msgstr "Флора встречает Тигру и пытается, как о�
 msgid "Flora meets Tigger and tries to bounce on her tail like him"
 msgstr "Флора встречает Тигру и пытается, как и он, попрыгать на своём хвосте"
 
-#: data/votes-2021-01-17.json:396
+#: data/votes-2021-01-17.json:405
 msgid "Flora pounces Trace too hard and he loses his memory again."
 msgstr "Флора слишком сильно напрыгивает на Трэйса и он снова теряет свою память."
 
@@ -2193,7 +2193,7 @@ msgstr "Флора рассказывает жуткую тигриную кай
 msgid "Flora tries coffee after watching the Detective Pikachu movie and is now super awake."
 msgstr "Флора пробует кофе после просмотра фильма «Детектив Пикачу» и теперь у неё сна ни в одном глазу."
 
-#: data/votes-2021-01-17.json:380
+#: data/votes-2021-01-17.json:389
 msgid "Flora tries to lick off the blue triangle on Trace's face but only manages to get it stuck to her tongue."
 msgstr "Флора пытается слизнуть синий треугольник на лице Трэйса, но ей удается только перенести его на свой язык."
 
@@ -2301,7 +2301,7 @@ msgctxt "publish_name"
 msgid "Gender Flip Flirting"
 msgstr "Флирт при смене пола"
 
-#: data/votes-2021-01-17.json:453
+#: data/votes-2021-01-17.json:462
 msgid "Genderbent AU: Male Human Nora tries to charm the Grand Templar FemTrace while she's at work at her desk. FemTrace is not very phased by the dragon's charm"
 msgstr "АВ со сменой пола: Мужчина-человек Нора пытается очаровать Великого тамплиера ЖенщинуТрэйса, пока та работает за своим столом. ЖенщинаТрэйс не слишком поддаётся на обаяние дракона"
 
@@ -2390,7 +2390,7 @@ msgctxt "publish_name"
 msgid "Good Morning Laura"
 msgstr "Доброе утро, Лаура"
 
-#: data/votes-2021-01-17.json:388
+#: data/votes-2021-01-17.json:397
 msgid "Good Morning Mike (male)"
 msgstr "Доброе утро, Майк (мужская версия)"
 
@@ -2475,7 +2475,7 @@ msgstr "Ночь превращения парней в девушек с Зен
 msgid "Half-Keidran Raine meets human Holo from the “Spice and Wolf”."
 msgstr "Полу-кайдрэн Рэйн встречает человеческую Холу из «Волчицы и пряностей»."
 
-#: data/votes-2021-01-17.json:416
+#: data/votes-2021-01-17.json:425
 msgid "Half-keidran Raine meets human Holo from the “Spice and Wolf”."
 msgstr "Полу-кайдрэн Рэйн встречает человеческую Холу из «Волчицы и пряностей»."
 
@@ -2522,7 +2522,7 @@ msgctxt "publish_name"
 msgid "Heavy Dragon"
 msgstr "Тяжёлый дракон"
 
-#: data/votes-2021-01-17.json:461
+#: data/votes-2021-01-17.json:470
 msgid "Hide and Seek with Ms. Nibbly! She is hidden somewhere in the picture"
 msgstr "Игра в прятки с мисс Ниббли! Она прячется где-то на этой картинке"
 
@@ -2549,7 +2549,7 @@ msgstr "Как Майк получил шрам на своём лице."
 msgid "How would the fight between Trace and Mary have gone if she had somehow reflected his spell back at him?"
 msgstr "Как бы прошла битва между Трэйсом и Мэри, если бы она каким-то образом отразила его заклятье в него?"
 
-#: data/votes-2021-01-17.json:328
+#: data/votes-2021-01-17.json:337
 msgid "Human Flora and Kat wearing their keidran onesies"
 msgstr "Люди Флора и Кэт в своих комбинезонах кайдрэн"
 
@@ -2581,7 +2581,7 @@ msgstr "Человек Рэни в зимней одежде с меховой �
 msgid "Human form Nora Daki"
 msgstr "Даки человеческой формы Норы"
 
-#: data/votes-2021-01-17.json:392
+#: data/votes-2021-01-17.json:401
 msgid "Hunky Snep finally pops the question to Explorer Girl, who is ecstatic and filled with so many questions! Like why is he carrying her over his shoulder to the nearest hut, and what will happen once they get inside?"
 msgstr "Работяга барс наконец-то делает предложение девушке-исследователю, которая в восторге и её просто распирает от вопросов! Например, почему он несёт её через плечо в ближайшую хижину и что произойдёт, когда они войдут внутрь?"
 
@@ -2769,7 +2769,7 @@ msgstr "Кэт и Нора — разговоры о любви 2"
 msgid "Kat and VV Mike heading on a date together on a frosty evening."
 msgstr "Кэт и ОЛ Майк собираются на совместное свидание морозным вечером."
 
-#: data/votes-2021-01-17.json:412
+#: data/votes-2021-01-17.json:421
 msgid "Kat and Zen build a snowman, and discover that using mana crystals to help build it may have been a mistake"
 msgstr "Кэт и Зен лепят снеговика и обнаруживают, что использование помощи кристаллов маны для его создания могло быть ошибкой"
 
@@ -2777,7 +2777,7 @@ msgstr "Кэт и Зен лепят снеговика и обнаруживаю
 msgid "Kat and Zen eat spaghetti, as in the scene from \"Lady and the Tramp\" by Disney."
 msgstr "Кэт и Зен едят спагетти, как в сцене из диснеевской «Леди и Бродяги»."
 
-#: data/votes-2021-01-17.json:304
+#: data/votes-2021-01-17.json:313
 msgid "Kat and Zen kiss in a shower"
 msgstr "Кэт и Зен целуются в душе"
 
@@ -2870,7 +2870,10 @@ msgstr "Кэт танцует с Майком после того, как на �
 msgid "Kat discovers she is able to swap Mikes sex"
 msgstr "Кэт обнаруживает, что она способна изменять пол Майка"
 
+#. :Дата: 2021-01-19
+#. :Название: Target Aquired
 #. :Предложил: UnpouncedPhoenix
+#. :Ссылка (Patreon): https://www.patreon.com/posts/target-aquired-46391539
 #: data/votes-2021-01-17.json:279
 msgid "Kat doing that butt-wiggle-cat-pounce thing"
 msgstr "Кэт делает эту штуку с покачиванием-попы-перед-напрыгом"
@@ -3015,7 +3018,7 @@ msgstr "Кэт снимает одежду со своих плюшевых ку
 msgid "Kat sees a dream in which she is pregnant and cries after waking up."
 msgstr "Кэт снится сон, в котором она беременна и после пробуждения она плачет."
 
-#: data/votes-2020-11-08.json:341 data/votes-2021-01-17.json:344
+#: data/votes-2020-11-08.json:341 data/votes-2021-01-17.json:353
 msgid "Kat surrenders to her canine side and rolls over for some belly rubs"
 msgstr "Кэт сдаётся своим собачьим инстинктам и катается по полу, чтобы почесать живот"
 
@@ -3091,7 +3094,7 @@ msgstr "Кэтрин в свадебном платье"
 msgid "Kathrin is split into two: her dog half and her cat half, and they interact."
 msgstr "Кэтрин разделяется на две части: собачью половинку и кошачью половинку — и они общаются между собой."
 
-#: data/votes-2021-01-17.json:404
+#: data/votes-2021-01-17.json:413
 msgid "Kathrin leans against a door frame, with a seductive look."
 msgstr "Кэтрин соблазнительно прислоняется к дверному косяку."
 
@@ -3352,7 +3355,7 @@ msgstr "Кит делает предложение Лауре"
 msgid "Keith proposing to Natani with young Natani in the background yelling to do it"
 msgstr "Кит делает предложение Натани, на заднем плане молодая Натани кричит, чтобы первая его приняла"
 
-#: data/votes-2021-01-17.json:384
+#: data/votes-2021-01-17.json:393
 msgid "Keith reading to Natani and Natani becomes very interested in the story"
 msgstr "Кит читает Натани, и Натани очень заинтересована историей"
 
@@ -3585,7 +3588,7 @@ msgstr "Лаура замечает курятник. Её лисьи инсти
 msgid "Laura spots an undefended hen house. Her fox instincts kick in."
 msgstr "Лаура замечает незащищённый курятник. Её лисьи инстинкты берут над ней верх."
 
-#: data/votes-2021-01-17.json:336
+#: data/votes-2021-01-17.json:345
 msgid "Laura walks in, pleasantly surprised to see a shocked, newly transformed Very Vixen Keith"
 msgstr "Входит Лаура, приятно удивлённая видом потрясённого, недавно преображённого Очень Лисичкового Кита"
 
@@ -4059,7 +4062,7 @@ msgid "Maybe a big dance party featuring the main cast?"
 msgstr "Может быть, большая танцевальная вечеринка с участием основных персонажей?"
 
 #. :Предложил: Saberbeam
-#: data/votes-2021-01-17.json:440
+#: data/votes-2021-01-17.json:449
 msgid "Measuring up sequel: Flora proudly declares that she'll untangle Kat using skills learned from escaping the Christmas lights. Trace finds them later, both tangled in the measuring tape."
 msgstr "Продолжение измерения: Флора с гордостью заявляет, что она распутает Кэт, используя навыки, полученные при побеге от рождественских огней. Позже их находит Трэйс, обе запутались в рулетке."
 
@@ -4550,7 +4553,7 @@ msgstr "Нибс хватает 4: теперь Флора и Трэйс."
 msgid "Nib Nab 5: Flora and Trace"
 msgstr "Нибс хватает 5: Флора и Трэйс"
 
-#: data/votes-2021-01-17.json:449
+#: data/votes-2021-01-17.json:458
 msgid "Nib Nab Dragon Edition - Nibbly stealing clothes from human Nora and human Reni. Nora teasing Reni."
 msgstr "Нибс хватает драконья редакция — Кража одежды у человеческой Норы и человеческой Рэни. Нора дразнит Рэни."
 
@@ -4675,7 +4678,7 @@ msgstr "Нора вынуждена смутить себя, ведя себя �
 msgid "Nora gets a taste of her own medicine when a curse backfires, forcing herself to act like a dog for the day. Trace, finding this hilarious, rubs her belly and wonders aloud what tricks she can do. \"Don't you dare!\""
 msgstr "Нора пробует на вкус собственное лекарство, когда проклятие отражается обратно в неё, заставляя её вести себя в течение дня как собака. Трэйс, находя это забавным, чешет её живот и вслух задаётся вопросом, какие трюки она знает. «Даже не смей!»"
 
-#: data/votes-2021-01-17.json:469
+#: data/votes-2021-01-17.json:478
 msgid "Nora gets a taste of her own medicine when she's hit by her own curse and suddenly can't stop acting like a dog. Trace, finding this hilarious, wonders aloud what tricks she can do. \"Don't you dare!\""
 msgstr "Нора пробует на вкус собственное лекарство, когда в неё попадает собственное проклятие, и она внезапно не может перестать вести себя как собака. Трэйс, находя это забавным, вслух задаётся вопросом, какие трюки она знает. «Даже не смей!»"
 
@@ -5000,7 +5003,7 @@ msgstr "Принцесса Рэни встречает Азимондиаса (�
 msgid "Professor Trace, teaching Defense against the Dark Arts, Showing off Willow the Wisp as an example of Will-o-the-wisps to his class of Templar apprentices."
 msgstr "Профессор Трэйс, преподающий Защиту от Тёмных Искусств, демонстрирует Блуждающего Огонька своему классу учеников-тамплиеров в качестве примера блуждающих огоньков."
 
-#: data/votes-2021-01-17.json:424
+#: data/votes-2021-01-17.json:433
 msgid "Prohibition AU - Keith as a noir detective, following the lead of a hot tip."
 msgstr "АВ с сухим законом — Кит в роли нуарного детектива, идущий по горячим следам."
 
@@ -5228,7 +5231,7 @@ msgstr "Снимок Рэйн и Зена на вершине американс
 msgid "Raine as Queen Elsa from the movie Ice Kingdom- (FROZEN)"
 msgstr "Рэйн в роли королевы Эльзы из «Холодного сердца»"
 
-#: data/votes-2021-01-17.json:320
+#: data/votes-2021-01-17.json:329
 msgid "Raine daki"
 msgstr "Даки Рэйн"
 
@@ -5301,7 +5304,7 @@ msgstr "Кошмар Рэйн: она стала дикой кайдрэн."
 msgid "Raine/Rose AU: Cookie bake-off between Raine & Rose vs. Maeve & Adira"
 msgstr "АВ Рэйн/Роуз: конкурс приготовления печенья между Рэйн с Роуз и Мэйв с Адирой"
 
-#: data/votes-2021-01-17.json:324
+#: data/votes-2021-01-17.json:333
 msgid "Raine/Rose AU: Rose and Raine ring in the new year with Trace and Saria at the Legacy Estate New Years party"
 msgstr "АВ Рэйн/Роуз: Роуз и Рэйн встречают новый год с Трэйсом и Сарией на новогодней вечеринке в поместье Легаси"
 
@@ -5596,7 +5599,7 @@ msgstr "Сэм просит Колина помочь достать книгу 
 msgid "Sam tells Colin he is a good boy"
 msgstr "Сэм говорит Колину, что он хороший мальчик"
 
-#: data/votes-2021-01-17.json:288
+#: data/votes-2021-01-17.json:297
 msgid "Sam the dairy cow gets a collar of keidranification. Flustered about the result."
 msgstr "Дойная корова Сэм получает ошейник кайдренофикации. Взволнован результатом."
 
@@ -5859,7 +5862,7 @@ msgid "Snow leopard snowball fight! (Northern explorers get into a snowball figh
 msgstr "Битва на снежках снежных барсов! (Исследователи севера вступают в битву на снежках со снежными барсами!)"
 
 # https://ru.wikipedia.org/wiki/Solatorobo:_Red_the_Hunter
-#: data/votes-2021-01-17.json:477
+#: data/votes-2021-01-17.json:486
 msgid "Solatorobo Cosplay 2: Laura dressed as Chocolat helming the Asmodeus"
 msgstr "Косплей Солаторобо 2: Лаура, одетая как Чокола, командует на «Асмодеусе»"
 
@@ -6138,6 +6141,11 @@ msgstr "Трансформация хватанием за хвост"
 msgid "Tank Captain Flora. Flora as the captain of WW2 German Tiger tank."
 msgstr "Капитан танка Флора. Флора в качестве капитана немецкого танка «Тигр» ВМВ."
 
+#: data/votes-2021-01-17.json:289
+msgctxt "publish_name"
+msgid "Target Aquired"
+msgstr "Цель захвачена"
+
 #. :Дата: 2019-08-31
 #. :Название: Battle of the Tavern Owners
 #. :Предложил: Ordithus
@@ -6314,7 +6322,7 @@ msgstr "Главные герои одеты как диснеевские пр�
 msgid "The main cast in a Halloween picture: Flora as Professor Frankenstein, Trace as Igor, Keith on the table, and Natani in the distance howling as the Werewolf."
 msgstr "Главные герои в картине Хэллоуина: Флора в роли профессора Франкенштейна, Трэйс в роли Игоря, Кит на столе и Натани в отдалении воет как оборотень."
 
-#: data/votes-2021-01-17.json:360
+#: data/votes-2021-01-17.json:369
 msgid "The main four as survivors on a deserted island. Trace is cooking/burning fish, Keith is catching fish while Flora attaches the fishing hook to his pants without him noticing, and Natani is attempting to murder a shark that tore off his chest bindings."
 msgstr "Основная четвёрка — выжившие на необитаемом острове. Трэйс готовит/сжигает рыбу, Кит ловит рыбу, пока Флора незаметно прикрепляет рыболовный крючок к его штанам, а Натани пытается убить акулу, которая сорвала повязки с его груди."
 
@@ -6463,7 +6471,7 @@ msgctxt "publish_name"
 msgid "Towerfall"
 msgstr "Падение башни"
 
-#: data/votes-2021-01-17.json:296
+#: data/votes-2021-01-17.json:305
 msgid "Towkinds Noir: A hardboiled detective Keith Kaiser is confronted by known gangsters Natani and Zen to bribe him into turning a blind eye to them and their bosses (Clovis) recent \"work\" that hes investigating"
 msgstr "Нуарный Towkinds: Крутой детектив Кит Кайзер выступает против известных гангстеров Натани и Зена, собравшимися подкупить его, чтобы он закрыл глаза на их и их босса (Кловиса) недавнюю «работу», расследованием которой он занимается"
 
@@ -6727,7 +6735,7 @@ msgctxt "publish_name"
 msgid "Two Kids in a Trenchcoat"
 msgstr "Двое детей в плаще"
 
-#: data/votes-2021-01-17.json:481
+#: data/votes-2021-01-17.json:490
 msgid "TwoKids: Young Trace and Kid Keith frolic in the snow with Kitten Flora and Puptani."
 msgstr "TwoKids: Молодой Трэйс и паренёк Кит резвятся в снегу с котёнком Флорой и Пуптани."
 
@@ -6786,7 +6794,7 @@ msgctxt "publish_name"
 msgid "Undercover Maddie - In Too Deep!"
 msgstr "Мэдди под прикрытием — слишком глубоким!"
 
-#: data/votes-2020-11-08.json:453 data/votes-2021-01-17.json:400
+#: data/votes-2020-11-08.json:453 data/votes-2021-01-17.json:409
 msgid "Undercover Maddie Finale. Maddie has safely made her way back home and is preparing to give a report on what was learned... But... What DID we learn???"
 msgstr "Финал «Мэдди под прикрытием». Мэдди благополучно вернулась домой и готовится написать отчёт о том, что она узнала… Но… ЧТО мы узнали???"
 
@@ -7084,7 +7092,7 @@ msgctxt "publish_name"
 msgid "Willow Clothes Shopping"
 msgstr "Огонёк покупает одежду"
 
-#: data/votes-2021-01-17.json:364
+#: data/votes-2021-01-17.json:373
 msgid "Willow and ghost Laura go deep into the woods to meet Willow’s “Mother”"
 msgstr "Огонёк и призрак Лауры углубляются в лес, чтобы повстречаться с «матерью» Огонька"
 
@@ -7096,12 +7104,12 @@ msgstr "Полноростовая подушка с Огоньком"
 msgid "Willow body pillow!"
 msgstr "Полноростовая подушка с Огоньком!"
 
-#: data/votes-2021-01-17.json:316
+#: data/votes-2021-01-17.json:325
 msgid "Willow daki"
 msgstr "Даки Огонька"
 
 # https://ru.wikipedia.org/wiki/Ori_and_the_Blind_Forest
-#: data/votes-2021-01-17.json:372
+#: data/votes-2021-01-17.json:381
 msgid "Willow meeting Ori from Ori and the Blind Forest"
 msgstr "Огонёк встречает Ори из «Ори и непроглядного леса» («Ori and the Blind Forest»)"
 
@@ -7141,7 +7149,7 @@ msgstr "Волчица Рэйн на четвереньках с виляющи�
 msgid "Wolf Raine opens up a magic book only to find a comic book inside. The comic itself is horrible and she drops it while running away screaming"
 msgstr "Волчица Рэйн открывает волшебную книгу только для того, чтобы найти внутри неё комикс. Сам комикс ужасен, и она бросает его, убегая с криком"
 
-#: data/votes-2021-01-17.json:308
+#: data/votes-2021-01-17.json:317
 msgid "Wolf Raine wearing short tight shorts and short top, giving her most sensuous pose and wishing happy new year to fans"
 msgstr "Волчица Рэйн в коротких обтягивающих шортиках и ​​коротком топе принимает свою самую чувственную позу и поздравляет поклонников с новым годом"
 
@@ -7233,7 +7241,7 @@ msgstr "Молодая Натани держит нижнее бельё, пыт
 msgid "Young Rose Daki"
 msgstr "Даки с молодой Роуз"
 
-#: data/votes-2021-01-17.json:292
+#: data/votes-2021-01-17.json:301
 msgid "Young Rose Dakimakura"
 msgstr "Дакимакура молодой Роуз"
 
@@ -7270,7 +7278,7 @@ msgstr "Юнатани опирается"
 msgid "Youngtani in Clovis's body runs into Brutus, and tries to embarrass Clovis more by acting and talking flirty. The real Clovis fights to get some words in, giving Brutus some slightly mixed signals."
 msgstr "Юнатани в теле Кловиса сталкивается с Брутом и пытается ещё больше смутить Кловиса заигрываниями и кокетливыми разговорами. Настоящий Кловис борется за то, чтобы вставить несколько слов, подавая Бруту несколько двусмысленные сигналы."
 
-#: data/votes-2021-01-17.json:465
+#: data/votes-2021-01-17.json:474
 msgid "Zen Daki"
 msgstr "Даки с Зеном"
 
@@ -7379,7 +7387,7 @@ msgstr "[Продолжение] После ужина в Лисичке & Ли�
 msgid "a sequel to Subtleseed: Natani proposes to Keith in turn, with a traditional basitin betrothal gift"
 msgstr "продолжение наброска Нежноцвет: очередь Натани делать предложение Киту, с традиционным баситинским подарком на помолвку"
 
-#: data/votes-2021-01-17.json:300
+#: data/votes-2021-01-17.json:309
 msgid "chibi Nibbly"
 msgstr "чиби Ниббли"
 
