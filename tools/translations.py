@@ -190,13 +190,13 @@ def apply(args):
         all_additional['publish_name'].update(additional['publish_name'])
 
         file_name = os.path.join(args.dir, os.path.basename(f.name))
-        with open(file_name, 'w', encoding='utf8') as f:
+        with open(file_name, 'w', encoding='utf8', newline='\n') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
     all_additional['publish_name'] = dict(sorted(all_additional['publish_name'].items()))
 
     additional_file_name = os.path.join(args.dir, 'additional.json')
-    with open(additional_file_name, 'w', encoding='utf8') as f:
+    with open(additional_file_name, 'w', encoding='utf8', newline='\n') as f:
         json.dump(all_additional, f, indent=2, ensure_ascii=False)
 
 def get_translations(catalog, file):
@@ -251,7 +251,7 @@ def format_json(args):
         with f:
             content = json.load(f)
 
-        with open(f.name, 'w', encoding='utf8') as f:
+        with open(f.name, 'w', encoding='utf8', newline='\n') as f:
             json.dump(content, f, indent=2, ensure_ascii=False)
 
 def get_parser():
