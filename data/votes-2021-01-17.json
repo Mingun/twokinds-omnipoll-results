@@ -143,6 +143,15 @@
       "choice": "tom",
       "suggested_by": [
         "TheFriendlyDeathclaw"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-01-20",
+          "name": "Ban Backfire",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/ban-backfire-46437464"
+        }
       ]
 
     },
