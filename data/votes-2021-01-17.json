@@ -29,8 +29,16 @@
       "choice": "tom",
       "suggested_by": [
         "Miikka"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-01-22",
+          "name": "Opposite Day",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/opposite-day-46509269"
+        }
       ]
-
     },
     {
       "votes": 135,
