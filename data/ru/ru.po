@@ -1037,7 +1037,7 @@ msgctxt "publish_name"
 msgid "Bodyswap Bath"
 msgstr "Купание с обменом телами"
 
-#: data/votes-2021-01-17.json:503
+#: data/votes-2021-01-17.json:512
 msgid "Bodyswap of Raine and Red. Raine is embarrassed because Red is a bit too curious with the breasts."
 msgstr "Обмен телами Рэйн и Рэда. Рэйн смущена, поскольку Рэд слишком сильно заинтересовался грудями."
 
@@ -1408,11 +1408,11 @@ msgid "Clovis has been made a slave and ends up as a model for Eric"
 msgstr "Кловис попал в рабство и стал моделью для Эрика"
 
 # https://hazbinhotel.fandom.com/ru/wiki/Helluva_Boss
-#: data/votes-2021-01-17.json:475
+#: data/votes-2021-01-17.json:484
 msgid "Clovis hires I.M.P. (from Hellova boss) and gets into an argument with Luna about waiting in the lobby. Luna, terrifyingly, tells him to shut the @#$% up!"
 msgstr "Кловис нанимает I.M.P. (из «Адского босса») и вступает в спор с Луной из-за ожидания в вестибюле. Луна угрожающе приказывает ему завалить хл@#$%о!"
 
-#: data/votes-2021-01-17.json:491
+#: data/votes-2021-01-17.json:500
 msgid "Clovis hugging Brutus as a thank you after saving him from the asassins."
 msgstr "Кловис обнимает Брута в знак благодарности после того, как тот спас его от асассинов."
 
@@ -2309,7 +2309,7 @@ msgctxt "publish_name"
 msgid "Gender Flip Flirting"
 msgstr "Флирт при смене пола"
 
-#: data/votes-2021-01-17.json:471
+#: data/votes-2021-01-17.json:480
 msgid "Genderbent AU: Male Human Nora tries to charm the Grand Templar FemTrace while she's at work at her desk. FemTrace is not very phased by the dragon's charm"
 msgstr "АВ со сменой пола: Мужчина-человек Нора пытается очаровать Великого тамплиера ЖенщинуТрэйса, пока та работает за своим столом. ЖенщинаТрэйс не слишком поддаётся на обаяние дракона"
 
@@ -2530,7 +2530,7 @@ msgctxt "publish_name"
 msgid "Heavy Dragon"
 msgstr "Тяжёлый дракон"
 
-#: data/votes-2021-01-17.json:479
+#: data/votes-2021-01-17.json:488
 msgid "Hide and Seek with Ms. Nibbly! She is hidden somewhere in the picture"
 msgstr "Игра в прятки с мисс Ниббли! Она прячется где-то на этой картинке"
 
@@ -4069,7 +4069,15 @@ msgstr "Материнское увеличение"
 msgid "Maybe a big dance party featuring the main cast?"
 msgstr "Может быть, большая танцевальная вечеринка с участием основных персонажей?"
 
+#: data/votes-2021-01-17.json:468
+msgctxt "publish_name"
+msgid "Measured Up 2"
+msgstr "Измерения 2"
+
+#. :Дата: 2021-01-22
+#. :Название: Measured Up 2
 #. :Предложил: Saberbeam
+#. :Ссылка (Patreon): https://www.patreon.com/posts/measured-up-2-46504935
 #: data/votes-2021-01-17.json:458
 msgid "Measuring up sequel: Flora proudly declares that she'll untangle Kat using skills learned from escaping the Christmas lights. Trace finds them later, both tangled in the measuring tape."
 msgstr "Продолжение измерения: Флора с гордостью заявляет, что она распутает Кэт, используя навыки, полученные при побеге от рождественских огней. Позже их находит Трэйс, обе запутались в рулетке."
@@ -4561,7 +4569,7 @@ msgstr "Нибс хватает 4: теперь Флора и Трэйс."
 msgid "Nib Nab 5: Flora and Trace"
 msgstr "Нибс хватает 5: Флора и Трэйс"
 
-#: data/votes-2021-01-17.json:467
+#: data/votes-2021-01-17.json:476
 msgid "Nib Nab Dragon Edition - Nibbly stealing clothes from human Nora and human Reni. Nora teasing Reni."
 msgstr "Нибс хватает драконья редакция — Кража одежды у человеческой Норы и человеческой Рэни. Нора дразнит Рэни."
 
@@ -4686,7 +4694,7 @@ msgstr "Нора вынуждена смутить себя, ведя себя �
 msgid "Nora gets a taste of her own medicine when a curse backfires, forcing herself to act like a dog for the day. Trace, finding this hilarious, rubs her belly and wonders aloud what tricks she can do. \"Don't you dare!\""
 msgstr "Нора пробует на вкус собственное лекарство, когда проклятие отражается обратно в неё, заставляя её вести себя в течение дня как собака. Трэйс, находя это забавным, чешет её живот и вслух задаётся вопросом, какие трюки она знает. «Даже не смей!»"
 
-#: data/votes-2021-01-17.json:487
+#: data/votes-2021-01-17.json:496
 msgid "Nora gets a taste of her own medicine when she's hit by her own curse and suddenly can't stop acting like a dog. Trace, finding this hilarious, wonders aloud what tricks she can do. \"Don't you dare!\""
 msgstr "Нора пробует на вкус собственное лекарство, когда в неё попадает собственное проклятие, и она внезапно не может перестать вести себя как собака. Трэйс, находя это забавным, вслух задаётся вопросом, какие трюки она знает. «Даже не смей!»"
 
@@ -5870,7 +5878,7 @@ msgid "Snow leopard snowball fight! (Northern explorers get into a snowball figh
 msgstr "Битва на снежках снежных барсов! (Исследователи севера вступают в битву на снежках со снежными барсами!)"
 
 # https://ru.wikipedia.org/wiki/Solatorobo:_Red_the_Hunter
-#: data/votes-2021-01-17.json:495
+#: data/votes-2021-01-17.json:504
 msgid "Solatorobo Cosplay 2: Laura dressed as Chocolat helming the Asmodeus"
 msgstr "Косплей Солаторобо 2: Лаура, одетая как Чокола, командует на «Асмодеусе»"
 
@@ -6743,7 +6751,7 @@ msgctxt "publish_name"
 msgid "Two Kids in a Trenchcoat"
 msgstr "Двое детей в плаще"
 
-#: data/votes-2021-01-17.json:499
+#: data/votes-2021-01-17.json:508
 msgid "TwoKids: Young Trace and Kid Keith frolic in the snow with Kitten Flora and Puptani."
 msgstr "TwoKids: Молодой Трэйс и паренёк Кит резвятся в снегу с котёнком Флорой и Пуптани."
 
@@ -7286,7 +7294,7 @@ msgstr "Юнатани опирается"
 msgid "Youngtani in Clovis's body runs into Brutus, and tries to embarrass Clovis more by acting and talking flirty. The real Clovis fights to get some words in, giving Brutus some slightly mixed signals."
 msgstr "Юнатани в теле Кловиса сталкивается с Брутом и пытается ещё больше смутить Кловиса заигрываниями и кокетливыми разговорами. Настоящий Кловис борется за то, чтобы вставить несколько слов, подавая Бруту несколько двусмысленные сигналы."
 
-#: data/votes-2021-01-17.json:483
+#: data/votes-2021-01-17.json:492
 msgid "Zen Daki"
 msgstr "Даки с Зеном"
 
