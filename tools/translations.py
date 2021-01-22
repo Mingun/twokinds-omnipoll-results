@@ -68,6 +68,8 @@ def extract(args):
             for message in catalog:
                 message.locations = []
                 message.auto_comments = []
+                # Сбрасываем некорректно установливаемый флаг python-format в конструкторе Message
+                message.flags.discard('python-format')
 
     for f in args.files:
         extract_from_file(catalog, f)
@@ -170,6 +172,10 @@ def add_to_catalog(message, catalog, locations=(), auto_comments=(), context=Non
         m.auto_comments = list(distinct(m.auto_comments + list(auto_comments)))
     else:
         catalog.add(message, locations=locations, auto_comments=auto_comments, context=context)
+
+        # Сбрасываем некорректно установливаемый флаг python-format в конструкторе Message
+        m = catalog.get(message, context)
+        m.flags.discard('python-format')
 
 def apply(args):
     """Команда применения строк перевода"""
