@@ -417,7 +417,12 @@
     },
     {
       "votes": 123,
-      "suggestion": "Flora tries to lick off the blue triangle on Trace's face but only manages to get it stuck to her tongue."
+      "suggestion": "Flora tries to lick off the blue triangle on Trace's face but only manages to get it stuck to her tongue.",
+      "position": 7,
+      "choice": "tom",
+      "suggested_by": [
+        "Katadom"
+      ]
     },
     {
       "votes": 101,
