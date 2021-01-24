@@ -399,7 +399,21 @@
     },
     {
       "votes": 61,
-      "suggestion": "Adrakist Flora meets Wrinry the Dragongirl"
+      "suggestion": "Adrakist Flora meets Wrinry the Dragongirl",
+      "position": 8,
+      "choice": "tom",
+      "suggested_by": [
+        "Skornos"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-01-24",
+          "name": "Half-Dragon Meet-Up",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/half-dragon-meet-46565207"
+        }
+      ]
     },
     {
       "votes": 123,
