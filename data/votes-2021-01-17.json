@@ -422,6 +422,15 @@
       "choice": "tom",
       "suggested_by": [
         "Katadom"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-01-25",
+          "name": "Triangle Unstuck",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/triangle-unstuck-46616763"
+        }
       ]
     },
     {
