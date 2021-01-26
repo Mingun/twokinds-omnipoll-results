@@ -44,7 +44,19 @@
       "votes": 135,
       "suggestion": "Modern Natani sends provocative ankle pictures to Keith",
       "position": 6,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Ordithus"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-01-26",
+          "name": "Modern Keith - Text Message",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/modern-keith-46683194"
+        }
+      ]
     },
     {
       "votes": 77,
