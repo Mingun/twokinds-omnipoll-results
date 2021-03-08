@@ -40,7 +40,19 @@
       "votes": 133,
       "suggestion": "A cute western Basitin flirts with Madelyn while she is undercover and she panics.",
       "position": 1,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Leif"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-08",
+          "name": "Western Flirting",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/western-flirting-48484222"
+        }
+      ]
     },
     {
       "votes": 99,
