@@ -13,6 +13,10 @@ from babel.messages import Catalog, Message
 from babel.messages.pofile import read_po, write_po
 from babel.util import distinct
 
+MAX_LENGTH = 5000
+TIMEOUT = 1
+SEPARATOR = '\n|'
+
 def dir_type(string):
     if os.path.isdir(string):
         return string
@@ -250,6 +254,83 @@ def get_from_catalog(catalog, id, context=None):
 
     return None
 
+def translate(args):
+    """Команда автоматического перевода po-файла"""
+
+    try:
+        import translators
+    except ImportError:
+        print('''Не установлен модуль translate-api.
+
+Для перевода установите модуль::
+
+  pip install translate-api
+''')
+        return
+
+    from time import sleep
+
+    service = getattr(translators, args.service)
+
+    with args.catalog:
+        catalog = read_po(args.catalog)
+
+    data = [m.id for m in catalog if m.id != '' and (not m.string or m.fuzzy)]
+
+    length = 0
+    chunks = []
+    chunks_count = 0
+    i = 1
+    s = len(SEPARATOR)
+
+    for m in data:
+        l = len(m)
+        if length + l + chunks_count*s < MAX_LENGTH:
+            length += l
+            chunks_count += 1
+            chunks.append(m)
+        else:
+            process_chunks(chunks, chunks_count, i, catalog, service)
+
+            length = 0
+            chunks = []
+            chunks_count = 0
+            i += 1
+
+            # Чтобы не смущать сервис чрезмерным количеством запросов
+            sleep(TIMEOUT)
+
+    if chunks_count > 0:
+        process_chunks(chunks, chunks_count, i, catalog, service)
+
+    with open(args.catalog.name, 'wb') as f:
+        write_po(f, catalog, sort_output=True, width=None)
+
+
+def process_chunks(chunks, chunks_count, i, catalog, translate_service):
+    result = translate_service(
+        SEPARATOR.join(chunks),
+        from_language='en',
+        to_language=catalog.locale.language,
+        sleep_seconds=0.06
+    )
+    print(f'Обработка части {i} завершена')
+
+    result = result.split(SEPARATOR)
+    result_count = len(result)
+    if chunks_count != result_count:
+        print(
+            f'Количество строк оригинала {chunks_count} '
+            f'не соответствует количеству строк {result_count} '
+            'полученного перевода'
+        )
+
+    for message, string in zip(chunks, result):
+       m = catalog[message]
+       m.string = string.strip()
+       m.flags.add('fuzzy')
+
+
 def format_json(args):
     """Команда форматирования json-файлов"""
 
@@ -299,6 +380,21 @@ def get_parser():
         , nargs='+'
     )
     parser_apply.set_defaults(command=apply)
+
+    # Автоматический перевод (если доступен)
+    parser_translate = subparsers.add_parser('translate', help='Автоматический перевод из po-файла gettext к данным в json-файлах.')
+    parser_translate.add_argument('catalog'
+        , help='po-файл gettext со строками для перевода'
+        , metavar='LANGFILE'
+        , type=argparse.FileType('r', encoding='utf-8')
+    )
+    parser_translate.add_argument('--service'
+        , help='сервис автоматического перевода'
+        , metavar='SERVICE'
+        , default='google'
+        , choices=('alibaba', 'baidu', 'bing', 'deepl', 'google', 'sogou', 'tencent', 'yandex', 'youdao')
+    )
+    parser_translate.set_defaults(command=translate)
 
     # Форматирование json-файлов
     parser_format = subparsers.add_parser('format', help='Форматирование json-файлов.')
