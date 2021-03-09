@@ -110,7 +110,19 @@
       "votes": 123,
       "suggestion": "Ear scritches: keidran reaction vs basitin reaction",
       "position": 2,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Kinipshun"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-09",
+          "name": "Ear Scritches - Keidran vs Basitin",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/ear-scritches-vs-48527138"
+        }
+      ]
     },
     {
       "votes": 69,
