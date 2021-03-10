@@ -144,7 +144,19 @@
       "votes": 121,
       "suggestion": "While Trace is showering, Flora is pawing at the gap under the door, wanting to be let in from outside.",
       "position": 3,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Dimensional"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-10",
+          "name": "Door Cat Flora",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/door-cat-flora-48570705"
+        }
+      ]
     },
     {
       "votes": 85,
