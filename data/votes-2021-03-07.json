@@ -314,7 +314,19 @@
       "votes": 119,
       "suggestion": "gender-swap AU, male Flora finding out that he got female Trace pregnant.",
       "position": 4,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Katadom"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-11",
+          "name": "Gender Swap Baby Reveal",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/gender-swap-baby-48611381"
+        }
+      ]
     },
     {
       "votes": 69,
