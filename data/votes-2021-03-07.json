@@ -386,7 +386,21 @@
     },
     {
       "votes": 78,
-      "suggestion": "Maddie and Maeve pretend to be dragon slayers, to Lady Nora’s annoyance."
+      "suggestion": "Maddie and Maeve pretend to be dragon slayers, to Lady Nora’s annoyance.",
+      "position": 6,
+      "choice": "tom",
+      "suggested_by": [
+        "LunarSchnitzel"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-12",
+          "name": "Dragon Slayers",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/dragon-slayers-48657410"
+        }
+      ]
     },
     {
       "votes": 102,
