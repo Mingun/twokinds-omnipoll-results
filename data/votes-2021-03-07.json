@@ -374,7 +374,21 @@
     },
     {
       "votes": 112,
-      "suggestion": "Flora introduces Trace to her father. How does her dad react to the news of his new grandchild and son-in-law?"
+      "suggestion": "Flora introduces Trace to her father. How does her dad react to the news of his new grandchild and son-in-law?",
+      "position": 7,
+      "choice": "tom",
+      "suggested_by": [
+        "Utopia"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-13",
+          "name": "Flora's Folks",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/floras-folks-48691196"
+        }
+      ]
     },
     {
       "votes": 66,
