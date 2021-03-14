@@ -392,7 +392,21 @@
     },
     {
       "votes": 66,
-      "suggestion": "Group A arrives to the Bastion Islands to find out that Laura somehow became king of the island- even she was not completely sure how it happened"
+      "suggestion": "Group A arrives to the Bastion Islands to find out that Laura somehow became king of the island- even she was not completely sure how it happened",
+      "position": 8,
+      "choice": "tom",
+      "suggested_by": [
+        "Rogermon3"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-14",
+          "name": "King Laura",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/king-laura-48730869"
+        }
+      ]
     },
     {
       "votes": 69,
