@@ -435,7 +435,19 @@
     },
     {
       "votes": 70,
-      "suggestion": "While exploring a cavern, dragon Reni accidentally discovers a tribe of kobolds"
+      "suggestion": "While exploring a cavern, dragon Reni accidentally discovers a tribe of kobolds",
+      "suggested_by": [
+        "Terra The Wizard"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-15",
+          "name": "Kobold Troupe",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/kobold-troupe-48770025"
+        }
+      ]
     },
     {
       "votes": 59,

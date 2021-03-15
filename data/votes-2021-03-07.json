@@ -176,7 +176,19 @@
     },
     {
       "votes": 98,
-      "suggestion": "Reni accidentally acquires a cult of Kobolds that worship her."
+      "suggestion": "Reni accidentally acquires a cult of Kobolds that worship her.",
+      "suggested_by": [
+        "Terra The Wizard"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-15",
+          "name": "Kobold Troupe",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/kobold-troupe-48770025"
+        }
+      ]
     },
     {
       "votes": 99,
