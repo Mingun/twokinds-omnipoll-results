@@ -289,7 +289,19 @@
     },
     {
       "votes": 125,
-      "suggestion": "Twokinds High: secret ending with Mike turning into VV Mike"
+      "suggestion": "Twokinds High: secret ending with Mike turning into VV Mike",
+      "suggested_by": [
+        "Hopefighter"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-17",
+          "name": "Twokinds High 5",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/twokinds-high-5-48655751"
+        }
+      ]
     },
     {
       "votes": 41,

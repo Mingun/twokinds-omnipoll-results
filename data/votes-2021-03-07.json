@@ -24,7 +24,19 @@
     },
     {
       "votes": 116,
-      "suggestion": "TwoKinds High: Secret Ending with VV-Mike"
+      "suggestion": "TwoKinds High: Secret Ending with VV-Mike",
+      "suggested_by": [
+        "Hopefighter"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-17",
+          "name": "Twokinds High 5",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/twokinds-high-5-48655751"
+        }
+      ]
     },
     {
       "votes": 119,
