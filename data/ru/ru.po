@@ -2050,7 +2050,7 @@ msgstr "Первый контакт: Много лет назад охотниц
 msgid "Flora \"Deeper Stretch\" Remake"
 msgstr "Перерисовка «Ещё более глубокой растяжки» Флоры"
 
-#: data/votes-2021-03-07.json:511
+#: data/votes-2021-03-07.json:523
 msgid "Flora & Trace (Keidran tiger form) as mermaids, sharing a romantic embrace with each other under the sea. (Preferably have Flora topless)."
 msgstr "Флора и Трэйс (в форме тигра-кайдрэн) в виде русалок делят друг с другом романтические объятия под поверхностью моря (Флору, желательно, топлесс)."
 
@@ -2471,7 +2471,7 @@ msgstr "АВ со сменой пола: Мужчина-человек Нора 
 msgid "Genderswapped Nora and flora fighting over female trace."
 msgstr "Превращённые в парней Нора и Флора сражаются за девушку трэйса."
 
-#: data/votes-2021-03-07.json:523
+#: data/votes-2021-03-07.json:535
 msgid "Ghost Brutus Haunting Clovis in a comical way."
 msgstr "Призрак Брута охотится на Кловиса в комичной манере."
 
@@ -2568,7 +2568,7 @@ msgstr "Доброе утро, Лаура"
 msgid "Good Morning Mike (male)"
 msgstr "Доброе утро, Майк (мужская версия)"
 
-#: data/votes-2021-03-07.json:515
+#: data/votes-2021-03-07.json:527
 msgid "Good Morning Zen"
 msgstr "Доброе утро, Зен"
 
@@ -2857,7 +2857,7 @@ msgstr "Островной курорт"
 msgid "It turns out that Nibbly is a secret agent for an organization of squirrels, and she is reporting to her boss who is the King of the Squirrels"
 msgstr "Оказывается, что Ниббли является секретным агентом организации белок, и она отчитывается своему боссу, который является Беличьим королём"
 
-#: data/votes-2021-03-07.json:503
+#: data/votes-2021-03-07.json:515
 msgid "Ivy Daki"
 msgstr "Даки с Плющом"
 
@@ -3273,7 +3273,7 @@ msgctxt "publish_name"
 msgid "Kat-o-Vision"
 msgstr "Глазами Кэт"
 
-#: data/votes-2021-03-07.json:499
+#: data/votes-2021-03-07.json:511
 msgid "Kathrin and Raine go for drinks at the Riftwall."
 msgstr "Кэтрин и Рэйн идут выпить в Рифтволл."
 
@@ -4899,6 +4899,10 @@ msgstr "Ниббли на голове Кита дёргает его за уш�
 msgid "Nibbly on the cake plate, too full to move surrounded by crumbs and holding up the 32 candles in surrender"
 msgstr "Ниббли на тарелке с пирогом, слишком полная, чтобы двигаться, вокруг крошки и она держит 32 свечи в знак капитуляции"
 
+#. :Дата: 2021-03-18
+#. :Название: Squirrel Protector
+#. :Предложил: Saberbeam
+#. :Ссылка (Patreon): https://www.patreon.com/posts/squirrel-48894658
 #: data/votes-2021-03-07.json:495
 msgid "Nibbly saving Sythe from Remus as pictured in Nibbly's mind, an epic \"You shall not pass!\" type of moment."
 msgstr "Ниббли спасает Сифа от Рема в представлении Ниббли, эпичный момент типа «Ты не пройдёшь!»"
@@ -5873,7 +5877,7 @@ msgstr "Рэни слишком перестаралась, зажигая дл�
 msgid "Reni getting a magic lesson from Rose - it involves a very familiar collar. Sit, dragon! Roll over!"
 msgstr "Рэни получает урок магии от Роуз — и он включает очень знакомый ошейник. Сидеть, дракон! Перекат!"
 
-#: data/votes-2021-03-07.json:527
+#: data/votes-2021-03-07.json:539
 msgid "Reni modeling lingerie for her special someone."
 msgstr "Рэни примеряет нижнее бельё для своего особого человека."
 
@@ -6004,7 +6008,7 @@ msgstr "Сёстры Сандерсон"
 msgid "Saria and Fiona kissing Trace on his cheeks"
 msgstr "Сария и Фиона целуют Трэйса в щёки"
 
-#: data/votes-2021-03-07.json:519
+#: data/votes-2021-03-07.json:531
 msgid "Saria and Rose get drunk in the wine cellar to celebrate Rose's birthday"
 msgstr "Сария и Роуз напиваются в винном погребе, чтобы отпраздновать день рождение Роуз"
 
@@ -6289,6 +6293,11 @@ msgstr "Вечеринка объятий! Натани и Кит обжимаю
 #: data/votes-2020-03-08.json:260
 msgid "Sports car. Sythe as race winner. Nibbly and Maren as race girls"
 msgstr "Пилот спортивного болида Сиф как победитель гонки. Ниббли и Марэн как девушки автогонок"
+
+#: data/votes-2021-03-07.json:503
+msgctxt "publish_name"
+msgid "Squirrel Protector"
+msgstr "Белка-защитник"
 
 #: data/votes-2020-03-08.json:552
 msgctxt "publish_name"
@@ -7044,7 +7053,7 @@ msgstr "Трэйс сидит на диване, а Флора спит у не�
 msgid "Trace overflowing with power from the Infinity Gauntlet but he uses it to make a mountain of meat for Flora"
 msgstr "Трэйс, переполенный силой из Перчатки бесконечности, использует её для сотворения горы мяса для Флоры"
 
-#: data/votes-2021-03-07.json:507
+#: data/votes-2021-03-07.json:519
 msgid "Trace overhears Keith and Natani talking about tying the knot, and it turns out to be them just comparing the usefulness and practicality of various types of knots"
 msgstr "Трэйс подслушивает Кита и Натани, разговаривающих о связывании узами, и оказывается, что они просто сравнивают полезность и практичность различных типов узлов"
 
