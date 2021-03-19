@@ -42,7 +42,19 @@
       "votes": 119,
       "suggestion": "Mike's Harem Anime. Mike is overwhelmed as he sits with Erilas, the wolf girl, the coyote girl, the bunny girl, Kat and female Evals and they all wanna piece of him.",
       "position": 5,
-      "choice": "tom"
+      "choice": "tom",
+      "suggested_by": [
+        "ProsePro7"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-19",
+          "name": "Mike Sleepover",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/mike-sleepover-48894861"
+        }
+      ]
     },
     {
       "votes": 64,
