@@ -999,7 +999,7 @@ msgctxt "publish_name"
 msgid "Between a Cat and a Squirrel"
 msgstr "Между кошкой и белкой"
 
-#: data/votes-2021-03-07.json:491
+#: data/votes-2021-03-07.json:503
 msgid "Big maine coon cats, all the Maine coon cats, all big and fluffy!"
 msgstr "Большие кошки мейн-куны, все кошки мейн-куны, все большие и пушистые!"
 
@@ -2050,7 +2050,7 @@ msgstr "Первый контакт: Много лет назад охотниц
 msgid "Flora \"Deeper Stretch\" Remake"
 msgstr "Перерисовка «Ещё более глубокой растяжки» Флоры"
 
-#: data/votes-2021-03-07.json:535
+#: data/votes-2021-03-07.json:547
 msgid "Flora & Trace (Keidran tiger form) as mermaids, sharing a romantic embrace with each other under the sea. (Preferably have Flora topless)."
 msgstr "Флора и Трэйс (в форме тигра-кайдрэн) в виде русалок делят друг с другом романтические объятия под поверхностью моря (Флору, желательно, топлесс)."
 
@@ -2372,7 +2372,7 @@ msgstr "Флора, Кэт, Рэйн и Натани все сжались до 
 msgid "Flora, Kat, and Laura are characters in the \"Twokinds High\" dating sim."
 msgstr "Флора, Кэт и Лаура — персонажи симулятора свиданий «Twokinds High»."
 
-#: data/votes-2021-03-07.json:479
+#: data/votes-2021-03-07.json:491
 msgid "Flora, Trace, Natani, and Keith take couples dancing lessons!"
 msgstr "Флора, Трэйс, Натани и Кит берут уроки танцев для пар!"
 
@@ -2471,7 +2471,7 @@ msgstr "АВ со сменой пола: Мужчина-человек Нора 
 msgid "Genderswapped Nora and flora fighting over female trace."
 msgstr "Превращённые в парней Нора и Флора сражаются за девушку трэйса."
 
-#: data/votes-2021-03-07.json:547
+#: data/votes-2021-03-07.json:559
 msgid "Ghost Brutus Haunting Clovis in a comical way."
 msgstr "Призрак Брута охотится на Кловиса в комичной манере."
 
@@ -2568,7 +2568,7 @@ msgstr "Доброе утро, Лаура"
 msgid "Good Morning Mike (male)"
 msgstr "Доброе утро, Майк (мужская версия)"
 
-#: data/votes-2021-03-07.json:539
+#: data/votes-2021-03-07.json:551
 msgid "Good Morning Zen"
 msgstr "Доброе утро, Зен"
 
@@ -2674,7 +2674,7 @@ msgstr "Встреча с полудраконицей"
 msgid "Half-Keidran Raine meets human Holo from the “Spice and Wolf”."
 msgstr "Полу-кайдрэн Рэйн встречает человеческую Холу из «Волчицы и пряностей»."
 
-#: data/votes-2021-01-17.json:494 data/votes-2021-03-07.json:499
+#: data/votes-2021-01-17.json:494 data/votes-2021-03-07.json:511
 msgid "Half-keidran Raine meets human Holo from the “Spice and Wolf”."
 msgstr "Полу-кайдрэн Рэйн встречает человеческую Холу из «Волчицы и пряностей»."
 
@@ -2857,7 +2857,7 @@ msgstr "Островной курорт"
 msgid "It turns out that Nibbly is a secret agent for an organization of squirrels, and she is reporting to her boss who is the King of the Squirrels"
 msgstr "Оказывается, что Ниббли является секретным агентом организации белок, и она отчитывается своему боссу, который является Беличьим королём"
 
-#: data/votes-2021-03-07.json:527
+#: data/votes-2021-03-07.json:539
 msgid "Ivy Daki"
 msgstr "Даки с Плющом"
 
@@ -3273,7 +3273,7 @@ msgctxt "publish_name"
 msgid "Kat-o-Vision"
 msgstr "Глазами Кэт"
 
-#: data/votes-2021-03-07.json:523
+#: data/votes-2021-03-07.json:535
 msgid "Kathrin and Raine go for drinks at the Riftwall."
 msgstr "Кэтрин и Рэйн идут выпить в Рифтволл."
 
@@ -4534,6 +4534,10 @@ msgstr "Современная АВ: киберпанковая Рэйн пом�
 msgid "Modern AU: Keith takes Laura to the gun range to test her FPS gamer skills."
 msgstr "Современная АВ: Кит берёт Лауру на стрельбище, чтобы проверить её навыки игры в жанре шутера от первого лица."
 
+#. :Дата: 2021-03-20
+#. :Название: Tiger Jeans
+#. :Предложил: Roughlandin
+#. :Ссылка (Patreon): https://www.patreon.com/posts/tiger-jeans-48977309
 #: data/votes-2021-03-07.json:471
 msgid "Modern Flora frets in the changing room mirror as she tries on a pair of jeans that are just a size too small to fit over her butt. Outside the curtain, Trace pretends not to be interested."
 msgstr "Современная Флора крутится перед зеркалом примерочной и пытается натянуть пару джинсов, которые просто слишком маленькие, чтобы налезть на её задницу. За занавеской Трэйс притворяется, что ему совсем не интересно."
@@ -4555,7 +4559,7 @@ msgstr "Современная Натани присылает Киту пров
 msgid "Modern day Adult Maddie and Maeve just lounging around on a hot summer day (in tank tops and shorts) much to Maddie’s embarrassment."
 msgstr "Современные взрослые Мэдди и Мэйв просто бездельничают в жаркий летний день (в майках и шортах), к большому смущению Мэдди."
 
-#: data/votes-2021-03-07.json:475
+#: data/votes-2021-03-07.json:487
 msgid "More Youngtani messing with Clovis, lifting the princess' tail to admire her backside, while Clovis continues trying to regain control."
 msgstr "Юнатани продолжает издевательства над Кловисом, поднимая хвост принцессы, чтобы повосхищаться её задницей, пока Кловис продолжает пытаться восстановить контроль."
 
@@ -4644,7 +4648,7 @@ msgstr "Натани и Зен, одетые как Сэм и Дин соотв�
 msgid "Natani and keith kissing at the beach while sunset and the sea in the background"
 msgstr "Натани и кит целуются на пляже во время заката и моря на заднем плане"
 
-#: data/votes-2021-03-07.json:503
+#: data/votes-2021-03-07.json:515
 msgid "Natani as Aloy in the world of Horizon: Zero Dawn, maybe riding an overridden Strider"
 msgstr "Натани в роли Элой в мире Horizon: Zero Dawn, может быть, скачущая на перехваченном бегуне"
 
@@ -4912,7 +4916,7 @@ msgstr "Ниббли на тарелке с пирогом, слишком по�
 #. :Название: Squirrel Protector
 #. :Предложил: Saberbeam
 #. :Ссылка (Patreon): https://www.patreon.com/posts/squirrel-48894658
-#: data/votes-2021-03-07.json:507
+#: data/votes-2021-03-07.json:519
 msgid "Nibbly saving Sythe from Remus as pictured in Nibbly's mind, an epic \"You shall not pass!\" type of moment."
 msgstr "Ниббли спасает Сифа от Рема в представлении Ниббли, эпичный момент типа «Ты не пройдёшь!»"
 
@@ -5709,7 +5713,7 @@ msgstr "Рэд схватил хвост кайдрэн Марэн!"
 msgid "Red proposes to Raine with an enchanted ring that matches her transformation to him. If Raine is a wolf so is Red."
 msgstr "Рэд предлагает Рэйн заколдованное кольцо, которое переносит её трансформацию на него. Если Рэйн — волк, то и Рэд тоже."
 
-#: data/votes-2021-03-07.json:495
+#: data/votes-2021-03-07.json:507
 msgid "Red thinks Raine has a secret assertive side when he reads one of her fanfics. A second panel shows a scene similar to \"aggressive\" but with Raine in place of Laura."
 msgstr "Рэд думает, что у Рэйн есть секретная напористая сторона, когда он читает один из её фанфиков. Вторая панель показывает сцену, похожую на работу «агрессивно», но с Рэйн на месте Лауры."
 
@@ -5854,7 +5858,7 @@ msgstr "Перерисовка страницы 69."
 msgid "Remake/redone of page 69. When Sythe, Red, Maren, Karen, Keith, and pizza guy Tom find Trace on top of a drunk Flora, drunk from keidran milk."
 msgstr "Перерисовка/переделка страницы 69. Когда Сиф, Рэд, Марэн, Карэн, Кит и доставщик пиццы Том находят Трэйса, сидящим на пьяной Флоре, пьяной от молока кайдрэн."
 
-#: data/votes-2021-03-07.json:483
+#: data/votes-2021-03-07.json:495
 msgid "Remus wearing the cone of shame after his run in with nibs"
 msgstr "Рем носит конус стыда после его столкновения с нибс"
 
@@ -5886,7 +5890,7 @@ msgstr "Рэни слишком перестаралась, зажигая дл�
 msgid "Reni getting a magic lesson from Rose - it involves a very familiar collar. Sit, dragon! Roll over!"
 msgstr "Рэни получает урок магии от Роуз — и он включает очень знакомый ошейник. Сидеть, дракон! Перекат!"
 
-#: data/votes-2021-03-07.json:551
+#: data/votes-2021-03-07.json:563
 msgid "Reni modeling lingerie for her special someone."
 msgstr "Рэни примеряет нижнее бельё для своего особого человека."
 
@@ -6017,7 +6021,7 @@ msgstr "Сёстры Сандерсон"
 msgid "Saria and Fiona kissing Trace on his cheeks"
 msgstr "Сария и Фиона целуют Трэйса в щёки"
 
-#: data/votes-2021-03-07.json:543
+#: data/votes-2021-03-07.json:555
 msgid "Saria and Rose get drunk in the wine cellar to celebrate Rose's birthday"
 msgstr "Сария и Роуз напиваются в винном погребе, чтобы отпраздновать день рождение Роуз"
 
@@ -6303,7 +6307,7 @@ msgstr "Вечеринка объятий! Натани и Кит обжимаю
 msgid "Sports car. Sythe as race winner. Nibbly and Maren as race girls"
 msgstr "Пилот спортивного болида Сиф как победитель гонки. Ниббли и Марэн как девушки автогонок"
 
-#: data/votes-2021-03-07.json:515
+#: data/votes-2021-03-07.json:527
 msgctxt "publish_name"
 msgid "Squirrel Protector"
 msgstr "Белка-защитник"
@@ -6835,6 +6839,11 @@ msgctxt "publish_name"
 msgid "Thunderstorm"
 msgstr "Гроза"
 
+#: data/votes-2021-03-07.json:479
+msgctxt "publish_name"
+msgid "Tiger Jeans"
+msgstr "Тигровые джинсы"
+
 #: data/votes-2019-05-19.json:613
 msgid "Tiger Trace and Flora sharing a tender kiss."
 msgstr "Нежный поцелуй тигра Трэйса и Флоры."
@@ -7062,7 +7071,7 @@ msgstr "Трэйс сидит на диване, а Флора спит у не�
 msgid "Trace overflowing with power from the Infinity Gauntlet but he uses it to make a mountain of meat for Flora"
 msgstr "Трэйс, переполенный силой из Перчатки бесконечности, использует её для сотворения горы мяса для Флоры"
 
-#: data/votes-2021-03-07.json:531
+#: data/votes-2021-03-07.json:543
 msgid "Trace overhears Keith and Natani talking about tying the knot, and it turns out to be them just comparing the usefulness and practicality of various types of knots"
 msgstr "Трэйс подслушивает Кита и Натани, разговаривающих о связывании узами, и оказывается, что они просто сравнивают полезность и практичность различных типов узлов"
 
@@ -7621,7 +7630,7 @@ msgstr "Огонёк встречает Ори из «Ори и непрогля
 msgid "Willow meets Nora, bonding over shared memories of Willow's mother (Probably scary ones)."
 msgstr "Огонёк встречает Нору, они связаны общими воспоминаниями о матери Огонька (вероятно, довольно жуткими)."
 
-#: data/votes-2021-03-07.json:487
+#: data/votes-2021-03-07.json:499
 msgid "Willow reference sheet"
 msgstr "Справочный лист Огонька"
 
