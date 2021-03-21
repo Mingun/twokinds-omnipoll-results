@@ -216,7 +216,19 @@
     },
     {
       "votes": 99,
-      "suggestion": "Kathrin chasing a laser"
+      "suggestion": "Kathrin chasing a laser",
+      "suggested_by": [
+        "Truman"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-21",
+          "name": "Kat Laser",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/kat-laser-49008959"
+        }
+      ]
     },
     {
       "votes": 99,
