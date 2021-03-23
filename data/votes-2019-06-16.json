@@ -287,7 +287,19 @@
     },
     {
       "votes": 80,
-      "suggestion": "Karma at last: Nora can't stop her body from behaving like a dog, to her embarrassment, when one of her own pranks backfires."
+      "suggestion": "Karma at last: Nora can't stop her body from behaving like a dog, to her embarrassment, when one of her own pranks backfires.",
+      "suggested_by": [
+        "Lastotter"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-23",
+          "name": "Dog Gone Dragon",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/dog-gone-dragon-49076963"
+        }
+      ]
     },
     {
       "votes": 55,
