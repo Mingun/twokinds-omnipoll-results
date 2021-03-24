@@ -654,7 +654,20 @@
     },
     {
       "votes": 79,
-      "suggestion": "The young Rose and Saria sit drunk in the wine cellar and celebrate Rose's birthday."
+      "suggestion": "The young Rose and Saria sit drunk in the wine cellar and celebrate Rose's birthday.",
+      "suggested_by": [
+        "Iago24",
+        "CoffeeFox"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-24",
+          "name": "Saria and Rose Party",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/saria-and-rose-49140426"
+        }
+      ]
     },
     {
       "votes": 65,
