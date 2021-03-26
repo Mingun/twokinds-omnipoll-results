@@ -204,7 +204,20 @@
     },
     {
       "votes": 105,
-      "suggestion": "Good morning, Princess Reni."
+      "suggestion": "Good morning, Princess Reni.",
+      "suggested_by": [
+        "GammaEradon",
+        "ThingsAreWaking"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-26",
+          "name": "Good Morning Reni",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/good-morning-49240166"
+        }
+      ]
     },
     {
       "votes": 92,
@@ -597,7 +610,20 @@
     },
     {
       "votes": 87,
-      "suggestion": "Reni modeling lingerie for her special someone."
+      "suggestion": "Reni modeling lingerie for her special someone.",
+      "suggested_by": [
+        "GammaEradon",
+        "ThingsAreWaking"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-26",
+          "name": "Good Morning Reni",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/good-morning-49240166"
+        }
+      ]
     }
   ]
 }
