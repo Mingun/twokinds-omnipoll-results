@@ -293,7 +293,19 @@
     },
     {
       "votes": 104,
-      "suggestion": "Nora's early years, when she was as young and shy as Reni. She takes a human form for the first time to impress people."
+      "suggestion": "Nora's early years, when she was as young and shy as Reni. She takes a human form for the first time to impress people.",
+      "suggested_by": [
+        "DarthKeidran"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-03-30",
+          "name": "Young Nora",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/young-nora-49361865"
+        }
+      ]
     },
     {
       "votes": 78,
