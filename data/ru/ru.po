@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: data/votes-2020-02-10.json:586
 msgid "\"Dog commands? From Rose? What, like sit?\" Maren asks. To both their surprise, (wolf)Raine immediately sits. The commands still work!"
@@ -2480,7 +2480,7 @@ msgstr "АВ со сменой пола: Мужчина-человек Нора 
 msgid "Genderswapped Nora and flora fighting over female trace."
 msgstr "Превращённые в парней Нора и Флора сражаются за девушку трэйса."
 
-#: data/votes-2021-03-07.json:628
+#: data/votes-2021-03-07.json:635
 msgid "Ghost Brutus Haunting Clovis in a comical way."
 msgstr "Призрак Брута охотится на Кловиса в комичной манере."
 
@@ -2577,7 +2577,7 @@ msgstr "Доброе утро, Лаура"
 msgid "Good Morning Mike (male)"
 msgstr "Доброе утро, Майк (мужская версия)"
 
-#: data/votes-2021-03-07.json:223 data/votes-2021-03-07.json:641
+#: data/votes-2021-03-07.json:223 data/votes-2021-03-07.json:648
 msgctxt "publish_name"
 msgid "Good Morning Reni"
 msgstr "Доброе утро, Рэни"
@@ -5959,7 +5959,7 @@ msgstr "Рэни получает урок магии от Роуз — и он 
 #. :Предложил: GammaEradon
 #. :Предложил: ThingsAreWaking
 #. :Ссылка (Patreon): https://www.patreon.com/posts/good-morning-49240166
-#: data/votes-2021-03-07.json:632
+#: data/votes-2021-03-07.json:639
 msgid "Reni modeling lingerie for her special someone."
 msgstr "Рэни примеряет нижнее бельё для своего особого человека."
 
@@ -6091,6 +6091,7 @@ msgid "Saria and Fiona kissing Trace on his cheeks"
 msgstr "Сария и Фиона целуют Трэйса в щёки"
 
 #: data/votes-2020-03-08.json:666 data/votes-2021-03-07.json:620
+#: data/votes-2021-03-07.json:627
 msgctxt "publish_name"
 msgid "Saria and Rose Party"
 msgstr "Вечеринка Сарии и Роуз"
@@ -6100,6 +6101,10 @@ msgstr "Вечеринка Сарии и Роуз"
 #. :Предложил: Iago24
 #. :Предложил: CoffeeFox
 #. :Ссылка (Patreon): https://www.patreon.com/posts/saria-and-rose-49140426
+#. :Дата цветной версии: 2021-04-01
+#. :Название цветной версии: Saria and Rose Party
+#. :Ссылка на цветную версию (Patreon):
+#. https://www.patreon.com/posts/saria-and-rose-49459456
 #: data/votes-2021-03-07.json:611
 msgid "Saria and Rose get drunk in the wine cellar to celebrate Rose's birthday"
 msgstr "Сария и Роуз напиваются в винном погребе, чтобы отпраздновать день рождение Роуз"
