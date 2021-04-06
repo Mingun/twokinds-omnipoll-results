@@ -475,7 +475,19 @@
     },
     {
       "votes": 103,
-      "suggestion": "Undercover Maddie Finale. Maddie has safely made her way back home and is preparing to give a report on what was learned... But... What DID we learn???"
+      "suggestion": "Undercover Maddie Finale. Maddie has safely made her way back home and is preparing to give a report on what was learned... But... What DID we learn???",
+      "suggested_by": [
+        "Dadrobit"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-04-06",
+          "name": "Undercover Maddie - Report",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/undercover-49670451"
+        }
+      ]
     },
     {
       "votes": 111,
