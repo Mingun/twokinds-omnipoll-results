@@ -7570,7 +7570,7 @@ msgstr "Мы видели, каковы Лаура и Трэйс вне съём
 
 #: data/votes-2021-03-07.json:456
 msgid "We've seen what Laura and Trace are like off-set, what are \"Keith\" and Natani like? (Follow-up to Couples Off Set)"
-msgstr "Мы видели, на что похожа жизнь Лайры и Трэйса вне съёмок, на что же похожа жизнь «Кита» и Натани (продолжение «Пар вне съёмок»)?"
+msgstr "Мы видели, на что похожа жизнь Лауры и Трэйса вне съёмок, на что же похожа жизнь «Кита» и Натани (продолжение «Пар вне съёмок»)?"
 
 #: data/votes-2019-06-09.json:196 data/votes-2019-06-16.json:266
 #: data/votes-2019-08-04.json:417 data/votes-2019-08-11.json:700
