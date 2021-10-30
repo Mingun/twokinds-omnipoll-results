@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Twokinds Suggestions 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-04-25 13:20+0200\n"
-"PO-Revision-Date: 2021-05-06 15:32+0500\n"
+"PO-Revision-Date: 2021-10-23 13:18+0500\n"
 "Last-Translator: Mingun <alexander_sergey@mail.ru>\n"
 "Language: ru\n"
 "Language-Team: \n"
@@ -2887,7 +2887,7 @@ msgstr "Поцелуй полукровок"
 #: data/votes-2020-11-08.json:385
 msgctxt "publish_name"
 msgid "Halloween Party Aftermath"
-msgstr "Последствия вечеринки на Хеллоуин"
+msgstr "Последствия вечеринки на Хэллоуин"
 
 #: data/votes-2019-10-20.json:309
 msgid "Halloween: Zen, all zombie like, tries to teach Raine how to be scary."
