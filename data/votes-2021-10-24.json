@@ -1,10 +1,11 @@
 {
   "date": "2021-10-24",
   "patreon_link": "https://www.patreon.com/posts/october-omnipoll-57704510",
-  "youtube_full_link": "",
-  "youtube_full_duration": "",
-  "youtube_short_link": "",
-  "youtube_short_duration": "",
+  "youtube_full_link": "https://www.youtube.com/watch?v=zBK154mAOGI",
+  "youtube_full_duration": "PT6H31M29S",
+  "youtube_short_link": "https://www.youtube.com/watch?v=bxzGkqwawsw",
+  "youtube_short_duration": "PT19M33S",
+  "comment": "Tom didn't have time to put together a complete list of suggestions and only reported the result of the votes for the first winner. Therefore, it is not known which sketches Tom chose and which were voted on. A seventh sketch will be selected and drawn outside of the stream.",
   "data": [
     {
       "suggestion": "White Tigress Adelaide"
@@ -16,7 +17,20 @@
       "suggestion": "Adira handing out candy to the local kids on howloween"
     },
     {
-      "suggestion": "Rose teaching a course on proper female wolf etiquette. With Raine only interested from an etymological stand point, wolf Maren embarrassed (but secretly wants to learn for Sythe), and Natani wondering why the hell HE's there."
+      "suggestion": "Rose teaching a course on proper female wolf etiquette. With Raine only interested from an etymological stand point, wolf Maren embarrassed (but secretly wants to learn for Sythe), and Natani wondering why the hell HE's there.",
+      "position": 2,
+      "suggested_by": [
+        "BlazingFoxSpirit"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-10-26",
+          "name": "Wolfing Lessons",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/wolfing-lessons-57891245"
+        }
+      ]
     },
     {
       "suggestion": "Monster AU: Vampire Kat encounters Werewolf Raine, and both try to scare off their natural enemy, despite being secretly terrified of each other."
@@ -55,7 +69,8 @@
       "suggestion": "w0lf's Ember in the Night of the living pants"
     },
     {
-      "suggestion": "Sequel to Body Swap - Raine and Kat and Measuring Up. Kat is glad that now she can measure her body better than from the first person."
+      "suggestion": "Sequel to Body Swap - Raine and Kat and Measuring Up. Kat is glad that now she can measure her body better than from the first person.",
+      "position": 6
     },
     {
       "suggestion": "Adelaide and Madelyn as Kratos and Atreus from God of War"
@@ -91,7 +106,20 @@
       "suggestion": "Vampire queen Raine (wolf)"
     },
     {
-      "suggestion": "The two characters from Basitin First Time laying in a messed up bed with embarrassed/surprised expressions saying \"Wow. . \" in unison."
+      "suggestion": "The two characters from Basitin First Time laying in a messed up bed with embarrassed/surprised expressions saying \"Wow. . \" in unison.",
+      "position": 5,
+      "suggested_by": [
+        "Tokamak"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-10-29",
+          "name": "Basitin First Time - Wow",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/basitin-first-57985121"
+        }
+      ]
     },
     {
       "suggestion": "Nora turning three other Twokinds cast members into kittens and re-enacting the Aristocats"
@@ -181,7 +209,20 @@
       "suggestion": "Kat gives a reassuring hug to someone having a bad day"
     },
     {
-      "suggestion": "Expectation vs Reality angry Kat"
+      "suggestion": "Expectation vs Reality angry Kat",
+      "position": 3,
+      "suggested_by": [
+        "Snowmanwizard"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-10-27",
+          "name": "Angry Kat",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/angry-kat-57935242"
+        }
+      ]
     },
     {
       "suggestion": "Necromancer Trace: ivory skin, cold black eyes, dark scars; raising the undead, commanding them...to protect the citizens. What? He's a Necromancer not evil"
@@ -223,7 +264,22 @@
       "suggestion": "(Deltarune chapter 2 meme) Kris and Susie fall into the Twokinds world and Susie shouts at Kris saying \"God dammit Kris, Where the hell are we?\". While they get greeted Trace and Flora"
     },
     {
-      "suggestion": "Wolf Maren cuddling Sythe in bed, she tells him it’s purely instinct though she refuses to let go of him"
+      "votes": 160,
+      "suggestion": "Wolf Maren cuddling Sythe in bed, she tells him it’s purely instinct though she refuses to let go of him",
+      "position": 1,
+      "choice": "voters",
+      "suggested_by": [
+        "Mediawatcher"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-10-25",
+          "name": "Wolf Maren Nuzzle",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/wolf-maren-57845924"
+        }
+      ]
     },
     {
       "suggestion": "Kathrin getting a foot massage"
@@ -280,7 +336,20 @@
       "suggestion": "Eric as a Zapp Brannigan-esque starship captain with Kat as his exasperated first officer."
     },
     {
-      "suggestion": "Were-Keith-wolf: Natani gives Keith a playful nibble on the ear, unintentionally cursing him to turn into a wolf keidran under the full moon."
+      "suggestion": "Were-Keith-wolf: Natani gives Keith a playful nibble on the ear, unintentionally cursing him to turn into a wolf keidran under the full moon.",
+      "position": 4,
+      "suggested_by": [
+        "Firechild"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-10-28",
+          "name": "Werewolf Keith",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/werewolf-keith-57978461"
+        }
+      ]
     },
     {
       "suggestion": "A super-hyper costumed Maeve after Landen gives her coffee for trick-or-treating."
