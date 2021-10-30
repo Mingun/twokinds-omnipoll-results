@@ -70,7 +70,19 @@
     },
     {
       "suggestion": "Sequel to Body Swap - Raine and Kat and Measuring Up. Kat is glad that now she can measure her body better than from the first person.",
-      "position": 6
+      "position": 6,
+      "suggested_by": [
+        "Ellarihan"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2021-10-30",
+          "name": "Body Swap - Self Measurement",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/body-swap-self-57988191"
+        }
+      ]
     },
     {
       "suggestion": "Adelaide and Madelyn as Kratos and Atreus from God of War"
