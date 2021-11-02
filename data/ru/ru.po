@@ -184,7 +184,7 @@ msgstr "Плакат Луны в Аду из «Адского босса»"
 msgid "A Re-Draw of Keidran Trace- 'Sit': Tigress Trace Edition"
 msgstr "Перерисовка «Сидеть» кайдрэн Трэйса: версия с тигрицей Трэйсом"
 
-#: data/votes-2021-10-24.json:406
+#: data/votes-2021-10-24.json:413
 msgid "A Remake of Page 352 Scene Remake. Natani accidentally walks in on Keith while he's drying himself off and has a nosebleed."
 msgstr "Перерисовка «Перерисовки сцены со страницы 252». Натани случайно входит к Киту, когда он вытирает себя и у неё носом идёт кровь."
 
@@ -231,7 +231,7 @@ msgstr "Конкурс красоты с участием конкурсанто
 msgid "A blushing Trace sitting down on a throne, surrounded by Flora, Maren, Karen, Saria, and humanoid Nora looking at him tenderly. (AKA Harem King Trace)"
 msgstr "Краснеющий Трэйс сидит на троне в окружении Флоры, Марэн, Карэн, Сарии и гуманоидной Норы, нежно смотрящих на него (типа, гарем короля Трэйса)."
 
-#: data/votes-2021-10-24.json:421
+#: data/votes-2021-10-24.json:428
 msgid "A bust size chart assembled by Natani to appear smaller in the chest region. (similar to how Flora did it, but for the opposite effect.)"
 msgstr "Таблица размеров бюстов, составленная Натани, чтобы казаться меньше в области груди (аналогично той, которую сделала Флора, но для противоположной цели)."
 
@@ -394,7 +394,7 @@ msgstr "Небольшая группа баситинских парней ис
 msgid "A studious Red invents a new tail tugging spell. He manages to tug the tails of cat Nora, cat Reni and cat Maren simultaneously."
 msgstr "Студент Рэд изобретает новое заклинание дёрганья за хвост. Ему удаётся одновременно дёрнуть хвосты кошки Норы, кошки Рэни и кошки Марэн."
 
-#: data/votes-2021-10-24.json:367
+#: data/votes-2021-10-24.json:374
 msgid "A super-hyper costumed Maeve after Landen gives her coffee for trick-or-treating."
 msgstr "Супер-пупер Мэйв в костюме после того, как Ланден даёт ей кофе для гадости-или-сладости."
 
@@ -549,7 +549,7 @@ msgstr "Аделаида в позе «как будто на мне вообщ�
 msgid "Adelaide in the Highland Games, doing a caber toss."
 msgstr "Аделаида на играх горцев участвует в метании брёвен."
 
-#: data/votes-2021-10-24.json:373
+#: data/votes-2021-10-24.json:380
 msgid "Adelaide meeting her match in and arm wrestling contest against a muscular female spotted hyena."
 msgstr "Аделаида встретилась с мускулистой самкой пятнистой гиены в поединке по армрестлингу."
 
@@ -648,7 +648,7 @@ msgstr "Адира немного увлеклась дегустацией но
 msgid "Adira handing out candy to the local kids on howloween"
 msgstr "Адира раздаёт конфеты местным детям на холлоуин"
 
-#: data/votes-2021-10-24.json:327
+#: data/votes-2021-10-24.json:334
 msgid "Adira needs some help around the tavern, so she recruits Mike and Evals for the job. She mentioned the position was for barmaids, right? Oh well, at least the new girls get to keep their tips."
 msgstr "Адире нужна помощь в таверне, поэтому она нанимает на эту работу Майка и Ивэлса. Она же упомянула, что эта вакансия для барменш, верно? Ну что ж, по крайней мере, новые девушки получат свои чаевые."
 
@@ -1173,7 +1173,7 @@ msgstr "Обмен телами — измерение себя"
 msgid "Body Swap Shenanigans continued: After swapping bodies with Nibbly, Maren swaps with Scythe, but Nibbly doesn't notice."
 msgstr "Проделки обмена телами продолжаются: после обмена телами с Ниббли, Марэн меняется местами с Сифом, но Ниббли этого не замечает."
 
-#: data/votes-2021-10-24.json:379
+#: data/votes-2021-10-24.json:386
 msgid "Body swap of Flora and Eric...Turning the tables (Eric as Flora being painted in suggestive stance by now Flora as Eric)"
 msgstr "Обмен телами Флоры и Эрика… Обмен ролями (Эрик в роли Флоры в вызывающей позе для картины, рисуемой Флорой в роли Эрика)"
 
@@ -1625,7 +1625,7 @@ msgstr "Кловис обнимает Брута в знак благодарн�
 msgid "Clovis is brought to Kats Dress shop by Brutus after the bath."
 msgstr "Кловис после купания доставлен Брутом в магазин одежды Кэт."
 
-#: data/votes-2021-10-24.json:415
+#: data/votes-2021-10-24.json:422
 msgid "Clovis is returns to being male but is forced to wear a girl clothing."
 msgstr "Кловис становится обратно мужчиной, но вынужден носить девчачью одежду."
 
@@ -1822,7 +1822,7 @@ msgctxt "publish_name"
 msgid "Demon Trace vs Angel Flora"
 msgstr "Демон Трэйс против Ангела Флоры"
 
-#: data/votes-2021-10-24.json:376
+#: data/votes-2021-10-24.json:383
 msgid "Demon tiger Trace 3: Trace comes to his senses, and is filled with tearful remorse after realizing he attacked his (unscathed) love, Flora, who gladly comforts him as she strokes his head in her lap."
 msgstr "Демон тигр Трэйс 3: Трэйс приходит в себя и льёт слёзы раскаяния, осознав, что напал на свою (не пострадавшую) любовь, Флору, которая с радостью утешает его, гладя по его голове, лежащей на её коленях."
 
@@ -1977,7 +1977,7 @@ msgstr "Эрик и Кэт стреляют по тарелочкам."
 msgid "Eric and Saria bond over their artistic apprecation of the Keidran form"
 msgstr "Эрика и Сарию связывает их художественная оценка формы кайдрэн"
 
-#: data/votes-2021-10-24.json:348
+#: data/votes-2021-10-24.json:355
 msgid "Eric as a Zapp Brannigan-esque starship captain with Kat as his exasperated first officer."
 msgstr "Эрик в роли капитана звёздолета в стиле Зеппа Браннигана и Кэт в роли его измученного первого помощника."
 
@@ -2265,7 +2265,7 @@ msgstr "Лошадиная самка кайдрэн"
 msgid "Female samurai Adelaide"
 msgstr "Женщина самурай Аделаида"
 
-#: data/votes-2021-10-24.json:412
+#: data/votes-2021-10-24.json:419
 msgid "Fertility wish continued: Natani makes fun of Zen for getting Kat pregnant until Kat asks when Natani and Keith will start having kids"
 msgstr "Продолжение «Желания фертильности»: Натани подшучивает над Зеном, чтобы тот заделал ребёнка Кэт, до тех пор, пока Кэт не спрашивает, когда же Натани и Кит заведут детишек"
 
@@ -3060,7 +3060,7 @@ msgstr "Последствия вечеринки на Хэллоуин"
 msgid "Halloween: Zen, all zombie like, tries to teach Raine how to be scary."
 msgstr "Хэллоуин: Зен в виде зомби пытается научить Рэйн быть страшной."
 
-#: data/votes-2021-10-24.json:324
+#: data/votes-2021-10-24.json:331
 msgid "Happy HaWwllaween! All canine cadrien howling together on Halloween night!"
 msgstr "Счастливый ХеллоУууин! Все собачьи кайдрэн воют вместе в ночь Хэллоуина!"
 
@@ -3234,7 +3234,7 @@ msgstr "Островной курорт"
 msgid "It turns out that Nibbly is a secret agent for an organization of squirrels, and she is reporting to her boss who is the King of the Squirrels"
 msgstr "Оказывается, что Ниббли является секретным агентом организации белок, и она отчитывается своему боссу, который является Беличьим королём"
 
-#: data/votes-2021-10-24.json:300
+#: data/votes-2021-10-24.json:307
 msgid "It's Saria's turn to model for Rose's painting - in her lioness form"
 msgstr "Очередь Сарии становиться моделью для картины Роуз - в её львиной форме"
 
@@ -3681,7 +3681,7 @@ msgstr "Глазами Кэт"
 msgid "Kathrin and Raine go for drinks at the Riftwall."
 msgstr "Кэтрин и Рэйн идут выпить в Рифтволл."
 
-#: data/votes-2021-10-24.json:336
+#: data/votes-2021-10-24.json:343
 msgid "Kathrin as an anthropomorphized Bat, happy Halloween!"
 msgstr "Кэтрин в виде антропоморфной летучей мыши, счастливого Хэллоуина!"
 
@@ -3705,7 +3705,7 @@ msgstr "Кэтрин подбадривает Майка после неудач
 msgid "Kathrin get's a little too excited and began making outfits for all her versions (Boy, Cat, Dog, Feral, ect.)"
 msgstr "Кэтрин слишком возбудилась и начала делать наряды для всех своих версий (для мальчика, кошки, собаки, дикой и так далее)"
 
-#: data/votes-2021-10-24.json:297
+#: data/votes-2021-10-24.json:304
 msgid "Kathrin getting a foot massage"
 msgstr "Кэтрин получает массаж ног"
 
@@ -3942,7 +3942,7 @@ msgctxt "publish_name"
 msgid "Keith and Trace Sparring"
 msgstr "Кит и Трэйс спаррингуют"
 
-#: data/votes-2021-10-24.json:342
+#: data/votes-2021-10-24.json:349
 msgid "Keith and Trace in an epic thumb fight, with Flora and Natani cheering them on."
 msgstr "Кит и Трэйс в эпической борьбе на пальцах, Флора и Натани подбадривают их."
 
@@ -4314,7 +4314,7 @@ msgstr "Лаура учится водить. Она получает уроки
 msgid "Laura lighting the lamp of a lighthouse"
 msgstr "Лаура зажигает фонарь маяка"
 
-#: data/votes-2021-10-24.json:339
+#: data/votes-2021-10-24.json:346
 msgid "Laura on a cruise ship, looking over the railing and basking in the sun."
 msgstr "Лаура на круизном судне, облокотилась на поручни и греется на солнце."
 
@@ -4771,7 +4771,7 @@ msgstr "Марэн и Сиф испытывают сильное сексуал�
 msgid "Maren and Sythe as Belle and the Beast dancing in the ballroom from the film."
 msgstr "Марэн и Сиф в роли Белль и чудовища, танцующих в бальном зале из фильма."
 
-#: data/votes-2021-10-24.json:400
+#: data/votes-2021-10-24.json:407
 msgid "Maren and Sythe furtively try to find out each other’s preferences, and turn to their ex’s, Flora and Trace, respectively. Unfortunately, as it turned out, the latter have very distant ideas about what their ex’s really like."
 msgstr "Марэн и Сиф украдкой пытаются разузнать предпочтения друг друга, и обращаются за этим к бывшим своих партнёров — к Флоре и Трэйсу соответственно. К сожалению, как оказалось, последние имеют весьма отдалённые представления о том, что же тем на самом деле нравится."
 
@@ -5131,7 +5131,7 @@ msgstr "Современная АВ: Кит берёт Лауру на стре�
 msgid "Modern Flora frets in the changing room mirror as she tries on a pair of jeans that are just a size too small to fit over her butt. Outside the curtain, Trace pretends not to be interested."
 msgstr "Современная Флора крутится перед зеркалом примерочной и пытается натянуть пару джинсов, которые просто слишком маленькие, чтобы налезть на её задницу. За занавеской Трэйс притворяется, что ему совсем не интересно."
 
-#: data/votes-2021-10-24.json:345
+#: data/votes-2021-10-24.json:352
 msgid "Modern Kat and Zen spending some romantic time together at their apartment."
 msgstr "Современные Кэт и Зен проводят вместе романтическое время в своей квартире."
 
@@ -5148,7 +5148,7 @@ msgstr "Современная Лаура вот-вот сядет в ракет
 msgid "Modern Laura trying to teach Kat how to play video games."
 msgstr "Современная Лаура пытается научить Кэт играть в видеоигры."
 
-#: data/votes-2021-10-24.json:309
+#: data/votes-2021-10-24.json:316
 msgid "Modern Maeve: Maeve spies a shy Basitin exchange student eating by herself in the cafeteria, and decides to join her for lunch."
 msgstr "Современная Мэйв: Мэйв шпионит за стеснительной баситинской студенткой по обмену, кушающей себя в кафетерии, и решает присоединиться к ней на обеде."
 
@@ -5358,7 +5358,7 @@ msgstr "Натани, одетая как Шантэ и Кит, одетый к�
 msgid "Natani dressed as a call of duty hellhound"
 msgstr "Натани, одетая как адская гончая из call of duty"
 
-#: data/votes-2021-10-24.json:315
+#: data/votes-2021-10-24.json:322
 msgid "Natani driving a motorcycle with Keith"
 msgstr "Натани ведёт мотоцикл с Китом"
 
@@ -5831,7 +5831,7 @@ msgstr "Рассеянный Overwatch: Кит и Натани находятс�
 msgid "Oblivious Overwatch: Team A needs covering fire, but the weapon (crossbow, rifle, catapult?) is too big and unwieldy for sniper Maddie, and spotter Maeve is distracted by a butterfly."
 msgstr "Рассеянный Overwatch: Команда А нуждаются в огневом прикрытии, но для снайпера Мэделин оружие (лук, винтовка, катапульта?) слишком велико и громоздко, а корректировщица Мэйв отвлеклась на бабочку."
 
-#: data/votes-2021-10-24.json:321
+#: data/votes-2021-10-24.json:328
 msgid "Old west gun slinger Natani. (With damsel Keith!)"
 msgstr "Оружейник Дикого запада Натани. (С девицей Китом!)"
 
@@ -6424,7 +6424,7 @@ msgstr "Рэд в виде берсерка, владеющего безумно
 msgid "Red grabs Keidran Maren's tail!"
 msgstr "Рэд схватил хвост кайдрэн Марэн!"
 
-#: data/votes-2021-10-24.json:333
+#: data/votes-2021-10-24.json:340
 msgid "Red has to apologize to the Chimera. He has to invite her to buy clothes with the girls"
 msgstr "Рэд должен извиниться перед химерой. Он должен пригласить её пройтись по магазинам одежды вместе с девушками"
 
@@ -6597,7 +6597,7 @@ msgstr "Рэни (дракон), одетая в сарафан, резвитс�
 msgid "Reni accidentally acquires a cult of Kobolds that worship her."
 msgstr "Рэни случайно захватывает культ кобольдов, которые ей поклоняются."
 
-#: data/votes-2021-10-24.json:330
+#: data/votes-2021-10-24.json:337
 msgid "Reni also wants to try fusion magic and asks for vv-Mike's help"
 msgstr "Рэни тоже хочет попробовать магию синтеза и просит помощи у ол-Майка"
 
@@ -6642,7 +6642,7 @@ msgstr "Реакция Рэни, когда Нора демонстрирует 
 msgid "Reni scratching her neck and everyone cringing or running from the sound (nails on chalkboard)"
 msgstr "Рэни почёсывает шею, а все от этого звука съёживаются или убегают (как гвоздём по школьной доске)"
 
-#: data/votes-2021-10-24.json:424
+#: data/votes-2021-10-24.json:431
 msgid "Reni taking the Chimaera trick-or-treating, being so very, adorkably excited--until Kei spots her and she's all embarrassed."
 msgstr "Рэни берёт Химаеру с собой на прогулку за охотой за угощениями, она чрезвычайно очень рада — до тех пор, пока её не замечает Кей, от чего она сильно смущается."
 
@@ -6730,7 +6730,7 @@ msgstr "Роуз, Рэйн, Кэтрин и кошка Нора в роли Ле
 msgid "Rose: there will be no talking or sleeping in my classroom. Flora: heh rules who ever listens to that?! Rose: gives out a dirty look Flora: right! Rules love them!"
 msgstr "Роуз: в моём классе не дозволено разговаривать или спать. Флора: хех, правила, да кто их вообще слушается?! Роуз: одаривает её неодобрительным взглядом Флора: верно! Правила люблю их!"
 
-#: data/votes-2021-10-24.json:418
+#: data/votes-2021-10-24.json:425
 msgid "Roselyn, Raine, Cat Nora and Kathrin as Lady Dimitrescu and her daughters from Resident Evil Village for Halloween"
 msgstr "Розелин, Рэйн, кошка Нора и Кэтрин в роли леди Димитреску и её дочерей из Resident Evil Village для Хэллоуина"
 
@@ -6769,7 +6769,7 @@ msgstr "Сэм и Колин обнаруживают, что поменялис
 msgid "Sam and Colin went for a walk"
 msgstr "Сэм и Колин пошли прогуляться"
 
-#: data/votes-2021-10-24.json:427
+#: data/votes-2021-10-24.json:434
 msgid "Sam and Collin out for walkies. Enjoying a fall stroll in a park walking through the leaves."
 msgstr "Сэм и Колин на прогулке. Наслаждаются осенней прогулкой по парку, ходя по листьям."
 
@@ -7005,7 +7005,7 @@ msgstr "Продолжение наброска Нежноцвет: очеред
 msgid "Sequel to Sythe and Maren dancing. Nora switches Maren and Nibbly’s bodies, much to Sythe’s confusion."
 msgstr "Продолжение Танца Сифа и Марэн. Нора меняет местами тела Марэн и Ниббли, к большому замешательству Сифа."
 
-#: data/votes-2021-10-24.json:409
+#: data/votes-2021-10-24.json:416
 msgid "Sequel to Wolf Mary: young Mary Silverlock uses her Keidran transformation to infiltrate a Snow Wolf village, and meets a young Euchre and Roselyn. They greet and welcome her to their home, which she accepts, though is embarrassed that they're in the fur... like her."
 msgstr "Продолжение «Волчицы Мэри»: молодая Мэри Сильверлок использует своё превращение в кайдрэн, чтобы проникнуть в деревню снежных волков, и встречает молодых Юкрэ и Розелин. Они приветствуют её и приглашают в свой дом; она принимает приглашение, хотя и смущена тем, что из «одежды» на них только мех… как, впрочем, и на ней."
 
@@ -7234,7 +7234,7 @@ msgstr "Танец Сифа и Марэн"
 msgid "Sythe and Maren share a pizza and reminisce about the first time they met!"
 msgstr "Сиф и Марэн вместе кушают пиццу и вспоминают о своей первой встрече!"
 
-#: data/votes-2021-10-24.json:370
+#: data/votes-2021-10-24.json:377
 msgid "Sythe and Nibbly as Doomguy and his pet rabbit Daisy (alive)"
 msgstr "Сиф и Ниббли в роли Думгая и его домашней крольчихи Дейзи (живой)"
 
@@ -7511,7 +7511,7 @@ msgstr "Пара северной баситинки и волка приним�
 msgid "The Tom cameos ban together to overthrow the real Tom (they’re tired of being beaten up for laughs)."
 msgstr "Эпизодические Томы собрались вместе с целью свергнуть настоящего Тома (они устали быть посмешищем)."
 
-#: data/votes-2021-10-24.json:382
+#: data/votes-2021-10-24.json:389
 msgid "The Were-Snep curse returns: Keith and Natani discover Flora and Trace's condition was still contagious."
 msgstr "Проклятие оборотничества возвращается: Кит и Натани обнаруживают, что состояние Флоры и Трэйса всё ещё заразно."
 
@@ -7701,7 +7701,7 @@ msgstr "Вся банда, одетая как герои из «Теории б
 msgid "The young Rose and Saria sit drunk in the wine cellar and celebrate Rose's birthday."
 msgstr "Молодые Роуз и Сария сидят пьяными в винном погребе и празднуют день рождения Роуз."
 
-#: data/votes-2021-10-24.json:391
+#: data/votes-2021-10-24.json:398
 msgid "There's an unspecified emergency and Reni must alert Keiren, but Keiren just got out of the shower. Reni is embarrassed and forgets why she came."
 msgstr "Произошла непредвиденная чрезвычайная ситуация и Рэни должна оповестить о ней Кейрена, но Кейрен только что вышел из душа. Рэни смущается и забывает, зачем пришла."
 
@@ -7966,7 +7966,7 @@ msgstr "Трэйс, одетый, как Тандзиро, и флора, оде
 msgid "Trace finds a Flora Doll and lifts its tail, causing the real Flora to suddenly lift her tail, revealing her butt."
 msgstr "Трэйс находит куклу Флоры и поднимает ей хвост, в результате чего у настоящей Флоры внезапно поднимается её хвост, обнажая её попу."
 
-#: data/votes-2021-10-24.json:318
+#: data/votes-2021-10-24.json:325
 msgid "Trace finds some of his old clothes in the manor and dresses up as his old Templar self for Halloween and everybody starts freaking out."
 msgstr "Трэйс находит в поместье свою старую одежду и наряжается на Хэллоуин своим старым образом тамплиера, от чего все начинают волноваться."
 
@@ -8002,7 +8002,7 @@ msgstr "Трэйс игриво завязывает бантом живот б�
 msgid "Trace pounces flora back while she isn't expecting"
 msgstr "Трэйс бросается сзади на флору, когда та этого не ожидает"
 
-#: data/votes-2021-10-24.json:306
+#: data/votes-2021-10-24.json:313
 msgid "Trace teaches Flora some magic, but she somehow raises an army of the dead!"
 msgstr "Трэйс учит Флору кое-какой магии, но она неведомым образом поднимает армию мёртвых!"
 
@@ -8288,11 +8288,11 @@ msgstr "Стрела-валентинка"
 msgid "Vampire Kat 2: Willing Prey - Thanksgiving - TwoKinds fans and Kat simps organize a surprise Thanksgiving themed blood drive"
 msgstr "Вампирица Кэт 2: добровольная добыча — День Благодарения — фанаты TwoKinds и простушка Кэт организуют сюрприз-соревнование по сдаче крови на тему Дня благодарения"
 
-#: data/votes-2021-10-24.json:385
+#: data/votes-2021-10-24.json:392
 msgid "Vampire Kathrin enjoys wine in the wine cellar in her castle."
 msgstr "Вампирица Кэтрин наслаждается вином в винном погребе своего замка."
 
-#: data/votes-2021-10-24.json:403
+#: data/votes-2021-10-24.json:410
 msgid "Vampire Natani and vampire-hunter Keith"
 msgstr "Вампирица Натани и охотник на вампиров Кит"
 
@@ -8300,7 +8300,7 @@ msgstr "Вампирица Натани и охотник на вампиров 
 msgid "Vampire Rose lounging seductively on the couch dressed in a Slave Leia costume"
 msgstr "Вампирица Роуз в костюме рабыни Леи соблазнительно развалилась на диване"
 
-#: data/votes-2021-10-24.json:312
+#: data/votes-2021-10-24.json:319
 msgid "Vampire blood drive follow-up: Kat seductively leans over a (still) tied-up, scaroused Eric. \"Your turn, darling.\""
 msgstr "Продолжение «сдачи крови для вампира»: Кэт соблазнительно склоняется над (всё ещё) связанным, покрытым шрамами Эриком. «Твоя очередь, дорогой»."
 
@@ -8458,7 +8458,7 @@ msgstr "Хорошо одетый волк"
 #. :Название: Werewolf Keith
 #. :Предложил: Firechild
 #. :Ссылка (Patreon): https://www.patreon.com/posts/werewolf-keith-57978461
-#: data/votes-2021-10-24.json:351
+#: data/votes-2021-10-24.json:358
 msgid "Were-Keith-wolf: Natani gives Keith a playful nibble on the ear, unintentionally cursing him to turn into a wolf keidran under the full moon."
 msgstr "Оборотень-волк-Кит: Натани игриво треплет Кита за ухо, непроизвольно проклиная его на превращение в волка кайдрэн в полнолуние."
 
@@ -8470,7 +8470,7 @@ msgstr "Оборотень Флора превращает Нат и Кита в
 msgid "Weresnep aftermath, Red finds himself trapped on a bed with sleeping weresneped Kat, Raine, and Maren. He tries to escape without waking his fluffy companions."
 msgstr "Последствия оборотничества, Рэд оказывается в ловушке на кровати со спящими оборотнями Кэт, Рэйн и Марэн. Он пытается ускользнуть, не разбудив при этом своих пушистых компаньонок."
 
-#: data/votes-2021-10-24.json:360
+#: data/votes-2021-10-24.json:367
 msgctxt "publish_name"
 msgid "Werewolf Keith"
 msgstr "Оборотень Кит"
@@ -8618,7 +8618,7 @@ msgstr "Полноростовая подушка с Огоньком!"
 msgid "Willow daki"
 msgstr "Даки Огонька"
 
-#: data/votes-2021-10-24.json:397
+#: data/votes-2021-10-24.json:404
 msgid "Willow going trick or treating dressed as a vampire"
 msgstr "Огонёк в костюме вампира собирается на охоту за сладостями"
 
@@ -8659,7 +8659,7 @@ msgstr "Ведьма Кэт учит свою новейшую ученицу, �
 msgid "Witch Laura and Kathrin making a potion to turn Trace back to normal (he got turned into his white tiger form by a spell backfire)."
 msgstr "Ведьмы Лаура и Кэтрин делают зелье, чтобы привести Трэйса обратно в норму (он превратился в свою форму белого тигра после попадания в себя же своего заклинания)."
 
-#: data/votes-2021-10-24.json:290
+#: data/votes-2021-10-24.json:290 data/votes-2021-10-24.json:297
 msgctxt "publish_name"
 msgid "Wolf Maren Nuzzle"
 msgstr "Волчица Марэн трётся носом"
@@ -8668,6 +8668,10 @@ msgstr "Волчица Марэн трётся носом"
 #. :Название: Wolf Maren Nuzzle
 #. :Предложил: Mediawatcher
 #. :Ссылка (Patreon): https://www.patreon.com/posts/wolf-maren-57845924
+#. :Дата цветной версии: 2021-11-02
+#. :Название цветной версии: Wolf Maren Nuzzle
+#. :Ссылка на цветную версию (Patreon):
+#. https://www.patreon.com/posts/wolf-maren-58210506
 #: data/votes-2021-10-24.json:280
 msgid "Wolf Maren cuddling Sythe in bed, she tells him it’s purely instinct though she refuses to let go of him"
 msgstr "Волчица Марен, обнимающая Сифа в постели, она говорит ему, что это просто инстинкт и ничего более, правда, отпускать его она отказывается"
@@ -8840,7 +8844,7 @@ msgid "Youngtani in Clovis's body runs into Brutus, and tries to embarrass Clovi
 msgstr "Юнатани в теле Кловиса сталкивается с Брутом и пытается ещё больше смутить Кловиса заигрываниями и кокетливыми разговорами. Настоящий Кловис борется за то, чтобы вставить несколько слов, подавая Бруту несколько двусмысленные сигналы."
 
 #: data/votes-2021-01-17.json:563 data/votes-2021-05-09.json:322
-#: data/votes-2021-10-24.json:394
+#: data/votes-2021-10-24.json:401
 msgid "Zen Daki"
 msgstr "Даки с Зеном"
 
@@ -8920,7 +8924,7 @@ msgstr "Зен и Рэйн обнимаются на диване под оде�
 msgid "Zen and Raine in a ice cream shop, sharing a Sunday. Trying to hide away from the summer sun."
 msgstr "Зен и Рэйн в магазине мороженого вместе проводят воскресенье. Пытаются спрятаться от летнего солнца."
 
-#: data/votes-2021-10-24.json:388
+#: data/votes-2021-10-24.json:395
 msgid "Zen and human Raine wrapped up in a blanket, sitting on a couch watching a scary movie. Raine finding out that the movie she picked might be a little too scary for poor Zen."
 msgstr "Зен и человек Рэйн, завернутые в одеяло, сидят на диване и смотрят ужастик. Рэйн обнаруживает, что выбранный ею фильм может быть слегка слишком страшным для бедного Зена."
 
@@ -9029,7 +9033,7 @@ msgstr "основные персонажи, одетые как основны�
 msgid "w0lf's Ember in the Night of the living pants"
 msgstr "Эмбер w0lf’а в ночи живых штанов"
 
-#: data/votes-2021-10-24.json:303
+#: data/votes-2021-10-24.json:310
 msgid "younger Adira and Amelia in disguise asking for candy. (ideas for disguise. one dressed as a dragon and the other as a barmaid.)"
 msgstr "молодые Адира и Амелия в маскировке спрашивают конфеты (идеи для маскировки. одна, одетая в дракона, а другая — в барменшу)."
 
