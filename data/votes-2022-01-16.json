@@ -458,7 +458,19 @@
       "votes": 144,
       "suggestion": "Modern AU: Gamer Laura is streaming a game when Kat walks by in the fur, giving Laura's watchers an eyeful. Laura tells her to leave, but upon realizing the huge amount of kudos and tips she got due to this, she yells to a confused Kat to come back.",
       "position": 2,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "MatyMaty"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2022-01-18",
+          "name": "Laura Livestream",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/laura-livestream-61320906"
+        }
+      ]
     },
     {
       "votes": 99,

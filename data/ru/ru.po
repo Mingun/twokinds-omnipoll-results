@@ -1668,7 +1668,7 @@ msgstr "Кловис обдумывает какой-то злой план, с 
 msgid "Clovis cosplaying as Butcher Rose from the most recent Borderlands 3 expansion"
 msgstr "Кловис косплеит Лютую Розу из недавнего дополнения к Borderlands 3"
 
-#: data/votes-2022-01-16.json:495
+#: data/votes-2022-01-16.json:507
 msgid "Clovis giving Brutus a foot massage for his good work."
 msgstr "Кловис делает Бруту массаж ног за его хорошую работу."
 
@@ -2132,7 +2132,7 @@ msgstr "Эрик пытается стать искусствоведом, кр�
 msgid "Eric tries to buy Keidran kitty Nora"
 msgstr "Эрик пытается купить кошку кайдрэн Нору"
 
-#: data/votes-2022-01-16.json:483
+#: data/votes-2022-01-16.json:495
 msgid "Eric tries to buy Rose from Saria to be his model. Neither are amused by the offer."
 msgstr "Эрик пытается купить Роуз у Сарии, чтобы она стала его моделью. Ни та, ни другая не в восторге от предложения."
 
@@ -3028,7 +3028,7 @@ msgctxt "publish_name"
 msgid "Good Morning Reni"
 msgstr "Доброе утро, Рэни"
 
-#: data/votes-2022-01-16.json:465
+#: data/votes-2022-01-16.json:477
 msgid "Good Morning Very Vixen Wolf Maren together with Kat for some reason :)"
 msgstr "Доброе утро очень лисичковая волчица Марэн вместе с Кэт по какой-то причине :)"
 
@@ -4398,6 +4398,11 @@ msgstr "Даки с Лаурой"
 msgid "Laura Dakimakura"
 msgstr "Дакимакура Лауры"
 
+#: data/votes-2022-01-16.json:469
+msgctxt "publish_name"
+msgid "Laura Livestream"
+msgstr "Стрим Лауры"
+
 #: data/votes-2022-01-16.json:111
 msgid "Laura Survives AU: Laura hands the leash over to Keith. He's not sure what to do with it."
 msgstr "АВ выжившей Лауры: Лаура передаёт поводок Киту. Он не знает, что с ним делать."
@@ -4474,7 +4479,7 @@ msgstr "Даки с Лаурой."
 msgid "Laura eats a sandwich."
 msgstr "Лаура кушает сэндвич."
 
-#: data/votes-2022-01-16.json:479
+#: data/votes-2022-01-16.json:491
 msgid "Laura enslaved AU: Laura is modeling for a painting Eric is doing."
 msgstr "АВ с рабыней Лаурой: Лаура позирует для картины, которую пишет Эрик."
 
@@ -5359,6 +5364,10 @@ msgstr "Современная АВ: киберпанковая Рэйн пом�
 msgid "Modern AU: Flora and Ivy have a sister spa day by getting a pawdicure!"
 msgstr "Современная АВ: Флора и Плющ устроили сестринский спа-день, занявшись чисткой коготков!"
 
+#. :Дата: 2022-01-18
+#. :Название: Laura Livestream
+#. :Предложил: MatyMaty
+#. :Ссылка (Patreon): https://www.patreon.com/posts/laura-livestream-61320906
 #: data/votes-2022-01-16.json:459
 msgid "Modern AU: Gamer Laura is streaming a game when Kat walks by in the fur, giving Laura's watchers an eyeful. Laura tells her to leave, but upon realizing the huge amount of kudos and tips she got due to this, she yells to a confused Kat to come back."
 msgstr "Современная АВ: геймерша Лаура транслирует игру, когда мимо проходит Кэт без одежды, давая возможность наблюдателям Лауры посмотреть на неё. Лаура говорит ей уйти, но, осознав, сколько благодаря этому она получила почёта и чаевых, она кричит растерянной Кэт, чтобы та вернулась."
@@ -5475,7 +5484,7 @@ msgstr "Миссис Ниббли встречает Соломинку"
 msgid "Mrs. Nibbly tries taking part in the no nut November challenge... But she just cant resist those delicious peanuts!"
 msgstr "Миссис Ниббли пытается принять участие в движении недрочабрь (буквально «ноябрь без орехов»)… Но она просто не может устоять перед этим восхитительным арахисом!"
 
-#: data/votes-2022-01-16.json:499
+#: data/votes-2022-01-16.json:511
 msgid "Naga Nora - Lady Nora as a sultry snake, seductively posing for the viewer"
 msgstr "Нага Нора — леди Нора в образе знойной змеи, соблазнительно позирующей зрителю"
 
@@ -7548,7 +7557,7 @@ msgstr "Внезапно драконы! Команда Б обнаружива�
 msgid "Suddenly Dragons. Team B finds themselves completely transformed into baby dragons. Reni ends up babysitting."
 msgstr "Внезапно драконыю. Команда Б обнаруживает, что они полностью превратились в дракончиков. Рэни становится нянькой."
 
-#: data/votes-2022-01-16.json:491
+#: data/votes-2022-01-16.json:503
 msgid "Summer Postcard - Featuring Willow, Kat and Laura at the beach."
 msgstr "Летняя открытка — изображает Огонька, Кэт и Лауру на пляже."
 
@@ -8536,7 +8545,7 @@ msgstr "Треугольник отклеился"
 msgid "Tribal Kathrin walking through the rainforest (on the hunt with a spear or bow)"
 msgstr "Кэтрин из племени гуляет по тропическому лесу (на охоте с копьём или луком)"
 
-#: data/votes-2022-01-16.json:469
+#: data/votes-2022-01-16.json:481
 msgid "Tribal Kathrin, Adira and Maeve are fishing in a canoe on a river."
 msgstr "Племенные Кэтрин, Адира и Мэйв рыбачат в каноэ на реке."
 
@@ -9210,7 +9219,7 @@ msgstr "Не та лиса. Пьяный Кит в ресторане флирт
 msgid "Yandere Kathrin"
 msgstr "Яндере Кэтрин"
 
-#: data/votes-2022-01-16.json:473
+#: data/votes-2022-01-16.json:485
 msgid "Year of the Tiger: Lady Nora has a bit of fun celebrating the new year by turning members of the cast into Tiger Keidran. And because it's Nora, no doubt some will have attractive attributes enhanced or even swap a few genders around."
 msgstr "Год Тигра: Леди Нора весело отмечает новый год, превращая членов команды в тигров-кайдрэн. А поскольку это Нора, то, несомненно, у некоторых из них привлекательнось черт будет улучшена, а часть из них даже вовсе сменит пол."
 
@@ -9396,7 +9405,7 @@ msgstr "Зен и Рэйн обнимаются на диване под оде�
 msgid "Zen and Raine in a ice cream shop, sharing a Sunday. Trying to hide away from the summer sun."
 msgstr "Зен и Рэйн в магазине мороженого вместе проводят воскресенье. Пытаются спрятаться от летнего солнца."
 
-#: data/votes-2022-01-16.json:487
+#: data/votes-2022-01-16.json:499
 msgid "Zen and Raine out and about in a bustling city square, Zen playfully teasing Raine about how cute she looks in his Flannel shirt."
 msgstr "Зен и Рэйн на оживлённой городской площади, Зен игриво дразнит Рэйн, говоря, как мило она выглядит в его фланелевой рубашке."
 
