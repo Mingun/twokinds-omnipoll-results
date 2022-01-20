@@ -30,7 +30,19 @@
       "votes": 116,
       "suggestion": "Brutus and Fem!Clovis as Kronk and Yzma from \"The Emporer's New Groove,\" reenacting the \"pull the lever\" scene.",
       "position": 6,
-      "choice": "tom"
+      "choice": "tom",
+      "suggested_by": [
+        "FireLight320"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2022-01-19",
+          "name": "Pull The Lever",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/pull-lever-61358902"
+        }
+      ]
     },
     {
       "votes": 81,
