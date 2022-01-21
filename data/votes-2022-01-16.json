@@ -186,7 +186,19 @@
       "votes": 74,
       "suggestion": "Mike offering the viewer a handful of Bunny Girl (Bunny sitting on his hand like a bench)",
       "position": 5,
-      "choice": "tom"
+      "choice": "tom",
+      "suggested_by": [
+        "TheFriendlyDeathclaw"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2022-01-21",
+          "name": "Rabbit Reveal",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/rabbit-reveal-61427771"
+        }
+      ]
     },
     {
       "votes": 75,
