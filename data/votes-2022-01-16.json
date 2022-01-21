@@ -76,7 +76,19 @@
       "votes": 138,
       "suggestion": "Sythe catches Maren trying on a new set of lingerie complete with faux kitty ears and cat tail. Maren angrily protests that it's just cosplay. Sythe is a fan, either way.",
       "position": 4,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Roughlandin"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2022-01-21",
+          "name": "Cat Lingerie Maren",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/cat-lingerie-61452427"
+        }
+      ]
     },
     {
       "votes": 97,
