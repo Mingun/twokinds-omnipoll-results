@@ -1677,7 +1677,7 @@ msgstr "Кловис обдумывает какой-то злой план, с 
 msgid "Clovis cosplaying as Butcher Rose from the most recent Borderlands 3 expansion"
 msgstr "Кловис косплеит Лютую Розу из недавнего дополнения к Borderlands 3"
 
-#: data/votes-2022-01-16.json:543
+#: data/votes-2022-01-16.json:555
 msgid "Clovis giving Brutus a foot massage for his good work."
 msgstr "Кловис делает Бруту массаж ног за его хорошую работу."
 
@@ -2141,7 +2141,7 @@ msgstr "Эрик пытается стать искусствоведом, кр�
 msgid "Eric tries to buy Keidran kitty Nora"
 msgstr "Эрик пытается купить кошку кайдрэн Нору"
 
-#: data/votes-2022-01-16.json:531
+#: data/votes-2022-01-16.json:543
 msgid "Eric tries to buy Rose from Saria to be his model. Neither are amused by the offer."
 msgstr "Эрик пытается купить Роуз у Сарии, чтобы она стала его моделью. Ни та, ни другая не в восторге от предложения."
 
@@ -4488,7 +4488,7 @@ msgstr "Даки с Лаурой."
 msgid "Laura eats a sandwich."
 msgstr "Лаура кушает сэндвич."
 
-#: data/votes-2022-01-16.json:527
+#: data/votes-2022-01-16.json:539
 msgid "Laura enslaved AU: Laura is modeling for a painting Eric is doing."
 msgstr "АВ с рабыней Лаурой: Лаура позирует для картины, которую пишет Эрик."
 
@@ -5497,7 +5497,7 @@ msgstr "Миссис Ниббли встречает Соломинку"
 msgid "Mrs. Nibbly tries taking part in the no nut November challenge... But she just cant resist those delicious peanuts!"
 msgstr "Миссис Ниббли пытается принять участие в движении недрочабрь (буквально «ноябрь без орехов»)… Но она просто не может устоять перед этим восхитительным арахисом!"
 
-#: data/votes-2022-01-16.json:547
+#: data/votes-2022-01-16.json:559
 msgid "Naga Nora - Lady Nora as a sultry snake, seductively posing for the viewer"
 msgstr "Нага Нора — леди Нора в образе знойной змеи, соблазнительно позирующей зрителю"
 
@@ -7580,7 +7580,7 @@ msgstr "Внезапно драконы! Команда Б обнаружива�
 msgid "Suddenly Dragons. Team B finds themselves completely transformed into baby dragons. Reni ends up babysitting."
 msgstr "Внезапно драконыю. Команда Б обнаруживает, что они полностью превратились в дракончиков. Рэни становится нянькой."
 
-#: data/votes-2022-01-16.json:539
+#: data/votes-2022-01-16.json:551
 msgid "Summer Postcard - Featuring Willow, Kat and Laura at the beach."
 msgstr "Летняя открытка — изображает Огонька, Кэт и Лауру на пляже."
 
@@ -9246,6 +9246,15 @@ msgstr "Не та лиса. Пьяный Кит в ресторане флирт
 msgid "Yandere Kathrin"
 msgstr "Яндере Кэтрин"
 
+#: data/votes-2022-01-16.json:531
+msgctxt "publish_name"
+msgid "Year of the Tiger"
+msgstr "Год тигра"
+
+#. :Дата: 2022-01-23
+#. :Название: Year of the Tiger
+#. :Предложил: Firechild
+#. :Ссылка (Patreon): https://www.patreon.com/posts/year-of-tiger-61543523
 #: data/votes-2022-01-16.json:521
 msgid "Year of the Tiger: Lady Nora has a bit of fun celebrating the new year by turning members of the cast into Tiger Keidran. And because it's Nora, no doubt some will have attractive attributes enhanced or even swap a few genders around."
 msgstr "Год Тигра: Леди Нора весело отмечает новый год, превращая членов команды в тигров-кайдрэн. А поскольку это Нора, то, несомненно, у некоторых из них привлекательнось черт будет улучшена, а часть из них даже вовсе сменит пол."
@@ -9432,7 +9441,7 @@ msgstr "Зен и Рэйн обнимаются на диване под оде�
 msgid "Zen and Raine in a ice cream shop, sharing a Sunday. Trying to hide away from the summer sun."
 msgstr "Зен и Рэйн в магазине мороженого вместе проводят воскресенье. Пытаются спрятаться от летнего солнца."
 
-#: data/votes-2022-01-16.json:535
+#: data/votes-2022-01-16.json:547
 msgid "Zen and Raine out and about in a bustling city square, Zen playfully teasing Raine about how cute she looks in his Flannel shirt."
 msgstr "Зен и Рэйн на оживлённой городской площади, Зен игриво дразнит Рэйн, говоря, как мило она выглядит в его фланелевой рубашке."
 

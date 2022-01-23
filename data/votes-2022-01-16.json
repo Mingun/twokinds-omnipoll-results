@@ -520,7 +520,19 @@
       "votes": 142,
       "suggestion": "Year of the Tiger: Lady Nora has a bit of fun celebrating the new year by turning members of the cast into Tiger Keidran. And because it's Nora, no doubt some will have attractive attributes enhanced or even swap a few genders around.",
       "position": 3,
-      "choice": "voters"
+      "choice": "voters",
+      "suggested_by": [
+        "Firechild"
+      ],
+      "links": [
+        {
+          "type": "sketch",
+          "date": "2022-01-23",
+          "name": "Year of the Tiger",
+          "site": "patreon",
+          "link": "https://www.patreon.com/posts/year-of-tiger-61543523"
+        }
+      ]
     },
     {
       "votes": 73,
